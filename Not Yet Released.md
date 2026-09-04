@@ -3,8 +3,8 @@
 > These cards **exist** and are written. They are simply not part of your
 > course yet — they arrive as we reach them.
 
-> **Edition** `student-2026-08-31` · built 2026-09-01 from commit `957727f`  
-> 314 cards · 343 diagrams · 49 explainers · 88 illustrations
+> **Edition** `student-2026-09-02` · built 2026-09-04 from commit `47b4330` + uncommitted changes  
+> 319 cards · 348 diagrams · 50 explainers · 91 illustrations
 
 ---
 
@@ -53,7 +53,9 @@ the agent reading this vault knows the difference.
 - Karnaugh Maps
 - Linked List
 - Logic Gates
+- NoSQL and Distributed Data
 - Number Bases
+- Object-Oriented Programming
 - Operating Systems
 - Overflow and Underflow
 - P vs NP
@@ -62,6 +64,8 @@ the agent reading this vault knows the difference.
 - Program Design
 - RAM and the Memory Hierarchy
 - Recursion
+- Relational Databases
+- SQL
 - Searching
 - Secondary Storage
 - Sensors and Control Systems
@@ -73,4 +77,5 @@ the agent reading this vault knows the difference.
 - The Turing Test
 - Turing Machine
 - Two's Complement
+- User-Defined Data Types
 - Von Neumann machine

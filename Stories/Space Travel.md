@@ -5,6 +5,8 @@ prerequisites:
 leads_to:
   - "[[A, B, C]]"
   - "[[Two Family Trees]]"
+  - "[[A Rich Neighbor Named Xerox]]"
+  - "[[Decouple and Recouple]]"
 tags:
   - type/story
   - subject/computer-science

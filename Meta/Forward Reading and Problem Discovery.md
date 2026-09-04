@@ -7,8 +7,10 @@ prerequisites:
   - "[[Chain Rule]]"
 leads_to:
   - "[[Inertia and Bootstrapping]]"
+  - "[[Fun Is the Brachistochrone]]"
   - "[[Why Probability and Statistics]]"
   - "[[Program Design]]"
+  - "[[Decouple and Recouple]]"
 tags:
   - subject/methodology
   - subject/philosophy
