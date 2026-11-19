@@ -34,7 +34,11 @@ This card is a **vocabulary anchor**. The deeper geometry cards (triangles, quad
 
 ### 中文锚点
 
-几何术语 = 几何里的基本词汇。点 (point)、线 (line)、面 (plane)、顶点 (vertex)、棱/边 (edge)、面 (face)、平行 (parallel)、垂直 (perpendicular)、多边形 (polygon) 等等。这些是其他几何卡的"地基"。考试题用英文出，中文术语在脑子里，所以这张卡的目的就是建立中英对照，让后面的几何题读起来更快。
+买来的拼装家具，说明书上会写"把 A 板的边接到 B 板的面上，对准那个角"。说明书之所以能用，是因为每个词都只指一样东西。几何术语就是这样一套共用的词汇。一个正方体有 8 个顶点（角）、12 条棱、6 个面。直线向两头无限延伸，线段有两个端点，射线只有一个端点。平行线永不相交；两条互相垂直的线相交成直角。词的意思定下来了，别人即使看不到你的图，也能照着你的描述画出来；正因为如此，几何才成了两个人可以一起核对的东西。
+
+#### 术语对照
+
+几何术语 = 几何里的基本词汇。点 (point)、线 (line)、面 (plane)、顶点 (vertex)、棱/边 (edge)、面 (face)、平行 (parallel)、垂直 (perpendicular)、多边形 (polygon) 等等。这些是其他几何卡的"地基"。
 
 ---
 
@@ -129,7 +133,7 @@ For a **cube**: $6$ faces, $12$ edges, $8$ vertices. For a **tetrahedron** ($4$-
 
 ### Cambridge 0580
 
-**Syllabus ref:** E4.1. Same vocabulary as 9260 G1, examined the same way — embedded in geometry problems. Cambridge typically uses concise wording: "$ABCD$ is a quadrilateral with vertex $A$ at the origin and side $AB$ parallel to the $x$-axis."
+**Syllabus ref:** E4.1 *Geometrical terms* — a much longer list than 9260 G1, in three points. (1) Use and interpret: point, vertex, line, plane, parallel, perpendicular, perpendicular bisector, bearing, right angle, acute/obtuse/reflex angles, interior and exterior angles, **similar, congruent, scale factor** (the syllabus notes candidates are *not* expected to show two shapes congruent). (2) The vocabulary of triangles (equilateral, isosceles, scalene, right-angled), special quadrilaterals (square, rectangle, kite, rhombus, parallelogram, trapezium), polygons (regular/irregular, pentagon to decagon), **nets**, and solids (cube, cuboid, prism, cylinder, pyramid, cone, sphere, hemisphere, **frustum**, face, surface, edge). (3) The vocabulary of a circle — centre, radius, diameter, circumference, semicircle, chord, tangent, major and minor arc, sector, segment ([[Circle Vocabulary (Vocab)]]). Examined the same way as 9260: embedded in problem wording, never as a standalone definition. Cambridge typically uses concise wording: "$ABCD$ is a quadrilateral with vertex $A$ at the origin and side $AB$ parallel to the $x$-axis."
 
 ---
 

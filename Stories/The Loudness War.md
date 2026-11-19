@@ -63,7 +63,7 @@ That is the whole of Act I. There was an incentive to be loud, and there was a h
 
 The compact disc arrives, and the governor is gone.
 
-A CD stores sixteen bits per sample. Those sixteen bits buy about 96 decibels of range between the loudest representable sound and the quantisation noise floor — six decibels per bit, the arithmetic worked through in **Sound Encoding** *(not yet released)*. The largest number the format can hold is called **0 dBFS**, and it is a genuinely hard ceiling: there is no number above it, so a sample cannot be louder, ever.
+A CD stores sixteen bits per sample. Those sixteen bits buy about 96 decibels of range between the loudest representable sound and the quantisation noise floor — six decibels per bit, the arithmetic worked through in [[Sound Encoding]]. The largest number the format can hold is called **0 dBFS**, and it is a genuinely hard ceiling: there is no number above it, so a sample cannot be louder, ever.
 
 Here is the trap, and it is worth reading twice, because the entire war lives in the gap between two words. **The format defends the peak. It says nothing whatever about the average.**
 
@@ -175,7 +175,7 @@ Which gives the story its real moral, sharper than "the war ended." **The treaty
 
 ## Where this surfaces in the vault
 
-- ****Sound Encoding** *(not yet released)*** — dual residency, and the machinery underneath every act. Sixteen bits, six decibels per bit, ninety-six decibels of range, quantisation, and the 0 dBFS ceiling: the loudness war is that budget being spent down to single digits by choice.
+- **[[Sound Encoding]]** — dual residency, and the machinery underneath every act. Sixteen bits, six decibels per bit, ninety-six decibels of range, quantisation, and the 0 dBFS ceiling: the loudness war is that budget being spent down to single digits by choice.
 - **[[Logarithms]]** — decibels and LUFS are log scales, and the log-compression of human hearing is *why* louder wins the audition. That card carries the pedagogy; this one carries the consequences.
 - ****Compression** *(not yet released)*** — the other compression, and the disambiguation above. Also the source of the deeper irony: lossy codecs throw away what you cannot hear, while brickwall limiting throws away what you can.
 - **[[Stories/One Take, Many Tracks]]** — the direct prequel, and the same boundary seen from the other side. That story ends by watching the mix *become* the composition — Kingston's dub plates, Eno's studio-as-instrument — so the mixing/mastering distinction defined in Act V above is one this card needs and that one watches dissolve.

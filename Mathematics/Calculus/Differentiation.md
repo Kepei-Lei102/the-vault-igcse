@@ -31,6 +31,9 @@ tags:
   - type/vocabulary
   - notation/derivative
   - misconception/dy-dx-is-a-fraction
+  - curriculum/Cambridge-9709
+  - curriculum/OxAQA-9660
+
 ---
 
 # Differentiation 微分 / 求导
@@ -59,14 +62,11 @@ More concretely: take two points on the curve, close together. Draw the line bet
 
 ### 中文锚点 (Chinese Anchor)
 
-微分有两个常用中文名，对应两个不同视角：
+速度表此刻指着 60。可速度是路程除以时间，而在一个瞬间里，车根本没有走过任何路程。指针显示的，是一小段时间里的比值，再把这段时间缩短到读数不再变化为止。这就是导数：一点处的变化率，用越来越小的一步去试，看"变化除以步长"稳定在哪个值。画在图上，就是两个相邻点之间的割线滑成切线；切线的斜率就是导数。
 
-- **微分** (wēifēn)："微"是微小，"分"是分割——把变化切成微小的碎片来分析。
-- **求导** (qiúdǎo)："求"是寻找，"导"是导数（derivative）——寻找导数的过程。
+### 术语对照
 
-$\dfrac{dy}{dx}$到底是什么？当$x$变化极小量$dx$时，$y$也会有对应的变化极小量$dy$。$\dfrac{dy}{dx}$就是这两个极小量变化的比值——所以它确实是一个分数。
-
-直觉上：在曲线上取两个很近的点，连一条线（割线），看斜率。两点越来越近，割线变成切线。切线的斜率就是导数。
+微分（wēifēn）："微"是微小，"分"是分割——把变化切成微小的碎片来分析；求导（qiúdǎo）：寻找导数（derivative）的过程。两个名字对应同一件事的两个视角。割线：chord / secant；切线：tangent；斜率：gradient。
 
 ## Notation — Why So Many Symbols?
 
@@ -248,30 +248,37 @@ True for circles, but not in general. A tangent to a curve may cross the curve e
 
 ## Exam Notes
 
-### OxAQA 9260
+### Cambridge 0580 (IGCSE), Extended only
 
-- A13: differentiate $kx^n$ where $n$ is a positive integer or 0; understand the gradient function $\dfrac{dy}{dx}$
-- A14: gradient of a curve = gradient of the tangent; find the equation of the tangent at a given point
-- Extension tier only
-- First principles is **not required** (but understanding helps)
-- Both Paper 1E and Paper 2E
-- Questions typically: "Find $\dfrac{dy}{dx}$", "Find the gradient at $x = ...$", "Find the equation of the tangent at ..."
-- Expect polynomials only (no trig, no $e^x$, no fractions of $x$)
+**Syllabus ref:** E2.12 Differentiation, in four points: "Estimate gradients of curves by drawing tangents"; "Use the derivatives of functions of the form $ax^n$, where $a$ is a rational constant and $n$ is a positive integer or zero, and simple sums of not more than three of these" (the note: "$\dfrac{dy}{dx}$ notation will be expected"); "Apply differentiation to gradients and stationary points (turning points)"; "Discriminate between maxima and minima by any method", where the notes allow an accurate sketch, the second derivative or inspecting the gradient either side, and add that "Candidates are not expected to identify points of inflection". The Core syllabus lists C2.12 as "Extended content only", so nothing here appears on Papers 1 and 3.
 
-### Cambridge 0606
+### OxfordAQA 9260 (IGCSE), Extension only
 
-- 14.1: idea of a derived function, informal concept of limit ($\dfrac{\delta y}{\delta x} \to \dfrac{dy}{dx}$)
-- 14.2: notation — $f'(x)$, $f''(x)$, $\dfrac{dy}{dx}$, $\dfrac{d^2y}{dx^2}$
-- First principles is **not required** at 0606
-- 0606 goes further than 9260: rational powers, trig, $e^x$, $\ln x$ are all in scope — see [[Differentiation Rules]]
-- Both Paper 1 and Paper 2
+**Syllabus ref:** A13 (Core column empty): "understand and use the gradient function $\dfrac{dy}{dx}$"; "differentiation of $kx^n$ where $n$ is a positive integer or 0, and the sum of such functions", with the note "including expressions which need to be simplified first". A14: "know that the gradient of a function is the gradient of the tangent at that point"; "work out the equation of a tangent at any point on a curve". Polynomials only; no first principles.
 
-### AP / IB / A-Level
+### Cambridge 0606 (Additional Mathematics)
 
-- **AP Calculus AB:** requires limit definition, first principles for simple cases
-- **IB Mathematics AA HL:** formal definition, first principles proofs
-- **A-Level Mathematics:** first principles required; differentiability vs continuity discussed
-- The first principles derivation in this note is college-level preparation
+**Syllabus ref:** 14.1 "Understand the idea of a derived function", with the note "Only an informal understanding of the idea of a limit is expected, and the technique of differentiation from first principles is not required"; 14.2 the notations $f'(x)$, $f''(x)$, $\dfrac{dy}{dx}$, $\dfrac{d^2y}{dx^2}$, $\delta x$, $\delta x \to 0$. The functions themselves are 14.3 ("$x^n$ for any rational $n$, $\sin x$, $\cos x$, $\tan x$, $e^x$, $\ln x$", with the chain rule), which [[Differentiation Rules]] carries.
+
+### Cambridge 9709 (AS Level), Paper 1 §1.7
+
+"Understand the gradient of a curve at a point as the limit of the gradients of a suitable sequence of chords", with the notes "Only an informal understanding of the idea of a limit is expected" and "Formal use of the general method of differentiation from first principles is not required"; the example is the chord joining $x = 2$ and $x = 2 + h$ on $y = x^3$. Then "the derivative of $x^n$ (for any rational $n$)", constant multiples, sums, differences and the chain rule; "gradients, tangents and normals, increasing and decreasing functions and rates of change"; stationary points and their nature "including use of the second derivative", with "Knowledge of points of inflexion is not included". Papers 2 and 3 (§2.4, §3.4) add $e^x$, $\ln x$, the trigonometric functions, products, quotients, parametric and implicit forms, all in [[Differentiation Rules]] and its neighbours.
+
+### OxfordAQA 9660 (International AS), PP1.3
+
+"The gradient of the tangent as a limit; interpretation as a rate of change", with "A general appreciation only of the derivative when interpreting it is required" and, in the specification's own words, "Differentiation from first principles will not be tested". Then $x^n$ for rational $n$ and related sums and differences, tangents and normals, maxima and minima, increasing and decreasing functions, and second-order derivatives; points of inflection are not set.
+
+### Edexcel IAL (P1), §4
+
+4.1 "The derivative of $f(x)$ as the gradient of the tangent to the graph of $y = f(x)$ at a point; the gradient of the tangent as a limit; interpretation as a rate of change; second order derivatives", with "Knowledge of the chain rule is not required"; 4.2 "Differentiation of $x^n$, and related sums, differences and constant multiples", including expressions such as $(2x + 5)(x - 1)$ and $\dfrac{x^2 + 5x - 3}{3\sqrt{x}}$ that must be expanded or split first; 4.3 tangents and normals.
+
+### AP Calculus AB and BC
+
+The course and exam description defines the derivative at a point as the limit of the difference quotient, $\lim_{h \to 0} \dfrac{f(a+h) - f(a)}{h}$, and expects candidates to "present a difference quotient" when asked for a derivative from the definition. Of the boards on file, AP is the only one that examines the limit definition directly; the first-principles derivation in this card is therefore AP preparation and college readiness, not a Cambridge, OxfordAQA or Edexcel requirement.
+
+### Where this is *not* examined, and what is unverified
+
+Cambridge 0580 Core (C2.12 is Extended only) and OxfordAQA 9260 Core (A13 and A14 are Extension). No board on file requires differentiation from first principles: 0606, 9709 and 9660 say so in as many words. The IB Mathematics guides are not on file, so the IB AA placement often quoted for this topic is not verified against a PDF here.
 
 ## Connections
 

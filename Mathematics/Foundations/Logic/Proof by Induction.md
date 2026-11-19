@@ -5,8 +5,11 @@ prerequisites:
   - "[[Sequences]]"
   - "[[Algebraic Proof]]"
 leads_to:
+  - "[[Prime Numbers]]"
+  - "[[Four Colour Theorem]]"
   - "[[Summation of Series]]"
   - "[[Recursion]]"
+teach_together:
   - "[[Natural Numbers]]"
 tags:
   - subject/mathematics
@@ -14,7 +17,6 @@ tags:
   - level/A-Level
   - curriculum/Cambridge-9231
   - syllabus/9231-1-7
-  - curriculum/A-Level
   - curriculum/IB-AA
   - type/proof
   - type/methodology
@@ -31,6 +33,10 @@ tags:
 > *A claim "for all $n$" is infinitely many claims wearing one sentence. You can verify a thousand of them and the thousand-and-first can still betray you — checking is sampling, and no sample covers infinity. The hunter's move is different: stop checking cases and start tracing the **causality between them**. Prove, once, that each case forces the next. Then push the first. Infinity falls like dominoes — not because you visited every one, but because you built the law that carries the fall from each to its neighbour.*
 
 ## 中文锚点
+
+摆一长排多米诺骨牌。第一千张一定会倒，这一点不用盯着它看，两件事就能断定：第一张倒下，而且每一张倒下都会把下一张推倒。有了这两条，第一张推倒第二张，第二张推倒第三张，没有哪一张是这条链够不着的。数学归纳法证明一个命题从某个起点开始的每一个整数都成立，用的就是同一个道理：先证明它在第一种情况成立，再证明只要它对某个数 k 成立，就一定对 k + 1 也成立。两半缺一不可：就算每一张倒下都能推倒下一张，只要没人推第一张，整排牌还是站着的。而且它和日常科学里的“归纳”不一样，那种归纳是从例子里猜规律，可能猜错；数学归纳法是完整的证明，两次检验就管住了无穷多种情况。
+
+### 术语对照
 
 | English | 中文 | one-line meaning |
 |---|---|---|
@@ -285,12 +291,13 @@ Starting from the target equality at $k+1$ and manipulating both sides until som
 > Recall that induction climbs $\mathbb{N}$ along the $+1$ steps every integer is built from. But *any* recursively built world supports the same argument: prove the claim for the atoms, prove each construction rule preserves it, and the claim holds for everything constructible. That is **structural induction** — induction on shape rather than size — and it is how one proves facts about **Recursion** *(not yet released)* (a recursive function's correctness proof *is* an induction on its argument — the twin claim, made from the other side), about **Binary Trees** *(not yet released)* (every non-empty tree has one more node than edge), about every grammar written in BNF (**Compilers and Interpreters** *(not yet released)*). When a computer scientist says "by induction on the structure of the tree," this card is what they mean.
 
 > [!info] The axiom at the bottom — and the edge of the method
-> Why does the relay argument get to call itself an *axiom*-grade truth? Peano's answer: it doesn't rest on anything deeper — **induction is one of the axioms that define $\mathbb{N}$** ([[Natural Numbers]]). "The naturals are exactly what induction reaches" is the fence that keeps out rogue numbers sitting beyond every finite chain of $+1$s. And the fence has a famous gate: **Goodstein's theorem**, a concrete statement about ordinary integers, is *true* but *unprovable* from Peano's axioms — proving it requires induction along orderings longer than $\mathbb{N}$ itself (transfinite induction). It is the concrete face of **Gödel's Incompleteness Theorems** *(not yet released)*: the method of this card proves essentially everything you will meet for years, and the exceptions are landmarks of logic, not potholes.
+> Recall that induction follows the zero-and-successor structure of [[Natural Numbers]]. A condition ranging over **all subsets**, with full second-order semantics, rules out unreachable extra elements. **First-order Peano arithmetic (PA)** instead uses an induction schema for formulas and admits nonstandard models; the two formulations must be distinguished. **Goodstein's theorem** is true in the standard naturals but unprovable in PA. This is a limit of that formal system, not a failure of the induction method used in ordinary proofs. **Gödel's Incompleteness Theorems** *(not yet released)* develops the truth-versus-provability distinction. [Open Logic Text, §39.2](https://builds.openlogicproject.org/open-logic-complete.pdf#page=609)
+
 
 ## Connections
 
 - **Builds on:** [[Logic]] — the step is an implication proved the way implications are proved, the whole method is chained modus ponens, and Example 5's vacuous-truth subtlety is Logic's umbrella promise; [[Sequences]] — recurrences supply the conjecture-then-prove habitat, and this card is the cure for the pattern-spotting trap that card warns about.
-- **Leads to:** [[Summation of Series]] — the standard results $\sum r, \sum r^2, \sum r^3$ this method certifies; **Recursion** *(not yet released)* — induction made executable: same base, same step, computing instead of proving; [[Natural Numbers]] — induction promoted from method to axiom.
+- **Leads to:** [[Summation of Series]] — the standard results $\sum r, \sum r^2, \sum r^3$ this method certifies; **Recursion** *(not yet released)* — induction made executable: same base, same step, computing instead of proving; [[Natural Numbers]] — induction promoted from method to axiom (teach together).
 - **Proof in the wild:** [[Power Rule]] — the rule every calculus student uses daily, in three lines (Example 6); [[Euler's Formula and De Moivre's Theorem]] — de Moivre for integer $n$, proved by induction; [[Binomial Theorem]] — the classic inductive proof via Pascal's rule, and the other road to the power rule.
 - **Proof ingredient:** [[Product Rule]] — proved from first principles, so the inductive step of Example 6 borrows nothing it is trying to prove.
 - **Kindred:** [[Matrix]] — the multiplication engine under Example 3; [[Eigenvalues and Eigenvectors]] — why Example 3's answer is built from $1^n$ and $2^n$; [[Proof by Contradiction]] — the minimal-criminal lens; [[Chain of Thought]] — where induction sits among the proof structures; **Gödel's Incompleteness Theorems** *(not yet released)* — the method's outer edge.

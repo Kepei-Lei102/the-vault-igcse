@@ -21,7 +21,6 @@ tags:
   - curriculum/Cambridge-0580
   - curriculum/IB-AA
   - curriculum/IB-AI
-  - curriculum/AP
   - syllabus/0580-E1-2
   - curriculum/OxAQA-9260
   - syllabus/9260-N9
@@ -49,6 +48,10 @@ $$A \cup B = \{x : x \in A \text{ or } x \in B \text{ (or both)}\}$$
 Union means **combine everything**. Dump both bags into one pile, remove duplicates. If it's in $A$, or in $B$, or in both — it's in the union.
 
 ### 中文锚点
+
+两个朋友各拉一份要请来聚会的同学名单，最后的邀请名单，包括只要在其中一份上出现过的所有人。这就是并集 $A \cup B$。两份名单上都有的人，只发一张请柬，不发两张——集合里每个元素只算一次。所以数学里的"或"包含"两者都是"：两份名单上都有的人，当然被邀请。也正因为如此，数并集里有多少人，要把两份名单的人数加起来，再减去被数了两遍的那部分：$n(A \cup B) = n(A) + n(B) - n(A \cap B)$。
+
+#### 术语对照
 
 并集：$A \cup B$ — 属于 $A$ **或**属于 $B$ 的所有元素。"或"在数学中包含"同时属于两者"的情况。
 
@@ -209,6 +212,16 @@ Students remember "the complement distributes" but forget that $\cup$ and $\cap$
 - Compound expressions: $(A \cup B) \cap C'$, $(A \cap B \cap C)'$
 - Combined with cardinality: "Find $n((A \cup B)')$"
 - De Morgan's is not explicitly named but is tested through shading and listing
+
+### OxAQA 9260
+
+- **N9 Sets:** the same three operations and the complement $A'$, two- and three-set Venn diagrams, shading and listing — the row this card is credited on.
+
+### IB Mathematics AA / AI and AP
+
+- No set-theory topic on either IB route; $\cup$ and $\cap$ are the language of probability (SL 4.5: $P(A \cup B)$, $P(A \cap B)$, Venn diagrams) and are read, not examined for themselves. AP Calculus does not examine set operations.
+
+**Not examined on** Cambridge 0606 (no set theory — the 0606 map says so explicitly), 9709 or 9231.
 
 ## Connections
 

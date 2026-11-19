@@ -20,9 +20,7 @@ tags:
   - level/IB-HL
   - level/AP
   - curriculum/Cambridge-9709
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/9709-3-5
   - syllabus/9231-2-4
   - type/reference
@@ -31,6 +29,9 @@ tags:
   - misconception/forgetting-absolute-value-in-ln
   - misconception/missing-linear-inside-factor
   - misconception/wrong-arctan-coefficient
+  - curriculum/Cambridge-9231
+  - curriculum/AP-Calculus-AB
+  - curriculum/AP-Calculus-BC
 ---
 
 # Standard Integrals 标准积分
@@ -153,21 +154,7 @@ These are the chain rule read backwards. We'll work each below.
 
 ## 中文锚点
 
-**标准积分**：积分版的「微分法则表」。每一行都是 [[Differentiation Rules]] 中某一行倒着读。
-
-**中心策略**：积分不像微分有规则可循；它更像是「认形状」。把这张表背熟（或更准确地说，建立直觉），考试中遇到的大部分被积函数都能被认出来。
-
-**最关键的几条**（9709 P3 §3.5 强调）：
-
-- $\dfrac{1}{x^2 + a^2}$ 积分得 $\dfrac{1}{a}\arctan\dfrac{x}{a}$ —— 注意系数 $\dfrac{1}{a}$，是链式法则的逆向操作。
-- $\dfrac{f'(x)}{f(x)}$ 形式的被积函数，积分得 $\ln \lvert f(x) \rvert$。**最常用、最易认。**
-- $\dfrac{1}{x}$ 积分是 $\ln \lvert x \rvert$ —— 绝对值！不能写 $\ln x$，因为 $x$ 可能为负。
-
-**口诀**：
-
-- **见 $\dfrac{f'}{f}$，积分是 $\ln\lvert f \rvert$**（最好用的认形状口诀）。
-- **绝对值不能省**——整张表的所有 $\ln$ 都带 $\lvert \cdot \rvert$。
-- **配方法**——遇到 $\dfrac{1}{x^2 + ax + b}$ 这样的被积函数，先配方再用 $\arctan$ 公式。
+求导像照着菜谱做菜：任何一道菜，一步一步来，总能做出来。积分像尝一口菜然后说出菜谱：只有你以前吃过，才说得出来。这张表就是你的"味觉记忆"。每一行都是某条求导法则倒着读，所以这里没有新知识，只有新方向。最值得养成的一个习惯，是认出"分子正好是分母的导数"：只要上面是下面的导数，积分就是分母的自然对数，因为对 $\ln(\text{某式})$ 求导，链式法则给出的恰恰就是这个形式。对数里的绝对值不是较真：$\dfrac1x$ 在 $x$ 取负值时也完全是个好函数，而负数的对数不存在，所以积分只能写成 $\ln\lvert x\rvert$。学这张表的方法，是对每一行问一句"我对什么求导会得到它"，表就从背下来的变成认得出的。
 
 ---
 

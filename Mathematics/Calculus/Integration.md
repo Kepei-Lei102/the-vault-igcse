@@ -18,12 +18,10 @@ leads_to:
 tags:
   - subject/mathematics
   - domain/calculus
-  - level/AS-Level
   - level/A-Level
   - level/pre-IB
   - level/pre-AP
   - curriculum/Cambridge-0606
-  - curriculum/A-Level
   - syllabus/0606-14-10
   - syllabus/0606-14-11
   - syllabus/0606-14-12
@@ -40,6 +38,11 @@ tags:
   - misconception/forget-plus-c
   - misconception/linear-inside-coefficient
   - misconception/area-vs-signed-integral
+  - curriculum/Cambridge-9709
+  - curriculum/Cambridge-9231
+  - curriculum/OxAQA-9660
+  - curriculum/Edexcel-IAL
+  - type/deep
 ---
 
 # Integration 积分
@@ -53,6 +56,10 @@ $$\int f(x) \, dx = F(x) + C.$$
 The elongated-S symbol $\int$ is read **"integral of"**; the $dx$ tells us the variable we are integrating with respect to; the arbitrary constant $C$ is the **constant of integration**.
 
 > 反向导数 — "reverse derivative." That is the whole idea in two words.
+
+### 中文锚点
+
+浴缸正在放水。你能看到的只有水龙头上的流量表：一分钟两升，然后五升，然后一升。能说出缸里有多少水吗？差不多：把"流量乘以时间"一分钟一分钟地加起来，就能还原出水位是怎么涨的——但还原不出你开始看之前缸里已经有多少水。积分就是这样的加总：从变化率还原出量本身，永远差一个未知的起始量，也就是常数 $C$。它是倒着做的求导，而这个常数正是求导时被丢掉的那部分。
 
 ---
 
@@ -363,55 +370,46 @@ $$\int (ax + b)^n \, dx = \frac{(ax + b)^{n+1}}{a(n+1)} + C.$$
 
 ## Exam Notes
 
-### Cambridge 0606 — Additional Mathematics
+### Cambridge 0606 (Additional Mathematics), §14.10–14.13
 
-Covered in §14.10–14.13:
-- §14.10 — integration as reverse of differentiation.
-- §14.11 — integrate sums of terms in powers of $x$ (including $\tfrac{1}{x}$, $\tfrac{1}{ax+b}$).
-- §14.12 — integrate $(ax+b)^n$, $\sin(ax+b)$, $\cos(ax+b)$, $\sec^2(ax+b)$, $e^{ax+b}$.
-- §14.13 — definite integrals; areas between a line and curve, between two curves, sum of areas.
+14.10 "Understand integration as the reverse process of differentiation" (the note: indefinite integrals "should include an arbitrary constant"); 14.11 "Integrate sums of terms in powers of $x$, including $\dfrac{1}{x}$ and $\dfrac{1}{ax+b}$"; 14.12 "Integrate functions of the form $(ax+b)^n$ for any rational $n$, $\sin(ax+b)$, $\cos(ax+b)$, $\sec^2(ax+b)$, $e^{ax+b}$", with "Includes the case where $n = -1$" and angles always in radians; 14.13 "Evaluate definite integrals and apply integration to the evaluation of plane areas", the areas being "between a line and a curve", "between two curves" and "a sum of two areas". Substitution and integration by parts are not in 0606.
 
-0606 does **not** require substitution or integration by parts — those are A-Level only.
+### Cambridge 9709 (AS and A Level)
 
-### Cambridge A-Level 9709 — Pure Mathematics 1 (Paper 1)
+- **Paper 1, §1.8:** "understand integration as the reverse process of differentiation, and integrate $(ax+b)^n$ (for any rational $n$ except $-1$), together with constant multiples, sums and differences"; "solve problems involving the evaluation of a constant of integration" (the curve through $(1, -2)$ with $\dfrac{dy}{dx} = \sqrt{2x+1}$); "evaluate definite integrals", "Including simple cases of 'improper' integrals, such as $\int_0^1 x^{-1/2}\,dx$ and $\int_1^\infty x^{-2}\,dx$"; and use definite integration for "the area of a region bounded by a curve and lines parallel to the axes, or between a curve and a line or between two curves" and "a volume of revolution about one of the axes", where the region need not touch the axis of rotation.
+- **Paper 2, §2.5:** extend to $e^{ax+b}$, $\dfrac{1}{ax+b}$, $\sin(ax+b)$, $\cos(ax+b)$, $\sec^2(ax+b)$; "use trigonometrical relationships in carrying out integration" (double-angle formulae for $\sin^2 x$); the trapezium rule with over- or under-estimate from a sketch. "Knowledge of the general method of integration by substitution is not required."
+- **Paper 3, §3.5:** all of the above plus $\dfrac{1}{x^2 + a^2}$, "integrate rational functions by means of decomposition into partial fractions" ([[Partial Fractions]]), and "recognise an integrand of the form $\dfrac{kf'(x)}{f(x)}$, and integrate such functions" (for example $\dfrac{x}{x^2+1}$ and $\tan x$). Substitution and parts are Paper 3: [[Integration by Substitution]], [[Integration by Parts]].
 
-§1.8 — AS-level foundations:
-- Integrate $(ax + b)^n$ for rational $n \ne -1$, with constant multiples, sums, differences.
-- Solve problems involving the constant of integration (boundary-value problems).
-- Evaluate definite integrals, including simple improper integrals such as $\int_0^1 x^{-1/2} dx$.
-- Apply definite integration to find **areas** bounded by a curve and lines, between a curve and a line, or between two curves.
-- Apply definite integration to find **volumes of revolution** about either axis.
+### Cambridge 9231 (Further), §2.4
 
-### Cambridge A-Level 9709 — Pure Mathematics 2 (Paper 2)
+Further Pure 2 assumes every 9709 technique and applies them "to more difficult cases, e.g. integration by parts for $\int e^x \sin x\,dx$, or use of the substitution $t = \tan\tfrac12 x$", and adds arc lengths and surface areas of revolution, which are their own cards. This card is the base those questions stand on, not a 9231 row of its own.
 
-§2.5 — extends P1:
-- Integrate $e^{ax+b}$, $\dfrac{1}{ax+b}$, $\sin(ax+b)$, $\cos(ax+b)$, $\sec^2(ax+b)$.
-- Use trig identities (e.g. double-angle formulae) to integrate $\sin^2 x$, $\cos^2(2x)$, etc.
-- Trapezium rule for numerical estimation of definite integrals (including whether it over- or under-estimates).
-- **Integration by substitution is NOT required on P2** — that is Paper 3 only.
+### OxfordAQA 9660 (International AS), PP1.4
 
-### Cambridge A-Level 9709 — Pure Mathematics 3 (Paper 3)
+"Indefinite integration as the reverse of differentiation"; "Integration of $x^n$, where $n$ is a rational number not equal to $-1$, and related sums, differences and constant multiples"; "Evaluation of definite integrals" with "Integration to determine the area of a region between a curve and the $x$-axis". The A-level unit adds $e^x$, $\dfrac1x$, $\sin x$, $\cos x$ and numerical integration by improving an estimate with more steps.
 
-§3.5 — full A-Level toolkit. See separate cards:
-- [[Integration by Substitution]]
-- [[Integration by Parts]]
-- Partial fractions for rational integrands (covered in a future card).
-- Recognition of $\dfrac{kf'(x)}{f(x)}$ form, giving $k \ln|f(x)| + C$.
+### Edexcel IAL (P1), §5
 
-### IB AA HL / AP Calculus
+5.1 "Indefinite integration as the reverse of differentiation", with "Students should know that a constant of integration is required"; 5.2 "Integration of $x^n$ and related sums, differences and constant multiples" (excluding $n = -1$), including expressions such as $\tfrac12 x^{2} - 3x^{-1/2}$ and $\dfrac{(x+2)^2}{\sqrt x}$, and "Given $f'(x)$ and a point on the curve, students should be able to find an equation of the curve". P3 adds $e^{kx}$, $\dfrac1x$, $\sin kx$, $\cos kx$.
 
-Both curricula include the foundations covered here plus substitution, by-parts, and numerical methods (trapezium, Simpson's). See paired cards.
+### AP Calculus AB and BC
+
+AP introduces the definite integral first, as the limit of a Riemann sum (Unit 6), and reaches the antiderivative through the Fundamental Theorem; the callout below explains the reversed order. The techniques above are all examined; BC adds parts, partial fractions and improper integrals as named topics.
 
 > [!info] How AP introduces integration — via Riemann sums
 > Cambridge (and most UK-style syllabuses) introduces integration as "the reverse of differentiation" and evaluates areas as a consequence. **AP Calculus takes the opposite road:** it introduces the definite integral *first*, as the limit of a Riemann sum,
 > $$\int_a^b f(x) \, dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \, \Delta x,$$
 > where the interval $[a, b]$ is partitioned into $n$ strips of width $\Delta x = (b-a)/n$ and $x_i^*$ is any sample point in the $i$-th strip. **First** the student sums up infinitely many infinitesimals (the geometric face); **only then** does the FTC arrive to show that this sum equals $F(b) - F(a)$.
 >
-> AP students therefore meet left-, right-, midpoint- and trapezoidal-Riemann sums *before* they know any antiderivatives. This builds the "integration = summation" intuition into their bones. If your student is switching between Cambridge and AP, this shift in pedagogy is the main thing to flag. Same mathematics, opposite order of reveal.
+> AP students therefore meet left-, right-, midpoint- and trapezoidal-Riemann sums *before* they know any antiderivatives. This builds the "integration = summation" intuition into their bones. If your student is switching between Cambridge and AP, this shift in pedagogy is the main thing to flag. Same mathematics, opposite order.
+
+### Where this is *not* examined, and what is unverified
+
+Cambridge 0580 and OxfordAQA 9260 have no integration row at all; their calculus stops at the derivative of $kx^n$. The IB Mathematics guides are not on file, so the IB AA placement is not verified here.
 
 ### Beyond high school — University
 
-- The formal definition of $\int_a^b f(x) \, dx$ **is** the Riemann integral — a rigorous version of the AP approach above, built from limits of partition sums and formalised by Riemann in the 1850s. Undergraduate analysis spends a chapter or two making the "limit of sums" precise via upper/lower Darboux sums and proving which functions are Riemann-integrable.
+- The formal definition of $\int_a^b f(x) \, dx$ **is** the Riemann integral — a rigorous version of the AP approach above, built from limits of partition sums and formalised by Riemann in the 1850s. Undergraduate analysis spends a chapter or two making the "limit of sums" precise via upper/lower Darboux sums and proving which functions are integrable.
 - For pathological functions (nowhere-continuous indicator functions, for example) the **Lebesgue integral** generalises Riemann's construction to a far wider class — the cornerstone of modern probability, Fourier analysis, and PDE.
 - The Fundamental Theorem of Calculus generalises to multiple variables (Green's, Stokes's, and Divergence theorems), and to complex analysis (Cauchy's Integral Theorem).
 

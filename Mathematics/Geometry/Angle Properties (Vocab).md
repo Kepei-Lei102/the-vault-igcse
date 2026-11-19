@@ -35,6 +35,10 @@ The fundamental angle relationships that follow from straight lines and intersec
 
 ### 中文锚点
 
+慢慢张开一把剪刀，看两片刀刃交叉处的角。不管张多大，对顶的两个角始终相等；而相邻的两个角加起来永远是 180°，因为它们拼起来是一条直线。几乎所有关于角的结论都来自这一个想法：一条直线是 180°，转一整圈是 360°。拼成一条直线的两个角互补（和为 180°）；拼成一个直角的两个角互余（和为 90°）；对顶角相等，因为它们都等于 180° 减去同一个邻角。
+
+#### 术语对照
+
 角的性质 = 直线和交线产生的角度关系。互补 = 加起来 $180°$，互余 = 加起来 $90°$，对顶角 = 相等。
 
 ---
@@ -77,7 +81,7 @@ The fundamental angle relationships that follow from straight lines and intersec
 
 ## Exam Notes
 
-**9260 G2 / 0580 E4.1.** "Calculate unknown angles using the properties of angles at a point, on a straight line, and vertically opposite angles."
+**9260 G2 / 0580 E4.6 (Angles).** 0580's own wording: *calculate unknown angles and give simple explanations using* the sum of angles at a point (360°), on a straight line (180°), vertically opposite angles, and the angle sums of a triangle (180°) and a quadrilateral (360°). Three-letter angle notation (angle ABC) is required, and the notes say candidates *are expected to use the correct geometrical terminology when giving reasons*. (E4.1 is the geometrical-terms vocabulary row; this card is examined under E4.6.)
 
 **Typical phrasing:** "Find the value of $x$, giving reasons for each step." The word **"reasons"** means you must name the property: "angles on a straight line," "vertically opposite angles," etc. Just writing the number scores fewer marks.
 

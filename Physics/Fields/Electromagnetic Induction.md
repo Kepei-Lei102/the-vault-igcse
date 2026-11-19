@@ -14,7 +14,6 @@ tags:
   - level/A-Level
   - curriculum/Cambridge-9702
   - curriculum/Cambridge-0625
-  - curriculum/A-Level
   - curriculum/AP-Physics-2
   - curriculum/AP-Physics-C-EM
   - syllabus/9702-20-5

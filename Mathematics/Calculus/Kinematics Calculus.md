@@ -25,9 +25,7 @@ tags:
   - level/IB
   - level/AP
   - curriculum/Cambridge-0606
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/0606-14-14
   - syllabus/0606-14-15
   - syllabus/0625-1-2
@@ -41,6 +39,12 @@ tags:
   - misconception/distance-vs-displacement
   - misconception/velocity-vs-speed
   - misconception/at-rest-vs-stationary-graph
+  - curriculum/Cambridge-0625
+  - curriculum/Cambridge-9702
+  - curriculum/Cambridge-9709
+  - curriculum/AP-Calculus-AB
+  - curriculum/AP-Calculus-BC
+  - curriculum/Cambridge-9231
 ---
 
 # Kinematics (Calculus) 运动学（微积分）
@@ -67,23 +71,11 @@ This card formalises the "gradient = velocity, area = distance" intuition from [
 
 ### 中文锚点
 
-**运动学 (yùndòngxué)** = 用微积分研究运动。一个质点在直线上运动，位置 $s(t)$ 是时间的函数。
+坐电梯，你能感觉到启动和停下，却感觉不到中间平稳的那一段。你感觉到的是加速度，不是速度；楼层显示屏上显示的是位置；速度则是这个显示屏变化得有多快。微积分把这三样东西串成一条链：位置求导得到速度，速度再求导得到加速度，再一路积分回去，而起始位置或起始速度补上积分不可能知道的那部分。把这条链翻成日常话："静止"说的是速度为零，不是加速度为零；最快的那一刻，是加速度为零的地方；减速，是速度和加速度方向相反。
 
-三个核心函数链 (求导链)：
+### 术语对照
 
-$$s(t) \xrightarrow{\;求导\;} v(t) \xrightarrow{\;求导\;} a(t)$$
-
-- $s(t)$ = **位移** (wèiyí)，有正负之分
-- $v(t) = \dfrac{ds}{dt}$ = **速度** (sùdù)，**有方向**（正负）
-- $a(t) = \dfrac{dv}{dt}$ = **加速度** (jiāsùdù)
-
-反过来，从 $a$ 到 $s$ 是**积分**，需要**初始条件** (chūshǐ tiáojiàn) 来确定积分常数。
-
-考试关键判断：
-- "**At rest**" / **静止** → $v = 0$
-- "**Maximum / minimum velocity**" → $a = 0$ (因为 $v$ 取极值时 $\dfrac{dv}{dt} = a = 0$)
-- "**Returning toward origin**" → $v < 0$ (位移减少)
-- "**Decelerating**" → $v$ 与 $a$ 异号 (一个正一个负)
+位移：displacement $s(t)$（有正负）；速度：velocity $v = \dfrac{ds}{dt}$（有方向）；加速度：acceleration $a = \dfrac{dv}{dt}$；初始条件：initial condition（积分回去时定常数用）；静止：at rest（$v = 0$）；减速：decelerating（$v$ 与 $a$ 异号）。
 
 ---
 

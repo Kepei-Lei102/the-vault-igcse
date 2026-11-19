@@ -13,6 +13,7 @@ leads_to:
   - "[[Stories/From the Grid to the Garage]]"
   - "[[Drag and Terminal Velocity]]"
   - "[[From the Grid to the Garage]]"
+  - "[[The Kinetic Chain]]"
 tags:
   - subject/physics
   - subject/mathematics
@@ -27,6 +28,8 @@ tags:
   - curriculum/IB-Physics
   - curriculum/AP-Physics-1
   - curriculum/AP-Physics-C-Mechanics
+  - curriculum/Cambridge-9709
+  - curriculum/Cambridge-9231
   - syllabus/9702-3-2
   - syllabus/0625-1-5
   - syllabus/IB-Physics-A-2-2
@@ -43,6 +46,7 @@ tags:
   - misconception/static-equals-kinetic
   - misconception/can-combine-grip-arbitrarily
   - misconception/heavier-car-corners-faster
+
 ---
 
 # The Friction Limit 摩擦极限

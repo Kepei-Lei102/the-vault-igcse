@@ -114,7 +114,7 @@ An ambiguous name leaves an ambiguous inheritance. By the alphabet reading, C's 
 
 **The alphabet door opened anyway.** In 1999 Walter Bright began a from-scratch successor he called Mars; his friends, seeing exactly what it was, kept calling it D until he gave in, and D shipped under the letter the folklore had always predicted. The BCPL door — P — has never been claimed by anyone in the family.
 
-**And the man who started the single-letter style ended it.** In 2009 Ken Thompson, with Rob Pike and Robert Griesemer, released his last major language, and it is called **Go** — a word, not a letter, chosen forty years after B, by which time the joke had run its course. (The same Thompson-and-Pike pair had already spent a 1992 diner evening redesigning the world's text encoding — the placemat is in **Text Encoding** *(not yet released)*.)
+**And the man who started the single-letter style ended it.** In 2009 Ken Thompson, with Rob Pike and Robert Griesemer, released his last major language, and it is called **Go** — a word, not a letter, chosen forty years after B, by which time the joke had run its course. (The same Thompson-and-Pike pair had already spent a 1992 diner evening redesigning the world's text encoding — the placemat is in [[Text Encoding]].)
 
 As for **A**: the letter a student goes looking for was never in this family. The famous A in programming is Kenneth Iverson's 1962 book *A Programming Language*, whose initials became APL — a different dynasty, whose war over a single arrow is told in [[The Arrow That Pointed the Other Way]]. The alphabet's first letter belongs to someone else's story.
 
@@ -139,7 +139,7 @@ And the names are the sediment. *lvalue* is Strachey's seminar still talking thr
 
 - **Compilers and Interpreters** *(not yet released)* — the pedagogy this story dramatises: B was *interpreted* (threaded code) and too slow to write an OS in; C was *compiled* to native PDP-11 instructions and rewrote the kernel within two years. The compiled/interpreted trade-off, with dates and a body count — plus self-hosting: the C compiler has been written in C since 1973, and the dark side of that bootstrap chain is Thompson's own "Trusting Trust".
 - [[The Arrow That Pointed the Other Way]] — the sibling story: one single character of B's squeeze (`:=` to `=`), unfolded into its own sixty-year war.
-- **Text Encoding** *(not yet released)* — the byte-addressed PDP-11 forced C's `char` into existence; the same Thompson later redesigned the world's text on a placemat.
+- [[Text Encoding]] — the byte-addressed PDP-11 forced C's `char` into existence; the same Thompson later redesigned the world's text on a placemat.
 - **Operating Systems** *(not yet released)* — the 1973 kernel rewrite in C is where this lineage pays its rent.
 - **Assembly Language** *(not yet released)* — the language C was built to displace, and the source of the `a.out` fossil.
 

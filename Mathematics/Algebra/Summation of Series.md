@@ -10,11 +10,11 @@ leads_to:
   - "[[Maclaurin Series]]"
   - "[[De Moivre at Work]]"
   - "[[Bounding Sums with Integrals]]"
+  - "[[Ramanujan and Hardy]]"
 tags:
   - subject/mathematics
   - domain/algebra
   - level/A-Level
-  - curriculum/A-Level
   - curriculum/Cambridge-9231
   - syllabus/9231-1-3
   - type/deep
@@ -37,6 +37,10 @@ tags:
 > *That is the whole topic. **A sum you cannot face term by term becomes trivial the moment each term is written as a difference.** The three "standard results" printed on the formula sheet are outputs of that same machine, not axioms handed down beside it — and the exam has asked candidates to derive all three.*
 
 ## 中文锚点
+
+爬一段楼梯，问自己一共升高了多少。你可以量每一级台阶再加起来，也可以拿到达的楼层减去出发的楼层——所有小台阶的升高加在一起，恰好就是顶减去底。这就是裂项相消，也叫差分法：如果级数的每一项都能写成 $f(r + 1) - f(r)$，那么把各项相加时，中间的每一个值都会出现两次，一次带加号、一次带减号，最后只剩下两端。级数就是把数列的各项用加号连起来；求和就是找出"累计总数"的公式，而最巧的办法往往是把每一项看成一个差，让整个总和塌缩成首尾两端。
+
+### 术语对照
 
 | English | 中文 | one-line meaning |
 |---|---|---|
@@ -357,6 +361,7 @@ Edexcel places series and the method of differences in **Further Pure 1**; AQA a
 - **For 9231 students:** [[MF19 Reference (9231)]] — the three standard results are printed; the method itself is not.
 
 ---
+- **Story:** [[Ramanujan and Hardy]] — a clerk in Madras summing series without proof, and the professor who spent five years asking for them.
 
 ## LaTeX Reference
 

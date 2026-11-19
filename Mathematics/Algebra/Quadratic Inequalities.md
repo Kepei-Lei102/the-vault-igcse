@@ -16,10 +16,15 @@ tags:
   - level/IB
   - level/AP
   - curriculum/Cambridge-0606
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/0606-2-5
+  - syllabus/9709-1-1
+  - curriculum/Cambridge-9709
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
+  - syllabus/IAL-P1-1-7
+  - syllabus/IAL-P1-1-9
+  - syllabus/IAL-FP2-1-1
   - type/deep
   - type/technique
   - misconception/inequality-direction-by-leading-coeff
@@ -44,6 +49,10 @@ The geometry tells the whole story. A parabola is either:
 If you remember the parabola's shape and where the roots are, the answer falls out.
 
 ### 中文锚点
+
+往上抛的球，会在两米以上停留一段时间，而不是只在一瞬间高于两米。问它什么时候高于两米，就是一个二次不等式，答案是一段时间：从它上升时越过两米的那一刻，到它下落时再次经过两米的那一刻。整个方法就是这样。先找曲线和这条线在哪里相交，也就是解方程；再看交点的哪一边曲线在线的上方、哪一边在下方，这由曲线的形状决定：开口向上的抛物线在两个根之间低于这条线，在两根之外高于它；开口向下的正好反过来。这两个根就是篱笆桩，形状告诉你该站在哪块地里。答案要写成一个区间，而不是一对数，因为它问的是"什么时候"，而不是"恰好哪一刻"。
+
+### 术语对照 (Terms)
 
 **二次不等式 (èrcì bùděngshì)** = 求满足 $ax^2 + bx + c > 0$（或别的方向）的 $x$ 的集合。
 
@@ -226,12 +235,22 @@ This is why the same 0606 paper that asks "find the value of $k$ for which $f(x)
 > [!tip] State both pieces of the "always positive" condition
 > 0606 markschemes typically award separate marks for: (i) noticing $a > 0$ (the parabola opens upward), and (ii) requiring $\Delta < 0$ (the parabola misses the $x$-axis). Forgetting either loses marks even with the right final answer.
 
-### A-Level / 9709 / IB AA / AP
+### Cambridge 9709 — Paper 1 quadratics
 
-A-Level extends to:
-- **Inequality manipulations involving fractions** — "$\dfrac{x-1}{x+2} > 1$" requires multiplying by $(x+2)^2$ (always positive) to clear the denominator without inequality flips.
-- **Modulus inequalities** — solved via squaring (both sides) when both sides are non-negative; otherwise via case-split. See [[Modulus Function]].
-- **Two-variable inequalities** ($ax^2 + bxy + cy^2 > 0$ for all $(x, y)$) — the *positive-definite quadratic form* test, requiring both $a > 0$ AND $b^2 - 4ac < 0$. This is the doorway to multivariable optimisation and matrix algebra (eigenvalues of a symmetric matrix).
+- "Solve quadratic equations, **and quadratic inequalities**, in one unknown" is a named bullet of the P1 quadratics LO. Patterns A and B above are the whole of it — and pattern B (the discriminant condition for *always positive* / *no real roots*) is the one that recurs, usually as "find the set of values of $k$ for which…". State both halves ($a > 0$ and $\Delta < 0$) as at 0606.
+
+### Edexcel IAL — P1.1.7, P1.1.9 and FP2.1.1
+
+- **P1.1.9** solutions of linear and quadratic inequalities; **P1.1.7** their *graphical* interpretation — shading the region above or below a parabola, and reading a solution set off a sketch. Set-notation answers are expected: $\{x : x < 3\} \cup \{x : x > 4\}$.
+- **FP2.1.1** is the Further-level extension — *manipulation and solution of algebraic inequalities*: those with fractions, where multiplying by $(x + 2)^2$ (always positive) clears a denominator without flipping the sign, and those with a modulus, solved by squaring both non-negative sides or by a case split ([[Modulus Function]]).
+
+### OxfordAQA 9660 — P1.1
+
+- Linear and quadratic inequalities together in the opening pure row; the sign chart or a sketch, and the answer as an interval.
+
+### Beyond these boards
+
+- **Two-variable inequalities** ($ax^2 + bxy + cy^2 > 0$ for all $(x, y)$) — the *positive-definite quadratic form* test, requiring both $a > 0$ and $b^2 - 4ac < 0$: the doorway to multivariable optimisation and to the eigenvalues of a symmetric matrix. IB AA HL and AP meet the one-variable case as a tool inside calculus questions, never as a topic.
 
 ---
 

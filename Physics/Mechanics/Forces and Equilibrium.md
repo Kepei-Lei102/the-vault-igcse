@@ -18,6 +18,9 @@ leads_to:
   - "[[Braking Systems]]"
   - "[[Stress, Strain and Young Modulus]]"
   - "[[Circular Motion]]"
+  - "[[Density and Pressure]]"
+  - "[[The Man Who Weighed a Muscle]]"
+  - "[[The Spine Under Load]]"
 tags:
   - subject/physics
   - subject/mathematics
@@ -27,7 +30,6 @@ tags:
   - curriculum/Cambridge-9709
   - curriculum/Cambridge-9702
   - curriculum/Cambridge-0625
-  - curriculum/A-Level
   - curriculum/IB-Physics
   - curriculum/AP-Physics-1
   - curriculum/AP-Physics-C-Mechanics
@@ -54,6 +56,7 @@ tags:
   - misconception/equilibrium-is-just-no-net-force
   - misconception/centre-of-gravity-equals-centre-of-mass
   - misconception/pivot-must-be-the-real-pivot
+  - curriculum/Cambridge-9231
 ---
 
 # Forces and Equilibrium 力与平衡

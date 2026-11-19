@@ -6,14 +6,13 @@ prerequisites:
   - "[[Complex Numbers]]"
   - "[[Integration]]"
 leads_to:
+  - "[[Multiple Integrals]]"
   - "[[Arc Length and Surfaces of Revolution]]"
 tags:
   - subject/mathematics
   - domain/geometry
   - level/A-Level
-  - curriculum/A-Level
   - curriculum/Cambridge-9231
-  - curriculum/AP
   - syllabus/9231-1-5
   - syllabus/AP-Calculus-BC-9
   - type/deep
@@ -24,6 +23,7 @@ tags:
   - misconception/arctan-quadrant
   - misconception/pole-not-in-simultaneous-solution
   - misconception/forgetting-double-angle-in-area
+  - curriculum/AP-Calculus-BC
 ---
 
 # Polar Coordinates 极坐标
@@ -33,6 +33,10 @@ tags:
 > *Cartesian coordinates are the strange invention; polar is the native tongue. This page makes the native tongue precise — and then does something with it that Cartesian coordinates find almost impossible: describe a flower petal, a heart-shaped loop or a spiral in one short equation, sketch it by **reading a graph you already know how to read**, and find its exact area with one integral.*
 
 ## 中文锚点
+
+空中交通管制员不会说"那架飞机在东边 3 公里、北边 4 公里"。雷达屏幕上显示的是：它在 5 公里外的某个方向上。这就是极坐标：用离一个固定中心（极点）的距离 $r$，加上从一个固定方向（极轴）量起的角度 $\theta$，来表示一个位置。有些在 $x$、$y$ 里写起来很别扭的图形，在极坐标里只是一条简短的规则：绕着极点的圆就是 $r = 5$；舞台话筒那种心形的拾音范围，用方程写就是 $r = a(1 + \cos\theta)$，叫作心脏线。代价是一个点可以有很多个名字：再多转一整圈，你还是落在同一个地方。
+
+### 术语对照
 
 | English | 中文 | one-line meaning |
 |---|---|---|

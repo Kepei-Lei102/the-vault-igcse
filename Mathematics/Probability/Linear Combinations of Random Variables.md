@@ -16,7 +16,6 @@ tags:
   - domain/statistics
   - level/A-Level
   - curriculum/Cambridge-9709
-  - curriculum/A-Level
   - curriculum/IB-AA
   - syllabus/9709-6-2
   - type/theorem

@@ -6,6 +6,7 @@ prerequisites:
   - "[[Why Probability and Statistics]]"
   - "[[Averages and Spread]]"
   - "[[Euler's Number]]"
+  - "[[Laplace and Napoleon]]"
 leads_to:
   - "[[Poisson Distribution]]"
   - "[[Repeated Measurements]]"
@@ -26,16 +27,15 @@ tags:
   - level/IB
   - level/AP
   - curriculum/Cambridge-9709
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/9709-5-5
-  - type/distribution
+  - type/definition
   - type/methodology
   - notation/normal
   - misconception/normal-distribution-as-belief
   - misconception/standardisation-direction
   - misconception/forgetting-continuity-correction
+  - curriculum/AP-Statistics
 ---
 
 # Normal Distribution 正态分布
@@ -458,6 +458,7 @@ The normal distribution is the most-encountered probability distribution in appl
 - **Leads to — P6:** [[Poisson Distribution]] — another distribution this card's binomial-approximation story connects to (Poisson is the "rare-event limit", normal is the "large-$n$ limit" of the binomial). [[Continuous Random Variables]] (P6 §6.3) — the integral version of the discrete distributions story; the normal is the most-used continuous DRV.
 - **Application:** every place "$Z = (x-\mu)/\sigma$" or "z-score" appears — sample-mean inference (CLT), confidence intervals, hypothesis tests, control charts, financial risk models, machine learning loss functions, biology measurements, and on.
 - **Hunter cross-reference:** [[Forward Reading and Problem Discovery]] — the reference-frame question ("is this *actually* normal in the relevant population?") is a forward-reading move applied to statistical models.
+- **Story:** [[Stories/Laplace and Napoleon]] — the man who proved the general central limit theorem in 1810, and why the determinist built the mathematics of doubt.
 
 ---
 

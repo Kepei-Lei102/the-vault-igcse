@@ -7,6 +7,7 @@ prerequisites:
   - "[[Kinematics Calculus]]"
   - "[[Area Under a Graph (Vocab)]]"
 leads_to:
+  - "[[Particle Physics]]"
   - "[[Newton's Law of Restitution]]"
   - "[[Impulse]]"
   - "[[Centre of Mass]]"
@@ -15,6 +16,8 @@ leads_to:
   - "[[Angular Momentum]]"
   - "[[Choosing Effective Equations]]"
   - "[[Kinetic Theory and the Ideal Gas]]"
+  - "[[Wave-Particle Duality]]"
+  - "[[The Kinetic Chain]]"
 tags:
   - subject/physics
   - subject/mathematics
@@ -24,7 +27,6 @@ tags:
   - curriculum/Cambridge-9709
   - curriculum/Cambridge-9702
   - curriculum/Cambridge-0625
-  - curriculum/A-Level
   - curriculum/IB-AA
   - curriculum/IB-Physics
   - curriculum/AP-Physics-1
@@ -53,6 +55,7 @@ tags:
   - misconception/conservation-needs-equilibrium
   - misconception/equal-and-opposite-velocities-after-collision
   - misconception/heavy-always-has-more-momentum
+  - curriculum/Cambridge-9231
 ---
 
 # Linear Momentum 动量
@@ -364,25 +367,25 @@ Use $g$ values from §4.4 conventions if weight enters (it usually doesn't for c
 
 ### Cambridge 0625 (IGCSE Physics) — §1.6
 
-**Core:** definition $p = mv$, conservation in collisions (qualitative + simple numerical).
-**Extended only:** impulse $F = \Delta p / \Delta t$ as the rearranged N2; force-time graph reading.
+**The whole of §1.6 is Supplement (Extended) content; the Core syllabus has no momentum.** Four statements: define momentum and use $p = mv$; define impulse and use impulse $= F\Delta t = \Delta(mv)$; apply conservation of momentum to simple problems in one dimension; define resultant force as the change in momentum per unit time, $F = \Delta p/\Delta t$.
 
-### A-Level Mathematics Mechanics (9709 M2 / OCR / Edexcel) and IB AA
+### Cambridge 9231 Further Mathematics — Further Mechanics §3.6
 
-Includes elastic collisions in 1D, coefficient of restitution $e$, **2D oblique impacts** (resolve along and perpendicular to the line of impact; $e$ acts only along the line of impact). IB AA HL also covers 2D collisions.
+Newton's experimental law and the coefficient of restitution $e$, for direct impacts and for **oblique impacts**, including a smooth sphere striking a fixed surface: resolve along and perpendicular to the line of impact, and apply $e$ along that line only. [[Newton's Law of Restitution]] carries it. The current 9709 syllabus has no second mechanics paper; its only momentum content is §4.3 above.
 
-### AP Physics 1 / C: Mechanics
+### IB Physics — A.2
 
-**AP Physics 1:** conservation of momentum, impulse, 1D and 2D collisions, all qualitatively and through pictorial analysis.
-**AP Physics C: Mechanics:** all of the above plus integral form $\mathbf{J} = \int \mathbf{F}\, dt$, variable-mass problems (rocket equation), and centre-of-mass treatment.
+Momentum $p = mv$, impulse $J = F\Delta t = \Delta p$, Newton's second law as $F = \Delta p/\Delta t$, and collisions and explosions, elastic and inelastic: one dimension at standard level, **two dimensions at higher level**. IB Mathematics (Analysis and Approaches, and Applications and Interpretation) contains no mechanics of collisions.
 
----
+### AP Physics 1 and AP Physics C: Mechanics — Unit 4
+
+Linear momentum, change in momentum and impulse (as the area under a force–time graph; as $\int F\,dt$ in Physics C), conservation of momentum, and elastic and inelastic collisions, in one and two dimensions.
 
 ## Why Linear Momentum Matters — College and Beyond
 
 - **Rocket science** — the *only* way to accelerate in the vacuum of space is to throw mass backward (no road to push against). The **Tsiolkovsky equation** $\Delta v = v_e \ln(m_0 / m_f)$ comes from integrating momentum conservation as the rocket loses mass over time. SpaceX's Falcon 9 follows this equation to the gram.
 - **Particle physics** — every proton-proton collision at the LHC conserves total 4-momentum. Tracks emerging from a collision are reconstructed by *imposing* $\sum \mathbf{p}_i = \sum \mathbf{p}_f$ across hundreds of debris particles. The Higgs boson was discovered (2012) by spotting bumps in a momentum-balance plot.
-- **Quantum mechanics** — momentum is one of the two fundamental observables (with position). de Broglie's $\lambda = h/p$ relates wavelength to momentum, and the Heisenberg uncertainty principle states $\Delta x \cdot \Delta p \geq \hbar/2$ — see [[Upper and Lower Bounds#Heisenberg's uncertainty principle|the ULB note]].
+- **Quantum mechanics** — momentum is one of the two fundamental observables (with position). de Broglie's $\lambda = h/p$ relates wavelength to momentum, and the Heisenberg uncertainty principle states $\Delta x \cdot \Delta p \geq \hbar/2$ — see [[Upper and Lower Bounds#Beyond Syllabus — Measurement Theory|the brief uncertainty-principle note (item 4)]].
 - **Special relativity** — the *non-relativistic* $\mathbf{p} = m\mathbf{v}$ is replaced by $\mathbf{p} = \gamma m \mathbf{v}$ where $\gamma = 1/\sqrt{1 - v^2/c^2}$. Newton's 2nd in the $\mathbf{F} = d\mathbf{p}/dt$ form *survives* — only the constant-mass corollary $\mathbf{F} = m\mathbf{a}$ fails. This is one reason the more general form is the "real" N2.
 - **Symmetry and conservation laws** — Noether's theorem (1915) proves that conservation of momentum is exactly the mathematical consequence of *spatial translation invariance* of physical laws. Move your experiment one metre to the side; the laws are the same; therefore momentum is conserved. This connection between symmetry and conservation is the deepest organising principle in modern physics.
 
@@ -412,6 +415,7 @@ Includes elastic collisions in 1D, coefficient of restitution $e$, **2D oblique 
 - **Extension:** [[Coefficient of Restitution]] — the elasticity parameter $e$ that interpolates between elastic ($e = 1$) and perfectly inelastic ($e = 0$).
 - **Application:** [[Two-Body Problem]] — momentum conservation reduces a 6-coordinate problem to a 3-coordinate one.
 - **Cross-domain bridge:** [[Symmetry and Conservation Laws]] — Noether's theorem; how spatial translation gives momentum conservation.
+- **Leads to:** [[Wave-Particle Duality]] — a photon's momentum p = E/c, the push of light F = P/c, and de Broglie's λ = h/p.
 
 ---
 

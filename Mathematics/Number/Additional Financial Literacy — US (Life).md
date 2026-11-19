@@ -7,13 +7,13 @@ leads_to: []
 tags:
   - subject/mathematics
   - domain/number
-  - type/life-card
-  - topic/finance
-  - topic/financial-literacy
-  - region/united-states
+  - type/life
+  - domain/finance
+  - region/usa
   - misconception/no-credit-is-bad-credit
   - misconception/deductible-vs-oop-max
   - misconception/401k-match-is-free-money
+  - level/life
 ---
 
 # Additional Financial Literacy — United States 美国金融常识

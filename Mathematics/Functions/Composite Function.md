@@ -9,13 +9,13 @@ leads_to:
 tags:
   - subject/mathematics
   - domain/functions
-  - level/GCSE
   - level/IGCSE
   - level/pre-IB
   - level/pre-AP
   - curriculum/OxAQA-9260
   - curriculum/Cambridge-0580
   - curriculum/Cambridge-0606
+  - curriculum/Edexcel-IAL
   - syllabus/9260-A9
   - syllabus/9260-A9-Ext
   - syllabus/0580-E2-13
@@ -23,9 +23,9 @@ tags:
   - syllabus/9709-1-2
   - type/definition
   - type/vocabulary
-  - type/notation
   - misconception/order-of-composition
   - misconception/fg-means-f-times-g
+  - curriculum/Cambridge-9709
 ---
 
 # Composite Function 复合函数
@@ -54,7 +54,11 @@ Composing functions is like **chaining two machines together**. The output of th
 
 If machine $g$ doubles a number and machine $f$ adds 3, then chaining $g$ then $f$ means: double first, add 3 second. The *order matters* — adding 3 first, then doubling, gives a different answer.
 
-### 中文 Anchor
+### 中文锚点
+
+商店打八折，另外还有一张优惠券，能减 30 元。一件 200 元的外套，先打折再用券：200 → 160 → 130；先用券再打折：200 → 170 → 136。同样两步，价格却不一样，因为第二步作用在第一步算出来的结果上。复合函数就是这样：$f(g(x))$ 的意思是先做 $g$，再把它的结果交给 $f$。写得离 $x$ 更近的那个函数先做。而且顺序很要紧：$f(g(x))$ 和 $g(f(x))$ 通常不一样。
+
+#### 术语对照
 
 | English | 中文 | Pinyin |
 |---------|------|--------|
@@ -242,6 +246,16 @@ Note: $f^2(x) = 4x + 3$, whereas $[f(x)]^2 = (2x+1)^2 = 4x^2 + 4x + 1$. These ar
 - $f^2(x) = f(f(x))$ notation is used (but not with trig functions).
 - Domain restrictions may be tested: the domain of $gf$ requires $f(x) \in \text{Dom}(g)$.
 
+### Cambridge 9709 (P1 §1.2)
+
+- *Find the composition of two given functions*, with the syllabus's stated condition: **$gf$ can only be formed when the range of $f$ is within the domain of $g$** — a one-mark explanation question asks exactly this.
+- Typical shape: $f(x) = 2x - 1$, $g(x) = x^2 + 3$; find $gf(x)$, solve $gf(x) = k$, or find the range of $fg$ over a stated domain.
+
+### Edexcel IAL (P3 §1.2)
+
+- *Composition of functions* with the specification's own reading rule: **$fg$ means "do $g$ first, then $f$"**.
+- Questions combine composition with the modulus function and with inverses on the same paper — expect $fg(x)$ followed by $(fg)^{-1}$ or a sketch.
+
 ### Common exam phrasing
 
 | Exam says | They want |
@@ -298,7 +312,7 @@ Function composition is a fundamental operation in programming. In functional la
 compose f g x = f (g x)
 ```
 
-This is identical to the mathematical definition $fg(x) = f(g(x))$. The Unix pipe operator works the same way: `cat file | sort | uniq` composes three functions in sequence (though the reading order is left-to-right, opposite to mathematical convention). See the [[Function#Everything is IO — 媒介学 (méijiè xué)|媒介学 section in the Function card]] — composition is the mathematical formalisation of IO chaining, the idea that the output of one process becomes the input of the next.
+This is identical to the mathematical definition $fg(x) = f(g(x))$. The Unix pipe operator works the same way: `cat file | sort | uniq` composes three functions in sequence (though the reading order is left-to-right, opposite to mathematical convention). See [[Function#Everything is IO — 媒介学 (méijiè xué)|the 媒介学 explanation of input/output chains]] — composition is the mathematical formalisation of IO chaining, the idea that the output of one process becomes the input of the next.
 
 **Function composition in category theory** provides the foundation for all of abstract mathematics: a "category" is any collection of objects with composable arrows (morphisms) between them, where composition is associative and every object has an identity arrow.
 

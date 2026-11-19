@@ -13,7 +13,6 @@ tags:
   - domain/linear-algebra
   - level/A-Level
   - level/pre-IB
-  - curriculum/A-Level
   - curriculum/IB-AA
   - syllabus/9709-3-7
   - syllabus/9231-1-6
@@ -25,6 +24,9 @@ tags:
   - misconception/forgetting-third-equation
   - misconception/wrong-angle-convention
   - misconception/foot-of-perpendicular-setup
+  - curriculum/Cambridge-9709
+  - curriculum/Cambridge-9231
+  - type/deep
 ---
 
 # Vector Equations of Lines 直线的向量方程

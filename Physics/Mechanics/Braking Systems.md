@@ -8,6 +8,7 @@ prerequisites:
   - "[[SUVAT]]"
   - "[[Friction (Vocab)]]"
   - "[[Circular Motion]]"
+  - "[[Density and Pressure]]"
 leads_to:
   - "[[Stories/From the Grid to the Garage]]"
   - "[[From the Grid to the Garage]]"
@@ -28,8 +29,7 @@ tags:
   - syllabus/AP-Physics-1-2-7
   - syllabus/AP-Physics-C-Mech-2-7
   - type/deep
-  - type/engineering
-  - type/glamour
+  - type/application
   - notation/slip-ratio
   - notation/brake-bias
   - misconception/abs-stops-faster-always

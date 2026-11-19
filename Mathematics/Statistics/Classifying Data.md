@@ -13,12 +13,12 @@ leads_to:
 tags:
   - subject/mathematics
   - domain/statistics
-  - level/GCSE
   - level/IGCSE
   - level/pre-IB
   - level/pre-AP
   - curriculum/OxAQA-9260
   - curriculum/Cambridge-0580
+  - curriculum/Cambridge-9709
   - syllabus/9260-S1
   - syllabus/9260-S3
   - syllabus/0580-E9-1
@@ -26,6 +26,7 @@ tags:
   - type/vocabulary
   - misconception/discrete-vs-continuous
   - misconception/qualitative-vs-quantitative
+
 ---
 
 # Classifying Data 数据分类
@@ -165,7 +166,7 @@ Values that can take **any value within a range** — including all decimals.
 > The difference between the true continuous value and the nearest discrete value the computer can store is called the **quantisation error** (量化误差, liànghuà wùchā). This is "arbitrarily close" in action: with enough bits and enough samples, the quantisation error becomes negligibly small — the discrete approximation becomes indistinguishable from the continuous original — but it never actually *becomes* continuous. The gap between discrete and continuous is fundamental, and every digital device you use is a compromise across it.
 
 > [!info] Beyond syllabus — Continuous data is always rounded
-> When we write "height = 170.3 cm," what we really mean is "height is between 170.25 cm and 170.35 cm." Every measurement of continuous data is an approximation — limited by the measuring instrument. The true value has infinitely many decimal places. This connects to [[Power Rule#Upper and lower bounds|upper and lower bounds]] in the Number topic.
+> When we write "height = 170.3 cm," what we really mean is "height is between 170.25 cm and 170.35 cm." Every measurement of continuous data is an approximation — limited by the measuring instrument. The true value has infinitely many decimal places. This connects to [[Upper and Lower Bounds#1. Finding Bounds from Rounded Values|upper and lower bounds]] in the Number topic.
 
 ### Primary vs Secondary Data
 
@@ -312,22 +313,23 @@ Classify each as discrete or continuous:
 
 ### OxAQA 9260
 
-- S1: classify and interpret data in various forms — qualitative, quantitative, discrete, continuous
-- This is foundational vocabulary that appears **throughout** the statistics section — every chart, average, and diagram question implicitly requires knowing what type of data you're working with
-- Typical question: "State whether this data is discrete or continuous. Explain your answer."
-- The explanation matters — a correct classification with no reasoning may not get full marks
+- **S1 (Core):** "understand and use qualitative, discrete and continuous data, including grouped and ungrouped data"; **S3 (Core):** "design and use two-way tables for grouped and ungrouped data". Both columns are Core.
+- This is foundational vocabulary that appears **throughout** the statistics section: every chart, average and diagram question implicitly requires knowing what type of data you're working with.
+- Typical question: "State whether this data is discrete or continuous. Explain your answer." The explanation matters; a correct classification with no reasoning may not get full marks.
 
-### Cambridge 0580
+### Cambridge 0580 (Core and Extended)
 
-- E9.1: classify and tabulate data
-- Often tested through frequency tables and choosing the right chart: "Why would a bar chart be suitable for this data?" requires knowing it's categorical/discrete
-- Frequency tables for grouped continuous data: know the notation $a \leq x < b$
+- **C9.1 and E9.1, Classifying statistical data:** "classify and tabulate statistical data", with "tally tables, two-way tables" as the syllabus's examples. The row is identical on both tiers.
+- Often tested through frequency tables and choosing the right chart: "Why would a bar chart be suitable for this data?" requires knowing it's categorical or discrete.
+- Frequency tables for grouped continuous data: know the notation $a \leq x < b$.
 
-### AP / IB / A-Level
+### Cambridge 9709 (Paper 5)
 
-- **AP Statistics:** data types are foundational — categorical vs quantitative determines which inferential tests are appropriate (chi-squared for categorical, t-tests for quantitative); levels of measurement (nominal, ordinal, interval, ratio) add further precision
-- **IB Mathematics AA/AI:** data classification in the Statistics & Probability topic; AI SL emphasises real-world data interpretation, so knowing data types is essential for choosing the right analysis
-- **A-Level Statistics (S1):** classification of variables; sampling methods (random, stratified, systematic, cluster, quota) are tested in detail — primary vs secondary data connects to sampling methodology
+- **§5.1:** "select a suitable way of presenting raw statistical data, and discuss advantages and/or disadvantages that particular representations may have". The classification is the reason behind the choice: discrete data suits a stem-and-leaf diagram, continuous data a histogram. Sampling methods are **not** in 9709 §5; sampling and estimation is §6.4, Paper 6.
+
+### AP Statistics and IB
+
+- The AP Statistics course description and the IB Mathematics guides are not on file, so no topic numbers are claimed. The categorical-versus-quantitative split is the one that decides which inferential test applies, wherever it is examined.
 
 ### Beyond high school — University
 

@@ -8,6 +8,7 @@ prerequisites:
   - "[[Standard Integrals]]"
   - "[[Substitution Equations]]"
 leads_to:
+  - "[[Multiple Integrals]]"
   - "[[Integration by Parts]]"
   - "[[Differential Equations]]"
   - "[[Partial Fractions]]"
@@ -17,9 +18,7 @@ tags:
   - level/A-Level
   - level/pre-IB
   - level/pre-AP
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/9709-3-5
   - type/technique
   - type/theorem
@@ -28,6 +27,14 @@ tags:
   - misconception/forget-to-change-dx
   - misconception/forget-to-change-limits
   - misconception/wrong-u-choice
+  - curriculum/Cambridge-9709
+  - curriculum/AP-Calculus-AB
+  - curriculum/AP-Calculus-BC
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
+  - curriculum/Cambridge-9231
+  - type/deep
+
 ---
 
 # Integration by Substitution 换元积分法
@@ -45,6 +52,10 @@ $$\int f(u) \, du.$$
 This is the **[[Chain Rule]] running in reverse**: the chain rule differentiates $F(g(x))$ to produce $F'(g(x)) \cdot g'(x)$, so integrating something of that shape must give back $F(g(x)) + C$. Substitution is the bookkeeping that makes the reverse direction mechanical.
 
 > 换元 — literally "change the variable." Replace $x$ with a new variable $u$ that makes the integral simpler, do the integration, then change back.
+
+### 中文锚点
+
+用一把被拉得不均匀的橡皮尺去量一条弯路：尺子上的一格，在有的地方盖住很长一段路，在有的地方只盖住一点。换元就是用一把新尺子 $u = g(x)$ 来读一个积分。$u$ 上的每一小步值 $g'(x)$ 个 $x$ 上的小步，所以换算因子 $du = g'(x)\,dx$ 必须跟着变量一起换，就像换掉地图的比例尺，图上每一段距离都要跟着换算。这个方法是链式法则倒着读：如果被积函数长得像"$g(x)$ 的某个函数乘以 $g'(x)$"，那么求导早已把换算因子交到你手上，换成新变量之后，积分就是一道平常的题。
 
 ---
 
@@ -192,7 +203,7 @@ This is the first pattern to check whenever you see a fraction.
 
 ### Pattern 2 — Linear-Inside (the Baby Case)
 
-Covered in [[Integration#The Linear-Inside Rule $(ax + b)^n$|Integration]]. Here, $u = ax + b$, so $du = a \, dx$. This is substitution with its training wheels on: the chain-rule coefficient is always the constant $a$, so the answer always picks up a $/a$.
+Covered in [[Integration#The Linear-Inside Rule — $(ax + b)^n$|Integration]]. Here, $u = ax + b$, so $du = a \, dx$. This is substitution with its training wheels on: the chain-rule coefficient is always the constant $a$, so the answer always picks up a $/a$.
 
 ### Pattern 3 — Power-of-a-Function
 

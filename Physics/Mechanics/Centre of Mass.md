@@ -9,6 +9,8 @@ prerequisites:
 leads_to:
   - "[[Centres of Mass by Integration]]"
   - "[[Moment of Inertia]]"
+  - "[[The Kinetic Chain]]"
+  - "[[The Spine Under Load]]"
 tags:
   - subject/physics
   - subject/mathematics

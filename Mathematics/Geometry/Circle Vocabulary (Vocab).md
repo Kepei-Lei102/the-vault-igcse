@@ -31,6 +31,10 @@ A **circle** (圆 yuán) is the set of all points at a fixed distance from a cen
 
 ### 中文锚点
 
+切一张披萨，圆的所有词汇你就都用上了。从圆心切到饼边的一刀是半径；穿过圆心、横着切过去的一刀是直径；横着切过去却没经过圆心的一刀是弦；一块披萨的饼边是弧；这一块本身——从圆心出发的两刀加上中间那段饼边——是扇形；没经过圆心的那一刀切下来的小块是弓形；把刀平放，让它只在一个点上碰到饼边，这把刀就是切线。所有这些都来自同一个事实：饼边上每一个点到圆心的距离都一样。这也是为什么直径是最长的弦：它就是两条半径首尾相接，别的直着切的一刀都不可能比它长。
+
+#### 术语对照
+
 圆 = 到圆心距离相等的所有点的集合。半径 = 圆心到圆上的线段，直径 = 穿过圆心的弦（最长的弦），弦 = 连接圆上两点的线段，弧 = 圆上的一段弧线，扇形 = 两条半径和弧围成的区域，弓形 = 弦和弧围成的区域，切线 = 与圆只有一个交点的直线。
 
 ![[circle-vocabulary.svg|697]]
@@ -86,7 +90,7 @@ These are stated here as vocabulary; the proofs come in [[Circle Theorems I]] an
 
 ## Exam Notes
 
-**9260 G8 / 0580 E4.6.** Knowing these terms is a prerequisite for Circle Theorems questions. Examiners use precise vocabulary ("the tangent at $P$", "the chord $AB$", "the arc $BC$") and expect you to know exactly what each means. Confusing "sector" with "segment" will lose marks even if your method is correct.
+**Cambridge 0580 E4.1 *Geometrical terms*** — "use the following vocabulary of circles: centre, radius (plural radii), diameter, circumference, semicircle, chord, tangent, major and minor arc, sector, segment"; the symmetry properties of circles (equal chords equidistant from the centre, the perpendicular bisector of a chord through the centre, equal tangents from an external point) are **E4.7**, and the angle theorems **E4.7–E4.8**. **OxfordAQA 9260 G8** (core) — "identify and apply circle definitions and properties, including centre, radius, chord, diameter, circumference"; the theorems are G8's extension content. Knowing these terms is a prerequisite for Circle Theorems questions. Examiners use precise vocabulary ("the tangent at $P$", "the chord $AB$", "the arc $BC$") and expect you to know exactly what each means. Confusing "sector" with "segment" will lose marks even if your method is correct.
 
 > [!note] $\pi$ is irrational
 > The ratio $C/d = \pi$ is the same for every circle in Euclidean geometry — but $\pi$ cannot be expressed as a fraction (proved by Lambert, 1761) or as a root of any polynomial (proved by Lindemann, 1882, settling the 2000-year-old problem of "squaring the circle"). Its decimal expansion never terminates and never repeats: $3.14159265\ldots$ This is why you always leave $\pi$ in exact answers rather than writing $3.14$.

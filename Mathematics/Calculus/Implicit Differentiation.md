@@ -18,9 +18,7 @@ tags:
   - level/AP
   - level/university
   - curriculum/Cambridge-9709
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/9709-3-4
   - syllabus/9231-2-3
   - syllabus/9709-2-4
@@ -30,6 +28,13 @@ tags:
   - notation/leibniz
   - misconception/implicit-forget-chain-rule
   - misconception/implicit-treat-y-as-constant
+  - curriculum/Cambridge-9231
+  - curriculum/AP-Calculus-AB
+  - curriculum/AP-Calculus-BC
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
+  - type/deep
+
 ---
 
 # Implicit Differentiation 隐函数求导
@@ -125,23 +130,11 @@ Same answer as Example 2 below; arguably cleaner derivation. The differential fo
 
 ## 中文锚点
 
-**隐函数求导**：当方程 $F(x, y) = 0$ 不能（或者很难）显式解出 $y$ 时，仍然可以求 $\dfrac{dy}{dx}$ 的方法。
+沿着地上画的一个圆走一圈。你在平面图上的纵坐标 $y$ 并不是一个你愿意写出来的关于 $x$ 的公式，因为圆有上半圈和下半圈。可是你每走一步，路的方向都是完全确定的。诀窍是：抓住那个你走到哪里都成立的等式 $x^2 + y^2 = 1$，对它求导——它的变化率是零；而 $y$ 是跟着 $x$ 一起变的，所以按链式法则，每一个 $y$ 都要带上一个 $\dfrac{dy}{dx}$。然后把 $\dfrac{dy}{dx}$ 解出来就行：$2x + 2y\dfrac{dy}{dx} = 0$，所以 $\dfrac{dy}{dx} = -\dfrac{x}{y}$。"见 $y$ 求导，必带 $\dfrac{dy}{dx}$"这句口诀，只是把链式法则记住了而已。
 
-**核心思想**：把 $y$ 看作 $x$ 的（暗藏的）函数 $y(x)$，对方程两边同时关于 $x$ 求导。每当遇到含 $y$ 的项，按链式法则处理 —— 多乘一个 $\dfrac{dy}{dx}$。
+### 术语对照
 
-**口诀**：
-
-> **见 $y$ 求导，必带 $\dfrac{dy}{dx}$。**
-
-三步走：
-
-1. 两边对 $x$ 求导。
-2. 含 $y$ 的项，链式法则补上 $\dfrac{dy}{dx}$。
-3. 把 $\dfrac{dy}{dx}$ 集合到一边，解出。
-
-经典例子：单位圆 $x^2 + y^2 = 1$，两边求导得 $2x + 2y\dfrac{dy}{dx} = 0$，所以 $\dfrac{dy}{dx} = -\dfrac{x}{y}$。这就是隐函数求导的全部精神。
-
-> 反三角函数的导数（$\arcsin' = 1/\sqrt{1-x^2}$ 等）也是用这个技术从定义方程 $\sin y = x$ 推出来的 —— 见 [[Differentiation Rules]]。
+隐函数：implicit function；显式：explicit（$y = f(x)$ 的形式）；隐函数求导：implicit differentiation。
 
 ---
 

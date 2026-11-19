@@ -18,17 +18,22 @@ tags:
   - level/pre-IB
   - level/pre-AP
   - curriculum/Cambridge-0606
-  - curriculum/A-Level
   - curriculum/IB-AA
   - curriculum/IB-AI
-  - curriculum/AP
+  - curriculum/AP-Calculus-BC
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
   - syllabus/0606-14-4
   - syllabus/9709-2-4
   - syllabus/9709-3-4
+  - syllabus/IAL-P3-4-2
+  - syllabus/AP-BC-2-9
   - type/theorem
   - type/proof
   - notation/derivative
   - misconception/derivative-of-product-is-product-of-derivatives
+  - curriculum/Cambridge-9709
+  - type/deep
 ---
 
 # Product Rule 乘法法则
@@ -58,13 +63,7 @@ This is **not a separate axiom** — we derive it from the Product Rule below. B
 
 ## 中文锚点 (Chinese Anchor)
 
-乘法法则：**两个函数相乘的导数 = 第一个的导数 × 第二个 + 第一个 × 第二个的导数**。
-
-$$\bigl(uv\bigr)' = u'v + uv'$$
-
-关键直觉：当 $u$ 和 $v$ 同时变化一点点时，乘积 $uv$ 的变化由两部分组成 —— $u$ 变化带来的 $v \cdot du$，加上 $v$ 变化带来的 $u \cdot dv$。还有一块二阶小项 $du \cdot dv$，但它比一阶项小得多，取极限时就消失了。下面的矩形图让这件事一目了然。
-
-商法则：$\left(\dfrac{u}{v}\right)' = \dfrac{u'v - uv'}{v^2}$ —— 注意分子的顺序和减号，别写反。
+一家店每天的营业额 = 单价 × 卖出的件数。假设下周单价涨了一点，卖出的件数也多了一点，营业额会多出多少？多出来的部分可以分成两条：原来的每一件都多收了一点单价，这是一条；多卖出的那几件按原来的单价收钱，这是另一条。还有一个小角——涨的那点单价 × 多卖的那几件——但它是"小 × 小"，变化一缩小它就先消失。乘法法则说的就是这件事：$(uv)' = u'v + uv'$，每个因子变一下、另一个按住不动，各贡献一条，再相加。它也解释了为什么想当然的 $u'v'$ 是错的：那只是那个小角，恰恰是唯一会消失的部分。下面的矩形图画的就是这两条和那个角。
 
 ## Why It Works — First Principles Proof
 
@@ -262,11 +261,26 @@ $\dfrac{d}{dx}(5x^3) \neq 0 \cdot x^3 + 5 \cdot 3x^2$ — technically correct, b
 - **Paper 2 §2.4** and **Paper 3 §3.4:** chain, product, quotient rules are all listed together — expect a mixed problem.
 - Examiners frequently ask for the derivative at a specific point, or to solve $dy/dx = 0$ — so simplify before solving, often by factoring out the largest common term.
 
-### IB AA HL / AP Calculus BC
+### Edexcel IAL — P3 §4.2
 
-- Same rule, standard notation.
-- In IB AA HL, product rule is a base ingredient for higher-order derivative applications (optimisation, kinematics, related rates).
-- AP Calculus BC: product and quotient rules are assumed *and* tested; knowing the first-principles proof is not required but the add-subtract trick generalises to vector-valued derivatives later.
+- Chain, product and quotient rules together, with $\dfrac{dy}{dx} = 1\Big/\dfrac{dx}{dy}$ in the same row. P3 questions pair the product rule with $e^{kx}$, $\ln x$ and the trigonometric functions and then ask for a stationary point or a tangent — factorise the derivative before setting it to zero, and expect the quotient rule to appear as the same question in a different costume.
+
+### OxfordAQA 9660 — P2 §6
+
+- Same trio of rules, listed with the derivatives of $e^{kx}$ and $\ln x$; the questions are P3-shaped and the marks fall on the setup line (name $u$, $v$, $u'$, $v'$) as on Cambridge.
+
+### AP Calculus AB/BC — Unit 2.9
+
+- *The product rule* is its own unit. Multiple-choice items test recognition of a derivative written as $u'v + uv'$ in reverse; free-response uses it inside implicit differentiation and related rates. The first-principles proof is not required, but the add-subtract trick generalises to vector-valued and parametric derivatives later in BC.
+
+### IB Analysis and Approaches (SL and HL)
+
+- The product rule is a stated SL objective in the calculus topic and a base ingredient for HL's higher-order work (optimisation, kinematics, related rates, implicit differentiation). Paper 1 (no calculator) is where the algebraic simplification after differentiating is marked.
+
+### Not examined on…
+
+- **Cambridge 0580 IGCSE** — differentiation is of polynomials only (§E2.13); no product rule.
+- **Cambridge 9231 Further Mathematics** — assumed from 9709; never set as a topic in its own right.
 
 ### Beyond syllabus — the Leibniz rule for $n$th derivatives
 

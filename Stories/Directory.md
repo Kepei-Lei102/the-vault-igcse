@@ -1,7 +1,7 @@
 # The Vault — Stories Directory 故事目录
 
-> **39 stories.** Last landed: [[Two Family Trees]] (2026-09-03) — every kernel on Earth descends from one of two 1970s minicomputer operating systems.
-> Fun-first historical narratives: the folder where the human drama of mathematics, physics and computing gets to be the *point*, not a footnote. One line per story; the card has the acts, the receipts and the comic.
+> **62 stories.** Last landed: [[The Man Who Weighed a Muscle]] (2026-09-28) — Borelli, exiled and living on charity, proves that a muscle pulls twenty times the weight it holds.
+> Fun-first historical narratives: the folder where the human drama of mathematics, physics, biology and computing gets to be the *point*, not a footnote. One line per story; the card has the acts, the receipts and the comic.
 
 See also: [[Mathematics/Directory|Mathematics]] · [[Physics/Directory|Physics]] · [[CS/Directory|Computer Science]] · [[Meta/Directory|Meta]].
 
@@ -23,7 +23,7 @@ Born-in-Stories topics (the War of the Currents, Galois's duel…) have no pedag
 
 ---
 
-## Mathematics (13)
+## Mathematics (23)
 
 1. **[[The Calculus Priority Dispute]]** — Newton vs Leibniz, 1665–1727: the Royal Society's rigged committee, Britain's century in the notation wilderness, Babbage's 1812 fix.
 2. **[[The Hidden Number]]** — 250 years of $e$ from Napier to Hermite: "natural" means *unbidden* — five independent paths keep producing the same constant, nobody choosing it.
@@ -38,8 +38,19 @@ Born-in-Stories topics (the War of the Currents, Galois's duel…) have no pedag
 11. **[[Gauss the Prodigy]]** — the bricklayer's son who calculated his own birthday; the 1-to-100 legend audited, because legends, too, deserve error bars.
 12. **[[The Lady Tasting Tea]]** — eight cups, seventy arrangements: Fisher inventing randomisation and the 5% line over tea, the Pearson feud, Gosset, and two honest edges.
 13. **[[Russell's Paradox in the Post]]** — the 1902 letter that broke Frege's life work while Volume II sat at the printer; the prequel to Gödel.
+14. **[[Ramanujan and Hardy]]** — the 1913 letter from a Madras clerk, the partition formula checked against MacMahon's hand-computed table, the taxi numbered 1729, and the notebook lost for fifty-six years.
+15. **[[Erdős the Wandering Mathematician]]** — no home, one suitcase, "my brain is open"; the six-person party and the pigeonhole, the probabilistic method that proves by refusing to construct; the bet and the feud, kept difficult.
+16. **[[Cantor vs Kronecker]]** — teacher against student, 1874–1891: the fractions counted by zigzag and the reals uncounted by diagonal (both run here), "I see it but I do not believe it", *God made the integers*, the Halle clinic kept separate from the feud, and Kronecker given his due through Turing.
+17. **[[Hilbert vs Brouwer]]** — the same war a generation on, 1888–1931: "this is theology", consistency-is-existence versus build-it-or-it-isn't-there, Weyl's revolution and Hilbert's Putsch, the *Annalen* purge Einstein called the war of the frogs and the mice, and Gödel announcing incompleteness in Königsberg the day before *Wir müssen wissen*; the excluded-middle example run both ways, and the settlement inside every proof assistant.
+18. **[[Archimedes and the Soldier]]** — Syracuse, 287–212 BC: Vitruvius's bath recomputed and found wanting, Galileo's balance that must have replaced it, π trapped by a 96-gon (rerun), the sphere two-thirds of its cylinder, $10^{63}$ grains of sand, the *Method* read through a prayer book, the claw at the siege, Plutarch's three deaths and the Roman last words, and Cicero finding the tomb the city had lost.
+19. **[[Stats Lies Hall of Fame]]** — every exhibit a *correct* number that misled: Farr's elevation law, Nightingale's radius-scaled chart, the *Literary Digest*, Wald's bombers, Huff at the tobacco hearing, Anscombe's quartet, Berkeley's departments; six hunter's questions at the end. *Also a Meta card.*
+20. **[[Laplace and Napoleon]]** — Malmaison, 1802: "I had no need of that hypothesis" as the legend has it and as Herschel's diary has it; the 900-year Jupiter–Saturn wave that fired Newton's clock-mending God, reproduced from Newton's law; the examiner who passed cadet Bonaparte, the six-week minister, seven regimes served, and the determinist who invented the mathematics of doubt.
 
-## Physics (10)
+21. **[[Sophie Germain and the Borrowed Name]]** — Paris and Braunschweig, 1776–1831: the LeBlanc identity, Gauss’s compliment with a counterexample, vibrating plates and an auxiliary-prime plan that needed infinity.
+22. **[[Sorry the Homework Is Late]]** — Dantzig arrives late, copies down two unsolved problems as homework and apologises for taking so long; eight years on, the geometry of that thesis is why he trusts the simplex method; von Neumann's "Oh, that", nine clerks and a diet of beans, and a Nobel Prize that went to others.
+23. **[[Emmy Noether]]** — one of two women among 986 students; Hilbert's "not a bathhouse" and four years of lecturing under his name; the 1918 theorem that answered Hilbert's broken energy in general relativity; the seminar that moved into her flat in 1933.
+
+## Physics (18)
 
 1. **[[Newton vs Hooke]]** — the first Newton priority fight, 1672–1703: the "Giants" letter as a barbed pun, the inverse-square letter, the missing portrait.
 2. **[[The 1919 Eclipse]]** — Eddington at Príncipe, Crommelin at Sobral: the Sobral plates discarded, and why that was calibration rather than cheating.
@@ -51,8 +62,20 @@ Born-in-Stories topics (the War of the Currents, Galois's duel…) have no pedag
 8. **[[The Blue LED]]** — thirty years of red and green; Nakamura's unhedged bet on gallium nitride, and the Nobel that Alfred Nobel's will was written for.
 9. **[[Franklin's Coin Flip]]** — the printer who invented plus and minus, conserved charge by double-entry bookkeeping, and guessed the mobile carrier's sign wrong.
 10. **[[The Bookbinder's Apprentice]]** — Faraday: the blacksmith's son who learned science from the books he bound and, unable to afford mathematics, drew the field instead.
+11. **[[Famous for the Wrong Thing]]** — Feynman: famous for the safes, the plate, the bongos, the ice water and a study method he never wrote; not for the diagrams that compute the electron's magnetism to eleven digits — run here, with the O-ring chart the engineers never drew.
 
-## Computing (13)
+12. **[[Henrietta Leavitt and the Cosmic Yardstick]]** — a glass-and-wire measuring tool, twenty-five variable stars, and the difference between finding a relationship and calibrating a cosmic ruler.
+
+13. **[[Ibn al-Haytham and the Question of Seeing]]** — the Nile legend kept uncertain, the dark-room experiment made testable, and a scholar who withdrew an earlier argument of his own.
+
+14. **[[The Nobel Prizes in the Beaker]]** — two medals dissolved during the occupation of Denmark; the tracer pioneer, recoverable gold, and the new medals that took years to return.
+15. **[[The Pigeons and the Beginning of Everything]]** — Penzias and Wilson clean the antenna, keep the unexplained number, and connect it to Princeton’s cosmological question.
+
+16. **[[A Letter from the Kitchen]]** — Pockels’s tin trough, ten years of measurements and the letter Rayleigh sent to Nature; scientific confidence inside a deferential envelope.
+17. **[[The Universe Has a Left Hand]]** — Wu, cold cobalt, detergent seals and wine in paper cups; an experiment makes nature answer the mirror question.
+18. **[[The Man Who Weighed a Muscle]]** — the soldier's son who hid his father's name: a strong young man, 26 pounds at the fingertips and a muscle pulling 560; exiled, sheltered by a queen and the Piarists, dead on the last night of 1679 with the book at the printer.
+
+## Computing (16)
 
 1. **[[The Boolean-to-Silicon Bridge]]** — 112 years from Sheffer's NAND theorem to a model named after Shannon; the hinge is a 1937 Master's thesis.
 2. **[[Turing at Bletchley]]** — Enigma and the Bombe, the Poles who broke it first, the ten thousand at Bletchley, and the 1952 conviction told with dignity.
@@ -67,18 +90,23 @@ Born-in-Stories topics (the War of the Currents, Galois's duel…) have no pedag
 11. **[[Space Travel]]** — an operating system exists because a video game cost $75 a play: Unix's origin in Ritchie's own words.
 12. **[[A Rich Neighbor Named Xerox]]** — PARC built the desktop in 1973 and could not sell it; Jobs's million-dollar ticket, the best comeback in the trade, the 1994 ruling.
 13. **[[Two Family Trees]]** — Unix's grafted oak (BSD, Mach, NeXT, Darwin; Minix, a Finnish hobby, Android, every supercomputer) beside VMS's single trunk (Cutler, NT); the 1992 "LINUX is obsolete" flame war, verbatim.
+14. **[[The Perceptron and Move 78]]** — 1958–2025: Rosenblatt's perceptron and the Navy's press conference, Minsky and Papert's XOR, two winters, back propagation's four inventors, Monte Carlo tree search, AlexNet on two gaming cards, AlphaGo's move 37 and Lee Sedol's move 78, and the transformer as the same recipe again.
 
-## Sound and speed (3)
+15. **[[Grace Hopper and the Nanosecond]]** — clocks taken apart, programs assembled from routines, FLOW-MATIC and COBOL with their collaborators, the moth legend checked, and a teacher handing out pieces of time.
+
+16. **[[Hedy Lamarr and the Frequency-Hopping Piano]]** — actor and composer, synchronized radios and a paper-roll proposal; the patent, the rejection story and the distinction between recognition and mythology.
+
+## Biology (1)
+
+1. **[[The Corn Wouldn’t Behave]]** — Barbara McClintock: the chromosome map, the changing address, and the coloured descendants that made jumping genes visible through their consequences.
+
+## Media and speed (4)
 
 1. **[[One Take, Many Tracks]]** — the history of recording as the history of gaining random access to time: Caruso's wax, Mullin's Magnetophons, Les Paul's overdubs.
 2. **[[The Loudness War]]** — what producers did with total control: the lacquer groove as referee, the CD removing the governor, and the race that followed.
 3. **[[From the Grid to the Garage]]** — how racing technology reaches the road, and where the road finally overtook: disc brakes at Le Mans, ground effect, the turbo.
 
-## Roadmap
-
-Titles waiting for their breath, not yet written: *Feynman — Famous for the Wrong Thing* · *Stats Lies Hall of Fame* · *Ramanujan and Hardy* · *Archimedes and the Soldier* · *Laplace and Napoleon* · *Cantor vs Kronecker* · *Hilbert vs Brouwer* · *Erdős the Wandering Mathematician*.
-
----
+4. **[[Layers]]** — Rejlander’s assembled photograph, Muybridge’s frozen gallop, Méliès’s seven selves, Reiniger and the multiplane camera, and the Knoll brothers: keeping the parts so you can change your mind.
 
 ## Card template
 
@@ -136,7 +164,7 @@ Primary and secondary sources, informal citation style.
 ## Tag scheme
 
 - `type/story` — every Stories card carries this.
-- `subject/mathematics`, `subject/physics`, `subject/cs` — several allowed for cross-domain stories.
+- `subject/mathematics`, `subject/physics`, `subject/computer-science` — several allowed for cross-domain stories.
 - `era/<century>` — `era/3bc`, `era/17c`, `era/20c`… the era of the *events*, not the writing.
 - `cast/<surname>` — one tag per major named figure, so the graph can answer "every story featuring Newton".
 - `region/<place>` — optional, where geography matters.

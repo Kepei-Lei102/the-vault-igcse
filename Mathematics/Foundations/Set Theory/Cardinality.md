@@ -16,7 +16,6 @@ tags:
   - curriculum/Cambridge-0580
   - curriculum/IB-AA
   - curriculum/IB-AI
-  - curriculum/AP
   - syllabus/0580-E1-2
   - curriculum/OxAQA-9260
   - syllabus/9260-N9
@@ -42,11 +41,14 @@ Cardinality is just counting: how many things are in the bag? Open the set, coun
 
 ### 中文锚点 (Chinese Anchor)
 
+数一数全班合照里有几个人，再数一数聚会上有几把椅子——"有多少个"根本不在乎这些东西是什么。小孩摆杯子的时候，不用数数也知道够不够：一个客人配一个杯子，最后谁都没落下、杯子也没剩，两边就一样多。基数说的就是这个"有多少个"：集合 $A$ 里不同元素的个数，记作 $n(A)$。名单上同一个名字写了两遍，也还是一个人，所以只数不同的元素。
+
+#### 术语对照
+
 基数（或元素个数）：集合中不同元素的数量。
 
 - $n(A)$ 读作 "集合 $A$ 的元素个数"
 - 中文教材有时写作 $\text{card}(A)$，但 $n(A)$ 最常见
-- IGCSE 只用 $n(A)$ 记法
 
 ## Notation
 
@@ -120,6 +122,16 @@ In $n(A \cup B) = n(A) + n(B) - n(A \cap B)$, students frequently forget the $- 
 - **Extended:** three-set Venn diagrams, inclusion-exclusion with three sets
 - Very common question type: "Given $n(\xi) = 40$, $n(A) = 15$, $n(B) = 20$, $n(A \cap B) = 8$. Find $n((A \cup B)')$."
 - Typical marks: 3–6 per question (multi-step)
+
+### OxAQA 9260 (Extension)
+
+- **N9 Sets** — $n(A)$ alongside $\xi$, $A \cup B$, $A \cap B$, $A'$; the same two- and three-set Venn counting as 0580, with the same inclusion–exclusion trap ($n(A \cup B) \ne n(A) + n(B)$ when they overlap).
+
+### IB Mathematics AA / AI
+
+- **SL 4.5 (both routes):** Venn diagrams appear as a probability tool — $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ is inclusion–exclusion divided by $n(\xi)$. The counting is this card's; the wording is probability's.
+
+**Not examined on** Cambridge 0606 (no set theory at all — the 0606 map says so explicitly), 9709 or 9231.
 
 ## Connections
 

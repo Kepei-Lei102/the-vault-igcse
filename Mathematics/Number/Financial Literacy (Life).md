@@ -12,13 +12,14 @@ tags:
   - subject/mathematics
   - domain/number
   - syllabus/0580-E1-16
-  - type/life-card
-  - topic/finance
-  - topic/financial-literacy
+  - type/life
+  - domain/finance
   - misconception/apr-vs-apy
   - misconception/advertised-vs-guaranteed-rate
   - misconception/equal-installment-vs-equal-principal
   - misconception/insurance-illustrated-vs-guaranteed-return
+  - curriculum/Cambridge-0580
+  - level/life
 ---
 
 # Financial Literacy 金融常识

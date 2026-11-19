@@ -17,11 +17,15 @@ tags:
   - level/A-Level
   - level/pre-IB
   - level/pre-AP
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
+  - curriculum/AP-Calculus-BC
   - syllabus/9709-3-6
   - syllabus/9709-2-6
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
+  - syllabus/IAL-P3-6-1
+  - syllabus/IAL-P3-6-2
+  - syllabus/IAL-FP1-3-1
   - type/algorithm
   - type/technique
   - notation/iteration
@@ -29,6 +33,8 @@ tags:
   - misconception/wrong-rearrangement
   - misconception/newton-raphson-trap
   - misconception/insufficient-precision
+  - curriculum/Cambridge-9709
+  - type/deep
 ---
 
 # Numerical Methods 数值方法
@@ -57,15 +63,11 @@ The hidden subject is **fixed-point theory**. All three methods are special case
 
 ### 中文锚点
 
-**数值方法**（shùzhí fāngfǎ）/ 数值逼近：当方程 $f(x) = 0$ 没有解析解（或解析解太复杂）时，用迭代算法生成一系列逐步逼近真解的近似值。9709 P3 §3.6 覆盖三种：
+调淋浴：太冷，往上拧；太烫，往回拧；每次拧得少一点，直到刚好。没有公式能算出该拧到哪里，每一次尝试都由上一次的结果来修正。方程没有公式可解时，数值方法就是这样解的。二分法像猜 1 到 100 之间的一个数，每猜一次范围减半：慢，但一定能猜到。不动点迭代把每次的答案重新代回同一个式子，落在式子不再改变它的那个地方。牛顿法顺着切线看它在哪里穿过零，直接跳过去——顺利时每一步都让正确的位数翻倍，不顺时偶尔会一下子飞走。
 
-1. **二分法**（bisection / 折半法）— 找一个区间 $[a, b]$ 使 $f(a)$ 和 $f(b)$ 异号，反复取中点，每次区间长度减半。慢但保证收敛。
-2. **不动点迭代**（fixed-point iteration / 迭代法）— 把 $f(x) = 0$ 改写为 $x = g(x)$，然后 $x_{n+1} = g(x_n)$。收敛条件：$\lvert g'(\alpha) \rvert < 1$ 在根 $\alpha$ 附近成立。
-3. **牛顿法 / 牛顿-拉夫森**（Newton-Raphson）— $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$。**收敛速度极快**（二阶收敛——正确小数位数每步翻倍），但有时会"跑飞"。
+### 术语对照
 
-**深层主题**：以上三种方法都是"迭代+寻找不动点"的特例。理解 *为什么* 收敛（Banach 不动点定理）比记住具体公式重要得多。
-
-中文教材里这一章通常叫"非线性方程的数值解"，侧重计算技巧。本卡兼顾计算技巧 + 收敛分析 + 几何直觉 + 跨学科应用（数值分析 / 控制论 / 机器学习里的优化都建立在这之上）。
+数值方法：numerical methods；二分法：bisection；不动点迭代：fixed-point iteration $x_{n+1} = g(x_n)$（收敛条件 $\lvert g'(\alpha) \rvert < 1$）；牛顿–拉夫森法：Newton–Raphson $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$；收敛：converge。
 
 ---
 
@@ -354,9 +356,22 @@ The student stops "when $x_n$ and $x_{n+1}$ agree to 4 decimal places" and think
 
 **Not in the 0606 syllabus.** Numerical methods is A-Level material; the 0606 student stops at closed-form solving (quadratics, cubics via factor theorem, etc.).
 
-### A-Level (Edexcel / AQA / OCR / MEI)
+### Cambridge 9709 P2 — §2.6
 
-Edexcel and AQA A-Level Pure include numerical methods in **Year 13 (A2) Pure**. Edexcel covers bisection, fixed-point iteration, and Newton-Raphson explicitly; AQA covers fixed-point iteration and Newton-Raphson, with bisection as a brief introductory technique. OCR's MEI Further Pure adds the **Secant method** (approximate Newton-Raphson where $f'(x_n)$ is replaced by a difference quotient).
+The same content sits on the AS paper as *§2.6 numerical solution of equations*: sign change to locate a root, an iteration $x_{n+1} = F(x_n)$ to a stated accuracy, and Newton–Raphson does **not** appear until P3. A P2 question is the fixed-point shape above without step 4.
+
+### Edexcel IAL — P3 §6.1–6.2 (and FP1 §3.1)
+
+- **P3.6.1** — location of roots by sign change (bisection is the tool the card teaches under §2); **P3.6.2** — iterative methods by a recurrence $x_{n+1} = f(x_n)$, with the cobweb/staircase reading of convergence. Question shape as for 9709 P3, minus Newton–Raphson.
+- **FP1.3.1** — interval bisection, **linear interpolation**, and Newton–Raphson. Linear interpolation (the secant step between two sign-change points) is the one method here the card treats only in its Beyond section — a Further candidate should learn the single-step formula $x = a - f(a)\,\dfrac{b-a}{f(b)-f(a)}$ from the Beyond section's secant method.
+
+### OxfordAQA 9660 — P2 §9
+
+*Location of roots by sign change* and *iterative methods $x_{n+1} = f(x_n)$ with staircase and cobweb diagrams* — the diagram is examined in its own right on this board: be able to draw $y = x$ and $y = f(x)$ and step between them.
+
+### Cambridge 9231
+
+No numerical-methods row on Further; the AS material is assumed.
 
 ### IB AA HL
 

@@ -18,6 +18,7 @@ leads_to:
   - "[[Information Theory]]"
   - "[[Lewis Carroll the Mathematician]]"
   - "[[The Boolean-to-Silicon Bridge]]"
+  - "[[Hilbert vs Brouwer]]"
 tags:
   - subject/mathematics
   - domain/logic
@@ -28,7 +29,6 @@ tags:
   - curriculum/Cambridge-0580
   - curriculum/Cambridge-0606
   - curriculum/IB-AA
-  - curriculum/AP
   - type/definition
   - type/methodology
   - notation/implies
@@ -63,6 +63,10 @@ When you write "if $x > 3$ then $x^2 > 9$," you're using logic — specifically,
 Logic has been there all along, hiding inside every proof in this vault. This card makes it visible.
 
 ### 中文锚点 (Chinese Anchor)
+
+妈妈说：“如果你考了全班第一，我就给你买手机。”结果有四种可能。你考了第一，也拿到了手机：说话算数。你考了第一，却什么也没拿到：妈妈食言了。你没考第一，也没拿到手机：理所当然。你没考第一，妈妈还是给你买了手机：她算不算食言？不算。她从来没说过没考第一会怎样。逻辑里的“如果 p，那么 q”正是这样：只有一种情况它是假的，就是 p 成立而 q 不成立。逻辑就是这样一套规则：简单的判断用“且”“或”“非”“如果……那么”连起来之后，整句话是真是假，由它来决定。所以一个推理对不对，只看它的形式就能检查，不用听谁的。
+
+#### 术语对照
 
 逻辑：**数学的语法。** 它告诉你怎样把"真"和"假"的判断组合成可靠的推理。
 
@@ -279,13 +283,16 @@ Every proof type from [[Chain of Thought]] has a logical skeleton:
 **Syllabus ref:** Cross-curricular; 0606 makes heavier use of "Hence" chains.
 
 - "Hence" means "use the result you just proved" — a direct application of modus ponens: you've established $p$ and $p \Rightarrow q$, now state $q$.
-- Proof by contradiction appears in selected topics (e.g., irrationality proofs).
+- 0606 names **no** proof technique: the nearest thing is §10.6, "prove trigonometric relationships", which is a chain of equalities, not a contradiction. Irrationality proofs are not on it.
 
 ### AP / IB / A-Level
 
 - **IB Mathematics AA HL:** Formal proof by contradiction and counterexample are explicitly assessed (Topic 1: Number and Algebra). Notation $\Rightarrow$, $\Leftrightarrow$ expected.
-- **A-Level Further Mathematics:** Proof by induction, contradiction, and exhaustion are named topics. Logic symbols are standard notation.
+- **Cambridge A-Level:** 9709 names no proof topic at all; 9231 FP1 §1.7 names **proof by induction** only ([[Proof by Induction]]). Contradiction and exhaustion are *used* in 9231 answers but never set as a topic.
+- **Edexcel IAL:** the one board that examines the logic of proof by name — P2 §1.1–1.3 (proof structure, exhaustion, disproof by counterexample) and P4 §1.1 (proof by contradiction: irrationality of $\sqrt2$, infinity of primes). Logic symbols are standard notation there.
 - **AP Calculus:** Logical structure tested through epsilon-delta definitions and "justify your answer" free-response prompts. Quantifiers are used implicitly: "for every $\varepsilon > 0$, there exists $\delta > 0$..."
+
+**Not examined on** Cambridge 0606 (no proof topic), 9709 (no proof topic) — and on 0580 and 9260 only as the reasoning inside "show that" questions, never as notation.
 
 ## Connections
 

@@ -15,6 +15,7 @@ tags:
   - type/vocabulary
   - notation/greek-letters
   - misconception/greek-letters-are-arbitrary
+  - level/enrichment
 ---
 
 # Greek Letters 希腊字母
@@ -27,11 +28,7 @@ Two habits are worth having from the start. **Capital Greek letters usually stan
 
 ### 中文锚点
 
-数学里的希腊字母不是随便选的：多数是因为**希腊字母的读音 = 那个英文单词的首字母**。$\sum$ = Sum（求和），$\mu$ = Mean（平均），$\Delta$ = Difference（差）。
-
-**大写**通常表示运算或整体（$\sum$ 求和、$\prod$ 连乘、$\Delta$ 变化量）；**小写**通常表示某个量或参数（$\sigma$ 标准差、$\theta$ 角度、$\lambda$ 波长）。
-
-英文考卷会直接把字母名念出来（"sigma x", "delta y", "theta"），所以**读法要会**——听不懂 "mu" 指的是 $\mu$，整道题就断在第一句。
+一个班里有三个同学都叫张伟，老师只好叫他们“大张”“小张”“四川张”，这样一喊，站起来的才是想叫的那个人。数学也碰到过同样的麻烦。常用的字母早就有了用处：x、y、z 表示未知数，a、b、c 表示常数，t 表示时间。再有新的量要起名字，数学家就借来第二套字母，也就是希腊字母，免得新名字和旧名字撞在一起。而且借得很讲究：希腊字母的读音，往往就是那个英文单词的首字母。Σ（sigma，相当于 S）表示求和 Sum；Δ（delta，相当于 D）表示差 Difference，也就是变化量；μ（mu，相当于 m）表示平均值 mean。所以 Δt 就读作“t 的变化量”。大写字母多半表示对一整组数做的事（Σ 把所有的数加起来），小写字母多半表示某一个量（σ 是标准差，θ 是角度）。读音也要会：别人说“sigma”，你脑子里要出现 Σ，而不是一片空白。
 
 ## Key Vocabulary
 

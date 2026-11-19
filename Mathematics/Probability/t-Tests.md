@@ -16,7 +16,6 @@ tags:
   - level/AP
   - level/IB
   - curriculum/Cambridge-9231
-  - curriculum/A-Level
   - curriculum/AP-Statistics
   - curriculum/IB-AI
   - syllabus/9231-4-2

@@ -36,7 +36,11 @@ Once you know what a circle's parts are called (see [[Circle Vocabulary (Vocab)]
 
 ### 中文锚点
 
-圆的周长 $C = 2\pi r$，面积 $A = \pi r^2$。弧长按角度比例分：$s = \frac{\theta}{360°} \cdot 2\pi r$；扇形面积 $A_{扇} = \frac{\theta}{360°} \cdot \pi r^2$。中国学生这些公式早就熟了 — 这张卡的重点是 **英文术语** 和 **精确答案留 $\pi$**。
+把一张披萨平均切成八块。每一块分到八分之一的饼边，也分到八分之一的披萨。弧长和扇形面积说的就是这个：它们占整个圆的比例，等于圆心角占一整圈的比例。圆心角为 $\theta$ 的一块，弧长是周长 $2\pi r$ 的 $\frac{\theta}{360}$，扇形面积是 $\pi r^2$ 的 $\frac{\theta}{360}$。不用另外背公式：先想整个圆，再乘上这个比例。能留 $\pi$ 的时候就留着："$4\pi$ 厘米"是完全准确的，而 12.57 厘米已经有一点点不准了，太早取近似，下一步只会更不准。
+
+#### 术语对照
+
+圆的周长 $C = 2\pi r$，面积 $A = \pi r^2$。弧长按角度比例分：$s = \frac{\theta}{360°} \cdot 2\pi r$；扇形面积 $A_{扇} = \frac{\theta}{360°} \cdot \pi r^2$。
 
 ## Core Formulas (Degrees)
 
@@ -111,11 +115,11 @@ Final answers in *exact* form unless the question demands a decimal.
 
 ### Cambridge 0580 Extended
 
-**E5.3** — Circumference, area, arc length, sector area. 2–4 marks per question; examiner rewards showing the fraction $\theta/360$ explicitly before substituting.
+**E5.3 *Circles, arcs and sectors*** — point 1: "calculations involving the circumference and area of a circle" (**formulas are given** in the list of formulas; answers may be asked for in terms of $\pi$); point 2: "arc length and sector area **as fractions of** the circumference and area of a circle", which **includes minor and major sectors**, so a reflex-angle sector is fair game. 2–4 marks per question; examiners reward showing the fraction $\theta/360$ explicitly before substituting.
 
 ### Cambridge 0606
 
-Arc/sector formulas reappear in **7.1 (Circular Measure)** using **radians** instead of degrees: $s = r\theta$ and $A_{\text{sec}} = \frac{1}{2} r^2 \theta$. Same geometry, cleaner formulas — see [[Radians]].
+Arc/sector formulas reappear in **section 9 *Circular measure* (9.1)** — "solve problems involving the arc length and sector area of a circle, including knowledge and use of radian measure"; **formulas are not given** there, unlike 0580 — using **radians** instead of degrees: $s = r\theta$ and $A_{\text{sec}} = \frac{1}{2} r^2 \theta$. Same geometry, cleaner formulas — see [[Radians]].
 
 ## Connections
 

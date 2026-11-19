@@ -40,6 +40,10 @@ The magnitude is *always non-negative*, and equals $0$ only for the zero vector 
 
 ### 中文锚点
 
+一架送货无人机先往东飞 3 公里，再往北飞 4 公里。它离起点有多远？不是 7 公里：向东和向北这两段路互相垂直，所以直线距离是斜边，$\sqrt{3^2 + 4^2} = 5$ 公里。这段直线距离就是向量 $(3, 4)$ 的模。分量说的是在每个方向上走了多远；模说的是这支箭有多长，勾股定理把前者变成后者。因为分量要平方，它们的正负号不影响结果：改成往西飞 3 公里，得到的还是 5 公里。到了三维，同样的想法只是多加一项平方：$\sqrt{x^2 + y^2 + z^2}$。只有零向量的模是 0。
+
+#### 术语对照
+
 **向量的模 (xiàngliàng de mó)** = **向量的长度** (length of a vector)。
 
 公式 (2D)：
@@ -123,7 +127,7 @@ Check: $\sqrt{0.6^2 + 0.8^2} = \sqrt{0.36 + 0.64} = \sqrt{1} = 1$ ✓.
 
 ### Cambridge 0580 / 0606
 
-**Syllabus ref:** E7.3 (0580) and §13.3 (0606). Standard patterns:
+**Syllabus ref:** 0580 **E7.3** *Magnitude of a vector* — calculate $\lvert\overrightarrow{AB}\rvert$; the syllabus fixes the notation, $\lvert\mathbf{a}\rvert$ for the magnitude of $\mathbf{a}$ and $\lvert\overrightarrow{AB}\rvert$ for that of $\overrightarrow{AB}$, and 0580 examines only two-dimensional column vectors. 0606 **13.3** — "find the magnitude of a vector; add and subtract vectors and multiply vectors by scalars", with unit vectors in 13.2. Standard patterns:
 
 - "Find the magnitude of the vector $\begin{pmatrix} 5 \\ -12 \end{pmatrix}$." ($\sqrt{25 + 144} = 13$.)
 - "A and B are points with position vectors $\mathbf{a} = \begin{pmatrix} 1 \\ 2 \end{pmatrix}$ and $\mathbf{b} = \begin{pmatrix} 4 \\ 6 \end{pmatrix}$. Find $\lvert \overrightarrow{AB} \rvert$." ($\overrightarrow{AB} = \mathbf{b} - \mathbf{a} = \begin{pmatrix} 3 \\ 4 \end{pmatrix}$, magnitude $5$.)

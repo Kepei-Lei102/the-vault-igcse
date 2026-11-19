@@ -32,6 +32,11 @@ tags:
   - type/definition
   - type/proof
   - notation/derivative
+  - curriculum/Cambridge-9709
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
+  - type/deep
+
 ---
 
 # Power Rule 幂法则
@@ -58,13 +63,11 @@ The proof below covers positive integers first, then extends to all rationals.
 
 ## 中文锚点 (Chinese Anchor)
 
-幂法则：**指数降下来当系数，指数减一**。
+取一个边长为 $x$ 的正方形，让边长长出一根头发丝那么多。新的面积是原来的正方形，加上沿两条边的一条细带——$2x$ 乘以头发丝——再加一个小到不值一提的角落。所以面积以 $2x$ 的速率增长：$x^2$ 的导数是 $2x$。让一个立方体同样地长，三个面各长出一层皮，所以 $x^3$ 以 $3x^2$ 增长。幂法则——把指数搬下来当系数，指数本身再减一——数的就是面：$n$ 维的盒子有 $n$ 个面，每个面的大小是 $x$ 的 $n - 1$ 次方，而新长出来的部分彼此交叠的那些碎块，随着头发丝一起消失。
 
-$$x^n \to nx^{n-1}$$
+### 术语对照
 
-例如：$x^5 \to 5x^4$，$3x^2 \to 6x$，$7 = 7x^0 \to 0$（常数的导数为零）
-
-为什么指数会"降下来"？因为$(x+h)^n$展开后，$x^n$消掉了，剩下的最大项是$nx^{n-1}h$，除以$h$就得到$nx^{n-1}$。这就是证明的核心——下面有完整推导。
+幂法则：power rule，$x^n \to nx^{n-1}$；例如 $x^5 \to 5x^4$，$3x^2 \to 6x$，常数 $7 = 7x^0 \to 0$。
 
 ## Proof — Positive Integer Case
 
@@ -249,6 +252,28 @@ Students mix these up. At 9260, only the power rule appears. At 0606/AP, both ap
 - 14.3 includes: $x^n$ for rational $n$
 - Students must rewrite expressions before differentiating (fractions, roots)
 - The power rule is one of many rules at 0606 — see [[Differentiation Rules]] for trig, $e^x$, $\ln x$
+
+### Cambridge 0580 Extended
+
+- **E2.12 (the 2025 syllabus onward):** differentiate $ax^n$ for integer $n \ge 0$ and sums of such terms; find gradients at a point and stationary points, and tell maxima from minima. The only differentiation at IGCSE, on the Extended papers only.
+
+### Cambridge 9709 — Paper 1 §1.7
+
+- $x^n$ for **any rational** $n$, sums, and the Chain Rule for composites; the Power Rule is assumed from the first question and is never examined alone — it arrives inside tangents, normals, stationary points and rates of change. Rewrite first ($\sqrt{x}$, $1/x^2$, $x\sqrt x$) is the recurring loss of marks.
+
+### Edexcel IAL and OxfordAQA 9660
+
+- IAL **P1 §4.2** and 9660 **P1.3** — differentiation of $x^n$ (rational $n$) and of polynomials; same rewrite-first discipline, same use inside tangent and stationary-point questions.
+
+### IB Mathematics AA and AI
+
+- **AA SL 5.3:** the derivative of $f(x) = ax^n$ and of sums; **AI SL 5.3** the same for integer $n$. Both on the formula booklet.
+
+### AP Calculus AB / BC
+
+- **Unit 2** (the map's row 2.6): derivatives of polynomials by the Power Rule, before the product and quotient rules; expected without hesitation on the non-calculator multiple choice.
+
+**Examined on every board the vault covers** — the differences are only in which exponents are allowed (whole numbers at 9260, 0580 and AI SL; rational $n$ from 0606 and 9709 upward).
 
 > [!tip] Physics bridge — the "$n$ times" rule for percentage uncertainties
 > Every Physics student has memorised: *"the percentage uncertainty in $V = \tfrac{4}{3}\pi r^3$ is **three times** the percentage uncertainty in $r$."* Where does that 3 come from? Power rule.

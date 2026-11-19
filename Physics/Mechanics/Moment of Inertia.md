@@ -9,13 +9,13 @@ prerequisites:
   - "[[Work, Energy and Power]]"
 leads_to:
   - "[[Angular Momentum]]"
+  - "[[The Kinetic Chain]]"
 tags:
   - subject/physics
   - subject/mathematics
   - domain/mechanics
   - level/A-Level
   - level/pre-AP
-  - curriculum/A-Level-Further
   - curriculum/IB-Physics
   - curriculum/AP-Physics-1
   - curriculum/AP-Physics-C-Mechanics
@@ -297,19 +297,19 @@ Applying $I_z = I_x + I_y$ to a sphere or cylinder.
 
 ## Exam Notes
 
-> Like [[Torque]], moment of inertia is **not** on Cambridge 9709 (particle mechanics only) or 9702 (which stops at the statics moment), and not on plain IB AA. It is Further / IB-Physics-HL / AP material.
+> Moment of inertia is **not** on Cambridge 9709 (particle mechanics only), 9702 (which stops at the moment of a force in statics) or 9231, and the Edexcel IAL specification on file does not contain the phrase. It is IB HL and AP material.
 
-### A-Level Further Mathematics (UK boards — Edexcel / AQA)
+### IB Physics, A.4 Rigid body mechanics (HL only)
 
-**Rotation of a rigid body about a fixed axis** — moment of inertia by integration, the parallel- and perpendicular-axis theorems, rotational KE $\tfrac12 I\omega^2$, and $\tau = I\alpha$ — is examined in **Edexcel** and **AQA** A-Level Further Mechanics (e.g. Edexcel Further Mechanics 2). It is **not** on **Cambridge 9231** (whose Further Mechanics stops at rigid-body *statics* — projectiles, equilibrium, circular motion, Hooke's law, variable force, momentum) and **not** on **Cambridge 9702** physics either (verified against the 9702 syllabus — it carries the torque of a couple as statics and "angular speed" for circular motion, but no rotational dynamics). A Cambridge student therefore meets $I$ only via the IB-Physics-HL or AP routes below.
+"There is no standard level content in A.4." The Additional higher level list includes "that the moment of inertia $I$ depends on the distribution of mass of an extended body about an axis of rotation", "the moment of inertia for a system of point masses as given by $I = \sum mr^2$", and "Newton's second law for rotation as given by $\tau = I\alpha$ where $\tau$ is the average torque"; rotational kinetic energy and angular momentum follow in the same list. The data booklet supplies the standard-shape formulas; deriving $I$ by integration is not required at IB.
 
-### IB Physics (A.4.3 — *HL only*)
+### AP Physics 1, Unit 5, and AP Physics C: Mechanics, Unit 5
 
-**A.4.3:** moment of inertia $I$ (qualitative dependence on mass distribution + given formulas), Newton's second law for rotation $\tau = I\alpha$, and rotational kinetic energy $\tfrac12 I\omega^2$. The IB data booklet supplies the standard-shape formulas.
+Both course descriptions carry Topic 5.4 "Rotational Inertia" and Topic 5.6 "Newton's Second Law in Rotational Form" (with 5.1 rotational kinematics, 5.2 connecting linear and rotational motion, 5.3 torque and 5.5 rotational equilibrium around them). AP 1 treats rotational inertia qualitatively and with given formulas; AP C derives $I = \int r^2\,dm$ for standard shapes and uses the parallel-axis theorem, then applies $\tau = I\alpha$ to pulleys, rods and rolling bodies. Rotational kinetic energy is Unit 6 on both.
 
-### AP Physics 1 (Unit 5.4) & AP Physics C: Mechanics (Units 5.4, 5.6)
+### Where this is *not* examined, and what is unverified
 
-**AP-1 (5.4)** treats rotational inertia largely qualitatively and with given formulas — no integration required. **AP-C** goes the full distance: **5.4** derives $I = \int r^2\,dm$ and uses the parallel-axis theorem, and **5.6** is Newton's second law in rotational form $\tau = I\alpha$. Both supply standard-shape results on the exam equation sheet.
+Cambridge 9702, 9709 and 9231; Cambridge 0625; Edexcel IAL; IB Physics SL. The earlier claim that Edexcel and AQA domestic A-level Further Mechanics examine rotation of a rigid body about a fixed axis is not verifiable from the specifications on file and is withdrawn as a claim; the mathematics in this card is still the standard university first-year treatment.
 
 ## Connections
 

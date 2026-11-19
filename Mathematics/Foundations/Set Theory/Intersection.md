@@ -16,13 +16,13 @@ tags:
   - curriculum/Cambridge-0580
   - curriculum/IB-AA
   - curriculum/IB-AI
-  - curriculum/AP
   - syllabus/0580-E1-2
   - curriculum/OxAQA-9260
   - syllabus/9260-N9
   - type/definition
   - type/vocabulary
   - notation/intersection
+  - curriculum/AP-Statistics
 ---
 
 # Intersection 交集
@@ -40,6 +40,10 @@ $$A \cap B = \{x : x \in A \text{ and } x \in B\}$$
 Intersection means **only the overlap**. What's in bag $A$ AND also in bag $B$? Just the things they share. If they share nothing, the intersection is empty.
 
 ### 中文锚点
+
+你和朋友各列一张自己爱吃的菜的单子，然后一起点菜：最保险的，是两份单子上都有的菜。这就是交集 $A \cap B$：同时属于 $A$ 和 $B$ 的元素。再加上第三个朋友的单子，能点的菜只会更少，不会更多——每多一个"而且"，就多筛掉一些。要是两份单子上连一道共同的菜都没有，交集就是空集，这两个集合叫作"互不相交"。
+
+#### 术语对照
 
 交集：$A \cap B$ — **同时**属于 $A$ 和 $B$ 的所有元素。
 

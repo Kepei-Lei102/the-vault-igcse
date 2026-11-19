@@ -1,0 +1,325 @@
+{
+ "assumptions": {
+  "body": {
+   "I1": 0.4,
+   "r1": 0.226,
+   "m2": 1.96,
+   "L2": 0.33,
+   "m3": 1.54,
+   "L3": 0.36,
+   "mb": 0.145
+  },
+  "tau0": [
+   120.0,
+   80.0,
+   40.0
+  ],
+  "wmax": [
+   15.0,
+   30.0,
+   30.0
+  ],
+  "start": [
+   -120.0,
+   -30.0,
+   -100.0
+  ],
+  "stops": [
+   [
+    -40.0,
+    100.0
+   ],
+   [
+    -140.0,
+    5.0
+   ]
+  ],
+  "kstop": 400.0,
+  "release": -15.0
+ },
+ "together": {
+  "onset_ms": [
+   0,
+   0,
+   0
+  ],
+  "release_ms": 104,
+  "hand_speed": 12.28,
+  "hand_kmh": 44.2,
+  "work_J": [
+   15.4,
+   20.2,
+   24.3
+  ],
+  "ke_J": [
+   0.1,
+   1.8,
+   57.9
+  ],
+  "omega_deg_s": [
+   48,
+   362,
+   1604
+  ],
+  "elbow_rel_deg_s": 1242,
+  "trunk_deg": -112,
+  "shoulder_rel_deg": -14,
+  "energy_check": 0.0
+ },
+ "sequence": {
+  "onset_ms": [
+   0,
+   84,
+   146
+  ],
+  "release_ms": 195,
+  "hand_speed": 18.11,
+  "hand_kmh": 65.2,
+  "work_J": [
+   67.8,
+   48.6,
+   5.0
+  ],
+  "ke_J": [
+   3.4,
+   1.7,
+   116.4
+  ],
+  "omega_deg_s": [
+   235,
+   132,
+   2618
+  ],
+  "elbow_rel_deg_s": 2486,
+  "trunk_deg": -73,
+  "shoulder_rel_deg": 15,
+  "energy_check": 0.0
+ },
+ "together_const": {
+  "onset_ms": [
+   0,
+   0,
+   0
+  ],
+  "release_ms": 73,
+  "hand_speed": 14.63,
+  "hand_kmh": 52.7,
+  "work_J": [
+   21.0,
+   -13.4,
+   59.3
+  ],
+  "ke_J": [
+   2.7,
+   2.6,
+   61.6
+  ],
+  "omega_deg_s": [
+   210,
+   -615,
+   2795
+  ],
+  "elbow_rel_deg_s": 3411,
+  "trunk_deg": -110,
+  "shoulder_rel_deg": -40,
+  "energy_check": -0.0
+ },
+ "sequence_const": {
+  "onset_ms": [
+   0,
+   65,
+   119
+  ],
+  "release_ms": 149,
+  "hand_speed": 28.51,
+  "hand_kmh": 102.6,
+  "work_J": [
+   56.4,
+   133.0,
+   64.2
+  ],
+  "ke_J": [
+   5.6,
+   10.9,
+   237.1
+  ],
+  "omega_deg_s": [
+   304,
+   -1218,
+   5424
+  ],
+  "elbow_rel_deg_s": 6642,
+  "trunk_deg": -93,
+  "shoulder_rel_deg": 37,
+  "energy_check": -0.0
+ },
+ "passive_elbow": {
+  "onset_ms": [
+   0,
+   86,
+   414
+  ],
+  "release_ms": 201,
+  "hand_speed": 17.86,
+  "hand_kmh": 64.3,
+  "work_J": [
+   70.3,
+   52.6,
+   0.0
+  ],
+  "ke_J": [
+   3.8,
+   2.6,
+   116.5
+  ],
+  "omega_deg_s": [
+   248,
+   222,
+   2492
+  ],
+  "elbow_rel_deg_s": 2270,
+  "trunk_deg": -71,
+  "shoulder_rel_deg": 20,
+  "energy_check": -0.0
+ },
+ "timing": [
+  {
+   "shift_ms": -60,
+   "ok": true,
+   "hand_speed": 15.92
+  },
+  {
+   "shift_ms": -40,
+   "ok": true,
+   "hand_speed": 17.15
+  },
+  {
+   "shift_ms": -20,
+   "ok": true,
+   "hand_speed": 17.88
+  },
+  {
+   "shift_ms": 0,
+   "ok": true,
+   "hand_speed": 18.11
+  },
+  {
+   "shift_ms": 20,
+   "ok": true,
+   "hand_speed": 17.96
+  },
+  {
+   "shift_ms": 40,
+   "ok": true,
+   "hand_speed": 17.86
+  }
+ ],
+ "timing_shoulder": [
+  {
+   "shift_ms": -60,
+   "ok": true,
+   "hand_speed": 17.33
+  },
+  {
+   "shift_ms": -40,
+   "ok": true,
+   "hand_speed": 17.69
+  },
+  {
+   "shift_ms": -20,
+   "ok": true,
+   "hand_speed": 17.99
+  },
+  {
+   "shift_ms": 0,
+   "ok": true,
+   "hand_speed": 18.11
+  },
+  {
+   "shift_ms": 20,
+   "ok": true,
+   "hand_speed": 17.94
+  },
+  {
+   "shift_ms": 40,
+   "ok": true,
+   "hand_speed": 17.25
+  },
+  {
+   "shift_ms": 60,
+   "ok": true,
+   "hand_speed": 16.08
+  }
+ ],
+ "weak_link": [
+  {
+   "trunk_fraction": 1.0,
+   "hand_speed": 18.11,
+   "arm_factor_to_restore": 1.0,
+   "arm_work_J": 53.7,
+   "arm_work_healthy_J": 53.6
+  },
+  {
+   "trunk_fraction": 0.8,
+   "hand_speed": 17.33,
+   "arm_factor_to_restore": 1.22,
+   "arm_work_J": 67.2,
+   "arm_work_healthy_J": 53.6
+  },
+  {
+   "trunk_fraction": 0.6,
+   "hand_speed": 16.79,
+   "arm_factor_to_restore": 1.47,
+   "arm_work_J": 77.0,
+   "arm_work_healthy_J": 53.6
+  }
+ ],
+ "ground": [
+  {
+   "stance_m": 0.4,
+   "friction_each_foot_N": 300,
+   "mu_needed": 0.87
+  },
+  {
+   "stance_m": 0.8,
+   "friction_each_foot_N": 150,
+   "mu_needed": 0.44
+  },
+  {
+   "stance_m": 1.3,
+   "friction_each_foot_N": 92,
+   "mu_needed": 0.27
+  }
+ ],
+ "ice": {
+  "mu": 0.05,
+  "trunk_torque": 22.3,
+  "onset_ms": [
+   0,
+   308,
+   383
+  ],
+  "release_ms": 432,
+  "hand_speed": 15.11,
+  "hand_kmh": 54.4,
+  "work_J": [
+   8.3,
+   63.2,
+   6.0
+  ],
+  "ke_J": [
+   2.5,
+   0.5,
+   74.4
+  ],
+  "omega_deg_s": [
+   -203,
+   59,
+   2442
+  ],
+  "elbow_rel_deg_s": 2383,
+  "trunk_deg": -85,
+  "shoulder_rel_deg": 59,
+  "energy_check": -0.0
+ }
+}

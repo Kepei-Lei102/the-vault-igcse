@@ -5,6 +5,7 @@ prerequisites:
   - "[[Radians]]"
   - "[[Graphs of Functions]]"
 leads_to:
+  - "[[Progressive Waves]]"
   - "[[Trigonometric Equations]]"
 tags:
   - subject/mathematics
@@ -14,18 +15,21 @@ tags:
   - level/IB
   - level/AP
   - curriculum/Cambridge-0606
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/0606-10-2
   - syllabus/0606-10-3
   - syllabus/9260-A12
   - type/deep
-  - type/visualization
+  - type/visual-tool
   - notation/amplitude
   - notation/period
   - misconception/period-formula-direction
   - misconception/tan-amplitude
+  - curriculum/OxAQA-9260
+  - curriculum/Cambridge-9709
+  - curriculum/Edexcel-IAL
+  - curriculum/Cambridge-0580
+
 ---
 
 # Trigonometric Graphs 三角函数图像
@@ -197,24 +201,32 @@ For example, $y = \tan(2x)$ has asymptotes at $x = \pi/4, 3\pi/4, 5\pi/4, \dots$
 
 ## Exam Notes
 
-### Cambridge 0606
+### Cambridge 0606 (Additional Mathematics), §10.2–10.3
 
-**Syllabus refs:** §10.2 (relationship between related trig graphs; amplitude and period) and §10.3 (sketch and use $y = a\sin(bx) + c$, $y = a\cos(bx) + c$, $y = a\tan(bx) + c$). The Cambridge form is **without phase shift** — vertical shift only. Expect 4–6 mark questions covering:
-
-- "Sketch $y = 2\cos(3x) + 1$ for $0° \le x \le 360°$, marking key features."
-- "The graph shows $y = a\sin(bx) + c$. Find $a$, $b$, $c$."
-- Combination with [[Trigonometric Equations]]: "Hence solve $a\sin(bx) + c = 0$ on the given domain" — read the $x$-intercepts off the sketch.
+10.2 "Understand and use the amplitude and period of a trigonometric function, including the relationship between graphs of related trigonometric functions", e.g. $y = \sin x$ and $y = 3\sin 2x$, "The period may be in either degrees or radians". 10.3 "Draw and use the graphs of $y = a\sin bx + c$, $y = a\cos bx + c$, $y = a\tan bx + c$, where $a$ is a positive integer, $b$ is a simple fraction or integer, and $c$ is an integer"; "Graphs will be drawn over a given domain which may be in either degrees or radians"; for the tangent "the $x$-coordinate of any asymptote should be clearly labelled"; "Fractions will have a denominator of 2, 3, 4, 6 or 8 only". No phase shift on 0606. Typical: sketch $y = 2\cos 3x + 1$ on $0° \le x \le 360°$; read $a$, $b$, $c$ off a given graph; "hence solve" from the sketch ([[Trigonometric Equations]]).
 
 > [!tip] Cambridge degrees vs radians
 > 0606 problems mix degrees and radians. The setup ($y = a\sin(bx) + c$, $-180° \le x \le 180°$) determines which to use. **In radians, $T = 2\pi/b$. In degrees, $T = 360°/b$.** The formula structure is identical; only the unit-of-a-full-cycle changes ($2\pi$ vs $360°$).
 
-### A-Level / 9709
+### Cambridge 9709 (AS Level), Paper 1 §1.5
 
-A-Level extends to **phase shift**: $y = a\sin(b(x - h)) + k$. The horizontal translation $h$ shifts the graph right by $h$ units (note: *inside* the function in the form $b(x - h)$, *outside* in the form $bx + c$ where $c = -bh$ and the shift is $-c/b$). The "inside-is-backwards" rule from [[Graphs of Functions]] applies.
+"Sketch and use graphs of the sine, cosine and tangent functions (for angles of any size, and using either degrees or radians)", with the syllabus's own examples $y = 3\sin x$, $y = 1 - \cos 2x$ and $y = \tan\!\left(x + \tfrac14\pi\right)$. That last example is the phase shift 0606 leaves out: the horizontal translation inside the bracket, $y = a\sin(b(x - h)) + k$, shifts the graph right by $h$, and in the form $bx + c$ the shift is $-c/b$ (the "inside-is-backwards" rule of [[Graphs of Functions]]).
 
-### IB AA HL & AP Calculus
+### OxfordAQA 9260 (IGCSE), Extension only
 
-Same content as A-Level, plus *phase shift questions* are exam-standard. AP also tests trig graphs in the context of differentiation (where do max/min occur? what's $f'(x_0)$ on the graph?) and integration (signed area between the graph and $x$-axis).
+**Syllabus ref:** A12, Extension: "the trigonometric functions (with arguments in degrees) $y = \sin x$, $y = \cos x$ and $y = \tan x$ for angles of any size". The basic graphs only; amplitude and period transformations are not named.
+
+### Cambridge 0580 (IGCSE), Extended only
+
+**Syllabus ref:** E6.4: "Recognise, sketch and interpret" $y = \sin x$, $y = \cos x$, $y = \tan x$ for $0° \le x \le 360°$. Basic graphs, degrees, no transformations.
+
+### Edexcel IAL (P1), §3.3
+
+"Sine, cosine and tangent functions. Their graphs, symmetries and periodicity", with $y = 3\sin x$, $y = \sin\!\left(x + \tfrac{\pi}{6}\right)$ and $y = \sin 2x$ named as expected knowledge: amplitude, phase shift and period, all at AS.
+
+### Where this is *not* examined, and what is unverified
+
+Cambridge 0580 Core and OxfordAQA 9260 Core have no trigonometric graphs. AP Precalculus and AP Calculus course descriptions and the IB Mathematics guides were not swept for this row; the earlier "IB AA HL & AP Calculus" paragraph is withdrawn rather than left unverified.
 
 ---
 

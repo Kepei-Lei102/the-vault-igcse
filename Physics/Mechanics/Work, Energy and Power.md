@@ -7,6 +7,7 @@ prerequisites:
   - "[[Force (Vocab)]]"
   - "[[Area Under a Graph (Vocab)]]"
 leads_to:
+  - "[[Electric Potential]]"
   - "[[Choosing Effective Equations]]"
   - "[[Conservation of Energy]]"
   - "[[Kinetic Theory and the Ideal Gas]]"
@@ -25,6 +26,10 @@ leads_to:
   - "[[Projectile Motion]]"
   - "[[Elastic Strings and Springs]]"
   - "[[Linear Motion under a Variable Force]]"
+  - "[[Wave-Particle Duality]]"
+  - "[[The Solar System]]"
+  - "[[The Kinetic Chain]]"
+  - "[[Tendons as Springs]]"
 tags:
   - subject/physics
   - subject/mathematics
@@ -34,7 +39,6 @@ tags:
   - curriculum/Cambridge-9709
   - curriculum/Cambridge-9702
   - curriculum/Cambridge-0625
-  - curriculum/A-Level
   - curriculum/IB-AA
   - curriculum/IB-Physics
   - curriculum/AP-Physics-1
@@ -386,35 +390,31 @@ It's not. Work is the *dot product* of two vectors (force and displacement), whi
 
 ## Exam Notes
 
-### Cambridge 9709 Paper 4 (Mechanics, AS) — §4.5
+### Cambridge 9709 (AS Level), Paper 4 §4.5
 
-**In scope:** $W = Fd \cos\theta$ (no scalar product notation — write it as a scalar formula); KE, GPE; work-energy theorem; energy conservation; $P = W/t$ and $P = Fv$; instantaneous-acceleration on a hill problems.
+"Understand the concept of the work done by a force, and calculate the work done by a constant force when its point of application undergoes a displacement not necessarily parallel to the force", $W = Fd\cos\theta$, with "Use of the scalar product is not required"; gravitational potential and kinetic energy "and use appropriate formulae"; "the relationship between the change in energy of a system and the work done by the external forces, and use in appropriate cases the principle of conservation of energy", "Including cases where the motion may not be linear (e.g. a child on a smooth curved 'slide')"; and power "as the rate at which a force does work", including average power and $P = Fv$ for a vehicle whose engine works at a constant rate.
 
-**Common phrasings:**
-- "Work done against resistance" — the resistance is doing negative work; equivalently, the body is doing positive work against it.
-- "Use an energy method" — explicit framework cue.
-- "Engine works at constant rate" — $P$ is constant; vary $v$ → vary $F$.
-- "Steady speed" — $a = 0$, driving force = resistance.
+**Common phrasings:** "work done against resistance"; "use an energy method"; "engine works at constant rate" ($P$ constant, so $F$ varies with $v$); "steady speed" ($a = 0$, driving force equals resistance). Paper 4 has no formula sheet.
 
-> [!info] On the 9709 data sheet
-> Paper 4 has no data sheet of its own. KE = ½mv², GPE = mgh, P = Fv, work-energy theorem — all language to memorise.
+### Cambridge 9702 (A Level Physics), §5.1 and §5.2
 
-### Cambridge 9702 (A-Level Physics) — §5.1, §5.2
+§5.1: "understand the concept of work, and recall and use work done = force × displacement in the direction of the force"; "recall and apply the principle of conservation of energy"; efficiency "as the ratio of useful energy output from the system to the total energy input", and problems with it; "define power as work done per unit time"; "solve problems using $P = W/t$"; "derive $P = Fv$ and use it to solve problems". §5.2: "derive, using $W = Fs$, the formula $\Delta E_p = mg\Delta h$", "recall and use" it; "derive, using the equations of motion, the formula for kinetic energy $E_K = \tfrac12 mv^2$", "recall and use" it. Both derivations in this card are examinable. The formulae page lists kinetic energy and power.
 
-§5.1 covers energy conservation, $W = Fs\cos\theta$, KE, GPE, work-energy theorem, efficiency.
-§5.2 covers $P = W/t$ and $P = Fv$ explicitly.
+### Cambridge 0625 (IGCSE Physics), §1.7
 
-> [!info] On the 9702 data sheet
-> The data sheet **gives** $W = Fs$ but not the cosθ version, $E_K = \tfrac{1}{2} mv^2$ (under "Formulae"), $W = Fd\cos\theta$ (no — only the parallel-force form is given). Power formulas not given. Worth memorising.
+§1.7.1 Core: energy "stored as kinetic, gravitational potential, chemical, elastic (strain), nuclear, electrostatic and internal (thermal)"; transfers between stores "by forces (mechanical work done), electrical currents (electrical work done), heating, and by electromagnetic, sound and other waves"; conservation of energy with simple flow diagrams. Supplement: "$E_k = \tfrac12 mv^2$", "$\Delta E_p = mg\Delta h$", and conservation "applied to complex examples involving multiple stages, including the interpretation of Sankey diagrams". §1.7.2 Core: "mechanical or electrical work done is equal to the energy transferred", "$W = Fd = \Delta E$". §1.7.4 Core: power "as work done per unit time and also as energy transferred per unit time", $P = W/t$ and $P = \Delta E/t$. Energy resources are §1.7.3. **$P = Fv$ is not on 0625**; the earlier "Extended: $P = Fv$" is corrected.
 
-### Cambridge 0625 (IGCSE Physics) — §1.7
+### IB Physics, A.3 Work, energy and power (SL and HL)
 
-Core: forms of energy; $\text{KE} = \tfrac{1}{2}mv^2$, $\text{GPE} = mgh$; $W = Fs$; $P = W/t$; efficiency. Renewable / non-renewable energy sources qualitative.
-Extended: conservation of energy quantitatively; $P = Fv$.
+"That work done by a force is equivalent to a transfer of energy"; "that work done by the resultant force on a system is equal to the change in the energy of the system"; "that power developed $P$ is the rate of work done, or the rate of energy transfer", $P = \dfrac{\Delta W}{\Delta t} = Fv$; and efficiency "in terms of energy transfer or power". 8 hours, no additional HL content.
 
-### A-Level Mathematics Mechanics, IB AA, AP Physics 1 / C: Mechanics
+### AP Physics 1 and AP Physics C: Mechanics, Unit 3
 
-A-Level Mechanics 2 (M2) extends to power and energy with variable force, integrating $F$ over distance. IB AA HL Mechanics same. AP Physics 1 covers conceptually; AP Physics C: Mechanics adds the integral form $W = \int \mathbf{F} \cdot d\mathbf{r}$ and conservative-vs-non-conservative force analysis with potential-energy functions.
+Topics 3.1 Translational Kinetic Energy, 3.2 Work, 3.3 Potential Energy, 3.4 Conservation of Energy and 3.5 Power on both; AP C's work is $\int \mathbf{F}\cdot d\mathbf{r}$ and its potential energy is defined through $F = -\dfrac{dU}{dx}$.
+
+### Where this is *not* examined, and what is unverified
+
+Cambridge 0580, 0606 and 9260 have no mechanics. The IB Mathematics AA guide is not on file (its tag is customary, not verified); the domestic UK boards' "M2 variable force" claim from an earlier version is not on file and is withdrawn.
 
 ---
 
@@ -445,11 +445,13 @@ A-Level Mechanics 2 (M2) extends to power and energy with variable force, integr
 - **Prerequisite:** [[Vectors]] — work as the dot product of force and displacement.
 - **Prerequisite:** [[Force (Vocab)]] — the cast of forces that may or may not do work.
 - **Prerequisite:** [[Area Under a Graph (Vocab)]] — work as the area under an F-s graph (analogous to impulse as area under F-t).
+- **Energy traded round an orbit:** [[The Solar System]] — a comet falling towards the Sun turns gravitational potential energy into kinetic energy and back, sixty-fold in speed for Halley's.
 - **Sibling:** [[Linear Momentum]] — momentum is to time as energy is to position; impulse is to F-t as work is to F-s. The two cards are best read together.
 - **Application:** [[Choosing Effective Equations]] — the energy-method framework is a major one in M1 problem-recognition; "use an energy method" is the explicit cue; constant-speed-with-power and ladder/slope-with-known-distances both reach for energy methods.
 - **Cross-domain:** **[[Conservation of Energy]]** — the master conservation law of physics; one of the three in Noether's trio.
 - **Cross-domain:** [[Thermodynamics]] — first law of thermodynamics is energy conservation including heat; entropy and the second law are the *next* deep idea.
 - **Cross-domain:** [[Lagrangian Mechanics]] — the energy-based reformulation of all of classical mechanics; lives at the university-level end of the bridge.
+- **Leads to:** [[Wave-Particle Duality]] — the electronvolt as the work done by one volt on one electron, and the photoelectric energy ledger hf = Φ + ½mv².
 
 ---
 

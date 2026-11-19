@@ -15,7 +15,6 @@ tags:
   - curriculum/Cambridge-9709
   - curriculum/Cambridge-9702
   - curriculum/Cambridge-0625
-  - curriculum/A-Level
   - curriculum/IB-AA
   - curriculum/IB-Physics
   - curriculum/AP-Physics-1
@@ -43,15 +42,11 @@ The word *normal* here is the geometry sense — **perpendicular** (法向 in Ch
 
 ### 中文锚点
 
-**法向力 (fǎxiàng lì)** = 接触面**垂直**方向上的分力。
-**支持力 (zhīchí lì)** = 同义，强调它"撑住"物体不让它陷进表面。
+站在电梯里的体重秤上。电梯刚往上启动时，读数变大；快到顶层减速时，读数变小；可你的重力，也就是地球对你的拉力，一直没变。所以体重秤量的其实不是重力，而是地板往上推你的力有多大。这个推力就是法向力（也叫支持力）：它总是垂直于接触面，总是把你往外推，从来不会往里拉。它也没有自己的公式：表面需要推多大，它就推多大，正好让你不陷进去。电梯静止时，它刚好托住你；电梯要把你往上加速时，它就得推得更用力。如果电梯自由下落，地板和你一起往下掉，根本推不着你，秤上的读数就是零。
 
-中文物理通常叫"支持力"，更直观；英文 Cambridge 用 *normal force* 或 *normal contact force*，更准确。两者完全等价。
+#### 术语对照
 
-考试关键：
-- 方向**永远垂直于接触面**，**指离表面**
-- 大小由**N2 在垂直方向上的方程**决定 — *not* by a fixed formula
-- $N \geq 0$ — 表面只能**推**，不能拉
+**法向力 (fǎxiàng lì)** = normal force，也叫 normal contact force；**支持力 (zhīchí lì)** 是同一个力，强调它"撑住"物体不让它陷进表面。方向永远垂直于接触面、指离表面；大小由垂直方向上的牛顿第二定律决定；$N \geq 0$，表面只能推，不能拉。
 
 ---
 

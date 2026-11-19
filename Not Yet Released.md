@@ -3,8 +3,8 @@
 > These cards **exist** and are written. They are simply not part of your
 > course yet — they arrive as we reach them.
 
-> **Edition** `student-2026-09-02` · built 2026-09-04 from commit `47b4330` + uncommitted changes  
-> 319 cards · 348 diagrams · 50 explainers · 91 illustrations
+> **Edition** `student-2026-11-19` · built 2026-11-19 from commit `3ea237a`  
+> 413 cards · 594 diagrams · 111 explainers · 147 illustrations
 
 ---
 
@@ -23,12 +23,15 @@ the agent reading this vault knows the difference.
 
 ## CS
 
+- Affective Computing
+- Anatomy of a Tech Stack
 - Arrays
+- Artificial Intelligence
 - Assembly Language
+- Automated Systems and Robotics
 - Balanced Trees
 - Big-O Notation
 - Binary Trees
-- Bitwise Operations
 - Boolean Algebra
 - CISC vs RISC
 - CPU Architecture and the Fetch-Execute Cycle
@@ -36,9 +39,17 @@ the agent reading this vault knows the difference.
 - Clock Domains and Metastability
 - Compilers and Interpreters
 - Compression
+- Data Protection and Privacy
+- Data Security
+- Digital Audio Workstation
+- Digital Currency and Blockchain
 - Embedded Systems
+- Encryption
 - Error Detection and Correction
+- Ethics and Ownership
 - File Handling
+- File Processing and Exception Handling
+- File Systems
 - Flip-Flops
 - Floating-Point Representation
 - Graphs
@@ -46,22 +57,34 @@ the agent reading this vault knows the difference.
 - Gödel's Incompleteness Theorems
 - Half-Adder and Full-Adder
 - Hash Tables
-- Image Encoding
+- Heaps and Priority Queues
+- How a Chip Is Made
+- How a Language Model Works
 - Information Theory
 - Input and Output Devices
 - Interrupt Handling
+- Java Arrays and ArrayList
+- Java Classes
+- Java Control Flow
+- Java Objects, References and Strings
+- Java Values and Expressions
 - Karnaugh Maps
 - Linked List
-- Logic Gates
+- Memory Allocation and the Heap
+- Networks
 - NoSQL and Distributed Data
-- Number Bases
 - Object-Oriented Programming
 - Operating Systems
 - Overflow and Underflow
 - P vs NP
 - Parallel and External Sorting
 - Pipelining and Simultaneous Multithreading
+- Privacy-Preserving Computation
 - Program Design
+- Program Development Life Cycle and Testing
+- Programming Fundamentals
+- Programming Paradigms
+- RAID
 - RAM and the Memory Hierarchy
 - Recursion
 - Relational Databases
@@ -70,12 +93,12 @@ the agent reading this vault knows the difference.
 - Secondary Storage
 - Sensors and Control Systems
 - Sorting
-- Sound Encoding
 - Stacks and Queues
-- Storage Units (Vocab)
-- Text Encoding
+- The GPU — From Triangles to Tensors
+- The Internet and the Web
+- The Modern CPU vs the Textbook Model
 - The Turing Test
 - Turing Machine
-- Two's Complement
 - User-Defined Data Types
+- Version Control
 - Von Neumann machine

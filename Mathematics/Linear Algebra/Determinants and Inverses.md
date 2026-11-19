@@ -4,7 +4,9 @@ prerequisites:
   - "[[Matrix]]"
   - "[[Identity Matrix]]"
   - "[[Matrix Transformations]]"
+  - "[[Laplace and Napoleon]]"
 leads_to:
+  - "[[Multiple Integrals]]"
   - "[[Invariant Points and Lines]]"
   - "[[Eigenvalues and Eigenvectors]]"
   - "[[Linear Systems in 3D]]"
@@ -16,7 +18,6 @@ tags:
   - curriculum/Cambridge-9231
   - curriculum/Edexcel-IAL
   - curriculum/IB-AI
-  - curriculum/AP
   - syllabus/9231-1-4
   - type/definition
   - type/proof
@@ -26,6 +27,7 @@ tags:
   - misconception/det-scalar-multiple
   - misconception/inverse-product-order
   - misconception/adjugate-transpose
+  - type/deep
 ---
 
 # Determinants and Inverses 行列式与逆矩阵
@@ -61,18 +63,11 @@ The two meet at zero. If $\det \mathbf{M} = 0$, the unit square is crushed to a 
 
 ### 中文锚点 (Chinese Anchor)
 
-这一对名字，中英文各讲了故事的一半：
+在屏幕上把照片横向拉宽，你还能再压窄，把它恢复原样。可如果把整张照片彻底压成一条线，原来左右分开的像素就叠到一起了：只看这条线，已经分不清每个点原来在哪里。对平面上的线性变换，行列式为零就意味着这样的面积塌缩。逆矩阵之所以不存在，不是“算不出来”，而是信息已经混在一起，根本没有唯一的原样可恢复。
 
-- **行列式** 的字面意思是"由**行**与**列**构成的式子" —— 中文名告诉你它是**怎么算出来**的（把行和列的元素按规则乘起来加减）。
-- 英文 **determinant** 来自 *determine*（决定）—— 英文名告诉你它是**干什么用**的：这个数**决定**矩阵是否可逆（determinant *determines* invertibility）。
+### 术语对照
 
-两个名字合在一起，才是完整的概念：按行列算出一个数，这个数决定矩阵的命运。
-
-**逆矩阵** 的"逆"与逆运算的"逆"同源：$\mathbf{M}^{-1}$ 之于 $\mathbf{M}$，如同 $\div 3$ 之于 $\times 3$ —— 撤销上一步。**奇异矩阵**（singular）即 $\det = 0$、不可逆的矩阵。
-
-中国教材里 $3\times3$ 行列式常用**对角线法则**（Sarrus 法则：三条主对角线相加、三条副对角线相减）。它只对 $3\times3$ 成立，$4\times4$ 以上完全失效；下文的**余子式展开**（cofactor expansion）才是对任何阶数都成立的原理。法则是技巧，展开是原理——技巧失效时退回原理。
-
-三个配套术语，下文逐一登场：**余子式**（minor，划掉一行一列后剩下的行列式）、**代数余子式**（cofactor，余子式带上棋盘格正负号）、**伴随矩阵**（adjugate，代数余子式矩阵的转置）。
+行列式：determinant；逆矩阵：inverse matrix；奇异矩阵：singular matrix（不可逆）。余子式：minor；代数余子式：cofactor（余子式加上正负号）；伴随矩阵：adjugate（代数余子式矩阵的转置）。对角线法则（Sarrus rule）只适用于 $3\times3$；一般阶数用余子式展开（cofactor expansion）。
 
 ## Notation
 
@@ -360,6 +355,8 @@ The determinant scales to $n \times n$ as signed $n$-volume, but cofactor expans
 
 ## Connections
 
+- **Area extension:** [[Lagrange's Identity]] — a Gram determinant equals a sum of squared coordinate-plane minors.
+
 - **Parent:** [[Matrix]] — the operations, and the non-commutativity that makes inverse order matter.
 - **Defining partner:** [[Identity Matrix]] — the inverse is *defined* by reaching $\mathbf{I}$; "undo" has no meaning without "do nothing".
 - **Geometric context:** [[Matrix Transformations]] — columns as images of basis vectors is what makes det-as-area readable.
@@ -368,6 +365,7 @@ The determinant scales to $n \times n$ as signed $n$-volume, but cofactor expans
 - **Same expansion elsewhere:** [[Cross Product]] — the $\mathbf{i}, \mathbf{j}, \mathbf{k}$ formula is a $3\times3$ cofactor expansion, and the scalar triple product is det-as-volume in vector clothing.
 - **Extension:** [[Eigenvalues and Eigenvectors]] — $\det(\mathbf{A} - \lambda\mathbf{I}) = 0$ turns the singularity test into a search: *for which $\lambda$ does $\mathbf{A} - \lambda\mathbf{I}$ collapse?*
 - **For 9231 students:** [[MF19 Reference (9231)]] — nothing from this card is on the formula sheet; the $2\times2$ inverse formula and the cofactor method live in your head.
+- **Story:** [[Stories/Laplace and Napoleon]] — cofactor expansion is Laplace expansion, from his 1772 planetary equations; the rest of his life, seven regimes and one famous sentence.
 
 ---
 

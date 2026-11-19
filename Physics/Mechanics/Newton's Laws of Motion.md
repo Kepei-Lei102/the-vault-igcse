@@ -28,7 +28,6 @@ tags:
   - curriculum/Cambridge-9709
   - curriculum/Cambridge-9702
   - curriculum/Cambridge-0625
-  - curriculum/A-Level
   - curriculum/IB-AA
   - curriculum/IB-Physics
   - curriculum/AP-Physics-1
@@ -357,45 +356,35 @@ Only when the rope has mass. The standard exam phrase **light inextensible strin
 
 ## Exam Notes
 
-### Cambridge 9709 Paper 4 (Mechanics) — §4.4
+### Cambridge 9709 (AS Level), Paper 4 §4.4
 
-The four examples above cover almost everything Paper 4 §4.4 asks for:
-- $F = ma$ on a horizontal surface, with friction
-- Motion on an inclined plane (smooth or rough — friction added later from §4.1)
-- Connected particles over a smooth peg or pulley
-- Connected particles via tow-bar or rope (car / trailer)
-
-Use $g = 10$ m/s². Vector notation will not appear — use scalar resolved-component arithmetic. Air resistance is included only when explicitly mentioned.
+"Apply Newton's laws of motion to the linear motion of a particle of constant mass moving under the action of constant forces, which may include friction, tension in an inextensible string and thrust in a connecting rod" (other resisting forces such as air resistance only "if indicated in the question"); "use the relationship between mass and weight", $W = mg$, with "use of the approximate numerical value 10 (m s⁻²) for $g$ is expected"; motion "vertically or on an inclined plane with constant acceleration", including a rough plane where the acceleration differs up and down; and "the motion of connected particles", e.g. "particles connected by a light inextensible string passing over a smooth pulley, or a car towing a trailer". The four worked examples above are exactly those four bullets. No vector notation; resolve into components.
 
 > [!info] On the 9709 data sheet
-> Paper 4 has no formula sheet of its own — every result must come from $F = ma$, $W = mg$, plus the SUVAT formulas and energy formulas covered in the relevant rows. *No equation in this card is given on Paper 4*; the laws and their derivatives are language to memorise.
+> Paper 4 has no formula sheet of its own — every result must come from $F = ma$, $W = mg$, plus the SUVAT formulas and energy formulas covered in the relevant rows.
 
-### Cambridge 9702 (A-Level Physics) — §3.1
+### Cambridge 9702 (A Level Physics), §3.1 Momentum and Newton's laws of motion
 
-Same three laws, with two extras:
-- $\mathbf{F} = d\mathbf{p}/dt$ is examined directly (variable-mass and impulse questions).
-- Vector notation appears explicitly. Forces are bolded; resolution is into $\mathbf{i}, \mathbf{j}$ components on flat questions and along/perpendicular on inclines.
-- $g = 9.81$ m/s² (data sheet).
+"Understand that mass is the property of an object that resists change in motion"; "recall $F = ma$ and solve problems using it, understanding that acceleration and resultant force are always in the same direction"; "define and use linear momentum as the product of mass and velocity"; "define and use force as rate of change of momentum"; "state and apply each of Newton's laws of motion"; and weight "as the effect of a gravitational field on a mass", equal to $mg$. So $F = \dfrac{dp}{dt}$ is examined directly (variable-mass and impulse questions belong to [[Linear Momentum]]); $g = 9.81$ m s⁻² from the data page.
 
-> [!info] On the 9702 data sheet (page 2 of Papers 1, 2, 4)
-> The data sheet gives $g = 9.81$ m/s² and the SUVAT formulas $s = ut + \tfrac12 at^2$, $v^2 = u^2 + 2as$. **It does NOT give $F = ma$ or $W = mg$** — those are language, you write them down.
+> [!info] On the 9702 formulae page
+> The syllabus's formulae page lists the uniformly accelerated motion equations, kinetic energy and power; it does not print $F = ma$ or $W = mg$, which candidates write from memory.
 
-### Cambridge 0625 (IGCSE Physics) — §1.5
+### Cambridge 0625 (IGCSE Physics), §1.3 and §1.5.1
 
-IGCSE depth: Hooke's law, F = ma, weight = mg, terminal velocity (qualitative). N3 is in the Core syllabus as a phrase ("equal and opposite") without the misconception drill. Use the maths card lightly here — most 0625 mechanics questions are computational, not conceptual.
+§1.3: weight as the gravitational force, $W = mg$. §1.5.1 Core: "Know that forces may produce changes in the size and shape of an object"; "Determine the resultant of two or more forces acting along the same straight line"; "Know that an object either remains at rest or continues in a straight line at constant speed unless acted on by a resultant force" (the first law, as a sentence); "State that a resultant force may change the velocity of an object by changing its direction of motion or its speed". Supplement: "Recall and use the equation $F = ma$ and know that the force and the acceleration are in the same direction" and the qualitative circular-motion statements. The third law is not a named row in §1.5.1 as swept; the springs, load–extension graphs and the limit of proportionality in the same section are [[Hooke's Law for Springs]].
 
-### A-Level Mathematics (9709, AQA, OCR, Edexcel) and IB AA HL
+### IB Physics, A.2 Forces and momentum (SL and HL)
 
-A-Level Maths Mechanics adds:
-- **Variable-mass problems** (rocket equation): use $\mathbf{F} = d(m\mathbf{v})/dt$ in full, not the constant-mass corollary.
-- **Impulse and momentum** (separate card: [[Linear Momentum]]).
-- **Connected particles on a pulley with one mass on a slope** — combines this card with Friction.
+"Newton's three laws of motion" head the Standard level and higher level list (10 hours), with free-body diagrams, contact forces, friction and momentum in the same theme; no additional HL content changes the laws.
 
-IB AA HL also includes **simple harmonic motion** (Newton's 2nd applied to $-kx$), which becomes the entry point to oscillations.
+### AP Physics 1 and AP Physics C: Mechanics, Unit 2
 
-### AP Physics 1 / C: Mechanics
+Both course descriptions run Topics 2.1 Systems and Center of Mass, 2.2 Forces and Free-Body Diagrams, 2.3 Newton's Third Law, 2.4 Newton's First Law, 2.5 Newton's Second Law, 2.6 Gravitational Force, 2.7 Kinetic and Static Friction, 2.8 Spring Forces and 2.9 Circular Motion (AP 1) or Resistive Forces (AP C). AP 1 is algebraic and diagram-based; AP C adds the differential form and velocity-dependent resistive forces. The conceptual content is identical.
 
-AP Physics 1 examines all three laws qualitatively and through FBD problems. AP Physics C: Mechanics adds the differential form $\mathbf{F} = d\mathbf{p}/dt$ and momentum conservation as a full topic. The conceptual content is identical — only the mathematical sophistication differs.
+### Where this is *not* examined, and what is unverified
+
+Cambridge 0580, 0606 and 9260 have no mechanics. The IB Mathematics AA guide is not on file, so the tag recording "IB AA" mechanics is not verified; the domestic UK boards named in an earlier version (AQA, OCR, Edexcel) are not on file either and are no longer claimed.
 
 ---
 

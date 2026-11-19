@@ -5,7 +5,8 @@ prerequisites:
   - "[[Newton's Laws of Motion]]"
   - "[[Chain of Thought]]"
   - "[[Angular Momentum]]"
-leads_to: []
+leads_to:
+  - "[[When a Model Breaks]]"
 tags:
   - subject/physics
   - subject/mathematics
@@ -17,8 +18,6 @@ tags:
   - level/AP
   - level/life
   - type/methodology
-  - type/meta
-  - type/philosophical
   - misconception/laws-are-proven
   - misconception/physics-is-just-applied-math
 ---

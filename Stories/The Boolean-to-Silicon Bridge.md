@@ -159,13 +159,13 @@ Three threads this story changes:
 
 ## Where this surfaces in the vault
 
-- ****Logic Gates** *(not yet released)*** — the pedagogical card on NAND, AND, OR, NOT, XOR, and the NAND-universality theorem. *This Stories card is its history-side companion.* The mathematical statement of Sheffer's theorem lives there; the story of how it became silicon lives here. Cross-references in both directions.
+- **[[Logic Gates]]** — the pedagogical card on NAND, AND, OR, NOT, XOR, and the NAND-universality theorem. *This Stories card is its history-side companion.* The mathematical statement of Sheffer's theorem lives there; the story of how it became silicon lives here. Cross-references in both directions.
 - **[[Logic]]** — Sheffer's stroke as a propositional-logic operator; the abstract birthplace before the Act-IV pivot.
 - ****Recursion** *(not yet released)*** — the Church-Turing thesis (Turing 1936 + lambda calculus + general recursive functions) is mentioned in Recursion's beyond-syllabus. Turing's universality result fits here too as the *machine* counterpart to Sheffer's *operator* universality.
 - **[[Stories/Turing at Bletchley]]** — what Turing did *next*: the war, the Bombe, the codebreaking, and the tragedy. Act III here gives the 1936 machine; that card gives the man and the 1939–54 arc.
 - **[[Stories/The Calculus Priority Dispute]]** — different mechanism, same trope: mathematical machinery gets built before its physical applications exist; the priority fights happen at the margin.
 - **[[Stories/Stigler's Law of Eponymy]]** — Sheffer is a *non*-Stigler case: he really did discover his stroke. The Shannon's-name-on-Anthropic dedication is the opposite of Stigler — naming as honest tribute, not misattribution.
-- ****Information Theory** *(not yet released)*** — Shannon's 1948 paper, and the third arm of the Shannon canon: **Logic Gates** *(not yet released)* gives the switching algebra, this story gives the man, and that card gives the theory that measures what the switches carry.
+- ****Information Theory** *(not yet released)*** — Shannon's 1948 paper, and the third arm of the Shannon canon: [[Logic Gates]] gives the switching algebra, this story gives the man, and that card gives the theory that measures what the switches carry.
 
 ## Receipts
 

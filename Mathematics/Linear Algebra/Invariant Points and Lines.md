@@ -15,7 +15,6 @@ tags:
   - curriculum/Cambridge-9231
   - curriculum/Edexcel-IAL
   - curriculum/IB-AI
-  - curriculum/AP
   - syllabus/9231-1-4
   - type/definition
   - type/technique
@@ -23,6 +22,7 @@ tags:
   - misconception/invariant-line-vs-invariant-points
   - misconception/no-invariant-lines
   - misconception/vertical-invariant-line
+  - type/deep
 ---
 
 # Invariant Points and Lines 不变点与不变直线

@@ -9,7 +9,6 @@ tags:
   - subject/mathematics
   - domain/algebra
   - level/A-Level
-  - curriculum/A-Level
   - curriculum/Cambridge-9231
   - syllabus/9231-1-1
   - type/deep
@@ -32,6 +31,10 @@ tags:
 > *Everything you can legitimately ask about the roots is already sitting in the coefficients. What follows is why that is true, why it can only ever be true for certain questions, and what it buys you well beyond an exam hall — including why a scratched CD still plays.*
 
 ## 中文锚点
+
+两个朋友的年龄加起来是 30，乘起来是 216。不用算出谁是 12 岁、谁是 18 岁，你已经知道他们年龄的平方和：$30^2 - 2 \cdot 216 = 468$。凡是不在乎"谁是谁"的事实，都可以只用和与积拼出来。多项式的根也是裹在一个不贴标签的袋子里出现的，而系数正是这个袋子的"清单"：把 $(x - \alpha)(x - \beta)$ 乘开，中间的系数是 $-(\alpha + \beta)$，末尾的系数是 $\alpha\beta$。所以问 $\alpha^2 + \beta^2$、问 $1/\alpha + 1/\beta$，或者要一个以 $2\alpha$ 和 $2\beta$ 为根的新方程，从头到尾都不需要根本身。读一读系数，每一条对称的事实都跟着出来。
+
+### 术语对照
 
 | English | 中文 | one-line meaning |
 |---|---|---|

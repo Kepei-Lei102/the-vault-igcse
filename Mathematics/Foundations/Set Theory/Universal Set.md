@@ -17,7 +17,6 @@ tags:
   - curriculum/Cambridge-0580
   - curriculum/IB-AA
   - curriculum/IB-AI
-  - curriculum/AP
   - syllabus/0580-E1-2
   - curriculum/OxAQA-9260
   - syllabus/9260-N9
@@ -47,11 +46,15 @@ Think of it like a game board: you can place your pieces (sets) anywhere on the 
 
 ### 中文锚点 (Chinese Anchor)
 
+在购物软件里搜"不是红色的"东西。如果你正在逛鞋子，出来的是所有不是红色的鞋；如果你在逛整个商城，沙发和牙膏也会一起冒出来。全集就是那个"我们在逛什么"：这道题里所有被讨论的对象组成的集合。其他集合都待在它里面，而它悄悄决定了答案。"$x^2 = 2$ 没有解"这句话，如果全集是整数，这话就对；如果全集是实数，这话就错。所以要先说清全集是什么。英文书里常写成 $\xi$，中文教材写成 $U$。
+
+#### 术语对照
+
 全集：在一个问题中，所有研究对象组成的集合。
 
 - 全集包含所有正在讨论的元素
 - 所有其他集合都是全集的子集
-- 中文教材用 $U$ 表示全集，Cambridge 用 $\xi$（xi）
+- 中文教材用 $U$ 表示全集，英文教材常用 $\xi$（xi）
 
 ## Notation
 
@@ -114,6 +117,14 @@ It's just a set — it follows all the same rules. It has elements, subsets, car
 - Written as $\xi$ (a curly script E) — students must recognise this symbol
 - Essential for: Venn diagram problems, complement questions, "find $n(\xi)$"
 - Usually appears in the first line of a set theory question
+
+### OxAQA 9260 (N9)
+
+- The universal set is part of the N9 set-notation row alongside $\cup$, $\cap$, complement and Venn diagrams; as at 0580 it is always stated in the question, and $\xi$ is the symbol used.
+
+### IB (AA / AI) and AP
+
+- **Not examined as a topic.** Neither IB Mathematics course nor AP has a set-theory unit; the universal set appears only as the sample space $U$ inside probability questions, where $P(A') = 1 - P(A)$ is the complement relative to it. Learn the symbol here; meet it there.
 
 ## Connections
 

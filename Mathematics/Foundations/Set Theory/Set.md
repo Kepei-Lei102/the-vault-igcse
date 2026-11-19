@@ -27,7 +27,6 @@ tags:
   - curriculum/Cambridge-0580
   - curriculum/IB-AA
   - curriculum/IB-AI
-  - curriculum/AP
   - curriculum/OxAQA-9260
   - syllabus/0580-E1-2
   - syllabus/9260-N9
@@ -56,6 +55,10 @@ A **set** is a well-defined, unordered collection of distinct objects, called **
 A set is a bag of things — but a strange bag: it doesn't care what order you put things in, and it refuses to hold duplicates. If you throw in a second copy of something, the bag just ignores it.
 
 ### 中文锚点 (Chinese Anchor)
+
+你手机里的通讯录就是一个集合。每个人只出现一次——同一个朋友存了两遍，手机会提醒你合并。顺序无所谓：按名排还是按姓排，里面的人都一样。而且它是确定的：随便挑一个人，他要么在你的通讯录里，要么不在。再想想"我的好朋友们"：在你说清什么才算"好"之前，它还不是一个集合。集合就是一组确定的、互不相同的对象，唯一要紧的是谁在里面。
+
+#### 术语对照
 
 集合：一组**确定的**、**互不相同的**对象组成的整体。
 
@@ -126,6 +129,12 @@ Chinese math uses $\{ \}$ too, so the symbol transfer is smooth. But watch for:
 - Sets appear in both **Paper 1E** and **Paper 2E** (both allow calculators)
 - Same core concepts: $n(A)$, $A'$, $\cup$, $\cap$, $\xi$, Venn diagrams
 - Formal notation ($\in$, $\emptyset$, $\subseteq$) is not in the 9260 notation list but understanding them builds stronger foundations
+
+### IB Mathematics AA / AI and AP
+
+- Neither IB route has a set-theory topic. Sets appear as the language of probability (SL 4.5: Venn diagrams, $P(A \cup B)$, mutually exclusive events) and of domains and ranges; the notation is read, never examined for itself. AP Calculus does not examine sets.
+
+**Not examined on** Cambridge 0606 (no set theory — the 0606 map says so explicitly), 9709 or 9231.
 
 ## Connections
 

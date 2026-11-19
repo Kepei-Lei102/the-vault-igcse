@@ -3,6 +3,8 @@ chinese: 一遍过与多轨录音 (yī biàn guò yǔ duō guǐ lùyīn)
 prerequisites: []
 leads_to:
   - "[[Sound Encoding]]"
+teach_together:
+  - "[[Layers]]"
 tags:
   - type/story
   - subject/computer-science
@@ -45,7 +47,7 @@ tags:
 
 ## 中文锚点
 
-**一遍过与多轨录音**：录音技术的百年史，其实是一部**逐步获得"对时间的随机访问"**的历史。1902 年，卡鲁索对着铜喇叭唱进蜡盘——**一遍过**（yī biàn guò）：错一个音，整张蜡盘作废，重头再来；录音*就是*演出本身。二战后，美国军官 Mullin 把两台德国磁带机当战利品寄回国，Crosby 为了不用每晚给东西海岸各直播一遍而投资 Ampex——**剪辑**诞生了：剃刀加胶带，是人类第一个"撤销"键。吉他手 Les Paul 在 1948 年车祸中粉碎了右臂，他让医生把胳膊**永久固定在持琴拨弦的角度**；随后他委托 Ampex 造出第一台八轨机（"章鱼"）——**多轨录音**让每条音轨可以单独重录，互不干扰。最后，数字音频（**Sound Encoding** *(not yet released)*）把声音变成一串数字：复制零损耗、剪辑只是改指针、撤销免费——**没有任何一条 take 是最终版**。蜡盘=只写一次；磁带=顺序访问+剪刀；多轨=并行轨道；数字=随机访问。最后一步最彻底：牙买加的 **dub**（配音版）里，King Tubby 把调音台当乐器现场演奏——**混音本身就是作曲**；Eno 1979 年给了它理论。于是「先写歌、再录音、再混音」这条流水线不再成立：作曲与处理之间的界线，也被随机访问消解了。
+**一遍过与多轨录音**：录音技术的百年史，其实是一部**逐步获得"对时间的随机访问"**的历史。1902 年，卡鲁索对着铜喇叭唱进蜡盘——**一遍过**（yī biàn guò）：错一个音，整张蜡盘作废，重头再来；录音*就是*演出本身。二战后，美国军官 Mullin 把两台德国磁带机当战利品寄回国，Crosby 为了不用每晚给东西海岸各直播一遍而投资 Ampex——**剪辑**诞生了：剃刀加胶带，是人类第一个"撤销"键。吉他手 Les Paul 在 1948 年车祸中粉碎了右臂，他让医生把胳膊**永久固定在持琴拨弦的角度**；随后他委托 Ampex 造出第一台八轨机（"章鱼"）——**多轨录音**让每条音轨可以单独重录，互不干扰。最后，数字音频（[[Sound Encoding]]）把声音变成一串数字：复制零损耗、剪辑只是改指针、撤销免费——**没有任何一条 take 是最终版**。蜡盘=只写一次；磁带=顺序访问+剪刀；多轨=并行轨道；数字=随机访问。最后一步最彻底：牙买加的 **dub**（配音版）里，King Tubby 把调音台当乐器现场演奏——**混音本身就是作曲**；Eno 1979 年给了它理论。于是「先写歌、再录音、再混音」这条流水线不再成立：作曲与处理之间的界线，也被随机访问消解了。
 
 ## Act I — One room, one horn, one chance (1877–1925)
 
@@ -105,7 +107,7 @@ And here the story owes its honest edge: **random access to time has a shadow, a
 
 ## Act VI — Random access, literally (1976–now)
 
-Tape had freed recording from the single take, but tape is a *ribbon*, and a ribbon has three prison walls. It is **linear**: reaching minute forty means winding through minutes one to thirty-nine. It is **destructive**: a splice is surgery on the master, and a punch-in overwrites forever. And it is **generational**: every bounce and every copy adds hiss, because an analogue copy is a *measurement* of a measurement, and measurements err. Digital audio demolishes all three walls at once, and the reason is the central fact of **Sound Encoding** *(not yet released)*: **a sample is a number.** Numbers copy exactly — the hundredth digital copy is bit-for-bit the first (**Information Theory** *(not yet released)*'s discrete symbols shrugging off analogue decay) — and numbers on a disk can be read in any order at all.
+Tape had freed recording from the single take, but tape is a *ribbon*, and a ribbon has three prison walls. It is **linear**: reaching minute forty means winding through minutes one to thirty-nine. It is **destructive**: a splice is surgery on the master, and a punch-in overwrites forever. And it is **generational**: every bounce and every copy adds hiss, because an analogue copy is a *measurement* of a measurement, and measurements err. Digital audio demolishes all three walls at once, and the reason is the central fact of [[Sound Encoding]]: **a sample is a number.** Numbers copy exactly — the hundredth digital copy is bit-for-bit the first (**Information Theory** *(not yet released)*'s discrete symbols shrugging off analogue decay) — and numbers on a disk can be read in any order at all.
 
 The pieces arrived in sequence. In the late 1970s, Thomas Stockham's **Soundstream** made the first commercial American digital recordings — and, more importantly, edited them *at a computer terminal*, no razor anywhere. In 1989 two engineers named Peter Gotcher and Evan Brooks — who had started out burning replacement sound-chip EPROMs for drum machines — shipped Digidesign's Sound Tools, and in 1991 its descendant **Pro Tools**. Editing became **non-destructive** in the fullest sense: the recorded audio on disk is never modified at all. An "edit" is an entry in a list — *play file A from 1:02.31 for 4.5 seconds, then cut to file B* — and the razor blade cuts **references, not sound**. Undo, which wax made impossible and tape made surgical, became free. In 1992 the **Alesis ADAT** put eight digital tracks on a $3,995 machine recording onto supermarket S-VHS cassettes, and multitrack recording left the temple: within a decade there were hundreds of thousands of home studios, and today a free phone app offers more tracks than Abbey Road had for *Pepper*. The #1 album of 2019 was recorded by a teenager and her brother in his childhood bedroom — Les Paul and Mary Ford's living room, seventy years on.
 
@@ -156,7 +158,9 @@ Read the whole card at once and the shape is clear. Each act bought a new freedo
 
 ## Where this surfaces in the vault
 
-- ****Sound Encoding** *(not yet released)*** — dual residency. That card carries the machinery: sampling, quantisation, Nyquist, and the 44,100-videotape hack that launched digital audio; the analogue-copies-decay vs digital-copies-are-exact asymmetry that powers Act VI is its samples-are-numbers thesis, acted out by history.
+- **[[Layers]]** — the visual companion: combination printing, repeated performances, multiplane animation and editable image projects.
+
+- **[[Sound Encoding]]** — dual residency. That card carries the machinery: sampling, quantisation, Nyquist, and the 44,100-videotape hack that launched digital audio; the analogue-copies-decay vs digital-copies-are-exact asymmetry that powers Act VI is its samples-are-numbers thesis, acted out by history.
 - ****Information Theory** *(not yet released)*** — *why* the hundredth digital copy is identical to the first: discrete symbols reject small errors, which analogue ribbons cannot. Generation loss is what a channel does to you without Shannon's armour.
 - ****Parallel and External Sorting** *(not yet released)*** — in the same decades, computing learned to work *around* sequential media (the tape-based external sorts) while studios learned to make art around them. Same constraint, two cultures, and both escaped to random access together.
 - **[[Stories/The Loudness War]]** — the direct sequel, and the boundary dissolving from the other end. Its Act V defines mixing against mastering because the story needs the distinction to assign blame; Act VII here watches that same distinction stop describing how music is actually made.

@@ -1,6 +1,9 @@
 ---
 chinese: 洛伦兹力 (luòlúnzī lì)
+aliases:
+  - 洛伦兹力
 prerequisites:
+  - "[[Magnetism and Magnetic Materials]]"
   - "[[Cross Product]]"
   - "[[Electric Field]]"
   - "[[Electric Current]]"
@@ -8,6 +11,7 @@ prerequisites:
   - "[[The War of the Currents]]"
   - "[[Circular Motion]]"
 leads_to:
+  - "[[Particle Physics]]"
   - "[[Electromagnetic Induction]]"
   - "[[Maxwell's Equations]]"
   - "[[Stories/Franklin's Coin Flip]]"
@@ -31,6 +35,8 @@ tags:
   - misconception/force-along-field-lines
   - misconception/stationary-charge-feels-b
   - misconception/one-hand-fits-all
+  - curriculum/Cambridge-9702
+  - curriculum/Cambridge-0625
 ---
 
 # Lorentz Force 洛伦兹力
@@ -38,6 +44,10 @@ tags:
 > *Every force you met in mechanics pushes along something sensible — along the string, down the slope, toward the planet. The magnetic force refuses all of that. It ignores charges that stand still, it pushes **sideways** — perpendicular to the velocity and* to the field at once — and it never does a joule of work. Three strange rules; and out of them come electric motors, mass spectrometers, the aurora, your old tube TV, and the magnetic bottles that hold star-hot plasma. The sideways force is the [[Cross Product]] made flesh:
 > $$\mathbf{F} = q\,\mathbf{E} + q\,\mathbf{v} \times \mathbf{B}.$$
 ## 中文锚点
+
+拿一块磁铁靠近老式显像管电视的屏幕，画面会扭曲、打转。显像管里有一束电子正朝屏幕飞去，磁铁在推它们，但推法很古怪：从不往前推，也不往后拉，永远是往旁边推，既垂直于电子运动的方向，又垂直于磁场的方向。一个永远从侧面来的力，只能改变物体往哪儿走，改变不了它走多快，所以带电粒子在磁场里会以不变的速率绕圈，就像拴在绳子上甩起来的球。导线里缓缓漂移的电子受到的也是这种侧向的推力，电动机就是靠它转起来的。而且只有电荷在动的时候才有这个力：一个静止不动的电荷放在磁铁旁边，什么也感觉不到。
+
+### 术语对照 (Terms)
 
 | English                          | 中文            | one-line meaning                                                                                                       |
 | -------------------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------- |
@@ -197,20 +207,23 @@ $E = Bv = 0.30 \times 2.5 \times 10^{5} = 7.5 \times 10^{4}\ \text{V m}^{-1}$. S
 - **§20.4** — sketch the three field patterns (wire / flat coil / solenoid); effect of a ferrous core; explain the **force between parallel currents** qualitatively (each wire sits in the other's field — no formula required).
 - **§20.5 (electromagnetic induction) is deliberately not here** — flux, Faraday and Lenz live in [[Electromagnetic Induction]].
 
-### Cambridge 0625 (IGCSE) — §4.5 electromagnetic effects (motor half)
+### Cambridge 0625 (IGCSE) — §4.5.3–4.5.5
 
-- **Core:** describe the motor effect — a current-carrying conductor in a field experiences a force; recall the relative directions of force, field and current; describe the d.c. motor's turning effect.
-- **Extended:** use $F = BIL$ quantitatively; sketch the wire/solenoid field patterns; explain the **split-ring commutator** (reverses the current each half turn so the couple keeps turning the same way) and how to increase the turning effect (current, turns, field strength).
-- The generator and transformer belong to the induction half of §4.5 → [[Electromagnetic Induction]].
+- **Core (§4.5.4–4.5.5):** describe a motor-effect experiment, including reversing the current or field; explain the coil's turning effect and how increasing current, turns or field strength increases it.
+- **Supplement:** use the relative directions of force, field and current; determine force direction on beams of charged particles; explain the split-ring commutator **and brushes**. Wire/solenoid field patterns also belong to §4.5.3.
+- **Not required by 0625:** quantitative $F=BIL$, $F=qvB$, orbit-radius or Hall-voltage calculations. These are A-Level/AP/IB extensions, not IGCSE Supplement requirements. Core takes Papers 1/3, Extended Papers 2/4; practical assessment is Paper 5 or 6.
+- Generator/transformer and induction scope continues in [[Electromagnetic Induction]].
 
 ### AP Physics
 
-- **AP Physics 2:** magnetic fields unit — $F = qvB\sin\theta$ and $F = BIL\sin\theta$, direction by right-hand rule (AP teaches RHR-with-palm-push rather than Fleming — same geometry, pick one and be consistent), circular motion of charges, qualitative field patterns.
-- **AP Physics C: E&M:** full vector $\mathbf{F} = q\mathbf{v}\times\mathbf{B}$, cyclotron motion with derivations, velocity selector, and the Biot–Savart/Ampère field calculations that this card's sketches only gesture at.
+- **AP Physics 2, 12.1–12.3:** magnetic fields, force on moving charges and current-carrying wires; $F=qvB\sin\theta$, $F=BIL\sin\theta$ and circular motion. The force direction comes from the vector geometry, with reversal for negative charge. The wider unit also includes source-field calculations and parallel-wire forces; qualitative sketches alone do not complete it.
+- **AP Physics C: E&M, 12.1–12.2:** vector $\mathbf F=q\mathbf v\times\mathbf B$, circular/helical motion and experimental applications. **12.3–12.4** require Biot–Savart and Ampère field calculations; the sketches and qualitative parallel-current argument here do not supply that full calculus treatment.
+- **Not examined:** magnetism is outside the current AP Physics 1 and AP Physics C: Mechanics frameworks.
 
-### IB Physics — D.3 Motion in electromagnetic fields
+### IB Physics — D.2 and D.3, first assessment 2025
 
-- The named skills: force on a moving charge and on a current, circular paths of charges in uniform fields, and the crossed-field velocity selector — this card's §20.2–20.3 content under an IB heading.
+- **SL and HL D.3:** force on moving charge and current, circular paths in uniform magnetic fields, uniform electric-field motion and crossed-field velocity selection. Read with [[Electric Field]] for the electric parabola. D.3 has **no additional-HL block**.
+- D.2 also names magnetic field patterns. D.3 includes the quantitative force per unit length between parallel currents and charge-to-mass determination; the qualitative two-wire discussion does not complete those experimental/calculation requirements.
 
 ## Connections
 

@@ -13,7 +13,6 @@ tags:
   - domain/calculus
   - domain/functions
   - level/A-Level
-  - curriculum/A-Level
   - curriculum/Cambridge-9231
   - curriculum/OxAQA-9660
   - syllabus/9231-2-1
@@ -37,6 +36,10 @@ tags:
 > *Someone hands you $\dfrac{e^x + e^{-x}}{2}$ and calls it a cosine. It has no obvious right to the name: nothing here repeats, nothing goes round, and the graph is a single valley that runs off to infinity in both directions. Yet it obeys almost every identity $\cos$ obeys, its derivative behaves almost like $\cos$'s, and it is genuinely the shape a chain makes when you let it hang. The word "almost" hides one minus sign, and that sign is the whole story — where it comes from, why it lands exactly where it does, and why the answer explains both the name and the fact that the inverses of these functions turn out to be **logarithms**.*
 
 ## 中文锚点
+
+一根充电线松松地挂在两个挂钩之间，垂下来的那条曲线不是抛物线。它是 $\cosh$，因为每一小段线都被两侧的拉力托着，又被自身的重量往下拽，而这种平衡正是 $\cosh$ 这个函数所满足的。$\cosh$ 和 $\sinh$ 不过是 $e^x$ 的偶函数部分和奇函数部分：把它们加起来又变回 $e^x$；正如 $\cos$ 和 $\sin$ 画出单位圆，它们画出单位双曲线 $x^2 - y^2 = 1$。同一套代数，只翻几个符号：正弦余弦在圆里扮演的角色，由它们在悬链线和加速运动里扮演。
+
+### 术语对照
 
 | English | 中文 | one-line meaning |
 |---|---|---|

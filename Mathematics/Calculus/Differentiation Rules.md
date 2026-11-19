@@ -31,9 +31,7 @@ tags:
   - level/IB
   - level/AP
   - curriculum/Cambridge-0606
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/0606-14-3
   - syllabus/9709-1-7
   - syllabus/9709-2-4
@@ -41,10 +39,14 @@ tags:
   - syllabus/9231-2-3
   - type/deep
   - type/proof
-  - type/reference-table
+  - type/reference
   - notation/derivative
   - misconception/d-dx-not-fraction
   - misconception/sin-x-derivative-cos-x-only-in-radians
+  - curriculum/Cambridge-9709
+  - curriculum/Cambridge-9231
+  - curriculum/AP-Calculus-AB
+  - curriculum/AP-Calculus-BC
 ---
 
 # Differentiation Rules 微分法则
@@ -57,10 +59,7 @@ Every row in the table comes with a **proof** — not a "memorise this." Each de
 
 ### 中文锚点
 
-微分法则 = 把 $\sin, \cos, \tan, e^x, \ln x$ 等基本函数的导数列成表。每一条都有证明，不是死记硬背。导数的来源：单位圆定义（三角函数）、极限 $\sin h / h \to 1$（弧度的关键极限）、$e^x$ 的幂级数定义、以及链式法则 / 乘法法则等更基础的微分工具。背表可以提速度，理解证明可以保证万一忘了能现场重建。
-
-> [!tip] All trig derivatives assume RADIANS
-> The clean table $\frac{d}{dx}\sin x = \cos x$ etc. is **only true if $x$ is measured in radians**. In degree mode, $\frac{d}{dx}\sin x^\circ = \frac{\pi}{180}\cos x^\circ$ — every derivative picks up a factor of $\pi/180$. This is one of the deep reasons radians are the "natural" unit for calculus; see [[Radians]] for the squeeze-theorem proof of $\lim_{h \to 0}\sin h / h = 1$ that depends on radian measure for sector area.
+为什么正弦的导数是余弦？想象一个点以恒定的速度绕单位圆转。它的速度永远沿着圆周，跟辐条垂直，所以这个点此刻向上的速度，恰好等于它向右偏出的距离，也就是横坐标：$\sin$ 的变化率就是 $\cos$。导数表里的每一行都有这样一个理由，所以它是一张你能重建的表，而不是一份要死记的清单。这个理由还悄悄默认了弧度：只有用弧长来量角，绕圆的速度才恰好是 1，各行才会这么干净。
 
 ---
 

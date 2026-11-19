@@ -1,6 +1,7 @@
 ---
 chinese: 解读数据 (jiědú shùjù)
 prerequisites:
+  - "[[Stats Lies Hall of Fame]]"
   - "[[Classifying Data]]"
   - "[[Averages and Spread]]"
   - "[[Statistical Charts]]"
@@ -12,13 +13,13 @@ leads_to: []
 tags:
   - subject/mathematics
   - domain/statistics
-  - level/GCSE
   - level/IGCSE
   - level/pre-IB
   - level/pre-AP
   - curriculum/OxAQA-9260
   - curriculum/Cambridge-0580
-  - curriculum/Cambridge-0606
+  - curriculum/Cambridge-9709
+  - curriculum/Edexcel-IAL
   - syllabus/9260-S2
   - syllabus/9260-S6
   - syllabus/9260-S7
@@ -27,6 +28,7 @@ tags:
   - type/exam-technique
   - misconception/state-vs-explain
   - misconception/compare-without-context
+
 ---
 
 # Interpreting Data 解读数据
@@ -296,24 +298,21 @@ The mean (£48,000) is much higher than the median (£31,000), which suggests th
 
 ## Exam Notes
 
-### 9260
+### OxfordAQA 9260 (IGCSE), Core
 
-- **S2:** "Read, interpret and draw inferences from tables and statistical diagrams" — this is the core interpretation skill.
-- **S6:** "Compare sets of data using tables, graphs, and statistical measures" — compare averages *and* spread in context.
-- **S7:** "Appreciate restrictions on drawing conclusions from given data" — limitations, sample size, correlation ≠ causation.
-- No formal command word list — follows AQA conventions. In practice, the same command words as 0580/0606 appear.
+**Syllabus refs:** S2 "extract data from printed tables and lists"; S6 "read and interpret a wide range of graphs and diagrams and draw conclusions"; S7 "compare distributions and make inferences". All three are Core, so every 9260 paper can carry them. The specification gives no command-word list; in practice the phrasings below are the ones the papers use.
 
-### 0580 (E9.2)
+### Cambridge 0580 (IGCSE), Core and Extended
 
-- "Read, interpret and draw inferences from tables and statistical diagrams."
-- "Compare sets of data using tables, graphs and statistical measures" — e.g. compare averages and ranges between two data sets.
-- "Appreciate restrictions on drawing conclusions from given data."
+**Syllabus ref:** C9.2 = E9.2 "Interpreting statistical data", word for word on both tiers: "Read, interpret and draw inferences from tables and statistical diagrams"; "Compare sets of data using tables, graphs and statistical measures", with the note "e.g. compare averages and ranges between two data sets" (Core) and "averages and measures of spread" (Extended); "Appreciate restrictions on drawing conclusions from given data".
 
-### 0606
+### Cambridge 9709 (AS Level), Paper 5 §5.1
 
-- The same command words appear but in more algebraically demanding contexts.
-- "Verify" is unique to 0606: you must substitute a value and confirm the result matches what's claimed.
-- Statistics interpretation is less prominent in 0606 (which focuses on pure functions and calculus), but the command words apply across all topics.
+"Select a suitable way of presenting raw statistical data, and discuss advantages and/or disadvantages that particular representations may have"; "understand and use different measures of central tendency (mean, median, mode) and variation (range, interquartile range, standard deviation)", the note being "e.g. in comparing and contrasting sets of data". The same two-part comparison, one sentence on centre and one on spread, in context, earns the marks at A Level as at IGCSE.
+
+### Edexcel IAL (S1), §2.1
+
+"Using histograms, stem and leaf diagrams and box plots to compare distributions", with "Drawing of histograms, stem and leaf diagrams or box plots will not be the direct focus of examination questions": the interpretation is what is examined.
 
 ### Mark scheme patterns
 
@@ -324,6 +323,10 @@ The mean (£48,000) is much higher than the median (£31,000), which suggests th
 | "Explain why..." (2 marks) | A reason + supporting evidence from the data |
 | "State..." (1 mark) | A single clear answer — no explanation needed |
 | "Give a reason why the mean is not suitable" (1 mark) | Identify the specific feature (outlier/skew) that distorts the mean |
+
+### Where this is *not* examined, and what is unverified
+
+Cambridge 0606 has no statistics content at all (the word does not occur in its subject content), so the earlier claim that its command words apply here is withdrawn; "verify" on 0606 belongs to functions and calculus. OxfordAQA 9660's S1 unit opens with probability; no data-interpretation row was found in this sweep. AP Statistics and the IB Mathematics guides are not on file, so no claim is made for them.
 
 ---
 

@@ -2,7 +2,8 @@
 chinese: 需求的变化，总在意料之外 (xūqiú de biànhuà, zǒng zài yìliào zhī wài)
 prerequisites:
   - "[[Courage]]"
-leads_to: []
+leads_to:
+  - "[[The Perceptron and Move 78]]"
 tags:
   - type/story
   - subject/computer-science
@@ -50,7 +51,7 @@ Once you see the shape, computing's history reorganises itself into a gallery of
 
 **The 4 GB wall.** A 32-bit pointer reaches $2^{32}$ bytes — four gigabytes. In 1985 that was a fantasy of excess; by the mid-2000s, a mid-range desktop bumped its head on it. The industry crawled through PAE — a bank-switching crawlspace with a strong family resemblance to DOS's expanded memory, because the contortion is always the same contortion — until the real exit opened.
 
-**The second-counter with a printed expiry date.** Unix counts time as seconds since January 1, 1970, and for decades stored the count in a **signed 32-bit integer**. **Two's Complement** *(not yet released)* tells you the rest: the largest value is $2^{31}-1 = 2{,}147{,}483{,}647$, and the counter reaches it at **03:14:07 UTC on 19 January 2038** — one tick later, the sign bit flips and the date wraps to December 1901. Desktop systems have largely moved to 64-bit time; the long tail of embedded systems — meters, controllers, the computers nobody remembers are computers — is where the 2038 work actually lives. This is the museum's most honest exhibit: **a change of needs with a countdown clock**, overflow mechanics you can verify on paper.
+**The second-counter with a printed expiry date.** Unix counts time as seconds since January 1, 1970, and for decades stored the count in a **signed 32-bit integer**. [[Two's Complement]] tells you the rest: the largest value is $2^{31}-1 = 2{,}147{,}483{,}647$, and the counter reaches it at **03:14:07 UTC on 19 January 2038** — one tick later, the sign bit flips and the date wraps to December 1901. Desktop systems have largely moved to 64-bit time; the long tail of embedded systems — meters, controllers, the computers nobody remembers are computers — is where the 2038 work actually lives. This is the museum's most honest exhibit: **a change of needs with a countdown clock**, overflow mechanics you can verify on paper.
 
 ![[change-of-needs-odometer.png|697]]
 
@@ -93,8 +94,9 @@ And the quote? Still floating, still uncited, still "enough for anybody." It sur
 - **CISC vs RISC** *(not yet released)* — the register poverty of eight and the RISC thirty-two; AMD64 as the CISC world quietly adopting the RISC register philosophy.
 - **CPU Architecture and the Fetch-Execute Cycle** *(not yet released)* — what a register physically is: the values already in the datapath's hands.
 - **RAM and the Memory Hierarchy** *(not yet released)* — the pyramid whose zero-latency tip this story's windfall enlarges; spills as forced trips down the pyramid.
-- **Two's Complement** *(not yet released)* — the 2038 exhibit's mechanics: signed overflow, the sign bit's flip, and why the wrap lands in 1901.
+- [[Two's Complement]] — the 2038 exhibit's mechanics: signed overflow, the sign bit's flip, and why the wrap lands in 1901.
 - [[Averages and Spread]] — mean versus variance, the distinction "smoother" hides and Act IV teaches.
+- [[Stories/The Perceptron and Move 78]] — what the two gaming cards were for: AlexNet, and the marriage of the lineages that followed.
 
 ## Receipts
 

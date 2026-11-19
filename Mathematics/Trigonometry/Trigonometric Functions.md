@@ -25,7 +25,6 @@ tags:
   - curriculum/OxAQA-9260
   - curriculum/Cambridge-0606
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/9260-A12
   - syllabus/0606-10-1
   - syllabus/9709-1-5
@@ -34,6 +33,11 @@ tags:
   - notation/sin-cos-tan
   - notation/unit-circle
   - misconception/three-views-disconnect
+  - curriculum/Cambridge-9709
+  - curriculum/Cambridge-0580
+  - curriculum/Edexcel-IAL
+  - type/deep
+
 ---
 
 # Trigonometric Functions 三角函数
@@ -365,17 +369,29 @@ $\sin < 0$ means $y < 0$: below the $x$-axis, so quadrant III or IV. $\cos > 0$ 
 
 ## Exam Notes
 
-### OxAQA 9260
+### Cambridge 0580 (IGCSE), Extended only
 
-**Syllabus ref:** G19 (Extension). The 9260 spec asks for exact values and right-triangle applications primarily. The unit-circle view appears implicitly when students must find obtuse-angle solutions (e.g. "Given $\sin\theta = 0.5$, find all values of $\theta$ in $0° \leq \theta \leq 360°$" — this requires knowing the ruler method to get both $\theta = 30°$ and $\theta = 150°$).
+**Syllabus ref:** E6.4 "Trigonometric functions": "Recognise, sketch and interpret the following graphs for $0° \le x \le 360°$: $y = \sin x$, $y = \cos x$, $y = \tan x$"; "Solve trigonometric equations involving $\sin x$, $\cos x$ or $\tan x$, for $0° \le x \le 360°$", e.g. $\sin x = \dfrac{\sqrt 3}{2}$ and $2\cos x + 1 = 0$. C6.4 is "Extended content only". Degrees only; the unit-circle definition is the tool that finds the second solution.
+
+### OxfordAQA 9260 (IGCSE), Extension only
+
+**Syllabus ref:** A12. The Extension column adds to the Core graph list "the trigonometric functions (with arguments in degrees) $y = \sin x$, $y = \cos x$ and $y = \tan x$ for angles of any size". "Any size" is the whole point of this card: the ratio definition stops at $90°$, the graph does not. Right-angled ratios themselves are G19 ([[Trigonometric Ratios]]).
 
 ### Cambridge 0606 (Additional Mathematics)
 
-**Syllabus ref:** 10.1 — *know and use the six trigonometric functions of angles of any magnitude*, naming all six explicitly (sine, cosine, tangent, secant, cosecant, cotangent). This is where the unit circle, reciprocal functions, and graph views become **examinable core content**. The spec explicitly requires: "amplitude, period and phase for $y = a\sin(bx) + c$", sketching and recognising transformed trig graphs, and solving trig equations using the general solution. The reciprocal functions $\sec$, $\csc$, $\cot$ and all three Pythagorean identities are examined.
+**Syllabus ref:** 10.1 "Know and use the six trigonometric functions of angles of any magnitude", the six named as "sine, cosine, tangent, secant, cosecant, cotangent". This is where the unit circle, the reciprocal functions and the graph view are core examinable content; 10.2–10.3 (amplitude, period, sketching) are [[Trigonometric Graphs]], 10.4–10.6 [[Trigonometric Identities]] and [[Trigonometric Equations]].
 
-### A-Level / IB Mathematics / AP Precalculus
+### Cambridge 9709 (AS Level), Paper 1 §1.5
 
-All three curricula teach the unit circle in the first trig unit and assess graph transformations heavily. Radians replace degrees as the standard angle unit (see [[Radians]]). The reciprocal functions, identities, and trig equation solving are core A-Level/IB content — not "beyond syllabus" but the expected standard.
+"Sketch and use graphs of the sine, cosine and tangent functions (for angles of any size, and using either degrees or radians)", with examples $y = 3\sin x$, $y = 1 - \cos 2x$, $y = \tan\!\left(x + \tfrac14\pi\right)$; "use the exact values of the sine, cosine and tangent of $30°$, $45°$, $60°$, and related angles" ($\cos 150° = -\tfrac{\sqrt3}{2}$, $\sin\tfrac34\pi = \tfrac{1}{\sqrt2}$); and "use the notations $\sin^{-1}x$, $\cos^{-1}x$, $\tan^{-1}x$ to denote the principal values of the inverse trigonometric relations", understood "as examples of inverse functions".
+
+### Edexcel IAL (P1), §3.3
+
+"Sine, cosine and tangent functions. Their graphs, symmetries and periodicity", where "Knowledge of graphs of curves with equations such as $y = 3\sin x$, $y = \sin\!\left(x + \tfrac{\pi}{6}\right)$, $y = \sin 2x$ is expected".
+
+### Where this is *not* examined, and what is unverified
+
+Cambridge 0580 Core and OxfordAQA 9260 Core stop at right-angled ratios. OxfordAQA 9660 places the functions in PP1.2 alongside its equation row, but its graph wording was not quoted in this sweep. AP Precalculus and the IB Mathematics guides are not on file, so the AP and IB claims recorded in this card's tags are not verified against a PDF; AP Calculus assumes the functions and their graphs as prior knowledge.
 
 ---
 

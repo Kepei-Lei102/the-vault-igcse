@@ -5,9 +5,12 @@ prerequisites:
   - "[[Stories/Franklin's Coin Flip]]"
   - "[[Franklin's Coin Flip]]"
 leads_to:
+  - "[[Electric Field]]"
   - "[[Resistance]]"
   - "[[Capacitors]]"
   - "[[Lorentz Force]]"
+  - "[[Kirchhoff's Laws]]"
+  - "[[Internal Resistance]]"
 tags:
   - subject/physics
   - domain/electromagnetism
@@ -25,6 +28,8 @@ tags:
   - misconception/conventional-current-is-wrong
   - misconception/power-station-sends-electrons
   - misconception/ion-streams-cancel
+  - curriculum/Cambridge-9702
+  - curriculum/Cambridge-0625
 ---
 
 # Electric Current 电流

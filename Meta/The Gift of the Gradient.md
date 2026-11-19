@@ -4,7 +4,8 @@ prerequisites:
   - "[[Entropy and the Second Law]]"
   - "[[Inertia and Bootstrapping]]"
   - "[[The Love of Wisdom]]"
-leads_to: []
+leads_to:
+  - "[[God Syndrome]]"
 tags:
   - subject/methodology
   - subject/physics
@@ -13,6 +14,7 @@ tags:
   - misconception/entropy-means-doom
   - misconception/entropy-is-disorder
   - misconception/life-fights-entropy
+  - type/methodology
 ---
 
 # The Gift of the Gradient  梯度的礼物

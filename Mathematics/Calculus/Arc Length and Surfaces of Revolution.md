@@ -14,13 +14,14 @@ tags:
   - level/A-Level
   - curriculum/Cambridge-9231
   - curriculum/Edexcel-IAL
-  - curriculum/AP
   - syllabus/9231-2-4
   - type/technique
   - type/proof
   - notation/integral
   - misconception/2piy-dx
   - misconception/root-outside-the-sum
+  - curriculum/AP-Calculus-BC
+  - type/deep
 ---
 
 # Arc Length and Surfaces of Revolution 弧长与旋转曲面面积
@@ -53,7 +54,7 @@ For the surface: each straight sliver, swung around the axis, sweeps a thin hoop
 
 ### 中文锚点 (Chinese Anchor)
 
-弯路有多长？地图上的直尺量的是**直线距离**（英文里正是 as the crow flies），汽车的**里程表**才知道真相：它把路切成无数几乎笔直的小段，每段用**勾股定理**量斜边 $ds = \sqrt{dx^2 + dy^2}$，再全部加起来——这就是弧长积分。曲线怎么给，$ds$ 就换什么衣服：直角坐标下 $ds = \sqrt{1 + (y')^2}\,dx$；参数方程下 $ds = \sqrt{\dot x^2 + \dot y^2}\,dt$（这件其实是"本体"，直角坐标只是 $t = x$ 的特例）；极坐标下 $ds = \sqrt{r^2 + (r')^2}\,d\theta$。**旋转曲面面积**再多一步：每一小段绕轴转一圈，扫出一条细箍，周长 $2\pi y$（离轴多远，半径就是多少），宽是 $ds$，所以 $S = \int 2\pi y\,ds$。**最经典的错误**是把宽写成 $dx$：斜着的一段扫出的箍，宽是斜长 $ds$，不是它在轴上的投影 $dx$——拿圆锥一验就露馅（正确公式给 $\pi r l$，错的给 $\pi r h$）。考试三件套：把 $ds$ 穿对衣服、根号里先配方凑成完全平方再开根（出题人几乎总把曲线设计成能凑出完全平方）、答案要**精确值**。
+一条弯弯的路到底有多长？在地图上拿直尺量出来的是直线距离，汽车的里程表才知道真相：它把路切成无数几乎笔直的小段，用勾股定理量出每一小段斜着的长度，再把它们全部加起来。这就是弧长积分，不管曲线是用哪种坐标写出来的。旋转曲面只多了一个动作：让每一小段斜线绕着轴转一圈，它扫出一条细细的环带，周长是 $2\pi$ 乘以它到轴的距离，宽度则是那段斜线本身的长度，而不是它投在轴上的影子。拿圆锥一验就看出差别：用斜长得到的是正确的 $\pi r l$，用影子得到的是 $\pi r h$，永远偏小。
 
 ## The costumes of $ds$ — one formula, three coordinate systems
 

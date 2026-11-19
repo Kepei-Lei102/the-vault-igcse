@@ -9,6 +9,7 @@ prerequisites:
 leads_to:
   - "[[Non-Parametric Tests]]"
   - "[[The Lady Tasting Tea]]"
+  - "[[Learning as Verification]]"
 tags:
   - subject/mathematics
   - domain/statistics
@@ -17,7 +18,6 @@ tags:
   - level/AP
   - level/IB
   - curriculum/Cambridge-9231
-  - curriculum/A-Level
   - curriculum/AP-Statistics
   - curriculum/IB-AI
   - curriculum/Edexcel-IAL

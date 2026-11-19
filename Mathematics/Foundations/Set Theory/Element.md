@@ -21,7 +21,6 @@ tags:
   - curriculum/Cambridge-0580
   - curriculum/IB-AA
   - curriculum/IB-AI
-  - curriculum/AP
   - syllabus/0580-E1-2
   - curriculum/OxAQA-9260
   - type/definition
@@ -53,6 +52,10 @@ $$x \notin A$$
 If a set is a bag, then an element is one of the things inside the bag. The symbol $\in$ is like asking "is this in the bag?" — yes ($\in$) or no ($\notin$).
 
 ### 中文锚点 (Chinese Anchor)
+
+一份班级名单，对任何一个你叫得出名字的人，只回答一个问题：他在不在这个班？只有"在"和"不在"，没有"半在"，也没有"在两次"。元素就是名单上的一个个对象："$x \in A$" 读作"$x$ 属于 $A$"，意思是 $x$ 在 $A$ 的名单上；"$x \notin A$" 就是不在。符号 $\in$ 是希腊字母 ε 的花体写法，取自 element 的首字母。
+
+#### 术语对照
 
 元素：属于某个集合的对象。
 
@@ -140,6 +143,12 @@ Students sometimes think elements must be numbers. Elements can be letters, orde
 - The $\in$ and $\notin$ notation is **not** in the 9260 notation list and is **not formally assessed**
 - However, understanding element membership is essential for working with sets, Venn diagrams, and probability (N9, S16)
 - Students benefit from knowing the notation even if it won't appear explicitly on the 9260 paper
+
+### IB Mathematics AA / AI and AP
+
+- Neither IB route has a set-theory topic; $\in$ is used as notation in probability and function work (SL 4.5 Venn diagrams; domains written as $x \in \mathbb{R}$) but membership is never examined on its own. AP Calculus uses $x \in$ an interval as notation only.
+
+**Not examined on** Cambridge 0606 (no set theory), 9709 or 9231.
 
 ## Connections
 

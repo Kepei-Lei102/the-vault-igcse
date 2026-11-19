@@ -11,8 +11,7 @@ tags:
   - domain/geometry
   - domain/linear-algebra
   - level/A-Level
-  - level/IB-AA-HL
-  - curriculum/A-Level
+  - level/IB-HL
   - curriculum/IB-AA
   - syllabus/9231-1-6
   - type/technique
@@ -25,6 +24,9 @@ tags:
   - misconception/line-plane-angle-complement
   - misconception/dropping-abs-in-distance
   - misconception/checking-direction-not-point
+  - curriculum/Cambridge-9231
+  - curriculum/Edexcel-IAL
+  - type/deep
 ---
 
 # Planes in 3D 空间平面
@@ -51,15 +53,19 @@ A line needed *one* parameter; a plane is a two-parameter, two-dimensional flat 
 
 ### 中文锚点
 
-国内教材把平面方程分成几种标准形式，对照如下：
+在桌上竖一支铅笔。在桌面上随便画一条线，从哪一点到哪一点都行，它都和铅笔垂直。平面说到底就是这样：平面上的一个点 $\mathbf{a}$，加上它朝向的一个方向 $\mathbf{n}$——这个方向就叫作法向量。一个点 $\mathbf{r}$ 在这个平面上，当且仅当从 $\mathbf{a}$ 走到 $\mathbf{r}$ 的那一步和 $\mathbf{n}$ 垂直：$(\mathbf{r}-\mathbf{a})\cdot\mathbf{n} = 0$，展开就是 $\mathbf{r}\cdot\mathbf{n} = \mathbf{a}\cdot\mathbf{n}$。把 $\mathbf{r}\cdot\mathbf{n}$ 读成"沿着铅笔方向走了多远"：桌面上每一个点沿这个方向走的距离都一样，这个共同的数就是 $p$。两张朝向相同的桌子，$\mathbf{n}$ 相同、$p$ 不同：它们是两个平行的平面。
 
-| 国内叫法 | 形式 | Cambridge 术语 |
+#### 术语对照
+
+平面方程的几种标准形式：
+
+| 国内叫法 | 形式 | 英文术语 |
 |---|---|---|
 | 一般式 | $ax + by + cz = d$ | Cartesian form |
 | 点法式 | $a(x{-}x_0) + b(y{-}y_0) + c(z{-}z_0) = 0$ | $(\mathbf{r} - \mathbf{a})\cdot\mathbf{n} = 0$ 的展开 |
 | 参数式 | $\mathbf{r} = \mathbf{a} + \lambda\mathbf{b} + \mu\mathbf{c}$ | parametric / vector form |
 
-点法式和 $\mathbf{r}\cdot\mathbf{n} = p$ 是同一句话：$(\mathbf{r}-\mathbf{a})\cdot\mathbf{n} = 0$ 说"从 $\mathbf{a}$ 出发到平面上任何点的位移都垂直于法向量"，展开即 $\mathbf{r}\cdot\mathbf{n} = \mathbf{a}\cdot\mathbf{n} = p$。国内高考不考空间向量的叉积（法向量靠解方程组凑），Cambridge 9231 里 [[Cross Product|叉积]] 是求法向量的标准工具——两条路，同一个 $\mathbf{n}$。
+点法式和 $\mathbf{r}\cdot\mathbf{n} = p$ 是同一句话：$(\mathbf{r}-\mathbf{a})\cdot\mathbf{n} = 0$ 说"从 $\mathbf{a}$ 出发到平面上任何点的位移都垂直于法向量"，展开即 $\mathbf{r}\cdot\mathbf{n} = \mathbf{a}\cdot\mathbf{n} = p$。[[Cross Product|叉积]]可以直接求出法向量。
 
 ## Notation
 

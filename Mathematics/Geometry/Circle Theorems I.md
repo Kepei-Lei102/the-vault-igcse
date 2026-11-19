@@ -20,7 +20,6 @@ tags:
   - level/pre-AP
   - curriculum/OxAQA-9260
   - curriculum/Cambridge-0580
-  - curriculum/A-Level
   - curriculum/IB-AA
   - syllabus/9260-G8
   - syllabus/0580-C4-7
@@ -30,6 +29,7 @@ tags:
   - notation/angle
   - misconception/centre-vs-circumference
   - misconception/cyclic-quad-adjacent-angles
+  - type/deep
 ---
 
 # Circle Theorems I 圆定理（一）
@@ -46,14 +46,14 @@ That's the key insight. Every proof in this card starts by drawing radii and exp
 
 ## 中文锚点
 
-圆定理是英国课程的重点，中国初中虽然学过"圆周角等于圆心角的一半"等内容，但英国考试对**定理名称**和**证明推理链**的要求远高于中国中考。四个定理：
+木匠有个小窍门：在木板上钉两根钉子，拿一块三角尺，让它的两条直角边始终贴着两根钉子滑动，三角尺的直角顶点就会画出一个完美的半圆，两根钉子正好是直径的两端。这就是"直径所对的圆周角是直角"：圆上每一个点看这条直径，看到的角度都恰好是 90°。它其实是一个更普遍的结论的特例：站在同一段弧上的任何位置看同一条弦，看到的角度都一样，而且这个角正好是圆心角的一半。只要画出半径，原因就一目了然：半径都相等，它们把图形切成一个个等腰三角形，于是圆心处的角恰好是圆周上的角的两倍。第四条定理——圆内接四边形的对角互补——也是同样的"减半"，只不过用在了合起来正好是整个圆的两段弧上。
+
+### 术语对照
 
 1. **圆心角 = 2 × 圆周角**（同弧）
 2. **半圆上的圆周角 = 90°**（直径对的角是直角）
 3. **同弧上的圆周角相等**
 4. **圆内接四边形对角互补**（对角之和 = 180°）
-
-每个定理都要能用英文陈述、画图标注、写出证明推理。
 
 ---
 
@@ -340,9 +340,9 @@ The 9260 is notably more demanding than 0580 on circle theorems — it requires 
 
 ### Cambridge 0580
 
-**Core (C4.7):** Only Theorem 2 (angle in semicircle = 90°) is required at Core level, plus tangent ⊥ radius (covered in [[Circle Theorems II]]).
+**Core (C4.7):** two properties only — the angle in a semicircle is 90°, and the angle between a tangent and a radius is 90° — used to *calculate unknown angles and give explanations*.
 
-**Extended (E4.7):** Adds chord properties (perpendicular bisector, equal chords equidistant from centre) — but notably does NOT require Theorems 1, 3, or 4. The 0580 Extended is significantly less demanding than 9260 on circle theorems.
+**Extended (E4.7 — the syllabus's own "Circle theorems I"):** all four theorems on this card plus the two Core ones, by name: angle in a semicircle; tangent ⟂ radius; angle at the centre is twice the angle at the circumference; angles in the same segment are equal; opposite angles of a cyclic quadrilateral sum to 180°; the alternate segment theorem. The notes say candidates *are expected to use the geometrical properties listed when giving reasons* — so the theorem must be named, not just applied. The chord and tangent symmetry properties are E4.8, in [[Circle Theorems II]]. (Checked against the 2025–27 syllabus, which lists E4.7 and E4.8 separately; an earlier version of this note understated Extended.)
 
 ### A-Level
 

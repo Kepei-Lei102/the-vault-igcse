@@ -18,7 +18,6 @@ tags:
   - level/A-Level
   - curriculum/Cambridge-9709
   - curriculum/Cambridge-9231
-  - curriculum/A-Level
   - curriculum/IB-AA
   - syllabus/9709-6-3
   - syllabus/9231-4-1
@@ -30,6 +29,7 @@ tags:
   - misconception/probability-zero-not-impossible
   - misconception/strict-vs-inclusive
   - misconception/transform-pdf-by-substitution
+  - type/deep
 ---
 
 # Continuous Random Variables 连续随机变量

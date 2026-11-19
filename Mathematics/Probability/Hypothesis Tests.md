@@ -1,6 +1,7 @@
 ---
 chinese: 假设检验 (jiǎshè jiǎnyàn)
 prerequisites:
+  - "[[Stats Lies Hall of Fame]]"
   - "[[Sampling and Estimation]]"
   - "[[Normal Distribution]]"
   - "[[Discrete Random Variables]]"
@@ -8,6 +9,7 @@ prerequisites:
   - "[[Continuous Random Variables]]"
   - "[[Inventing Variance]]"
 leads_to:
+  - "[[Sorry the Homework Is Late]]"
   - "[[t-Tests]]"
   - "[[Chi-Squared Tests]]"
   - "[[Non-Parametric Tests]]"
@@ -18,8 +20,8 @@ tags:
   - domain/probability
   - level/A-Level
   - curriculum/Cambridge-9709
-  - curriculum/A-Level
   - curriculum/AP-Statistics
+  - curriculum/Cambridge-9231
   - syllabus/9709-6-5
   - type/deep
   - type/methodology
@@ -27,6 +29,7 @@ tags:
   - misconception/p-value-is-prob-h0-true
   - misconception/significant-means-important
   - misconception/tail-chosen-after-data
+
 ---
 # Hypothesis Tests 假设检验
 

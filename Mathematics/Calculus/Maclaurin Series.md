@@ -28,12 +28,14 @@ tags:
   - level/A-Level
   - level/pre-IB
   - level/pre-AP
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
+  - curriculum/AP-Calculus-BC
+  - curriculum/Cambridge-9231
+  - curriculum/Edexcel-IAL
   - syllabus/IB-AA-HL-5-19
   - syllabus/AP-Calculus-BC-10
   - syllabus/9231-2-3
+  - syllabus/IAL-FP2-6-1
   - type/theorem
   - type/definition
   - type/technique
@@ -44,6 +46,7 @@ tags:
   - misconception/maclaurin-vs-taylor-confusion
   - misconception/analytic-equals-smooth
   - misconception/blind-truncation
+  - type/deep
 ---
 
 # Maclaurin and Taylor Series 麦克劳林与泰勒级数
@@ -77,27 +80,11 @@ The Taylor series is the answer to a daring question: *can we represent any well
 
 ### 中文锚点 (Chinese Anchor)
 
-**泰勒级数** 和 **麦克劳林级数** 是中国大学一年级 *微积分* 课程的核心内容，属于高等数学的基础。绝大多数中国国际学校的学生都见过公式本身，但有三点是英语考试体系特别看重、而国内课本经常一带而过的：
+计算器根本不知道正弦是什么。它只会加和乘，所以你问它 $\sin 0.1$，它算的是一个多项式：$0.1 - \dfrac{0.1^3}{6}$，再加一点点。泰勒级数就是这个多项式的配方，用函数在一个中心点上的值、斜率和弯曲程度配出来；麦克劳林级数是同一份配方，只是中心取在零。它是一种局部的描述，像一张街道地图：靠近中心时可靠，而收敛区间告诉你能走多远，走出去地图就对不上地面了。取前 $n$ 项之后的误差，被下一项的大小限制住——计算器就是这样知道什么时候该停。
 
-1. **收敛区间必须写出来。** 国内课本经常把 "对 $\lvert x \rvert < R$ 成立" 当作脚注；但 Cambridge、IB、AP 的评分员会真的扣分。**每一道泰勒/麦克劳林题的答案都要以一个明确的收敛限制条件收尾**，例如 "valid for $\lvert x \rvert < 1$" 或 "for all $x \in \mathbb{R}$"。
+### 术语对照
 
-2. **拉格朗日余项 $R_n(x) = \dfrac{f^{(n+1)}(\xi)}{(n+1)!}(x-a)^{n+1}$。** 国内学生通常学过这个公式，但很少在考试中实际用它做误差估计。**AP BC 和 IB AA HL 考试会明确要求用拉格朗日余项给出近似的误差上界** —— 如果答完一道近似题没有这一步，整道题最多拿一半分。这是中国留学生最常丢分的位置。
-
-3. **"Maclaurin"（麦克劳林）只是 $a = 0$ 时的 Taylor（泰勒）。** 英联邦教育体系习惯把 $a = 0$ 这个特例单独命名为 "Maclaurin 级数"；中文教材一般不区分两者。**如果英语考题说 "find the Maclaurin series"，意思就是 "中心取 $a = 0$ 的 Taylor 展开"。** 同一台机器，只是参数 $a$ 默认设为 $0$。
-
-中英文术语对照：
-
-| English term | 中文 | Pinyin |
-|---|---|---|
-| Taylor series | 泰勒级数 | Tàilè jíshù |
-| Maclaurin series | 麦克劳林级数 | Màikèláolín jíshù |
-| radius of convergence | 收敛半径 | shōuliǎn bànjìng |
-| interval of convergence | 收敛区间 | shōuliǎn qūjiān |
-| Lagrange remainder | 拉格朗日余项 | Lāgélǎngrì yúxiàng |
-| infinitely differentiable | 无限可微 | wúxiàn kěwēi |
-| analytic function | 解析函数 | jiěxī hánshù |
-| smooth function ($C^\infty$) | 光滑函数 | guānghuá hánshù |
-| power series | 幂级数 | mì jíshù |
+泰勒级数：Taylor series（中心在 $a$）；麦克劳林级数：Maclaurin series（$a = 0$ 的特例，英联邦体系单独命名，中文教材一般不区分）；收敛半径 / 收敛区间：radius / interval of convergence；拉格朗日余项：Lagrange remainder $R_n(x) = \dfrac{f^{(n+1)}(\xi)}{(n+1)!}(x-a)^{n+1}$；幂级数：power series；无限可微：infinitely differentiable；解析函数：analytic function。
 
 ## Notation
 
@@ -441,9 +428,19 @@ Required mastery:
 
 The AP exam loves problems of the form: "the function $f$ has $f^{(n)}(0) = (-1)^n n!$ for all $n \geq 0$. (a) Find the Maclaurin series of $f$. (b) Find the interval of convergence. (c) Identify $f$ explicitly."
 
-### A-Level Further (FP1 / Cambridge 9231)
+### Cambridge 9231 Further Mathematics — Paper 2 (FP2) §2.3
 
-Maclaurin series appears in the Cambridge **Further Pure 1** module. Standard expansions (the six) are required; the Lagrange remainder is sometimes asked. Less depth than IB AA HL or AP BC but the same shape.
+Maclaurin series sits in **Further Pure 2**, §2.3 *Differentiation and integration*: derive and use the Maclaurin series of a function, including the standard series for $e^x$, $\ln(1+x)$, $\sin x$, $\cos x$, $(1+x)^n$ and $\tan^{-1}x$, and of composite or product functions built from them up to a stated power. The remainder term is **not** required; convergence is stated, not proved. Paper 2 questions ask for the first three or four non-zero terms of a composite (e.g. $e^{x}\sin 2x$, $\ln(1 + \sin x)$) and then an approximation or a limit.
+
+### Edexcel IAL — Further Pure 2 §6
+
+*FP2.6.1–6.4*: the Maclaurin series of a function; the standard series and their ranges of validity; series of composite functions; and — beyond Cambridge — the **Taylor series** about $x = a$ and the **series solution of differential equations** by repeated differentiation. The first three are this card; the differential-equation method is the half this card does not carry.
+
+### Not examined on…
+
+- **Cambridge 9709** — no power series at all; the binomial expansion of [[Binomial Series]] is the nearest row.
+- **Cambridge 0606 / 0580** — none.
+- **IB AA SL** — Maclaurin series is HL only (5.19).
 
 ### Cambridge 9709
 

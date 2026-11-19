@@ -12,7 +12,6 @@ tags:
   - domain/thermal-physics
   - level/A-Level
   - curriculum/Cambridge-9702
-  - curriculum/A-Level
   - curriculum/IB-Physics
   - curriculum/AP-Physics-2
   - syllabus/9702-16-2
@@ -26,6 +25,7 @@ tags:
   - misconception/heat-equals-internal-energy
   - misconception/adiabatic-equals-isothermal
   - misconception/gas-work-only-at-constant-pressure
+  - type/deep
 ---
 
 # First Law of Thermodynamics  热力学第一定律
@@ -44,15 +44,11 @@ The [[Internal Energy|internal energy]] $U$ of a system changes only by what cro
 
 ## 中文锚点
 
-**核心论题**：热力学第一定律就是**能量守恒**，只不过把"热"也算作一种能量传递方式。系统的[[Internal Energy|内能]] $U$（一个**状态函数**——只看现在的状态，不看走过的路）只能通过两扇门改变：**吸热 $Q$** 和**外界对它做功 $W$**：
+给自行车快速打气，打气筒会发烫，可并没有谁去加热它：是你的手臂对空气做了功，这份能量就储存在空气里了。把同样的打气筒放在炉子旁边，它也会变热，这回没有人做功，能量是因为炉子更热而自己流进来的。事后两个打气筒一模一样，里面的空气说不出能量是从哪条路进来的。热力学第一定律说的就是这件事：气体有一个叫"内能"的账户，账户只有两扇门，一扇是做功，一扇是传热；余额的变化，就是从两扇门进来的能量加在一起，从门里出去的记为负。除此之外没有别的办法改变余额，所以能量不会凭空产生，也不会凭空消失，只会搬家。柴油机就是故意只用第一扇门：把空气压缩得极快，热量来不及跑掉，空气一下子升到几百摄氏度，不用火花塞，油一喷进去就着了。
 
-$$\Delta U = Q + W.$$
+## 术语对照 (Terms)
 
-关键在于**符号约定**（考试最容易错的地方）：先记原理——**能量进入系统为正，离开为负**。本卡片用 $\Delta U = Q + W$，其中 $W$ 是**外界对气体**做的功；气体被压缩时 $W>0$（能量进入），膨胀时 $W<0$。气体做功 $W_{\text{on}} = -p\,\Delta V$，几何上就是 **$p$–$V$ 图曲线下的面积**（带符号）。
-
-四种基本过程：**等温**（$\Delta U=0$，吸的热全变成功）、**等压**（$W=-p\Delta V$）、**等容**（$W=0$，吸的热全变内能）、**绝热**（$Q=0$，做功直接改变内能——打气筒发热、柴油机压燃就是它）。
-
-绕一圈回到起点（**循环**）时 $\Delta U=0$，所以**净热 = 净功 = $p$–$V$ 图围成的面积**——这正是热机的种子，通往[[Entropy and the Second Law|第二定律]]与[[Stories/Boltzmann's Tombstone|熵]]。第一定律说"你赢不了"（能量守恒），第二定律说"你连平局都打不成"。
+热力学第一定律 first law of thermodynamics · [[Internal Energy|内能]] internal energy · 状态函数 state function · 做功 work · 传热 heating · 等温 isothermal · 等压 isobaric · 等容 isochoric · 绝热 adiabatic · 循环 cycle · [[Entropy and the Second Law|第二定律]] second law
 
 ---
 
@@ -173,10 +169,21 @@ One mole of ideal gas expands slowly at constant $T = 300\,\text{K}$ from $V_1$ 
 
 ## Exam Notes
 
-- **Cambridge 9702 — §16.2.** The core home. State the first law $\Delta U = Q + W$ (their $W$ is work done **on** the system; some papers write $q$ for heat). Know $W = -p\,\Delta V$ at constant pressure and the sign conventions cold — the classic structured question defines internal energy in part (a) via [[Internal Energy]] §16.1 and applies the first law to a process in part (b). Adiabatic/isothermal *reasoning* is expected; the $pV^\gamma$ equation is **not** required here.
-- **IB Physics — B.4.1 (HL only).** The whole of B.4 Thermodynamics is Higher Level. Required: $\Delta U = Q + W$ with the sign convention, and reading **work done by/on a gas as the area under the $p$–$V$ curve.** The theme's next step is B.4.3 — the second law and entropy.
-- **AP Physics 2 — §9.4.** Algebra-based $\Delta U = Q + W$; interpret $p$–$V$ diagrams, identify the four processes, and compute work as area. Leads straight into §9.6 (entropy and the second law). AP often writes internal energy as $E_{\text{int}}$.
-- **Universal trap:** the sign of $W$. Decide it from the principle (energy in $=+$), not a memorised formula, and adiabatic-is-not-isothermal.
+### Cambridge 9702 (A Level Physics), §16.1 and §16.2
+
+§16.1: "understand that internal energy is determined by the state of the system and that it can be expressed as the sum of a random distribution of kinetic and potential energies associated with the molecules of a system"; "relate a rise in temperature of an object to an increase in its internal energy". §16.2: "recall and use the first law of thermodynamics $\Delta U = q + W$ expressed in terms of the increase in internal energy, the heating of the system (energy transferred to the system by heating) and the work done on the system". So Cambridge's $W$ is work done **on** the gas, and the syllabus writes the heat as $q$; $W = -p\Delta V$ at constant pressure and the sign conventions are the whole examination.
+
+### IB Physics, B.4 Thermodynamics (HL only)
+
+"There is no standard level content in B.4." The Additional higher level list opens with "the first law of thermodynamics as given by $Q = \Delta U + W$ results from the application of conservation of energy to a closed system and relates the internal energy of a system to the transfer of energy as heat and as work", and "the change in internal energy as given by $\Delta U = \tfrac32 Nk_B\Delta T = \tfrac32 nR\Delta T$". **IB's $W$ is work done by the gas**, the opposite sign convention from Cambridge; read the area under the $p$–$V$ curve accordingly. B.4 continues to the second law and entropy ([[Entropy and the Second Law]]).
+
+### AP Physics 2, Unit 9, Topic 9.4 The First Law of Thermodynamics
+
+Algebra-based $\Delta U = Q + W$ with $W$ the work done on the gas (the same convention as Cambridge); interpret $p$–$V$ diagrams, identify isobaric, isochoric, isothermal and adiabatic processes, compute work as area. AP writes internal energy as $E_{\text{int}}$ in places. Entropy and the second law follow in 9.6.
+
+### Where this is *not* examined, and what is unverified
+
+Cambridge 0625 has no first law: its §2.2.2 states only that a rise in temperature increases internal energy. Cambridge 9709, AP Physics 1 and AP Physics C have no thermodynamics. Universal trap on every board that does examine it: decide the sign of $W$ from the principle (energy in is positive) and from the board's stated convention, never from a remembered formula.
 
 ## Connections
 

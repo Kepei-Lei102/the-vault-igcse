@@ -11,16 +11,21 @@ tags:
   - level/A-Level
   - level/IB
   - level/AP
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/AP-Calculus-BC-6-6
+  - syllabus/AP-Calculus-BC-8-1
   - type/deep
   - type/theorem
   - type/proof
   - notation/definite-integral
   - misconception/swapping-limits
   - misconception/comparison-without-bounds
+  - curriculum/AP-Calculus-AB
+  - curriculum/AP-Calculus-BC
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
+  - curriculum/Cambridge-9709
+  - curriculum/Cambridge-0606
 ---
 
 # Properties of Definite Integrals 定积分的性质
@@ -33,7 +38,7 @@ The seven properties below are AP Calculus Topic 6.6 ("Applying Properties of De
 
 ### 中文锚点
 
-定积分的性质 = 不需要算出具体值就可以使用的代数和不等式规则。线性、可加性、上下限交换变号、空区间为零、比较不等式、平均值定理 — 它们都是黎曼和定义的直接推论，证明只需要把性质翻译到求和上，然后取极限。这些性质在 FTC 的推导和绝大多数定积分计算中反复出现。
+把定积分想成一辆车在两个时刻之间走过的路程：把每一瞬间的速度一点点累加起来。这样一来，这张卡上的每条性质都是你不用知道路线就知道的旅程常识。8 点到 10 点的路程加上 10 点到 12 点的路程，就是 8 点到 12 点的路程；把时钟倒着拨，同一段路就记成负的；从 9 点到 9 点哪儿也没去；速度从没超过 100 km/h，两小时最多走 200 km；而且某一刻你的速度一定恰好等于全程的平均速度，因为你不可能一路都比平均快。积分本质上就是一本累计的流水账，流水账的规矩就是它的规矩——证明无非是把同一句话对"一小段一小段的和"说一遍，再让每一段缩到无穷小。
 
 ---
 
@@ -195,13 +200,23 @@ The general pattern: every property is a one-line manipulation; chaining them is
 
 Examined directly. Common prompt: *"Given $\int_0^5 f(x)\, dx = 12$ and $\int_0^3 f(x)\, dx = 7$, find $\int_3^5 f(x)\, dx$."* Pure additivity; one-line answer ($12 - 7 = 5$). More advanced prompts mix linearity with sign-flip. The *average value* and *MVT for integrals* appear at least once per BC exam.
 
-### IB AA HL & A-Level Further
+### AP Calculus AB / BC — Topic 8.1 (average value)
 
-Stated and applied. Average-value problems are common; comparison-theorem-as-bound is occasionally tested. MVT for integrals is in the curriculum at HL but rarely at SL.
+The **average value** $\dfrac{1}{b-a}\int_a^b f(x)\,\mathrm dx$ is its own outcome, set as a calculator question with a given $f$ or a table; it is the Mean Value Theorem for integrals in exam clothing.
+
+### Edexcel IAL and OxfordAQA 9660
+
+IAL **P2 §8.1** and 9660 **P1.4** both name the definite integral with its properties — additivity over adjacent intervals, the sign flip on reversed limits, and area below the axis as a negative integral. The examined form is the split integral across a root of $f$ to find total area.
+
+### IB Mathematics AA
+
+No named outcome for the properties; they are used inside **SL 5.5 and 5.11** (definite integrals and areas, including areas between curves and below the axis). Average value and the Mean Value Theorem for integrals appear at **HL** only, occasionally.
 
 ### Cambridge 0606 / 9709
 
-Linearity, additivity, and sign-flip are *used implicitly* — students apply them without naming them. Average value is not on either syllabus. The "bounded above and below" estimation form (Property 5 special case) shows up rarely.
+Linearity, additivity and the sign flip are *used implicitly* — students apply them without naming them, most often in splitting an area at an axis crossing. Average value is on neither syllabus. The "bounded above and below" estimation (Property 5) shows up only as a Paper 3 trapezium-rule over/under-estimate remark.
+
+**Not examined on:** Cambridge 0580 and 9231 (no definite-integral properties as such); AP Physics uses the average value of a function without naming it.
 
 ---
 

@@ -13,12 +13,13 @@ leads_to:
 tags:
   - subject/mathematics
   - domain/statistics
-  - level/GCSE
   - level/IGCSE
   - level/pre-IB
   - level/pre-AP
   - curriculum/OxAQA-9260
   - curriculum/Cambridge-0580
+  - curriculum/Cambridge-9709
+  - curriculum/Edexcel-IAL
   - syllabus/9260-S4
   - syllabus/9260-S6
   - syllabus/0580-E9-4
@@ -26,6 +27,8 @@ tags:
   - type/visual-tool
   - misconception/bar-chart-vs-histogram
   - misconception/pie-chart-angle
+  - type/deep
+
 ---
 
 # Statistical Charts 统计图表
@@ -367,32 +370,30 @@ From the polygons: Class A's distribution peaks later (at midpoint 45–55) whil
 
 ## Exam Notes
 
-### OxAQA 9260
+### OxfordAQA 9260 (IGCSE)
 
-- S4: construct and interpret bar charts, pie charts, pictograms, stem-and-leaf diagrams (including back-to-back), frequency polygons
-- S6: read and interpret tables, charts, and graphs
-- S7: compare distributions using appropriate statistics and charts
-- Typical question structure: data in a table → draw the chart → use it to answer a question (find the median, compare groups, estimate a value)
-- Frequency polygons are explicitly listed for 9260 — know how to draw and interpret them
-- "Compare two distributions" questions: use back-to-back stem-and-leaf or overlaid frequency polygons, and give TWO comparisons (one average, one spread)
+**Syllabus ref:** S4, Core: "produce charts and diagrams for various data types; scatter graphs, stem-and-leaf, tally charts, pictograms, bar charts, dual and composite bar charts, pie charts, line graphs, frequency polygons, histograms with equal class intervals"; Extension: "histograms with unequal class intervals, cumulative frequency diagrams, box plots" ([[Histograms]], [[Cumulative Frequency]], [[Box Plots]]). S6 "read and interpret a wide range of graphs and diagrams and draw conclusions" and S7 "compare distributions and make inferences" are Core. Frequency polygons are named, so drawing and reading them is fair game; a "compare" question wants one statement on average and one on spread.
 
-### Cambridge 0580
+### Cambridge 0580 (IGCSE), Core and Extended
 
-- E9.2: read and interpret statistical data from tables, charts, and graphs
-- E9.4: draw and interpret bar charts, pie charts, pictograms, stem-and-leaf diagrams (including back-to-back)
-- Pie chart calculation is a common Paper 2 (non-calculator) question — practise doing $\dfrac{f}{n} \times 360°$ without a calculator
-- Paper 4: expect to draw a chart from data given in a table, then answer interpretation questions
+**Syllabus ref:** C9.4 = E9.4 "Statistical charts and diagrams", identical on both tiers: "Draw and interpret: (a) bar charts, (b) pie charts, (c) pictograms, (d) stem-and-leaf diagrams, (e) simple frequency distributions", with the notes "Includes composite (stacked) and dual (side-by-side) bar charts" and "Stem-and-leaf diagrams should have ordered data with a key". Frequency polygons are not named on 0580. Pie-chart angles, $\dfrac{f}{n} \times 360°$, appear on the non-calculator paper; a "draw the chart, then interpret it" pair is the usual Paper 3/4 shape.
 
-### AP / IB / A-Level
+### Cambridge 9709 (AS Level), Paper 5 §5.1
 
-- **AP Statistics:** heavy emphasis on reading and interpreting displays of data; dotplots, stemplots (stem-and-leaf), and bar charts are standard; students must be able to **describe distributions** using shape (symmetric/skewed), centre (mean/median), spread (range/IQR/standard deviation), and unusual features (outliers, gaps, clusters)
-- **IB Mathematics AI:** real-world data presentation is central; students are expected to use technology (GDC or software) to produce charts
-- **A-Level Statistics:** comparative stem-and-leaf, multiple frequency polygons for comparison, choosing and justifying the appropriate diagram
+"Draw and interpret stem-and-leaf diagrams, box-and-whisker plots, histograms and cumulative frequency graphs", "Including back-to-back stem-and-leaf diagrams"; and "select a suitable way of presenting raw statistical data, and discuss advantages and/or disadvantages that particular representations may have".
+
+### Edexcel IAL (S1), §2.1
+
+"Histograms, stem and leaf diagrams, box plots", used "to compare distributions"; "Back-to-back stem and leaf diagrams may be required"; and the important limit, "Drawing of histograms, stem and leaf diagrams or box plots will not be the direct focus of examination questions".
+
+### Where this is *not* examined, and what is unverified
+
+Cambridge 0606 has no statistics. AP Statistics and the IB Mathematics guides are not on file; the descriptions of their emphasis that this section used to carry (shape, centre, spread, unusual features; GDC-produced charts) are standard but unverified here, and the tags make no claim for them.
 
 ### Beyond high school — University
 
 - The frequency polygon is the discrete ancestor of the **probability density function** (PDF) — as class widths shrink toward zero and the sample size grows, the polygon smooths into a continuous curve. This limiting process connects statistics to calculus.
-- **Edward Tufte's** *The Visual Display of Quantitative Information* (1983) is the foundational text on statistical graphics. His principles — maximise the data-ink ratio, avoid chart junk, show the data — have shaped how scientists, journalists, and analysts present data. If you enjoy the design side of statistics, this book is worth reading.
+- **Edward Tufte's** *The Visual Display of Quantitative Information* (1983) is the foundational text on statistical graphics. His principles — maximise the data-ink ratio, avoid chart junk, show the data — have shaped how scientists, journalists, and analysts present data.
 
 ---
 

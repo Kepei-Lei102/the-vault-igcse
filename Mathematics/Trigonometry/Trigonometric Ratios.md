@@ -32,7 +32,6 @@ tags:
   - curriculum/Cambridge-0606
   - curriculum/IB-AA
   - curriculum/IB-AI
-  - curriculum/AP
   - syllabus/9260-G19
   - syllabus/0580-E6-2
   - syllabus/0606-10-1
@@ -42,6 +41,9 @@ tags:
   - misconception/wrong-side-labels
   - misconception/calculator-mode
   - misconception/sin-inverse-vs-reciprocal
+  - curriculum/Cambridge-9709
+  - curriculum/AP-Precalculus
+  - type/deep
 ---
 
 # Trigonometric Ratios 三角比
@@ -236,28 +238,31 @@ $\tan\theta = \sqrt{3} \implies \theta = 60°$. Then $\cos 60° = \dfrac{1}{2} =
 
 ## Exam Notes
 
-### OxAQA 9260 (Core + Extension)
+### OxfordAQA 9260 (IGCSE), Core
 
-**Syllabus ref:** G19. Core: "Know and use $\sin$, $\cos$, $\tan$ in right-angled triangles, including angles of elevation/depression." Extension: exact values of trig ratios at $0°, 30°, 45°, 60°, 90°$; solve problems in 3D (see [[3D Trigonometry]]).
+**Syllabus ref:** G19, Core: "know the formula for: Pythagoras' theorem, $a^2 + b^2 = c^2$ and the trigonometric ratios $\sin\theta = \dfrac{\text{opposite}}{\text{hypotenuse}}$, $\cos\theta = \dfrac{\text{adjacent}}{\text{hypotenuse}}$, $\tan\theta = \dfrac{\text{opposite}}{\text{adjacent}}$" and apply them in right-angled triangles; Extension: "including 3D figures" ([[3D Trigonometry]]). Exact values are not named in G19's wording as swept; a "show that $\tan\theta = \dfrac{\sqrt3}{3}$" question wants the exact form and working, and a decimal scores nothing.
 
-**Typical Paper 2/4 phrasing:**
-- "Calculate the length of $AB$, giving your answer correct to 3 significant figures." (1–3 marks)
-- "Find the angle of elevation of the top of the tower from the point $P$." (2–3 marks)
-- "Show that $\tan\theta = \dfrac{\sqrt{3}}{3}$ and hence find $\theta$." (Extension, exact-value)
+**Typical phrasing:** "Calculate the length of $AB$, giving your answer correct to 3 significant figures" (1–3 marks); "Find the angle of elevation of the top of the tower from $P$" (2–3 marks).
 
-**Mark scheme watch:** "Show that" questions require an **exact** answer with working. A decimal approximation scores zero.
+### Cambridge 0580 (IGCSE), Core and Extended
 
-### Cambridge 0580 (Extended)
-
-**Syllabus ref:** E6.2. Right-angled trig only in 0580 (no Sine/Cosine Rules at Core; those are Extended only at E6.4).
+**Syllabus ref:** C6.2 = E6.2 "Right-angled triangles", on both tiers: "Know and use the sine, cosine and tangent ratios for acute angles in calculations involving sides and angles of a right-angled triangle", with "Angles will be given in degrees and answers should be written in degrees, with decimals correct to one decimal place"; "Solve problems in two dimensions using Pythagoras' theorem and trigonometry", where "Knowledge of bearings may be required". Extended adds E6.2 points 3–4 (the perpendicular distance from a point to a line is the shortest; angles of elevation and depression) and E6.3 "Exact trigonometric values" ("$\sin x$ and $\cos x$ for $x = 0°, 30°, 45°, 60°$ and $90°$; $\tan x$ for $x = 0°, 30°, 45°$ and $60°$"). The sine and cosine rules are E6.5, Extended only ([[Sine and Cosine Rules]]).
 
 ### Cambridge 0606 (Additional Mathematics)
 
-**Syllabus ref:** 10.1 — three of the six functions the row names. Right-triangle SOH-CAH-TOA itself is assumed from 0580 §6.2; 0606 starts by extending it to the full circular definition (all angles, unit circle), adds the reciprocal functions, the three identities $\sin^2 + \cos^2 = 1$, $1 + \tan^2 = \sec^2$, $\cot^2 + 1 = \csc^2$, and trig graphs. This card is the foundation; **0606 Topic 10** is the superstructure.
+**Syllabus ref:** 10.1 "Know and use the six trigonometric functions of angles of any magnitude". SOH-CAH-TOA is assumed from 0580; 0606 begins by extending the three ratios to all angles and adding secant, cosecant and cotangent ([[Trigonometric Functions]]).
 
-### AP Precalculus / IB Mathematics AA & AI
+### Cambridge 9709 (AS Level), Paper 1 §1.5
 
-All three curricula assume SOH-CAH-TOA as established knowledge in Year 1 and spend most of their trig time on the **unit circle**, **radian measure**, **reciprocal functions** ($\sec$, $\csc$, $\cot$), **trig identities**, and **trig equations**. The definitions you learn here are recycled — they just get extended beyond right-angled triangles to all angles.
+"Use the exact values of the sine, cosine and tangent of $30°$, $45°$, $60°$, and related angles", e.g. $\cos 150° = -\tfrac{\sqrt3}{2}$; the right-angled ratios themselves are prior knowledge from 0580 Extended, which the syllabus assumes.
+
+### Edexcel IAL (P1), §3
+
+Right-angled trigonometry is assumed; P1's own rows begin at the sine and cosine rules (3.1), radians (3.2) and the functions' graphs (3.3).
+
+### Where this is *not* examined, and what is unverified
+
+Every board on file examines or assumes this card; there is no "not examined" line. AP Precalculus and the IB Mathematics guides are not on file, so the AP and IB tags record the customary placement (unit circle after right-angled ratios) without PDF verification.
 
 ---
 
@@ -287,13 +292,13 @@ Once you have calculus on $\sin$ and $\cos$, you can derive their **Taylor serie
 $$\sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots, \qquad \cos x = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots$$
 Combined with the Taylor series for $e^x$, this produces **Euler's formula**:
 $$e^{i\theta} = \cos\theta + i\sin\theta$$
-(where $i = \sqrt{-1}$, the imaginary unit — see the discriminant discussion in [[Completing the Square]]). This single identity unites exponential growth, rotation, and oscillation into one object. Setting $\theta = \pi$ gives **Euler's identity** $e^{i\pi} + 1 = 0$, often called the most beautiful equation in mathematics. You will meet this in IB AA HL, AP Calculus BC, and first-year university.
+(where $i = \sqrt{-1}$, the imaginary unit — see the discriminant discussion in [[Completing the Square]]). This single identity unites exponential growth, rotation, and oscillation into one object. Setting $\theta = \pi$ gives **Euler's identity** $e^{i\pi} + 1 = 0$, often called the most beautiful equation in mathematics. This is required in IB AA HL and developed further at university; AP Calculus BC studies real power series but does not prescribe Euler’s complex-exponential identity.
 
 ### Fourier Analysis — Where Trig Takes Over the World
 
-Every well-behaved periodic function can be written as a sum of sines and cosines:
-$$f(t) = a_0 + \sum_{n=1}^{\infty} \left(a_n \cos(n\omega t) + b_n \sin(n\omega t)\right)$$
-This is a **Fourier series**. Its continuous cousin, the **Fourier transform**, decomposes arbitrary signals into frequency components. Applications: audio compression (MP3), image compression (JPEG), medical imaging (MRI, CT), radio, WiFi, noise-cancelling headphones, quantum mechanics. Every time your phone plays a song, Fourier analysis runs a billion sines and cosines per second.
+A continuous, piecewise smooth periodic function can be reconstructed from its harmonic components:
+$$f(t)=\frac{a_0}{2}+\sum_{n=1}^{\infty}\left(a_n\cos(n\omega t)+b_n\sin(n\omega t)\right).$$
+[[Fourier Series]] derives the coefficients by projection; at a jump, the series converges to the midpoint of the two one-sided limits. The [[Fourier Transform]] extends frequency analysis beyond one repeated pattern. Additive synthesis uses the sum directly to build a tone; many audio and image codecs use related transforms to represent data compactly.
 
 A triangle you can draw with a ruler and protractor leads to the mathematics that runs the modern world.
 

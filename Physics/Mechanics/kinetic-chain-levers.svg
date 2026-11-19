@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="777.6pt" height="352.8pt" viewBox="0 0 777.6 352.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 352.8 
+L 777.6 352.8 
+L 777.6 0 
+L 0 0 
+L 0 352.8 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 96.262626 213.813586 
+L 298.477374 213.813586 
+" clip-path="url(#p91803359b8)" style="fill: none; stroke: #059669; stroke-width: 6; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 96.262626 213.813586 
+L 96.262626 40.486659 
+" clip-path="url(#p91803359b8)" style="fill: none; stroke: #7c3aed; stroke-width: 6; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 119.372883 213.813586 
+L 103.195703 57.819352 
+" clip-path="url(#p91803359b8)" style="fill: none; stroke: #dc2626; stroke-opacity: 0.45; stroke-width: 5; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10.5px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; fill: #dc2626" transform="translate(148.260704 136.321751)">the biceps pulls</text>
+    <text style="font-size: 10.5px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; fill: #dc2626" transform="translate(148.260704 148.848251)">with 495 N</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10.5px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; fill: #2563eb" transform="translate(276.884288 296.17614)">5 kg held</text>
+    <text style="font-size: 10.5px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; fill: #2563eb" transform="translate(287.390031 308.70264)">49 N</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; fill: #0891b2" transform="translate(157.148494 266.805318)">forearm and hand</text>
+    <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; fill: #0891b2" transform="translate(186.232869 278.735318)">15 N</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #dc2626" x="119.372883" y="233.257202" transform="rotate(-0 119.372883 233.257202)">4 cm</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #888888" x="269.589553" y="201.102945" transform="rotate(-0 269.589553 201.102945)">35 cm from the elbow</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #888888" x="87.596279" y="234.412715" transform="rotate(-0 87.596279 234.412715)">elbow</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #888888" x="197.37" y="15.153966" transform="rotate(-0 197.37 15.153966)">the forearm: ten times the force, a ninth of the travel</text>
+   </g>
+   <g id="patch_2">
+    <path d="M 139.594357 211.814325 
+Q 139.594357 164.704497 139.594357 119.830738 
+" clip-path="url(#p91803359b8)" style="fill: none; stroke: #dc2626; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 136.994357 125.030738 
+L 139.594357 119.830738 
+L 142.194357 125.030738 
+z
+" clip-path="url(#p91803359b8)" style="fill: #dc2626; stroke: #dc2626; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 298.477374 215.813024 
+Q 298.477374 242.701962 298.477374 267.354831 
+" clip-path="url(#p91803359b8)" style="fill: none; stroke: #2563eb; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 301.077374 262.154831 
+L 298.477374 267.354831 
+L 295.877374 262.154831 
+z
+" clip-path="url(#p91803359b8)" style="fill: #2563eb; stroke: #2563eb; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 196.792244 215.811261 
+Q 196.792244 229.699249 196.792244 241.351169 
+" clip-path="url(#p91803359b8)" style="fill: none; stroke: #0891b2; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 199.392244 236.151169 
+L 196.792244 241.351169 
+L 194.192244 236.151169 
+z
+" clip-path="url(#p91803359b8)" style="fill: #0891b2; stroke: #0891b2; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 96.262626 220.746664 
+C 98.101299 220.746664 99.864913 220.016151 101.165051 218.716012 
+C 102.46519 217.415874 103.195703 215.65226 103.195703 213.813586 
+C 103.195703 211.974913 102.46519 210.211299 101.165051 208.911161 
+C 99.864913 207.611022 98.101299 206.880509 96.262626 206.880509 
+C 94.423952 206.880509 92.660338 207.611022 91.3602 208.911161 
+C 90.060061 210.211299 89.329548 211.974913 89.329548 213.813586 
+C 89.329548 215.65226 90.060061 217.415874 91.3602 218.716012 
+C 92.660338 220.016151 94.423952 220.746664 96.262626 220.746664 
+z
+" clip-path="url(#p91803359b8)" style="fill: #888888; fill-opacity: 0.6; stroke: #888888; stroke-linejoin: miter"/>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_6">
+    <path d="M 630.31269 261.478492 
+L 685.576348 261.478492 
+L 685.576348 213.122791 
+L 630.31269 213.122791 
+z
+" clip-path="url(#pb49e01437d)" style="fill: #f59e0b; fill-opacity: 0.25; stroke: #f59e0b; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 502.515481 99.141496 
+L 657.944519 99.141496 
+" clip-path="url(#pb49e01437d)" style="fill: none; stroke: #2563eb; stroke-width: 7; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 502.515481 99.141496 
+L 495.607524 244.208598 
+" clip-path="url(#pb49e01437d)" style="fill: none; stroke: #888888; stroke-opacity: 0.7; stroke-width: 6; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 657.944519 99.141496 
+L 657.944519 213.122791 
+" clip-path="url(#pb49e01437d)" style="fill: none; stroke: #7c3aed; stroke-width: 4; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 485.245588 81.871603 
+L 640.674626 81.871603 
+" clip-path="url(#pb49e01437d)" style="fill: none; stroke: #dc2626; stroke-width: 2.2; stroke-linecap: square"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10.5px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #dc2626" x="561.233118" y="69.782678" transform="rotate(-0 561.233118 69.782678)">back muscles, 5 cm above the joint: 3800 N</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; fill: #0891b2" transform="translate(542.547477 117.595368)">upper body</text>
+    <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; fill: #0891b2" transform="translate(525.489665 129.525368)">368 N at 28 cm</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #f59e0b" x="657.944519" y="315.900214" transform="rotate(-0 657.944519 315.900214)">20 kg box, 196 N at 45 cm</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #888888" x="495.607524" y="92.233539" transform="rotate(-0 495.607524 92.233539)">lumbar joint</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 12px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #888888" x="580.23" y="15.153966" transform="rotate(-0 580.23 15.153966)">the bent back: a 20 kg box costs the spine 3.8 kN</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 535.055063 81.871603 
+Q 509.423001 81.871603 486.027007 81.871603 
+" clip-path="url(#pb49e01437d)" style="fill: none; stroke: #dc2626; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 491.227007 84.471603 
+L 486.027007 81.871603 
+L 491.227007 79.271603 
+z
+" clip-path="url(#pb49e01437d)" style="fill: #dc2626; stroke: #dc2626; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 599.226882 101.142544 
+Q 599.226882 119.866723 599.226882 136.354834 
+" clip-path="url(#pb49e01437d)" style="fill: none; stroke: #0891b2; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 601.826882 131.154834 
+L 599.226882 136.354834 
+L 596.626882 131.154834 
+z
+" clip-path="url(#pb49e01437d)" style="fill: #0891b2; stroke: #0891b2; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 657.944519 263.477431 
+Q 657.944519 280.475232 657.944519 295.236964 
+" clip-path="url(#pb49e01437d)" style="fill: none; stroke: #f59e0b; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 660.544519 290.036964 
+L 657.944519 295.236964 
+L 655.344519 290.036964 
+z
+" clip-path="url(#pb49e01437d)" style="fill: #f59e0b; stroke: #f59e0b; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 502.515481 103.977066 
+C 503.797889 103.977066 505.027946 103.46756 505.934745 102.56076 
+C 506.841545 101.653961 507.351051 100.423904 507.351051 99.141496 
+C 507.351051 97.859088 506.841545 96.629031 505.934745 95.722232 
+C 505.027946 94.815432 503.797889 94.305926 502.515481 94.305926 
+C 501.233073 94.305926 500.003016 94.815432 499.096216 95.722232 
+C 498.189417 96.629031 497.679911 97.859088 497.679911 99.141496 
+C 497.679911 100.423904 498.189417 101.653961 499.096216 102.56076 
+C 500.003016 103.46756 501.233073 103.977066 502.515481 103.977066 
+z
+" clip-path="url(#pb49e01437d)" style="fill: #888888; fill-opacity: 0.6; stroke: #888888; stroke-linejoin: miter"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p91803359b8">
+   <rect x="26.931855" y="23.153966" width="340.876291" height="317.766034"/>
+  </clipPath>
+  <clipPath id="pb49e01437d">
+   <rect x="398.896122" y="23.153966" width="362.667756" height="317.766034"/>
+  </clipPath>
+ </defs>
+</svg>

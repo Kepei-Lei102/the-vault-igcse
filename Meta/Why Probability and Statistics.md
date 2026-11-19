@@ -4,7 +4,9 @@ prerequisites:
   - "[[Probability Basics]]"
   - "[[Discrete Random Variables]]"
   - "[[Forward Reading and Problem Discovery]]"
+  - "[[Laplace and Napoleon]]"
 leads_to:
+  - "[[Stats Lies Hall of Fame]]"
   - "[[Normal Distribution]]"
   - "[[Poisson Distribution]]"
   - "[[Stories/Inventing Variance]]"
@@ -21,8 +23,6 @@ tags:
   - level/AP
   - level/life
   - type/methodology
-  - type/meta
-  - type/philosophical
   - misconception/numbers-dont-lie
   - misconception/normal-distribution-as-belief
   - misconception/correlation-implies-causation
@@ -201,7 +201,7 @@ This is the hunter's bias. Be skeptical of any number stripped of its generating
 > - $P(Y \mid \text{do}(X))$ — **interventional probability**: what would happen *if we intervened* and set $X$ ourselves. The do-operator is what randomised controlled trials measure.
 > - **Counterfactual probability**: what *would have* happened in a world where $X$ had taken a different value, holding everything else fixed. The hardest object; requires explicit causal models.
 >
-> The do-operator and counterfactual operators are the formal additions Pearl built. **Most "stats lie" cases reduce to confusing $P(Y \mid X)$ with $P(Y \mid \text{do}(X))$.** Simpson's paradox in the Berkeley admissions case (next section) is exactly this confusion: the conditional $P(\text{admitted} \mid \text{female})$ disagreed with the interventional $P(\text{admitted} \mid \text{do}(\text{female}))$ — because gender was correlated with department choice, which was the actual driver. The math is now in textbooks; it took 60 years for statistics to catch up to that distinction.
+> The do-operator and counterfactual operators are the formal additions Pearl built. **Most "stats lie" cases reduce to confusing $P(Y \mid X)$ with $P(Y \mid \text{do}(X))$.** Simpson's paradox in the Berkeley admissions case (below) shows why the distinction matters. The data give the conditional $P(\text{admitted} \mid \text{female})$, and it was lower than the figure for men — largely because gender was correlated with department choice, and departments differed greatly in how many applicants they admitted. What the allegation of bias was really about is a causal question, and phrased about one person it is a *counterfactual* one, the hardest of the three objects above: would the same applicant, to the same department, have fared differently as a man? A table of admission rates cannot answer that by itself. It needs a causal model, stating what influences what and which of those influences count as discrimination, and the answer can change with the model. The math is now in textbooks; it took 60 years for statistics to catch up to that distinction.
 
 ---
 
@@ -238,7 +238,7 @@ When a stat is presented stripped of its reference frame, it has hidden a critic
 
 ## Three classic stats lies
 
-A short tour of cases where a perfectly correct statistical statement misleads, because a hunter wasn't watching what got thrown away.
+A short tour of cases where a perfectly correct statistical statement misleads, because a hunter wasn't watching what got thrown away. The full museum — Farr's elevation law and Snow's water companies, Nightingale's two charts, the *Literary Digest*, Wald's memoranda, Huff for the tobacco industry, Anscombe, Berkeley — is [[Stats Lies Hall of Fame]]; the three below stay here as the method's illustrations.
 
 ### Lie 1 — Survivorship bias (Wald's bombers)
 
@@ -254,7 +254,7 @@ In 1973, the University of California, Berkeley graduate program admissions data
 
 When the data was broken down by department, however, the pattern reversed: **in most individual departments, women were admitted at equal or higher rates than men.** How can both be true?
 
-The answer: women applied disproportionately to *more competitive* departments (lower acceptance rates for everyone), while men applied disproportionately to less competitive ones. The aggregate "men > women" was a confound — averaging over the structure of departmental competitiveness. The within-department comparison (which is the causally meaningful one) showed no bias against women.
+The answer: women applied disproportionately to *more competitive* departments (lower acceptance rates for everyone), while men applied disproportionately to less competitive ones. The aggregate "men > women" was a confound — averaging over the structure of departmental competitiveness. The within-department comparison showed no pattern of bias against women. It is the more meaningful comparison for the question "did departments treat men and women differently?", on the assumption that nothing else relevant, such as the strength of the applications, differed between the men and women applying to the same department.
 
 This is **Simpson's paradox**: an aggregate trend can reverse when you condition on a relevant subgroup. Both numbers were statistically correct; the lie was in *which one you took as causally meaningful*. The aggregate was a summary that had thrown away the department-choice information, which was the load-bearing piece.
 
@@ -348,6 +348,7 @@ None of this was in the syllabus that ordered the cards. It emerged because each
 - **For students taking 9709:** [[MF19 Reference (9709)]] — the formula-sheet audit. The technical formulas behind every statement in this card are listed there as "given" or "memorise" depending on the paper.
 - **Cross-domain:** Survivorship bias, Simpson's paradox, mean-vs-typical confusions live everywhere data is summarised — public health, economics, sports analytics, AI evaluation, social science. The hunter's questions ("what was thrown away to produce this summary?", "what's the reference frame?") apply identically across all of them.
 - **Story partner:** [[Stories/The Lady Tasting Tea|The Lady Tasting Tea]] — Fisher, Pearson, Gosset and Neyman: the people behind *the trace and the threshold*, and the Epilogue where the hunter stopped tracing.
+- **Story:** [[Stories/Laplace and Napoleon]] — the astronomer for whom least squares and the central limit theorem were working tools, and the Essai that defined probability as measured ignorance.
 
 ---
 

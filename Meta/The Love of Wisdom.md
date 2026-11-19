@@ -4,6 +4,8 @@ prerequisites:
   - "[[Gödel's Incompleteness Theorems]]"
   - "[[The Feynman Technique]]"
   - "[[Fun Is the Brachistochrone]]"
+  - "[[Ramanujan and Hardy]]"
+  - "[[The True IO Bound]]"
 leads_to:
   - "[[The Gift of the Gradient]]"
 tags:
@@ -16,8 +18,6 @@ tags:
   - level/university
   - level/life
   - type/methodology
-  - type/meta
-  - type/philosophical
   - type/cross-domain
   - misconception/philosophy-is-having-answers
   - misconception/incompleteness-is-only-loss

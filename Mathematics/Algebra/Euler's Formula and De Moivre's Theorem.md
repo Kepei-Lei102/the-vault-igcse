@@ -12,15 +12,15 @@ leads_to:
   - "[[Differential Equations]]"
   - "[[Second-Order Differential Equations]]"
   - "[[De Moivre at Work]]"
+  - "[[Fourier Transform]]"
 tags:
   - subject/mathematics
   - domain/algebra
   - domain/complex-analysis
   - level/A-Level
-  - level/IB-AA-HL
+  - level/IB-HL
   - level/pre-IB
   - curriculum/IB-AA
-  - curriculum/A-Level
   - syllabus/9231-2-5
   - type/theorem
   - type/technique
@@ -30,6 +30,9 @@ tags:
   - misconception/de-moivre-fractional-power
   - misconception/missing-roots-of-unity
   - misconception/cis-vs-exp-confusion
+  - curriculum/Cambridge-9231
+  - curriculum/Edexcel-IAL
+  - type/deep
 ---
 
 # Euler's Formula and De Moivre's Theorem 欧拉公式与棣莫弗定理
@@ -62,19 +65,7 @@ This is the moment in a student's life when complex numbers stop feeling like a 
 
 ### 中文锚点
 
-**欧拉公式**（ōulā gōngshì）—— Leonhard Euler 1748 年：
-
-$$e^{i\theta} = \cos\theta + i\sin\theta.$$
-
-**棣莫弗定理**（dìmòfú dìnglǐ）—— Abraham de Moivre 1707 年：
-
-$$(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta).$$
-
-两个其实是**同一个事实**的两种写法。用欧拉公式重写棣莫弗定理：$(e^{i\theta})^n = e^{in\theta}$ —— 这就是 IGCSE 学过的指数法则。**复数的乘法、幂、开根号，都被压缩成指数规则。**
-
-中文教材把 $\cos\theta + i\sin\theta$ 简写作 $\mathrm{cis}\,\theta$（"cosine plus i sine"），但欧拉形式 $e^{i\theta}$ 更紧凑、更通用，是国际高校的统一语言。**学好欧拉形式，复数计算速度翻倍，且和大学物理 / 工程 / 信号处理直接对接。**
-
-为什么这张卡值得单独写：复数本身（[[Complex Numbers]]）讲的是定义、Argand 图、极坐标、共轭、轨迹这些"什么是复数"的内容。这张卡讲的是"怎样高效用复数计算"的工具集。两张卡分工：基础卡是入门，工具卡是飞跃。
+看自行车轮边缘上的一个记号：它一直绕圈转，可只看它在水平方向或竖直方向的位置，就会看到来回起伏。正弦和余弦原来是同一次转动的两个投影。把两个坐标合成一个复数，欧拉公式就把这次转动写成 e 的虚指数次幂；两次转动相接，角度相加，写成乘法就能接起来。棣莫弗定理也因此很自然：同样的转动重复 n 次，总角度就是原来的 n 倍。
 
 ---
 
@@ -319,7 +310,7 @@ Once Euler's form is in your toolkit, an entire family of physical-world phenome
 
 **Differentiation becomes multiplication.** $\dfrac{d}{dt} e^{i\omega t} = i\omega \, e^{i\omega t}$. In the frequency domain (Fourier-transformed), differentiation is "multiply by $i\omega$"; integration is "divide by $i\omega$." Differential equations become **algebraic equations** in the frequency domain.
 
-**Fourier transform** decomposes any signal into a sum (or integral) of complex exponentials $e^{i\omega t}$. Every audio file (MP3, AAC), every image (JPEG, PNG), every radio transmission (Wi-Fi, 5G), every MRI scan, every digital filter — all run on Fourier decomposition. The natural building blocks are complex exponentials, not separate sines and cosines.
+**Frequency analysis** expresses suitable signals using complex exponentials: a discrete harmonic sum for periodic functions in [[Fourier Series]], or an integral in the continuous [[Fourier Transform]]. Related transforms power many audio codecs, JPEG compression and MRI reconstruction. Their shared advantage is that each oscillating component can be analysed separately; this does not mean that every file format or every digital filter performs a Fourier transform.
 
 **AC circuit analysis** treats voltage and current as complex exponentials; resistors, inductors, capacitors become **complex impedances** $R$, $i\omega L$, $\dfrac{1}{i\omega C}$; Kirchhoff's laws become linear algebra over $\mathbb{C}$. The whole subject of *electrical engineering* — until you go to power electronics or RF — is complex-number arithmetic with $\omega t$ as the running argument.
 
@@ -417,7 +408,7 @@ Not on AP Calculus AB or BC. AP Pre-calculus introduces Euler form briefly (no f
 - **Direct prerequisite:** [[Binomial Theorem]] — used to expand $(\cos\theta + i\sin\theta)^n$ when extracting multiple-angle identities.
 - **Application:** [[Heptadecagon]] — Gauss's 17-gon is the geometric realisation of the 17th roots of unity. The §6 cyclotomic-polynomial framework is the algebra behind which polygons are compass-and-straightedge constructible.
 - **Application:** [[Differential Equations]] — second-order linear ODEs in the underdamped case use $e^{(\sigma + i\omega)t}$ solutions. Euler's form is the natural language for oscillations.
-- **Application — beyond syllabus:** Fourier series and transform — every signal decomposes into complex exponentials.
+- **Application — beyond syllabus:** [[Fourier Series]] and [[Fourier Transform]] — harmonic coordinates and frequency analysis, with the function class and convergence conditions stated.
 - **Application — beyond syllabus:** AC circuit analysis — impedance is complex; Kirchhoff's laws become linear algebra over $\mathbb{C}$.
 - **Story counterpart:** [[Stories/The Argument for i]] — the 400-year drama from Cardano's cubic to Schrödinger's wavefunction. Read alongside this card for the historical and physical context.
 - **Story counterpart:** [[Stories/The Hidden Number]] — the 250-year discovery of $e$, climaxing in Euler's identity. Pairs naturally with this card.

@@ -8,6 +8,7 @@ leads_to:
   - "[[Binomial Theorem]]"
   - "[[Combined Probability]]"
   - "[[Discrete Random Variables]]"
+  - "[[Ramanujan and Hardy]]"
 tags:
   - subject/mathematics
   - domain/probability
@@ -17,7 +18,6 @@ tags:
   - level/A-Level
   - curriculum/Cambridge-0606
   - curriculum/Cambridge-9709
-  - curriculum/A-Level
   - curriculum/IB-AA
   - syllabus/0606-11-1
   - syllabus/0606-11-2
@@ -68,6 +68,10 @@ $${}^nC_r = \dfrac{{}^nP_r}{r!}$$
 Every combination corresponds to $r!$ permutations (all the ways you could rearrange the same $r$ objects). So combinations are always fewer — you divide by the number of rearrangements to remove the overcounting.
 
 ### 中文锚点 (Chinese Anchor)
+
+八个人站上决赛跑道，领奖台会有多少种结果？金牌可能是八个人里的任何一个，银牌是剩下七个里的一个，铜牌是剩下六个里的一个：8 × 7 × 6 = 336 种。现在换一件事：老师只是要从这八个人里叫三个去搬书。小李、小王、小张去搬书，先点到谁都是同一组人，所以刚才那 336 把每一组都数了好几遍：三个人有几种排法就数了几遍，也就是 3 × 2 × 1 = 6 遍。所以三人一组去搬书，一共有 336 ÷ 6 = 56 种选法。两种数法的差别只在一个问题上：两个人换一下位置，结果变了吗？领奖台上变了，顺序要算，这是排列；搬书没变，顺序不算，这是组合。组合就是把排列里重复数的那些除掉（也就是除以重复的次数）。
+
+### 术语对照
 
 **排列** (páiliè)："排"是排队，"列"是排列——把东西排成一队，**顺序重要**。
 **组合** (zǔhé)："组"是分组，"合"是合在一起——把东西放在一组里，**顺序不重要**。

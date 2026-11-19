@@ -21,9 +21,9 @@ tags:
   - level/pre-IB
   - level/pre-AP
   - curriculum/Cambridge-0580
+  - curriculum/Edexcel-IAL
   - curriculum/IB-AA
   - curriculum/IB-AI
-  - curriculum/AP
   - syllabus/0580-E1-2
   - curriculum/OxAQA-9260
   - syllabus/9260-N9
@@ -47,6 +47,10 @@ A **Venn diagram** is a visual representation of sets and their relationships. S
 A Venn diagram is a map of sets. The rectangle is the whole world ($\xi$). Each circle is a set. Where circles overlap, elements belong to multiple sets. Where circles don't overlap, elements belong to only one set. Everything outside the circles (but inside the rectangle) belongs to no set — it's in the complement.
 
 ### 中文锚点 (Chinese Anchor)
+
+在班上问一问：谁养狗，谁养猫？在黑板上画一个长方形，里面画两个相交的圆。班上每个人都恰好有一个位置可以站：只养狗、只养猫、两样都养（两个圆重叠的那块），或者都不养（在长方形里、两个圆外）。这就是韦恩图全部的本事：两个集合把全集切成四块，每一块回答一个问题。这也是为什么填韦恩图要从里往外填：先把"两样都养"的人放进重叠区，不然他们会被数两遍。
+
+#### 术语对照
 
 韦恩图（又称文氏图）：用封闭曲线表示集合之间关系的图形。
 
@@ -171,6 +175,18 @@ Draw both side by side. Union = "colour everything that's in at least one." Inte
 - Combined with cardinality algebra: "Given $n(A) = 12$, $n(B) = 15$, $n(A \cap B) = x$, $n(\xi) = 30$. Find $x$."
 - Shading of compound expressions: $(A \cap B') \cup C$
 - Usually 4–6 marks, multi-step
+
+### OxAQA 9260 (N9)
+
+- *Understand and use Venn diagrams* alongside the set notation $n(A)$, $A'$, $A \cup B$, $A \cap B$ and $\xi$; two- and three-set diagrams with shading and cardinality, the same shapes as 0580 Extended.
+
+### Edexcel IAL (S1 §3.4)
+
+- Venn diagrams appear as a **probability tool** — *use of tree diagrams and Venn diagrams* for the sum and product laws — so the regions carry probabilities rather than element counts, and $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ is read straight off the picture.
+
+### IB (AA / AI) and AP
+
+- **Not examined as a set-theory topic.** Both IB courses and AP Statistics use Venn diagrams inside probability — $P(A \cap B)$, complements, independence — exactly as IAL does; the shading and counting skills here are the prerequisite.
 
 ## Connections
 

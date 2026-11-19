@@ -16,9 +16,7 @@ tags:
   - level/A-Level
   - level/pre-IB
   - level/pre-AP
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/9709-3-5
   - syllabus/9231-2-4
   - type/technique
@@ -28,6 +26,12 @@ tags:
   - misconception/wrong-u-choice
   - misconception/sign-error
   - misconception/infinite-loop
+  - curriculum/Cambridge-9709
+  - curriculum/Cambridge-9231
+  - curriculum/AP-Calculus-BC
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
+  - type/deep
 ---
 
 # Integration by Parts 分部积分法
@@ -45,6 +49,10 @@ $$\int f(x) \, g'(x) \, dx = f(x) \, g(x) - \int f'(x) \, g(x) \, dx.$$
 It is the **[[Product Rule|product rule]] running in reverse**, just as [[Integration by Substitution]] is the chain rule in reverse. Between the two techniques, you can attack almost every elementary integral you will meet.
 
 > 分部 — literally "split into parts." Split the integrand into $u$ and $dv$, differentiate one and integrate the other, and use the trade-off to simplify.
+
+### 中文锚点
+
+有些积分是两样东西的乘积，比如 $x$ 乘 $e^x$，哪条法则都套不上。分部积分是一场交换：把其中一样求导让它变简单，把另一样积分，再为这次交换付一笔固定的手续费——$uv$ 这一项。手续费不是随便定的：乘法法则说 $uv$ 的导数是 $u'v + uv'$，所以 $uv$ 等于这两项一起的积分，把其中一项挪到另一边，就是整条公式 $\int u\,dv = uv - \int v\,du$。选那个求导后消失得最快的来求导，比如 $x$ 的幂，剩下的积分就是你会做的。
 
 ---
 

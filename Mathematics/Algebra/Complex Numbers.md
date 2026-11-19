@@ -13,6 +13,7 @@ prerequisites:
   - "[[Maclaurin Series]]"
   - "[[Magnitude of a Vector (Vocab)]]"
 leads_to:
+  - "[[Quantum States and the Schrödinger Equation]]"
   - "[[Euler's Formula and De Moivre's Theorem]]"
   - "[[Differential Equations]]"
   - "[[Heptadecagon]]"
@@ -21,13 +22,13 @@ leads_to:
   - "[[The Argument for i]]"
   - "[[Polar Coordinates]]"
   - "[[De Moivre at Work]]"
+  - "[[Alternating Current]]"
 tags:
   - subject/mathematics
   - domain/algebra
   - level/A-Level
   - level/pre-IB
   - level/pre-AP
-  - curriculum/A-Level
   - curriculum/IB-AA
   - syllabus/9709-3-9
   - syllabus/9231-2-5
@@ -39,6 +40,9 @@ tags:
   - misconception/sqrt-of-negative-confusion
   - misconception/argument-quadrant-error
   - misconception/missing-conjugate-root
+  - curriculum/Cambridge-9709
+  - curriculum/Cambridge-9231
+  - type/deep
 ---
 
 # Complex Numbers 复数
@@ -72,6 +76,10 @@ Here's the reconciliation, in three parts.
 So the card's posture is: **the weirdness is real; the resolution is geometric; the payoff is everything from circuits to quantum.** This card lays the foundation: definitions, geometry, polar form, conjugate root theorem, loci. The companion card [[Euler's Formula and De Moivre's Theorem]] is the power-tools layer — Euler's $e^{i\theta}$, De Moivre, roots of unity, the unification of exponents and rotations. Read this card first.
 
 ### 中文锚点
+
+你在一个平坦的广场上给人指路："向东走三步，再向北走四步。"一支箭就能把这件事说完；如果我再说"把箭逆时针转四分之一圈"，你不用算就知道它指向哪里。复数就是这样的平面上的箭，写成 $a + bi$，$a$ 是向东的部分，$b$ 是向北的部分，而 $i$ 的全部秘密就是：乘以 $i$ 等于转四分之一圈。转两次就转了半圈，箭头朝后，所以 $i \times i = -1$。"负一的平方根"从来就只是这个意思。"虚数"这个名字是十六世纪传下来的一句嘲讽，一叫就叫到了今天：卡尔达诺解三次方程时非用它不可，而方程的答案明明是普通的实数；两百年后阿尔冈把它画在平面上，谜团就散了。交流电、游戏里的每一次旋转、量子力学里的每一道波，处理起来靠的都是这一个想法：一个带方向的数，和一种会转动的乘法。
+
+### 术语对照 (Terms)
 
 **复数**（fùshù）：形如 $z = a + bi$ 的数，其中 $a, b$ 是实数，$i$ 是**虚数单位**（imaginary unit），定义为 $i^2 = -1$。
 

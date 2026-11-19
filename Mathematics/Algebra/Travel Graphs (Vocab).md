@@ -32,6 +32,9 @@ tags:
   - type/application
   - misconception/horizontal-on-dt-vs-st
   - misconception/gradient-on-st-is-acceleration
+  - curriculum/Cambridge-0625
+  - curriculum/Cambridge-9702
+  - curriculum/OxAQA-9260
 ---
 
 # Travel Graphs 行程图
@@ -47,12 +50,11 @@ Travel graphs let you read off a journey's speed, acceleration, and distance wit
 
 ### 中文锚点
 
-行程图 (xíngchéngtú) 是记录**运动随时间变化**的图像。横轴永远是时间 $t$，纵轴是距离 $s$ 或速度 $v$。两类标准图：
+看手机地图上代表公交车的那个小点。小点飞快地划过屏幕，车就开得快；小点一动不动，车就是停在红灯前。距离–时间图就是这个小点的故事，只不过把时间铺在了横轴上：线越陡，每一秒走的路越多，所以斜率就是速度，一段水平线就是静止不动。把同一段路程改画成速度–时间图，意思就变了：水平线现在表示匀速行驶，斜率说的是速度变化得多快，而走过的距离是线下面的面积，因为每一小条都是"速度乘以一小段时间"。读斜率或面积之前，先看清纵轴上放的是哪个量。
 
-- **距离-时间图** (d-t 图)：纵轴是距离。**斜率 = 速度** (sùdù)。
-- **速度-时间图** (s-t 图 / v-t 图)：纵轴是速度。**斜率 = 加速度** (jiāsùdù)。**图下面积 = 距离**。
+### 术语对照
 
-注意：在 d-t 图上，水平线段表示**静止** (jìngzhǐ)；在 s-t 图上，水平线段表示**匀速** (yúnsù) — 这两个完全不同！
+行程图：travel graph；距离–时间图：distance–time graph（斜率 = 速度）；速度–时间图：speed–time graph（斜率 = 加速度，图下面积 = 距离）；静止：at rest；匀速：constant speed。
 
 ---
 

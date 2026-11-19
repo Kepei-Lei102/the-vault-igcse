@@ -4,6 +4,7 @@ prerequisites:
   - "[[Solids (Vocab)]]"
   - "[[Geometrical Terms (Vocab)]]"
 leads_to:
+  - "[[Plans and Elevations]]"
   - "[[Surface Area and Volume (Vocab)]]"
 tags:
   - subject/mathematics
@@ -29,9 +30,13 @@ Cubes actually have **11 distinct nets** (excluding rotations and reflections). 
 
 ### 中文锚点
 
+把一个麦片盒沿着一部分棱小心拆开，摊平在桌上：摊开的这个平面图形就是展开图，一张能重新折回原来那个立体的图样。展开图必须保留每一个面，而且面和面要按正确的方式连着，所以并不是六个正方形随便怎么摆都能折成正方体；能折成的恰好有 11 种。最有用的是"折一折"这个检验办法。在展开图里，同一排中隔着恰好一个面的两个面，折起来以后会变成相对的两个面，就像盒子的顶和底。这样一来，不用真的去折，你就能看出哪些面相邻、哪个面会落在哪里。
+
+#### 术语对照
+
 **展开图 (zhǎnkāitú)** = 把一个 3D 立体沿着某些棱剪开，平铺到平面上得到的二维图形。也叫**平面展开图**。
 
-正方体的展开图共有 **11 种**（不计旋转和翻折）。考试常考"哪些是合法的展开图"和"哪个面在哪个位置"。
+正方体的展开图共有 **11 种**（不计旋转和翻折）。
 
 ---
 
@@ -126,12 +131,12 @@ So the rectangle is $10 \text{ cm} \times 8\pi \text{ cm}$, area $80\pi \approx 
 
 ### Cambridge 0580
 
-**Syllabus ref:** E4.2 — recognise nets of solids; sketch nets of simple solids. Standard patterns:
+**Syllabus ref:** E4.2 point 3 — "draw, use and interpret nets": the syllabus's examples are nets of cubes, cuboids, prisms and pyramids, and using measurements taken from a net to calculate a volume or a surface area. Standard patterns:
 
 - "Sketch the net of a triangular prism with the given dimensions."
 - "Which of these are valid nets of a cube? Tick all that apply."
 - "On the net below, mark which face is opposite to the shaded face when folded into a cube."
-- "A cylinder has radius $5$ cm and height $12$ cm. Calculate the area of the rectangle in its net." (Answer: $5 \times 2\pi \times 12 = 120\pi$ cm² — wait, that's not right — let me recompute: width = $2\pi(5) = 10\pi$, height = $12$, area = $120\pi$ cm².)
+- "A cylinder has radius $5$ cm and height $12$ cm. Calculate the area of the rectangle in its net." (The rectangle's width is the circumference, $2\pi \times 5 = 10\pi$ cm, and its height is $12$ cm, so the area is $120\pi$ cm².)
 
 ---
 

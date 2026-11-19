@@ -8,6 +8,7 @@ prerequisites:
   - "[[Coordinate Geometry of the Circle]]"
   - "[[Exact Trigonometric Values]]"
 leads_to:
+  - "[[Fourier Series]]"
   - "[[Hyperbolic Functions]]"
   - "[[Trigonometric Equations]]"
   - "[[Differentiation Rules]]"
@@ -23,16 +24,16 @@ tags:
   - level/pre-AP
   - curriculum/Cambridge-0606
   - curriculum/Cambridge-9709
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
   - syllabus/0606-10-4
   - syllabus/0606-10-6
   - syllabus/9709-1-5
   - syllabus/9709-3-3
   - syllabus/9709-2-3
   - type/deep
-  - type/identity
+  - type/theorem
   - type/proof
   - notation/sin
   - notation/cos
@@ -42,6 +43,7 @@ tags:
   - notation/cot
   - misconception/identity-vs-equation
   - misconception/sin-squared-notation
+
 ---
 
 # Trigonometric Identities 三角恒等式
@@ -60,7 +62,7 @@ This is true for **every** real number $x$. Plug in $x = 0$, $x = \pi/4$, $x = \
 
 ### 中文锚点
 
-三角恒等式 = 对所有 $x$（在定义域内）都成立的三角等式。区别于"三角方程"——方程只对**特定** $x$ 成立，需要去解；恒等式对**所有** $x$ 成立，是变形工具。最重要的恒等式 $\sin^2 x + \cos^2 x = 1$ 来自单位圆上的勾股定理：单位圆上一点 $(\cos\theta, \sin\theta)$ 到原点的距离恒为 $1$，所以 $\cos^2\theta + \sin^2\theta = 1$。其他恒等式几乎全是它的推论。
+盯着钟表的指针尖看：它一会儿向上，一会儿向左，可离表盘中心的距离始终没变。横着偏了多少、竖着偏了多少，看似各自在变，其实被指针的长度绑在一起。把指针长度算作“1”，横向、纵向的偏移量就分别是余弦和正弦；勾股定理说，它们的平方加起来永远是一。这里记录的不是指针停在某个位置的巧合，而是它怎么转都改不了的关系——这就是恒等式的意思。
 
 > [!tip] Identity vs equation — keep them separate
 > $\sin^2 x + \cos^2 x = 1$ is an **identity** — universally true. $\sin x = \tfrac{1}{2}$ is an **equation** — true only at $x = \pi/6, 5\pi/6, \pi/6 + 2\pi, \dots$ When 0606 §10.6 says *"prove that …"*, they want an identity argument: start with one side, use known identities, transform it into the other side. Solving for $x$ would be the wrong response.
@@ -140,7 +142,7 @@ $$
 These two are syllabus-named on Cambridge 0606 §10.4. Each is **just the master identity divided through** — no separate memorisation if you remember the master and the divisions. (Some boards write them as $\sec^2 x = 1 + \tan^2 x$ and $\csc^2 x = 1 + \cot^2 x$ — same thing, terms reordered.)
 
 > [!info] Beyond syllabus — geometric reading of $\sec^2 = 1 + \tan^2$
-> Inside the unit circle, draw the radius to $P = (\cos x, \sin x)$. Now extend the radius outward until it hits the **vertical tangent line** $X = 1$ (the line $x = 1$). The extension hits at the point $(1, \tan x)$, and its distance from the origin is exactly $\sec x$. The right triangle with vertices $(0,0)$, $(1,0)$, $(1, \tan x)$ has legs $1$ and $\tan x$ with hypotenuse $\sec x$. Pythagoras: $1 + \tan^2 x = \sec^2 x$. The same picture explains why "secant" and "tangent" are named after the geometric *secant line* (cuts the circle, length to the tangent point) and *tangent line* (touches the circle once). 17th-century names; same picture.
+> For an acute angle $x$, draw the radius to $P = (\cos x, \sin x)$ on the unit circle. Now extend the radius outward until it hits the **vertical tangent line** $X = 1$ (the line $x = 1$). The extension hits at the point $(1, \tan x)$, and its distance from the origin is exactly $\sec x$. The right triangle with vertices $(0,0)$, $(1,0)$, $(1, \tan x)$ has legs $1$ and $\tan x$ with hypotenuse $\sec x$. Pythagoras: $1 + \tan^2 x = \sec^2 x$. The same picture explains why "secant" and "tangent" are named after the geometric *secant line* (cuts the circle, length to the tangent point) and *tangent line* (touches the circle once). 17th-century names; same picture.
 
 ---
 
@@ -253,7 +255,7 @@ Cambridge 0606 §10.6 explicitly tests **proving identities**. The standard play
 
 **Example 1.** Prove that $\dfrac{\cos x}{1 - \sin x} + \dfrac{\cos x}{1 + \sin x} = \dfrac{2}{\cos x}$.
 
-Common denominator on the LHS:
+*Trigger: two fractions with conjugate denominators. Tools: common denominator, difference of squares, then the Pythagorean identity.*
 
 $$
 \text{LHS} = \frac{\cos x(1 + \sin x) + \cos x(1 - \sin x)}{(1 - \sin x)(1 + \sin x)}
@@ -266,7 +268,7 @@ The key move was **$(1 - \sin x)(1 + \sin x) = 1 - \sin^2 x = \cos^2 x$** — a 
 
 **Example 2.** Prove that $\sin^4 x - \cos^4 x = \sin^2 x - \cos^2 x$.
 
-Difference of squares:
+*Trigger: a difference of fourth powers. Tools: factor as a difference of squares, then use the Pythagorean identity.*
 
 $$
 \text{LHS} = (\sin^2 x - \cos^2 x)(\sin^2 x + \cos^2 x) = (\sin^2 x - \cos^2 x) \cdot 1 = \text{RHS}. \;\square
@@ -274,7 +276,7 @@ $$
 
 **Example 3.** Prove that $\tan x + \cot x = \sec x \csc x$.
 
-Convert to sine and cosine:
+*Trigger: tangent and cotangent have different denominators. Tools: rewrite as sine/cosine, combine fractions, then use Pythagoras.*
 
 $$
 \text{LHS} = \frac{\sin x}{\cos x} + \frac{\cos x}{\sin x}
@@ -285,7 +287,7 @@ $$
 
 **Example 4.** Prove that $\dfrac{1 + \cos x}{\sin x} = \dfrac{\sin x}{1 - \cos x}$.
 
-Cross-multiply (this is just rewriting — both sides equal a third quantity):
+*Trigger: two fractions on the common domain $x\ne n\pi$. Tools: reversible cross-multiplication and the Pythagorean identity.* It suffices to prove:
 
 $$
 (1 + \cos x)(1 - \cos x) = \sin^2 x.
@@ -309,15 +311,9 @@ The four standard tactics covered above: (1) convert to $\sin$ and $\cos$; (2) c
 
 ## Exam Notes
 
-### Cambridge 0606
+### Cambridge 0606 (Additional Mathematics), §10.4 and §10.6
 
-**Syllabus refs:** §10.4 (use of identities) and §10.6 (proofs of identities). The Pythagorean trio is examined explicitly:
-
-- $\sin^2 x + \cos^2 x = 1$
-- $\sec^2 x = 1 + \tan^2 x$
-- $\csc^2 x = 1 + \cot^2 x$
-
-Plus reciprocal and quotient identities. **Sum/difference and double-angle formulas are not on 0606** — but they're prerequisites for the harder [[Trigonometric Equations]] problems (multiple-angle reductions, $R\sin(x+\alpha)$ form).
+10.4 "Use the relationships: $\sin^2 A + \cos^2 A = 1$; $\sec^2 A = 1 + \tan^2 A$; $\operatorname{cosec}^2 A = 1 + \cot^2 A$", with the note "Trigonometric identities are given in the List of formulas". 10.6 "Prove trigonometric relationships involving the six trigonometric functions", including the use of 10.4, with the syllabus's examples $\sin x \tan x + \cos x = \sec x$ and $\dfrac{\sin\theta}{1 + \cos\theta} + \dfrac{1 + \cos\theta}{\sin\theta} = 2\operatorname{cosec}\theta$. Plus the reciprocal and quotient definitions from 10.1. **Sum, difference and double-angle formulae are not in 0606.**
 
 ### Memorise? — per board
 
@@ -351,17 +347,18 @@ The four-board exam-strategy table for trig identities. Same legend as [[Standar
 >
 > **Net for trig identities:** the must-memorise list compresses to the master Pythagorean ($\sin^2 + \cos^2 = 1$), reciprocal/quotient/even-odd/co-function definitions (all of which are visually obvious from the unit circle), the R-formula transformation skill, and the triangle rules. Sum/difference, double-angle, sum-to-product are all formula-derivable from one master sum formula — see the section above on "the whole table from one master formula". *Memorise the master sum formula and the Pythagorean; everything else falls out by sub or division.*
 
-### A-Level (Pure Mathematics)
+### Cambridge 9709 (AS and A Level)
 
-Sum/difference, double-angle, half-angle, and the $R\sin(x + \alpha)$ form (writing $a\sin x + b\cos x$ as a single sinusoid) are A-Level Year 2 content. The dot-product proof of $\cos(A - B)$ is sometimes given as bookwork.
+- **Paper 1, §1.5:** "use the identities $\dfrac{\sin\theta}{\cos\theta} \equiv \tan\theta$ and $\sin^2\theta + \cos^2\theta \equiv 1$", "e.g. in proving identities, simplifying expressions and solving equations".
+- **Paper 2, §2.3 and Paper 3, §3.3:** "use trigonometrical identities for the simplification and exact evaluation of expressions, and in the course of solving equations, and select an identity or identities appropriate to the context", naming $\sec^2\theta \equiv 1 + \tan^2\theta$ and $\operatorname{cosec}^2\theta \equiv 1 + \cot^2\theta$, "the expansions of $\sin(A \pm B)$, $\cos(A \pm B)$ and $\tan(A \pm B)$", "the formulae for $\sin 2A$, $\cos 2A$ and $\tan 2A$", and "the expression of $a\sin\theta + b\cos\theta$ in the forms $R\sin(\theta \pm \alpha)$ and $R\cos(\theta \pm \alpha)$". The examples: simplify $\cos(x - 30°) - 3\sin(x - 60°)$; solve $\tan\theta + \cot\theta = 4$, $2\sec^2\theta - \tan\theta = 5$, $3\cos\theta + 2\sin\theta = 1$.
 
-### IB AA / IB AI
+### Edexcel IAL and OxfordAQA 9660
 
-IB AA HL covers compound-angle identities, double-angle identities, and the trig-equation applications in depth. IB AI keeps the trig identities lighter — Pythagorean trio plus reciprocal/quotient.
+Both list trigonometry in their P2/P3 (IAL) and PP1.2/P2.4 (9660) units and print the sum, difference and factor formulae in their formula booklets, as the table above records. The identity rows themselves were not quoted in this sweep; treat the table's ✅/📝 entries, drawn from [[Edexcel IAL Reference]] and [[OxAQA 9660 Reference]], as the verified part.
 
-### AP
+### Where this is *not* examined, and what is unverified
 
-AP Precalculus covers the Pythagorean trio, reciprocal/quotient, sum/difference, and double-angle. AP Calculus AB and BC use them constantly in trig integrals and trig substitutions.
+Cambridge 0580 and OxfordAQA 9260 examine no identities beyond what a right-angled triangle makes obvious. The IB Mathematics guides and the AP Precalculus course description are not on file; the AP Calculus description assumes the identities rather than examining them. The earlier IB AA/AI and AP paragraphs are withdrawn rather than left unverified.
 
 ---
 
@@ -376,8 +373,8 @@ AP Precalculus covers the Pythagorean trio, reciprocal/quotient, sum/difference,
 - **Leads to:** [[Differentiation Rules]] — $\frac{d}{dx}\sin x = \cos x$ and the rest of the trig derivative table; the proof uses $\sin(A+B)$ and the small-angle limit
 - **Leads to:** [[Coordinate Geometry of the Circle]] — the parametric form $(a + r\cos\theta, b + r\sin\theta)$ uses $\cos^2 + \sin^2 = 1$ to verify the equation
 - **Application:** [[Integration by Substitution]] — trig substitutions like $x = a\sin\theta$ rely on $1 - \sin^2\theta = \cos^2\theta$
-- **Application:** physics — wave superposition uses sum-to-product identities; AC circuit analysis uses $R\sin(x + \alpha)$ form
-- **Beyond high school:** Fourier series — every periodic function is a sum of $\sin$ and $\cos$, and the orthogonality of $\sin nx$, $\cos mx$ is itself an identity (integrals of products vanish unless $n = m$)
+- **Application:** physics — wave superposition uses sum-to-product identities ([[Superposition and Interference]] turns $\sin 2\pi f_1 t + \sin 2\pi f_2 t$ into a carrier times a beat envelope with exactly this formula); AC circuit analysis uses $R\sin(x + \alpha)$ form
+- **Beyond high school:** [[Fourier Series]] — product-to-sum identities prove orthogonality over a full period; projections give the harmonic coefficients. The convergence conditions matter, especially at a jump.
 
 ---
 

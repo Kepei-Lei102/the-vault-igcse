@@ -19,9 +19,7 @@ tags:
   - level/IB
   - level/AP
   - curriculum/Cambridge-0606
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/0606-4-4
   - syllabus/0606-4-5
   - syllabus/9231-1-2
@@ -30,6 +28,7 @@ tags:
   - notation/cubic
   - misconception/repeated-root-doesnt-cross
   - misconception/inequality-direction-by-leading-coeff
+  - curriculum/Cambridge-9231
 ---
 
 # Cubic Graphs and Cubic Inequalities 三次函数图像与三次不等式
@@ -47,6 +46,10 @@ Cubics also unlock a piece of **mathematical history**: the cubic formula (Carda
 This card covers two syllabus rows in one place: **§4.4** sketching cubic graphs and their moduli, and **§4.5** solving cubic inequalities. Both rest on the same foundation — *the factored form*.
 
 ### 中文锚点
+
+在房间的地板上铺一根绳子，从左下角一直拉到右上角，中途让它绕一下：先落进一个坑，再翻过一个小鼓包。这就是所有三次函数的图像。因为 $x^3$ 这一项最终会压过其他所有项，绳子必须从一个角出发，到对面的角结束：$x^3$ 的系数是正的，就从左下到右上；是负的，就从左上到右下。两个角之间它最多只能拐两次弯，所以三次函数最多穿过 $x$ 轴三次。绳子要是只碰到地板上那条线却不穿过去，那就是重根：图像亲了一下 $x$ 轴又折了回去。先画两头，再画拐弯，一个点都还没描，整个形状就已经定了。
+
+### 术语对照 (Terms)
 
 **三次函数 (sāncì hánshù)** = 形如 $y = ax^3 + bx^2 + cx + d$ 的多项式（$a \neq 0$）。
 

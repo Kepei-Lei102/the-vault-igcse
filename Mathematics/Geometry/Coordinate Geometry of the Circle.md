@@ -23,16 +23,14 @@ tags:
   - level/pre-AP
   - curriculum/Cambridge-0606
   - curriculum/Cambridge-9709
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/0606-8-1
   - syllabus/0606-8-2
   - syllabus/0606-8-3
   - syllabus/0606-8-4
   - syllabus/9709-1-3
   - type/deep
-  - type/equation
+  - type/definition
   - type/proof
   - notation/standard-form-circle
   - notation/general-form-circle
@@ -54,7 +52,11 @@ This is the **standard form** of a circle — centre $(a, b)$, radius $r > 0$. I
 
 ### 中文锚点
 
-圆的解析几何 = 把圆这个几何对象用方程描述出来。圆的定义是 *"到定点距离为定长的所有点的集合"* — 把这个集合关系翻译成方程，就是 $(x-a)^2 + (y-b)^2 = r^2$，其中 $(a,b)$ 是圆心，$r$ 是半径。这一步从几何走向代数，是解析几何的精髓。一旦圆变成了方程，所有几何问题都变成了代数题：相交、相切、求切线，全部用代数解。
+手机地图在你周围画了一个圆，标着"100 米范围内"。圆上每一个点离你都恰好 100 米。把你自己放在 $(a, b)$，再把任意一点放在 $(x, y)$：勾股定理说，它到你的距离是 $(x-a)^2 + (y-b)^2$ 的平方根，所以这个圆就是所有满足 $(x-a)^2 + (y-b)^2 = 100^2$ 的点。圆的方程，全部内容就这么一句话："到圆心的距离等于半径"，用勾股定理写出来。圆一旦变成方程，几何就变成了代数。一条路和这个圆在哪里相交？把路的方程代进去，得到一个二次方程，它的判别式告诉你交点有几个：两个、一个（路刚好擦过圆，这条路就是切线），或者一个都没有。
+
+#### 术语对照
+
+圆的解析几何 = 把圆这个几何对象用方程描述出来：$(x-a)^2 + (y-b)^2 = r^2$，其中 $(a,b)$ 是圆心，$r$ 是半径。
 
 ---
 
@@ -273,9 +275,10 @@ A locus, after all, doesn't *have* to be a path traced in time (we made that poi
 
 **Syllabus refs:** §8.1, §8.2, §8.3, §8.4 — the entire 0606 §8 cluster. Expect 5–8 mark questions covering:
 
-- (§8.1, §8.2) Convert between standard and general form. Find centre and radius from a given equation.
-- (§8.3) Find the equation of a tangent at a given point. Find where a line meets a circle. Determine whether a line is a tangent (use the discriminant).
-- (§8.4) Find the equation of a circle given specific information: three points, centre and one point, two ends of a diameter, etc.
+- **§8.1** — know and use the equation of a circle with radius $r$ and centre $(a, b)$; identify centre and radius from an equation **in any form**, $(x-a)^2 + (y-b)^2 = r^2$ or $x^2 + y^2 + 2gx + 2fy + c = 0$ (the formula is given in the list of formulas). Finding a circle from three points, or from a diameter's ends, is this row.
+- **§8.2** — the intersection of a circle and a **straight line**: find the points of intersection, and determine whether a line **is a tangent, is a chord, or does not meet the circle** (the discriminant test lives *here*, not in §8.3).
+- **§8.3** — tangents to a circle, including finding their equations; the syllabus notes that **no use of calculus is expected**, so the gradient comes from the radius, not from differentiation.
+- **§8.4** — the intersection of **two circles**: points of intersection, the equation of the **common chord**, and whether two circles intersect, touch or do not meet.
 
 > [!tip] 0606-specific tip
 > Cambridge often phrases questions as "the line $y = mx + k$ is a tangent to the circle ... — find $k$." The standard solution is *substitute, set the discriminant to zero*. They love this template — practise it in both forms (line tangent to circle given, find $m$; or vice versa).

@@ -2,6 +2,8 @@
 chinese: 信用即货币 (xìnyòng jí huòbì)
 prerequisites:
   - "[[Text Encoding]]"
+  - "[[Learning as Verification]]"
+  - "[[You Are a Reinforcement Learner]]"
 leads_to: []
 tags:
   - subject/methodology
@@ -13,7 +15,6 @@ tags:
   - level/A-Level
   - level/life
   - type/methodology
-  - type/meta
   - type/cross-domain
   - misconception/strategy-means-concealment
   - misconception/money-has-intrinsic-value
@@ -62,11 +63,11 @@ Here is the strangest fact in computer engineering, hiding in plain sight: **not
 Climb the tower:
 
 - **The clock.** The oscillator announces one move, forever: *"I will tick again in 0.3 nanoseconds."* Every flip-flop in the chip (**Flip-Flops** *(not yet released)*) times its entire existence around that promise; whole clock domains negotiate their treaties around it (**Clock Domains and Metastability** *(not yet released)*). At 3 GHz over a ten-year life, that single promise is kept on the order of $10^{18}$ times. No human institution has ever approached this record — and the machine's whole architecture *assumes* it without checking, which is precisely what perfect credit lets you do.
-- **Character sets.** *"65 means A."* ASCII announced that move in 1963, and it has come true every time anyone, anywhere, has decoded a byte since (**Text Encoding** *(not yet released)*). Your ability to read this sentence is that promise, being kept right now, several thousand times per line.
-- **File headers.** A PNG's header declares its width, height, and depth, and **every image reader on Earth honours the declaration, every time** — which is the only reason a photo from a stranger's camera opens instantly on your phone (**Image Encoding** *(not yet released)*; the same treaty logic runs **Sound Encoding** *(not yet released)*'s headers). Bytes do not announce their own meaning, so the ecosystem runs entirely on announced meanings, kept.
+- **Character sets.** *"65 means A."* ASCII announced that move in 1963, and it has come true every time anyone, anywhere, has decoded a byte since ([[Text Encoding]]). Your ability to read this sentence is that promise, being kept right now, several thousand times per line.
+- **File headers.** A PNG's header declares its width, height, and depth, and **every image reader on Earth honours the declaration, every time** — which is the only reason a photo from a stranger's camera opens instantly on your phone ([[Image Encoding]]; the same treaty logic runs [[Sound Encoding]]'s headers). Bytes do not announce their own meaning, so the ecosystem runs entirely on announced meanings, kept.
 - **IEEE 754.** The floating-point standard did something subtler than standardise arithmetic: it standardised the **errors**. Every machine rounds $0.1 + 0.2$ to the *same* wrong answer (**Floating-Point Representation** *(not yet released)*). Machines agree even on how to be wrong — because a predictable error is spendable (you can reason about it, compensate for it, reproduce it), while an unpredictable truth is not.
 - **The handshake.** TCP opens every connection with announced moves — *I want to talk; I heard you; let us begin* — and the internet is two machines extending each other credit by the packet, retransmitting precisely when a promise slips.
-- **Backward compatibility — the oath that cannot be broken.** GBK (1995) carried every GB2312 (1980) file forward unchanged; GB18030 (2000) still carries them today (**Text Encoding** *(not yet released)*'s 国标 story). A modern x86 chip will still run code written for a processor from 1978. Once billions of parties have built on your announced moves, *you no longer have the option of changing them* — the credit you minted has become a debt you service forever. That is not a design flaw. That is what it means for a promise to have been fully spent by its holders.
+- **Backward compatibility — the oath that cannot be broken.** GBK (1995) carried every GB2312 (1980) file forward unchanged; GB18030 (2000) still carries them today ([[Text Encoding]]'s 国标 story). A modern x86 chip will still run code written for a processor from 1978. Once billions of parties have built on your announced moves, *you no longer have the option of changing them* — the credit you minted has become a debt you service forever. That is not a design flaw. That is what it means for a promise to have been fully spent by its holders.
 
 The generalisation writes itself upward, too. A **law of nature** is, in this vocabulary, the universe's own credit rating: *announced* in every experiment, *kept* without exception since the beginning of time — the one issuer that has never defaulted ([[Laws and Theorems]] — and the reason physics can deduce at all is that nature's word is good). Engineering is the practice of building on credit; science is the audit.
 
@@ -110,9 +111,11 @@ The thesis lands on schoolwork with almost embarrassing precision.
 
 ## Connections
 
-- **Prerequisite:** **Text Encoding** *(not yet released)* — the treaty thesis in its original habitat: text works because "65 means A" was announced once and kept forever. The whole multimedia arc (**Image Encoding** *(not yet released)*, **Sound Encoding** *(not yet released)*) runs on the same declared-and-honoured headers.
+- **Prerequisite:** [[Text Encoding]] — the treaty thesis in its original habitat: text works because "65 means A" was announced once and kept forever. The whole multimedia arc ([[Image Encoding]], [[Sound Encoding]]) runs on the same declared-and-honoured headers.
 - **The silicon exhibits:** **Flip-Flops** *(not yet released)* + **Clock Domains and Metastability** *(not yet released)* — the clock's $10^{18}$ kept ticks, and what the seams between promise-domains cost; **Floating-Point Representation** *(not yet released)* — IEEE 754 standardising even the errors, and the exact-integer discipline Bitcoin borrows.
 - **Epistemology sibling:** [[Laws and Theorems]] — a law of nature as the universe's perfect credit record; physics as deduction built on the one word that has never been broken.
 - **Methodology siblings:** [[Forward Reading and Problem Discovery]] — auditing credit *is* forward reading applied to people and institutions (trace announced moves to outcomes); [[The Feynman Technique]] — teaching as the announced move that proves the understanding exists; [[Inertia and Bootstrapping]] — the public announcement as activation-energy hack.
 - **The founder:** [[Stories/von Neumann the Martian]] — game theory itself (1928/1944) is his mathematics; Schelling and Axelrod built the commitment-and-cooperation wing on his foundation.
 - **Philosophy floor:** [[The Love of Wisdom]] — that card asks why we reach; the reaching becomes *shared* the moment we announce it and keep our word about it. Credit is how incomplete beings compose into something larger than any of them.
+- **Prerequisite:** [[You Are a Reinforcement Learner]] — why accurate credit is a reward term in other people's learning, measured: help that is not credited goes extinct in a few hundred rounds.
+

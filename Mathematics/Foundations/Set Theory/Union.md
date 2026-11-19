@@ -16,13 +16,13 @@ tags:
   - curriculum/Cambridge-0580
   - curriculum/IB-AA
   - curriculum/IB-AI
-  - curriculum/AP
   - syllabus/0580-E1-2
   - curriculum/OxAQA-9260
   - syllabus/9260-N9
   - type/definition
   - type/vocabulary
   - notation/union
+  - curriculum/AP-Statistics
 ---
 
 # Union 并集
@@ -40,6 +40,10 @@ $$A \cup B = \{x : x \in A \text{ or } x \in B \text{ (or both)}\}$$
 Union means **combine everything**. Dump both bags into one pile, remove duplicates. If it's in $A$, or in $B$, or in both — it's in the union.
 
 ### 中文锚点
+
+老师要安排一次补课，周六或周日都行。谁能来？周六有空的能来，周日有空的能来，两天都有空的当然也能来——哪怕两天都有空，也不会让你失去资格。这群人就是并集 $A \cup B$：属于 $A$、属于 $B$，或者两个都属于的所有元素。所以数学里的"或"包含"两者都是"，和"喝茶还是喝咖啡？"里那个"或"不一样。由此可以推出两件事：并集不会比其中任何一个集合小；两天都有空的同学，名单上也只有一个名字，只算一次。
+
+#### 术语对照
 
 并集：$A \cup B$ — 属于 $A$ **或**属于 $B$ 的所有元素。
 

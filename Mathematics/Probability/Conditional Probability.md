@@ -6,10 +6,11 @@ prerequisites:
   - "[[Venn Diagram]]"
 leads_to:
   - "[[Discrete Random Variables]]"
+  - "[[Laplace and Napoleon]]"
+  - "[[Affective Computing]]"
 tags:
   - subject/mathematics
   - domain/probability
-  - level/GCSE
   - level/IGCSE
   - curriculum/OxAQA-9260
   - curriculum/Cambridge-0580
@@ -20,6 +21,8 @@ tags:
   - notation/P-notation
   - notation/set-notation
   - misconception/conditional-vs-unconditional
+  - curriculum/Cambridge-9709
+  - type/deep
 ---
 
 # Conditional Probability
@@ -273,18 +276,21 @@ You cannot condition on an event that has zero probability — $P(A \mid B)$ is 
 - Common question pattern: draw a tree diagram → identify conditional branches → calculate a combined probability → sometimes work backwards ("given that the second ball was blue, find the probability the first was red")
 - Often combined with S16 (Venn diagrams) — "from the Venn diagram, find $P(A \mid B)$"
 
-### Cambridge 0580
+### Cambridge 0580 (Extended only)
 
-- E8.4: conditional probability
-- **Scope note:** 0580 expects conditional probability to be understood conceptually and through tree diagrams / Venn diagrams. The formal $P(A \mid B)$ notation may or may not appear — the concept matters more than the symbol
-- "Without replacement" is the standard context
-- Both Paper 2 and Paper 4
+- **E8.4, Conditional probability:** "calculate conditional probability using Venn diagrams, tree diagrams and tables". The Core row C8.4 reads "Extended content only", so a Core candidate meets no conditional probability.
+- **The syllabus's own scope note:** "knowledge of notation, $P(A \mid B)$, and formulas relating to conditional probability is not required". The concept is examined through the diagrams and the table, never through the symbol.
+- "Without replacement" is the standard context, and E8.3 says combined events "could be with or without replacement".
 
-### AP / IB / A-Level
+### Cambridge 9709 (Probability and Statistics 1, §5.3)
 
-- **AP Statistics:** formal conditional probability notation; multiplication rule $P(A \cap B) = P(A) \times P(B \mid A)$; independence test via $P(A \mid B) = P(A)$
-- **IB Mathematics AA HL:** Bayes' theorem $P(A \mid B) = \dfrac{P(B \mid A) \times P(A)}{P(B)}$ for "reversing" conditional probabilities
-- **A-Level Statistics (S1):** conditional probability formula is core content; tree diagrams with conditional branches; Venn diagram questions asking for $P(A \mid B)$
+- "Calculate and use conditional probabilities in simple cases", with the syllabus's examples "a sample space of equiprobable elementary events, or a tree diagram".
+- Here the formula is live: "the use of $P(A \mid B) = \dfrac{P(A \cap B)}{P(B)}$ may be required in simple cases".
+- Independence is tested by comparing $P(A \cap B)$ with $P(A) \times P(B)$.
+
+### Beyond these boards
+
+AP Statistics and the IB Mathematics guides are not held on file and are not summarised here; Bayes' theorem, which reverses a conditional probability, is beyond every Cambridge syllabus named above.
 
 ### Beyond high school — University
 
@@ -299,6 +305,7 @@ You cannot condition on an event that has zero probability — $P(A \mid B)$ is 
 
 - **Foundation:** [[Combined Probability]] — the addition and multiplication rules; tree diagrams; Venn diagrams for probability
 - **Foundation:** [[Probability Basics]] — sample space, complement rule, mutually exclusive events
+- **Base rates in the wild:** **Affective Computing** *(not yet released)* — a smile detector that is 99 % accurate and a happiness verdict that is right half the time; a violence screen whose flags are 98 % false.
 - **Set theory:** [[Intersection]] — $P(A \cap B)$ is the numerator of the conditional probability formula
 - **Diagrams:** [[Venn Diagram]] — "zoom into circle $B$" is the visual meaning of conditioning
 - **Counting:** [[Permutations and Combinations]] — counting restricted outcomes often involves conditional reasoning
@@ -316,6 +323,7 @@ You cannot condition on an event that has zero probability — $P(A \mid B)$ is 
 > - $P(\text{car behind Door 1} \mid \text{host opens Door 3}) = \dfrac{1}{3}$
 >
 > Your original choice had a $\dfrac{1}{3}$ chance of being right. The host didn't change that — he just concentrated the remaining $\dfrac{2}{3}$ onto one door. This problem has famously confused mathematicians and is a perfect example of why conditional probability requires careful thinking about what information you have.
+- **Story:** [[Stories/Laplace and Napoleon]] — Bayes's theorem rediscovered, the rule of succession, and the 1 826 214-to-1 sunrise.
 
 ---
 

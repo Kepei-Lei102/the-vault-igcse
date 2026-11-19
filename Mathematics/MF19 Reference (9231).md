@@ -6,7 +6,6 @@ tags:
   - subject/mathematics
   - domain/exam-strategy
   - level/A-Level
-  - curriculum/A-Level
   - curriculum/Cambridge-9231
   - type/reference
   - type/exam-technique

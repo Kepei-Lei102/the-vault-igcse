@@ -29,6 +29,10 @@ Both work; pick whichever splits the shape into simpler sub-pieces.
 
 ### 中文锚点
 
+给一间 L 形的房间铺地砖，不需要新公式。把地面切成两个长方形再相加，或者用围住整个 L 的大长方形减去缺掉的那一角。两种算法的答案必须一样，这就白送了一个检验。面积能相加，因为它只是"有多少地面"：切开的那条缝本身没有面积，所以哪儿都不会被数两遍。周长就不一样了。你画的那条分割线藏在房间里面，又不贴着墙，不能算进周长。踢脚线只沿着房间外面的那一圈走。
+
+#### 术语对照
+
 **复合图形 (fùhé túxíng)** = 由几个基本形状（矩形、三角形、半圆、棱柱、半球等）拼接而成的图形。
 
 求面积/体积的方法：
@@ -171,7 +175,7 @@ This is essentially "volume = outer − hole," the same logic as the 2D washer s
 
 ### Cambridge 0580
 
-**Syllabus ref:** E5.5 — find the surface area and volume of compound 3D shapes; find perimeter and area of compound 2D shapes. Standard patterns:
+**Syllabus ref:** E5.5 *Compound shapes and parts of shapes* — point 1: "calculations and problems involving perimeters and areas of **compound shapes** and **parts of shapes**"; point 2: the same for "surface areas and volumes of **compound solids** and **parts of solids**", with the syllabus's own example: *find the surface area and volume of a frustum*. Answers may be asked for in terms of $\pi$. The "parts of" half is easy to miss: a frustum, a hemisphere, a quarter-circle corner are E5.5 as much as an L-shape is. Standard patterns:
 
 - "Find the area of the L-shape." (Decompose; show working.)
 - "A water trough has the cross-section of a semicircle of radius $r$ on top of a rectangle of width $2r$ and height $h$. Find its volume in terms of $r$, $h$, and the trough's length $L$." (Cross-section area = $\tfrac{1}{2}\pi r^2 + 2rh$; volume = cross-section × $L$.)

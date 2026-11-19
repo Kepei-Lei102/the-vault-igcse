@@ -14,7 +14,6 @@ tags:
   - level/A-Level
   - curriculum/Cambridge-9709
   - curriculum/Cambridge-9702
-  - curriculum/A-Level
   - curriculum/IB-AA
   - curriculum/IB-Physics
   - curriculum/AP-Physics-1

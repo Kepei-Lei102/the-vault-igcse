@@ -19,7 +19,6 @@ tags:
   - level/university
   - level/life
   - type/methodology
-  - type/meta
   - type/cross-domain
   - misconception/willpower-as-the-lever
   - misconception/inertia-is-mass

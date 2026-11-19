@@ -19,17 +19,21 @@ tags:
   - level/pre-IB
   - level/pre-AP
   - curriculum/Cambridge-0606
-  - curriculum/A-Level
   - syllabus/0606-3-1
   - syllabus/0606-3-2
   - syllabus/0606-3-3
   - syllabus/9709-2-1
+  - curriculum/Cambridge-9709
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
+  - syllabus/IAL-P2-2-1
   - type/theorem
   - type/proof
   - type/technique
   - notation/polynomial
   - misconception/sign-in-divisor
   - misconception/skipping-missing-terms
+  - type/deep
 ---
 
 # Remainder and Factor Theorems 余式定理与因式定理
@@ -63,11 +67,11 @@ The Factor Theorem then says: if that remainder is zero, $(x - a)$ divided evenl
 
 ### 中文锚点
 
-**余式定理**：多项式 $f(x)$ 除以 $(x - a)$ 的余数等于 $f(a)$。不需要做长除法，代入即可。
+想知道 91 能不能被 7 整除，你不会摆开竖式，而是试着除一下，看余数。多项式有一个更省事的试法：想知道 $f(x)$ 除以 $(x - 3)$ 剩下什么，直接算 $f(3)$ 就行。为什么代一个数进去就能顶替整个除法？因为 $f(x) = (x - 3)\,q(x) + R$ 对每一个 $x$ 都成立，而在 $x = 3$ 这一点，前面那一项恰好是零，剩下的只有 $R$。如果 $f(3) = 0$，那就是一点余数都没有：$(x - 3)$ 能把 $f(x)$ 整除，3 是一个根。所以分解三次多项式的时候，像侦探排查嫌疑人一样，把 1、−1、2、−2 挨个代进去，谁让结果为零，谁就交出一个因式。
 
-**因式定理**：$(x - a)$ 是 $f(x)$ 的因式 $\iff f(a) = 0$。这是余式定理在余数为零时的推论。
+### 术语对照
 
-这组定理是处理三次及更高次多项式的核心工具。二次方程我们有三种方法（因式分解、配方法、求根公式，见 [[Quadratic Equations]]），但三次方程没有学生会真用的公式——取而代之的是因式定理，像侦探一样一次猜一个根。
+余式定理：remainder theorem；因式定理：factor theorem；余数：remainder；因式：factor；根：root。
 
 ---
 
@@ -289,13 +293,22 @@ The Remainder Theorem in this form only works for linear divisors $(x - a)$ or $
 
 **Mark scheme patterns:** (1) correct substitution, (2) equation setup from the condition, (3) quotient quadratic (from division), (4) quadratic factorisation, (5) all roots listed.
 
-### A-Level
+### Cambridge 9709 — §2.1 (Paper 2 and Paper 3)
 
-The theorems appear in **AS-Level Pure Maths** (Year 12) inside the Polynomials chapter. Expectations are the same as 0606, plus:
+- The remainder theorem, the factor theorem and polynomial division are one row, examined on **both** pure papers beyond P1. The recurring shapes: *show that $(x - a)$ is a factor and hence factorise*; *find the remainder when $f(x)$ is divided by $(ax + b)$* — the root is $-b/a$, and the substitution must be exact; *find $a$ and $b$ given a factor and a remainder* (two conditions, two unknowns); and, on Paper 3, the theorems as the first step of [[Partial Fractions]] and of solving a cubic that a later part of the question needs.
+- Division by a **quadratic** divisor appears on Paper 3 — the remainder is then linear, $px + q$, and two substitutions (or comparing coefficients) find it. The one-line proof in §2 is not itself examined but is the fastest way to remember which value to substitute.
 
-- Proof of the Remainder Theorem (the one-line argument in §2).
-- Division by any linear divisor, including awkward ones like $(3x + 4)$ (root $-\tfrac{4}{3}$).
-- Using the theorems to prove polynomial identities ($f(x) \equiv g(x)$ if they agree at enough points).
+### Edexcel IAL — P2.2.1
+
+- *Algebraic division; the factor and remainder theorems.* Same shapes as 9709, with a preference for long division written out in full for the quotient; the remainder theorem alone answers "find the remainder" in one line and is accepted.
+
+### OxfordAQA 9660 — P1.1
+
+- The remainder and factor theorems and the factorisation of cubics sit in the very first pure row of the specification. Expect the show-that-and-hence pattern.
+
+### Not examined on…
+
+- **Cambridge 0580** — no polynomial division; factorising stops at quadratics. **Cambridge 9231** — assumed from 9709. **AP Calculus** — polynomial factoring is prerequisite algebra, never a question in itself.
 
 ### Beyond — university
 

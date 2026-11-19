@@ -94,7 +94,7 @@ Destination first, as the Americans had wanted — but an *arrow*, so that the s
 
 Now the best physical detail in this story. When Iverson and Adin Falkoff took the notation to IBM, they wanted programmers to type it as written — every arrow, every Greek letter, every rho and iota. The IBM Selectric typewriter carried its characters on a swappable golf ball; Falkoff and Iverson had two custom APL typeballs, numbers 987 and 988, designed in **late 1964** — before any computer existed that could run APL. The typeface was manufactured before the language ran, which it first did in 1966. And a Selectric ball holds only 88 characters, so the notation overflowed it: several APL symbols could only be produced by typing one character, backspacing, and striking a second over the top of it. A notation so committed to being right that it needed custom hardware to be written down.
 
-The arrow then lost a seat it had briefly held. The 1963 edition of ASCII — the character treaty in **Text Encoding** *(not yet released)* — included a left arrow at code 95 and an up arrow at code 94. The 1967 revision evicted both, replacing them with the underscore `_` and the caret `^`. Every keyboard since has had `_` and `^` where two arrows used to be, which is why Smalltalk-80, a language that wanted Iverson's arrow, typed an underscore and drew it as `←` in its own fonts, and why the honest symbol was, from that year on, one you could not type on an ordinary terminal.
+The arrow then lost a seat it had briefly held. The 1963 edition of ASCII — the character treaty in [[Text Encoding]] — included a left arrow at code 95 and an up arrow at code 94. The 1967 revision evicted both, replacing them with the underscore `_` and the caret `^`. Every keyboard since has had `_` and `^` where two arrows used to be, which is why Smalltalk-80, a language that wanted Iverson's arrow, typed an underscore and drew it as `←` in its own fonts, and why the honest symbol was, from that year on, one you could not type on an ordinary terminal.
 
 ### Act V — Bell Labs, 1969: Thompson takes a character away
 
@@ -139,7 +139,7 @@ And the exam board sided with the losers. Every algorithm you write in the Cambr
 
 - **Arrays** *(not yet released)* — the aliasing section, where `b ← a` forces the question `=` hides.
 - **Cambridge Pseudocode** *(not yet released)* — the exam's publication language, using Iverson's arrow.
-- **Text Encoding** *(not yet released)* — ASCII 1963 and its 1967 revision, where the arrows lost their seats to `_` and `^`.
+- [[Text Encoding]] — ASCII 1963 and its 1967 revision, where the arrows lost their seats to `_` and `^`.
 - **Compilers and Interpreters** *(not yet released)* — the translators whose lineage (BCPL → B → C) is Act V.
 
 ## Receipts

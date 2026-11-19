@@ -9,6 +9,7 @@ prerequisites:
   - "[[Mean Value Theorem]]"
   - "[[Properties of Definite Integrals]]"
 leads_to:
+  - "[[Vector Calculus]]"
   - "[[Integration by Substitution]]"
   - "[[Integration by Parts]]"
   - "[[The Calculus Priority Dispute]]"
@@ -19,16 +20,19 @@ tags:
   - level/pre-IB
   - level/pre-AP
   - curriculum/Cambridge-0606
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - type/deep
   - type/theorem
   - type/proof
-  - type/historical
   - notation/definite-integral
   - misconception/which-FTC
   - misconception/FTC-as-definition
+  - curriculum/AP-Calculus-AB
+  - curriculum/AP-Calculus-BC
+  - curriculum/Cambridge-9709
+  - curriculum/Cambridge-9231
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
 ---
 
 # Fundamental Theorem of Calculus 微积分基本定理
@@ -50,11 +54,11 @@ This card states both, proves them, walks through the famous Newton–Leibniz pr
 
 ### 中文锚点
 
-微积分基本定理 = 微分和积分互为逆运算的定理。它有**两个版本**：
-- **FTC1**：连续函数 $f$ 的"积累函数" $F(x) = \int_a^x f(t)\,dt$ 是 $f$ 的一个原函数（即 $F'(x) = f(x)$）。
-- **FTC2**（牛顿-莱布尼茨公式）：定积分 $\int_a^b f(x)\,dx = F(b) - F(a)$，其中 $F$ 是 $f$ 的任意一个原函数。
+一辆车有速度表，也有里程表。里程表在两个时刻之间的变化就是走过的路程，而这段路程不过是速度表的读数在整段旅途上累积起来的结果。反过来读，里程表往上爬的快慢，正好就是速度表说的数。这一辆车装下了定理的两半：把一个速率累积起来，得到的是总量的变化；把累积出来的总量再求变化率，得到的正是被累积的那个东西。微分和积分互相抵消，是因为速度表和里程表讲的是同一段旅程。
 
-FTC1 是"惊奇"的版本——它告诉你 *任何连续函数都有原函数*，并直接给出了一个原函数的具体形式（积累函数）。FTC2 是"实用"的版本——它告诉你怎么用任意一个原函数算出定积分的值。两个版本一起构成微积分的核心。
+### 术语对照
+
+微积分基本定理：Fundamental Theorem of Calculus；原函数：antiderivative；积累函数：accumulation function $F(x) = \int_a^x f(t)\,dt$；牛顿–莱布尼茨公式：Newton–Leibniz formula $\int_a^b f(x)\,dx = F(b) - F(a)$。
 
 ---
 

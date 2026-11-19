@@ -15,7 +15,6 @@ tags:
   - curriculum/Cambridge-0580
   - curriculum/IB-AA
   - curriculum/IB-AI
-  - curriculum/AP
   - syllabus/0580-E1-2
   - curriculum/OxAQA-9260
   - type/definition
@@ -47,11 +46,15 @@ Set-builder notation: $\{x : x \text{ is even}, 1 < x \leq 10\}$ — here's the 
 
 ### 中文锚点 (Chinese Anchor)
 
+社团的招新海报不会列出每个成员的名字，它写的是："欢迎所有会乐器的十年级同学。"每个人都能拿自己去对照这条规则，符合的就是成员——哪怕有几千人，甚至无穷多人。描述法也是这样：不去一个个列出元素，而是写下挑选元素的那条规则。$\{x \mid x \text{ 是会乐器的十年级同学}\}$ 读作"所有满足……的 $x$ 组成的集合"，竖线（或冒号）的意思是"使得"。多到列不完的集合，比如所有大于 2 的实数，就只能靠规则来写：$\{x \mid x > 2\}$。
+
+#### 术语对照
+
 描述法（或特征性质描述法）：用元素的**共同特征**来描述集合。
 
 - $\{x \mid P(x)\}$ 读作 "满足条件 $P(x)$ 的所有 $x$ 的集合"
 - 竖线 $\mid$ 或冒号 $:$ 均表示 "使得"（such that）
-- 中文教材常用竖线 $\mid$，Cambridge 两种都用
+- 中文教材常用竖线 $\mid$，英文教材两种都用
 
 ## Reading Set-Builder Notation
 
@@ -138,6 +141,13 @@ $\{x : x + 3 = 7\} = \{4\}$ — this set has exactly one element. Students somet
 - Set-builder notation is **not explicitly listed** in the 9260 specification (N9)
 - Sets in 9260 are typically defined by roster or verbal description
 - Still valuable for building understanding, especially when linking to inequalities (A23) and function domains (A9)
+
+### IB Mathematics AA / AI and AP
+
+- No set-theory topic on either IB route, but the notation is *used*: domains and ranges are written as $\{x \in \mathbb{R} : x \ne 2\}$ or in interval form throughout the functions topic (SL 2), and solution sets of inequalities the same way. Read it fluently; it is never examined for itself.
+- **AP Calculus:** interval notation is the house style; set-builder appears only in the definition of a function's domain.
+
+**Not examined on** Cambridge 0606 (no set theory), 9709 or 9231 — 9709 writes domains in words or intervals.
 
 ## Connections
 

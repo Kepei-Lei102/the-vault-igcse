@@ -54,13 +54,7 @@ This works because of the **multiplication principle** — if step 1 has $a$ opt
 
 ### 中文锚点 (Chinese Anchor)
 
-**阶乘** (jiēchéng)："阶"是台阶、阶梯——像走楼梯一样，从$n$一步一步乘下去，一直乘到1。
-
-$$5! = 5 \times 4 \times 3 \times 2 \times 1 = 120$$
-
-递归定义（参见下方"阶乘与递归"）：
-- 起点：$0! = 1$（零个东西只有一种排法——什么都不做）
-- 规则：$n! = n \times (n-1)!$（要排$n$个东西，先选一个放第一位，剩下$(n-1)$个按$(n-1)!$排）
+四个朋友排队拍照。站第一位的可以从 4 个人里选，第二位剩 3 个人可选，然后是 2 个、1 个；每一步的选择都在上一步之后做，所以数目相乘：$4\times3\times2\times1 = 24$ 种排法。这个乘积就是 4 的阶乘，写作 $4!$。中文名字起得好："阶"是台阶——你一级一级往下走，每走一步就乘一个比刚才小 1 的数，直到乘到 1。它也解释了阶乘为什么涨得这么猛：要是再来第五个朋友，排法不是只多出一种，而是原来的每一种排法都要乘以 5。它还解释了看起来古怪的 $0! = 1$：零个人有几种排队方式？恰好一种——空队伍，什么都不做。这就是台阶的最底层，其他所有阶乘都是在它上面一层层搭起来的：$n! = n\times(n-1)!$。
 
 ## Values
 
@@ -217,10 +211,14 @@ $3.5!$ is undefined in the basic definition (though the Gamma function extends i
 
 Factorial notation is not in the Cambridge 0580 or OxAQA 9260 specification.
 
-### AP / IB / A-Level
+### Cambridge 9709 / 9231
 
-- **AP / IB:** factorials used in binomial expansion, probability distributions (binomial, Poisson)
-- **A-Level Further:** multinomial coefficients, Taylor series ($e^x = \sum \dfrac{x^n}{n!}$)
+- **9709 P1 §1.6 and P5 §5.2:** $n!$ appears inside the binomial coefficients $\binom{n}{r}$ and in permutations and combinations — never asked for on its own, always as the machinery of ${}^nC_r$ and ${}^nP_r$ ([[Permutations and Combinations]]).
+- **9231 FP2 §2.3:** Maclaurin series — $n!$ in every denominator of $e^x$, $\sin x$, $\cos x$; and in FP1's proof-by-induction questions on divisibility.
+
+### AP / IB
+
+- **AP Calculus BC:** Taylor and Maclaurin series (Unit 10) — $n!$ in the general term. **AP Statistics / IB AA and AI:** the binomial distribution's coefficient; IB AA HL adds the binomial theorem with $\binom{n}{r}$ expanded as factorials.
 
 ### Beyond high school — University
 

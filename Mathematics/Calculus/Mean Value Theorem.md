@@ -15,9 +15,7 @@ tags:
   - level/A-Level
   - level/IB
   - level/AP
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/AP-Calculus-BC-5-1
   - type/deep
   - type/theorem
@@ -25,6 +23,8 @@ tags:
   - notation/derivative
   - misconception/MVT-vs-IVT
   - misconception/MVT-needs-differentiability-on-open-interval
+  - curriculum/AP-Calculus-AB
+  - curriculum/AP-Calculus-BC
 ---
 
 # Mean Value Theorem 中值定理
@@ -43,12 +43,11 @@ Both say the same kind of thing: an *average* (the chord slope, or the average v
 
 ### 中文锚点
 
-中值定理 = "在光滑曲线上某处，切线斜率 = 弦的斜率"。两个版本：
+区间测速摄像头记下你进入路段和离开路段的时刻，算出你平均时速 100 公里。它从没测过你任何一瞬间的速度，却照样能开罚单，因为在两个摄像头之间的某一瞬间，你的速度表恰好指着 100：你不可能一直高于 100 或一直低于 100，平均却正好是 100。这就是中值定理：在任何一段光滑的路上，总有某处的瞬时变化率等于平均变化率，切线平行于弦。积分形式说的是同一件事，只不过换成高度：起伏的水面有一个平均水位，而水面在某一处恰好就是这个水位。
 
-- **微分中值定理 (Lagrange)**：如果 $f$ 在 $[a, b]$ 连续、$(a, b)$ 可导，那么存在 $c \in (a, b)$ 使得 $f'(c) = \dfrac{f(b) - f(a)}{b - a}$。直观：跑 100 米花了 10 秒，*某一瞬间* 你的速度恰好等于平均速度 10 m/s。
-- **积分中值定理**：如果 $f$ 在 $[a, b]$ 连续，那么存在 $c \in [a, b]$ 使得 $\int_a^b f\,dx = f(c)(b - a)$。直观：曲线下面积等于一个"等高矩形"的面积，矩形的高 $f(c)$ 是 $f$ 在某点取的真值。
+### 术语对照
 
-两个版本本质上都在说：**连续函数会在区间内某处取到它的平均值**。
+微分中值定理（拉格朗日）：Mean Value Theorem for derivatives，$f'(c) = \dfrac{f(b) - f(a)}{b - a}$；积分中值定理：Mean Value Theorem for integrals，$\int_a^b f\,dx = f(c)(b - a)$；弦：chord；切线：tangent。
 
 ---
 
@@ -174,17 +173,19 @@ Core curriculum. AP gives MVT a full topic (FUN-1.B; ~15 class periods AB, ~10 B
 - *Justify* conclusions about a function's behaviour from MVT (existence of a horizontal tangent, of a particular slope, etc.)
 - Common AP free-response prompt: *"Justify that there must exist a value $c$ in $(a, b)$ such that …"* — invariably an MVT (or IVT) application.
 
-### IB AA HL
+### IB Mathematics AA
 
-MVT is in the optional **Calculus** topic for HL. Stated and applied; proof not formally required but seen in textbooks. Cauchy's MVT is occasionally included as an aside before L'Hôpital's rule.
+Not on the 2021 syllabus (first exams 2021) — the old HL *Calculus* option that stated and applied it was withdrawn in the redesign. AA HL uses its consequences without naming it: L'Hôpital's rule (AHL 5.13) and "a function with positive derivative is increasing".
 
-### A-Level Pure Mathematics
+### A-Level and STEP
 
-MVT is *not* on the standard A-Level Pure syllabus (Edexcel / OCR / AQA), but appears in Further Maths and STEP. The "average rate of change" reasoning underlies many A-Level problems implicitly.
+Not on Cambridge 9709 or 9231, nor on Edexcel / OCR / AQA Pure or Further Pure. STEP and MAT questions do use it, and the "average rate of change equals some instantaneous rate" reasoning underlies many A-Level problems implicitly.
 
 ### Cambridge 0606 / 9709
 
 Not on the syllabus. The MVT is assumed silently when 9709 P3 uses "$f'(x) > 0 \Rightarrow f$ is increasing" or "two functions with the same derivative differ by a constant" — both are MVT in disguise.
+
+**Not examined on** any Cambridge board (0580, 0606, 9709, 9231) or IB AA/AI; AP Calculus is the only board that sets it by name.
 
 ---
 

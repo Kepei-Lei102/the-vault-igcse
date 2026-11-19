@@ -17,10 +17,13 @@ tags:
   - syllabus/0606-7-2
   - syllabus/9260-A11
   - type/vocabulary
-  - type/criterion
+  - type/definition
   - notation/perpendicular
   - misconception/perpendicular-horizontal-vertical
   - misconception/negative-reciprocal-vs-negative
+  - curriculum/Cambridge-0606
+  - curriculum/OxAQA-9660
+
 ---
 
 # Perpendicular Lines 垂直直线
@@ -37,6 +40,10 @@ Two lines in the Cartesian plane are **perpendicular** ($\perp$) when they meet 
 The "$-1$" is the algebraic signature of a $90°$ rotation. This card states the criterion, gives the geometric reason, and works through the standard exam patterns.
 
 ### 中文锚点
+
+把一架梯子靠在墙上，再把梯脚往外拉：墙一直立着，梯子却越来越平，两者只在一个位置上是互相垂直的。在坐标图上，判断这个位置只需要一个数。如果一条直线每向右走 1 就向上走 2，把它转过四分之一圈，原来的"向右"变成了"向上"，原来的"向上"变成了"向左"，于是新的直线每向上走 2 就向左走 1：斜率是 $-\tfrac12$。两个斜率相乘正好是 $-1$，这就是全部的规则：两条直线垂直，恰好就是 $m_1 \times m_2 = -1$，一个斜率是另一个的负倒数。它只有一种例外：梯子平躺在地上，或者墙本身，也就是斜率为 $0$、或者根本没有斜率的时候；那种时候看一眼图就行了。
+
+### 术语对照 (Terms)
 
 两条直线**垂直**（夹角为 $90°$）当且仅当它们的斜率乘积等于 $-1$：
 

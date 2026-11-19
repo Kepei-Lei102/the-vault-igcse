@@ -16,7 +16,6 @@ tags:
   - curriculum/Cambridge-0580
   - curriculum/IB-AA
   - curriculum/IB-AI
-  - curriculum/AP
   - syllabus/0580-E1-2
   - curriculum/OxAQA-9260
   - type/definition
@@ -57,6 +56,10 @@ If sets are bags, then $A \subseteq B$ means everything in bag $A$ is also in ba
 A **proper** subset means $A$ fits inside $B$ but $B$ has extra stuff — they're not the same bag.
 
 ### 中文锚点 (Chinese Anchor)
+
+学校管弦乐团里的每一个人，也都是这所学校的学生。子集说的就是这个：如果 $A$ 里的每一个元素都在 $B$ 里，$A$ 就是 $B$ 的子集，记作 $A \subseteq B$。要检验它，就把 $A$ 里的元素一个个拿出来对照——只要有一个不在 $B$ 里，就不成立。从这条规则能推出两个出人意料的结论。全体学生构成的集合，也算它自己的子集（每个学生都是学生），所以 $\subseteq$ 允许两者相等；"真子集" $A \subsetneq B$ 才表示 $A$ 在 $B$ 里面，而且比 $B$ 小。还有，空集是任何集合的子集：你找不出它的哪个元素不在 $B$ 里，因为它根本没有元素。
+
+#### 术语对照
 
 子集：如果集合 $A$ 中的**每一个**元素都属于集合 $B$，则 $A$ 是 $B$ 的子集。
 
@@ -155,6 +158,12 @@ $A \subseteq B$ means $A$ is inside $B$ — the "open" side of $\subseteq$ faces
 - The $\subseteq$ and $\nsubseteq$ notation is **not** in the 9260 notation list and is **not formally assessed**
 - The concept of subset is still implicit in Venn diagram reasoning (N9) — e.g., when one set is entirely contained in another
 - Useful background knowledge but students will not be asked to use the notation on the 9260 paper
+
+### IB Mathematics AA / AI and AP
+
+- No set-theory topic on either IB route; a subset appears only as one Venn circle inside another in probability work (SL 4.5), never with the $\subseteq$ notation. AP Calculus does not examine subsets.
+
+**Not examined on** Cambridge 0606 (no set theory), 9709 or 9231.
 
 ## Connections
 

@@ -9,14 +9,15 @@ prerequisites:
   - "[[Circular Motion]]"
   - "[[Gravitational Fields]]"
 leads_to:
+  - "[[Emmy Noether]]"
   - "[[Laws and Theorems]]"
+  - "[[The Kinetic Chain]]"
 tags:
   - subject/physics
   - subject/mathematics
   - domain/mechanics
   - level/A-Level
   - level/pre-AP
-  - curriculum/A-Level-Further
   - curriculum/IB-Physics
   - curriculum/AP-Physics-1
   - curriculum/AP-Physics-C-Mechanics
@@ -206,19 +207,19 @@ This card closes a thread running through the whole mechanics bay. Emmy Noether'
 
 ## Exam Notes
 
-> Like the rest of the trio, angular momentum is **not** on Cambridge 9709, 9702, or 9231 (whose Further Mechanics stops at rigid-body statics), and not on plain IB AA. Its homes are below.
+> Angular momentum is **not** on Cambridge 9709, 9702 or 9231: 9702 stops at the moment of a force and 9231's Further Mechanics has no rigid-body rotation. Edexcel IAL's Further Mechanics units do not mention it either (checked: the words do not occur in the specification). Its homes are below.
 
-### IB Physics (A.4.4 — *HL only*)
+### IB Physics, A.4 Rigid body mechanics (HL only)
 
-Angular momentum $L = I\omega$, its conservation, and angular impulse. Pairs with A.4.1–A.4.3 ([[Torque]], [[Moment of Inertia]]) to make up the HL-only **Rigid body mechanics** topic. (A.4.2 angular *kinematics* — the $\theta,\omega,\alpha$ equations of motion — is the one A.4 sub-topic the trio doesn't cover.)
+The guide states "There is no standard level content in A.4"; the Additional higher level list includes "that an extended body rotating with an angular speed has an angular momentum $L$ as given by $L = I\omega$", "that angular momentum remains constant unless the body is acted upon by a resultant torque", and "that the action of a resultant torque constitutes an angular impulse $\Delta L$ as given by $\Delta L = \tau\Delta t = \Delta(I\omega)$". "The vector nature of torque and angular momentum need not be addressed, but the sense (clockwise or anticlockwise) should be." Pairs with [[Torque]] and [[Moment of Inertia]] for the rest of A.4.
 
-### AP Physics 1 (Unit 6.3, 6.4) & AP Physics C: Mechanics (Unit 6.3, 6.4)
+### AP Physics 1, Unit 6, and AP Physics C: Mechanics, Unit 6
 
-Both examine **angular momentum and angular impulse** (6.3) and **conservation of angular momentum** (6.4); AP-C writes the particle definition $\mathbf{L} = \mathbf{r}\times\mathbf{p}$ and angular impulse $\int\boldsymbol{\tau}\,dt$ explicitly. The classic prompts are the spinning-stool / pulled-in-arms problem and a person walking to the centre of a rotating platform.
+Both course descriptions carry Topic 6.3 "Angular Momentum and Angular Impulse" and Topic 6.4 "Conservation of Angular Momentum", inside Unit 6 (Energy and Momentum of Rotating Systems, whose other topics are rotational kinetic energy, torque and work, rolling, and orbiting satellites). AP C writes the particle form $\mathbf{L} = \mathbf{r} \times \mathbf{p}$ and the angular impulse $\int \tau\,dt$ explicitly; AP 1 works with $L = I\omega$ and conservation. The classic problems (the spinning skater, the merry-go-round, the falling cat) are the ones in this card.
 
-### A-Level Further Mathematics (UK — Edexcel / AQA)
+### Where this is *not* examined, and what is unverified
 
-Conservation of angular momentum about a fixed axis appears in **Edexcel/AQA** A-Level Further Mechanics, alongside [[Moment of Inertia]]. (Not Cambridge 9231.)
+Cambridge 9702, 9709 and 9231; Edexcel IAL Further Mathematics; Cambridge 0625; IB Physics SL. The card's earlier claim that Edexcel and AQA domestic A-level Further Mechanics examine it is not verifiable from the specifications on file and is withdrawn as a claim.
 
 ## Connections
 

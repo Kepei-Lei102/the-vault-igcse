@@ -5,9 +5,10 @@ prerequisites:
   - "[[Secondary Storage]]"
   - "[[Sensors and Control Systems]]"
   - "[[Space Travel]]"
+  - "[[You Are a Reinforcement Learner]]"
 leads_to:
   - "[[Program Design]]"
-  - "[[I/O Is the Bottleneck]]"
+  - "[[The True IO Bound]]"
 tags:
   - subject/methodology
   - subject/computer-science
@@ -19,7 +20,6 @@ tags:
   - level/university
   - level/life
   - type/methodology
-  - type/meta
   - type/cross-domain
   - misconception/decoupling-is-always-good
   - misconception/a-buffer-adds-speed
@@ -253,13 +253,14 @@ When you need something you cannot build:
 
 - **Children:**
    - **Program Design** *(not yet released)* — modular decomposition is the knowledge-axis decoupling applied to code; the interface is the tool.
-   - [[I/O Is the Bottleneck]] — the sibling thesis: the slow step is almost never compute but moving data, which is why the timing axis dominates the decoupler kit.
+   - [[The True IO Bound]] — the sibling thesis: the slow step is almost never compute but moving data, which is why the timing axis dominates the decoupler kit.
 
 - **Worked instances in the vault:** **Clock Domains and Metastability** *(not yet released)* (the synchronizer and the async FIFO — decoupling at the physical limit, with a non-zero failure probability accepted as the price); **RAM and the Memory Hierarchy** *(not yet released)* (every cache level a timing decoupler); **Interrupt Handling** *(not yet released)* (the doorbell as the alternative to polling); **Operating Systems** *(not yet released)* (the process boundary as failure-axis decoupling; the kernel-design callout as the microkernel/monolithic version of the same choice); [[Dual-Core Craft]] (lockstep — the coupling kept, and its two verdicts); **Object-Oriented Programming** *(not yet released)* (encapsulation as knowledge-axis decoupling; ECS as the object itself decoupled into components); **Error Detection and Correction** *(not yet released)* (the message decoupled from the channel's failures); [[From the Grid to the Garage]] (the drivetrain coupling kept for racing and softened for the road; the laptop cell recoupled into a car); [[Linear Motion under a Variable Force]] (the rocket equation that forces staging); [[Electromagnetic Induction]] (the transformer wound for matched power or for isolation); [[Two Family Trees]] (Mach's microkernel *recoupled* to a BSD kernel inside XNU — a graft, in the story's own image). **Relational Databases** *(not yet released)* (normalisation as decoupling on the knowledge axis, one normal form per cut; the join as recoupling at read time; the NoSQL document as recoupling at write time — the same axis, the opposite decision).
 
 - **Sibling Meta cards:** [[Fun Is the Brachistochrone]] (the detour that is the fastest path — the parts bin is a detour of the same kind); [[Inertia and Bootstrapping]] (the cost of starting, which the buffer's knee curve resembles); [[Credit Is the Currency]] (an interface is a promise — what a module says it will do, kept regardless of how).
 
 - **Misconception traps cleared:** decoupling is always good; a buffer adds speed; coupling and dependency are the same thing; recoupling is copying; constraints oppose invention.
+- **Prerequisite:** [[You Are a Reinforcement Learner]] — a buffer is a delay in a signal; the reinforcement card measures what a delayed reward costs a learner.
 
 ## Sources
 

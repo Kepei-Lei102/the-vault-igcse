@@ -8,9 +8,10 @@ tags:
   - subject/mathematics
   - domain/number
   - level/AP
-  - curriculum/AP
   - type/reference
   - calculator/ti-84-ce
+  - curriculum/AP-Calculus-AB
+  - curriculum/AP-Calculus-BC
 ---
 
 # TI-84 Plus CE Reference

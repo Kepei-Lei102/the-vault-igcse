@@ -16,7 +16,6 @@ tags:
   - curriculum/Cambridge-0580
   - curriculum/IB-AA
   - curriculum/IB-AI
-  - curriculum/AP
   - syllabus/0580-E1-2
   - curriculum/OxAQA-9260
   - syllabus/9260-N9
@@ -24,6 +23,7 @@ tags:
   - type/vocabulary
   - notation/complement
   - misconception/complement-without-universal
+  - curriculum/AP-Statistics
 ---
 
 # Complement 补集
@@ -46,10 +46,14 @@ Without the room ($\xi$), "everyone else" has no meaning. Complement always requ
 
 ### 中文锚点
 
+点名的时候，老师手里有一份花名册。今天到了的人是一个集合，没到的人就是"花名册上除了这些人以外的所有人"。补集说的就是"其余的人"。可"其余"总得有个范围：是这个班的花名册，还是全校的花名册？范围一换，"没到的人"也跟着变。所以说 $A$ 的补集 $A'$，永远得先把全集 $U$ 说清楚：它就是 $U$ 里所有不属于 $A$ 的元素。
+
+#### 术语对照
+
 补集：$A'$（或 $\complement_U A$）— 在全集中，不属于 $A$ 的所有元素。
 
 > [!info] Chinese notation
-> Chinese textbooks write $\complement_U A$ (读作 "$A$ 关于 $U$ 的补集"). Cambridge and IB use $A'$. Some texts use $\bar{A}$. All mean the same thing.
+> Chinese textbooks write $\complement_U A$ (读作 "$A$ 关于 $U$ 的补集"). English-language textbooks usually write $A'$; some use $\bar{A}$. All mean the same thing.
 
 ## Notation
 

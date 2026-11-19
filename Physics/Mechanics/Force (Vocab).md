@@ -19,7 +19,6 @@ tags:
   - curriculum/Cambridge-9709
   - curriculum/Cambridge-9702
   - curriculum/Cambridge-0625
-  - curriculum/A-Level
   - curriculum/IB-AA
   - curriculum/IB-Physics
   - curriculum/AP-Physics-1
@@ -51,9 +50,11 @@ In English exam-language, forces are referred to by the *type* — gravity, norm
 
 ### 中文锚点
 
-**力 (lì)** = push 或 pull，是一个**矢量** (vector)，单位 **牛顿 (Newton, N)**，$1 \text{ N} = 1 \text{ kg} \cdot 1 \text{ m/s}^2$。
+在超市推一辆装满东西的购物车：刚开始要使劲推，推动以后轻轻推着就能一直走，松开手它还会自己滑一段。可见力不是用来维持运动的，而是用来改变运动的：让它动起来、加快、拐弯、停下。车子走起来以后那一点轻推，只是在抵消轮子的摩擦。这就是力：一个物体对另一个物体的推或拉，它改变的是另一个物体的运动状态。力不光有大小，还有方向：从侧面推购物车，它不会变快，而是会拐弯。力的单位牛顿（N）正是这样定义的：1 N 的力能让 1 kg 的物体每秒钟增加 1 m/s 的速度。
 
-中文物理已经把"力"讲得很透彻 — 这张卡片的目标是建立**英文考试词汇**（每种力的英文名称、产生它的物体、作用方式），以及一些 Cambridge 答题里特定的句式。
+#### 术语对照
+
+**力 (lì)** = force：push 或 pull，是一个**矢量** (vector)，单位**牛顿** (newton, N)，$1 \text{ N} = 1 \text{ kg} \cdot 1 \text{ m/s}^2$。
 
 ---
 

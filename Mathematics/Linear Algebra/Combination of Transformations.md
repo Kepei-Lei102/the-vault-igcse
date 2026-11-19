@@ -17,6 +17,8 @@ tags:
   - syllabus/9231-1-4
   - type/definition
   - misconception/matrix-multiplication-order
+  - curriculum/Cambridge-9231
+  - type/deep
 ---
 
 # Combination of Transformations 变换的组合
@@ -134,6 +136,14 @@ Some students multiply, identify the transformation, but then forget to state th
 - Both Paper 1E and Paper 2E (calculators allowed)
 - Uses matrix multiplications (stated in spec notes for G26)
 - **i** and **j** notation is **not** required
+
+### Cambridge 9231 (Further Mathematics) — Paper 1, §1.4 Matrices
+
+The syllabus asks candidates to "recognise that the matrix product $\mathbf{AB}$ represents the transformation that results from the transformation represented by $\mathbf{B}$ followed by the transformation represented by $\mathbf{A}$", and notes that extension to the product of more than two matrices may be required. The order rule is the same as at 9260; what changes is the range of transformations that may be combined (any rotation or reflection through the origin, enlargements, stretches and shears) and the link to inverses, $(\mathbf{AB})^{-1} = \mathbf{B}^{-1}\mathbf{A}^{-1}$: undoing a combination means undoing the last transformation first. See [[Determinants and Inverses]].
+
+### Where it is *not* examined
+
+Cambridge **0580**, **0606** and **9709** contain no matrices (checked against the current syllabuses). Combined transformations at 0580 are described geometrically: see [[Transformations (Vocab)]].
 
 ## Connections
 

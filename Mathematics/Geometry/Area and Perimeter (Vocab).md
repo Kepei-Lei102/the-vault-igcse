@@ -20,6 +20,7 @@ tags:
   - type/vocabulary
   - notation/perpendicular-height
   - misconception/slant-vs-perpendicular-height
+  - curriculum/OxAQA-9260
 ---
 
 # Area and Perimeter 面积与周长
@@ -46,6 +47,10 @@ For special shapes, both have closed-form formulas:
 
 ### 中文锚点
 
+给花园围篱笆和给它撒草籽，是两张不同的购物单。篱笆是周长，是长度，单位是米；草籽是面积，是一块面，单位是平方米。两者并不同步变化：12 米长的篱笆，可以围出一条 1 米乘 5 米的长条（5 平方米），也可以围出一个 3 米乘 3 米的正方形（9 平方米）。面积还有它自己的陷阱。把一摞整齐的书推歪，从侧面看成了一个斜斜的平行四边形：斜着的那条边变长了，可这摞书并没有变高，书也还是那些书，所以面积没变。这就是为什么算平行四边形的面积，要用底边上的高（垂直距离），而不是那条斜着的边。
+
+#### 术语对照
+
 | 形状 | 周长 (zhōucháng) | 面积 (miànjī) |
 |---|---|---|
 | 长方形 | $2l + 2w$ | $l \cdot w$ |
@@ -54,8 +59,6 @@ For special shapes, both have closed-form formulas:
 | 平行四边形 | $2b + 2s$ | $b \cdot h$ |
 | 梯形 (tīxíng) | 四边之和 | $\tfrac{1}{2}(a+b) h$ |
 | 圆 | $C = 2\pi r$ | $A = \pi r^2$ |
-
-考试关键：**$h$ 永远指垂直于底的高**，不是斜边的长。这是 0580 最经典的错误。
 
 ---
 
@@ -126,7 +129,7 @@ $A = \tfrac{1}{2}(5 + 9)(4) = \tfrac{1}{2}(14)(4) = 28$ cm². ✓
 
 ### Cambridge 0580
 
-**Syllabus ref:** E5.2 — find areas of triangles, parallelograms, trapezia, and circles; find perimeters of these shapes (including circumference of a circle). Standard patterns:
+**Syllabus ref:** E5.2 *Area and perimeter* — "carry out calculations involving the perimeter and area of a rectangle, triangle, parallelogram and trapezium"; the syllabus notes that **except for the area of a triangle, formulas are not given**, so the parallelogram and trapezium formulas must be known. Circles, arcs and sectors are the next row, **E5.3** (circle formulas *are* given in the list of formulas). Standard patterns:
 
 - "Find the area of a triangle with base $7$ cm and perpendicular height $5$ cm." ($17.5$ cm²)
 - "Find the circumference of a circle with diameter $14$ cm." ($14\pi \approx 43.98$ cm)

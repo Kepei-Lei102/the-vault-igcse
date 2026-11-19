@@ -12,9 +12,12 @@ tags:
   - level/pre-IB
   - level/pre-AP
   - curriculum/Cambridge-0606
+  - curriculum/Cambridge-9709
   - syllabus/0606-11-3
-  - type/strategy
+  - type/technique
   - misconception/overcounting
+  - type/deep
+
 ---
 
 # Counting Problems
@@ -43,7 +46,11 @@ The two big questions every time:
 1. **Does order matter?** → permutation or combination?
 2. **Are there constraints?** → handle the constraint first, then count the rest.
 
-### 中文 Anchor
+### 中文锚点
+
+三件上衣配两条裤子，能穿出六套，而不是五套，因为每件上衣都能配任意一条裤子：一步接一步地做选择，数目是相乘的。几乎所有的计数问题，靠的就是这一个事实，外加一个问题。这个问题是：顺序重要吗？四位密码把数字倒过来，就成了另一个密码，所以每一种排法都要分开算；四个朋友组成的队伍，不管名单怎么排都是同一支队伍，所以光是把同一批人换个顺序的那些排法，只算一次。剩下的功夫是把问题切成可以相乘的几块：先安顿好那位挑剔的客人，再排其他人；或者先数你不想要的排法，从总数里减掉。计数题难的从来不是算术，而是找到那一刀——把一个缠在一起的问题切成几个互不干扰的选择。
+
+### 术语对照
 
 | English | 中文 | Pinyin |
 |---------|------|--------|
@@ -301,11 +308,15 @@ When splitting into cases, the cases must be **mutually exclusive** — no overl
 
 Counting problems of this type are not in the Cambridge 0580 or OxAQA 9260 specification. However, the multiplication principle underlies sample space counting in [[Combined Probability]], which is tested in both.
 
-### AP / IB / A-Level
+### Cambridge 9709 (Probability & Statistics 1)
 
-- **AP Statistics:** counting rules (multiplication, permutations, combinations) for computing probabilities
-- **IB Mathematics AA HL:** combinatorics problems with constraints; links to binomial theorem and probability distributions
-- **A-Level Further Mathematics:** more complex counting including circular arrangements, items with repetition, and the inclusion-exclusion principle
+**Syllabus ref:** P5 §5.2 — *solve problems about arrangements of objects in a line, including those involving repetition (the letters of NEEDLESS) and restriction (two particular people must, or must not, stand together)*, plus *simple problems involving selections*. The 0606 rules above carry over with two additions the board names: **repetition** (the $\dfrac{n!}{n_1!\,n_2!\cdots}$ count below) and questions where people sit in **two or more rows**. The board also says what it will *not* ask: **objects arranged in a circle are excluded.** Paper 5 sets this as a 5–7 mark question with several parts, each a different restriction on the same set of objects; the formulas and the full treatment live in [[Permutations and Combinations]].
+
+### IB Mathematics AA (HL only)
+
+HL 1.10 — *counting principles, including permutations and combinations* — as the entry to the binomial theorem with negative and fractional exponents. SL has no counting outcome; the binomial coefficient appears there only as $\binom{n}{r}$ inside the expansion.
+
+**Not examined on:** Cambridge 0580 and OxAQA 9260 (the multiplication principle appears only as sample-space counting in [[Combined Probability]]); Cambridge 9231 (no combinatorics section — its Further Probability paper starts from distributions); Edexcel IAL (no permutations or combinations in S1–S3); AP Statistics (the CED requires no permutation or combination counting; the binomial formula is given on the formula sheet); AP Calculus.
 
 ### Beyond high school — University
 

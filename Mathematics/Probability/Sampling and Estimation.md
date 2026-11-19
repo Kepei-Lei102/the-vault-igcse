@@ -5,7 +5,9 @@ prerequisites:
   - "[[Normal Distribution]]"
   - "[[Continuous Random Variables]]"
   - "[[Inventing Variance]]"
+  - "[[Laplace and Napoleon]]"
 leads_to:
+  - "[[Stats Lies Hall of Fame]]"
   - "[[Hypothesis Tests]]"
   - "[[t-Tests]]"
 tags:
@@ -14,7 +16,6 @@ tags:
   - domain/probability
   - level/A-Level
   - curriculum/Cambridge-9709
-  - curriculum/A-Level
   - curriculum/AP-Statistics
   - curriculum/IB-AA
   - syllabus/9709-6-4
@@ -234,6 +235,7 @@ Every row is the *Digest*'s disease in a different costume. Randomness is the on
 - **Leads to:** [[Hypothesis Tests]] — the same sampling distributions, pointed at a verdict: Example 3's "is 0.5 inside the interval?" becomes a formal test, and P6 closes there.
 - **Kindred:** [[Repeated Measurements]] — the physics lab is this card in a lab coat: $N$ repeats, the mean, and the error of the mean $\sigma/\sqrt{N}$ (Galton's ox-weighting crowd lives there); [[Stories/Inventing Variance]] — Gosset, Fisher, and the human history of "unbiased"; [[Poisson Distribution]] — another population whose samples this machinery serves.
 - **For 9709 students:** [[MF19 Reference (9709)]] — the unbiased $s^2$ (with its $n-1$) is printed on the sheet; the $z$-values live in the percentage-points table; the CLT and every interpretation live in your head.
+- **Story:** [[Stories/Laplace and Napoleon]] — Laplace's 1810 central limit theorem is the reason sample means go normal; the story of the astronomer who needed it.
 
 ---
 

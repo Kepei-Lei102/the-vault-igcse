@@ -4,6 +4,7 @@ prerequisites:
   - "[[Units of Measure (Vocab)]]"
   - "[[Standard Form (Vocab)]]"
 leads_to:
+  - "[[Temperature and Thermometry]]"
   - "[[Accuracy vs Precision]]"
   - "[[Error Propagation]]"
   - "[[Significant Figures]]"
@@ -11,6 +12,8 @@ leads_to:
   - "[[Calibration of Instruments]]"
   - "[[Vectors in Physics]]"
   - "[[Electric Current]]"
+  - "[[Density and Pressure]]"
+  - "[[Planning an Experiment]]"
 tags:
   - subject/physics
   - subject/mathematics
@@ -26,11 +29,11 @@ tags:
   - curriculum/IB-Physics
   - curriculum/AP-Physics-1
   - curriculum/AP-Physics-2
+  - curriculum/AP-Physics-C-Mechanics
+  - curriculum/AP-Physics-C-EM
   - syllabus/9702-1-1
   - syllabus/9702-1-2
   - syllabus/0625-1-1
-  - syllabus/IB-Physics-A-1
-  - syllabus/AP-Physics-1-SP-1
   - type/deep
   - type/definition
   - notation/SI-units
@@ -44,7 +47,7 @@ tags:
 
 ## Hunter trace — a $327M lesson in why units matter
 
-**23 September 1999.** The Mars Climate Orbiter — a $327.6 million NASA spacecraft — fires its main engine to enter Mars orbit. The burn was supposed to bring the spacecraft into a $110~\text{km}$ orbital altitude. Instead the spacecraft descends to $57~\text{km}$, dips into the upper Martian atmosphere, and burns up.
+**23 September 1999.** The Mars Climate Orbiter — a $327.6 million NASA spacecraft — fires its main engine to enter Mars orbit. Its first pass was meant to be $226~\text{km}$ above the surface, and $80~\text{km}$ was the lowest it could survive. Instead the spacecraft descends to about $57~\text{km}$, dips into the upper Martian atmosphere, and burns up.
 
 The post-mortem investigation traced the failure to a single line of code. Lockheed Martin's ground-control software output thruster impulse in **pound-seconds (lbf·s)**, an imperial unit. The JPL trajectory-correction software, which read those numbers, was written assuming **newton-seconds (N·s)**, the SI unit. Pound-seconds and newton-seconds are *both* units of impulse — they measure the same physical quantity, "change in momentum" — but $1~\text{lbf·s} = 4.45~\text{N·s}$. Every thruster burn was reading low by exactly that factor. The trajectory drifted. The orbiter died.
 
@@ -64,11 +67,11 @@ The unit is the answer to "*compared to what*?". Without it the number has no an
 
 ### 中文锚点
 
-**物理量** (wùlǐliàng) = physical quantity. 中文物理教学经常用一个简单的公式总结全部物理量的本质：
+走到菜市场的摊位前说"给我来两……大米"，摊主一定会反问：两什么？两斤、两公斤，还是两袋？光有数字，什么也没说清楚。每一个物理量都是一个数值乘以一个单位，单位带着一半的信息。1999 年，一艘叫"火星气候探测者号"的飞船就是这样丢的：一个团队的软件用"磅·秒"报告推进器的冲量，另一个团队的软件把同样的数字当成"牛顿·秒"来读，数字看上去完全合理，结果飞船飞得太低，在火星大气里烧毁了。正因为单位是和数值乘在一起的，它也服从乘法的规矩：米除以秒得到米每秒；只有单位相同的两个量才能相加。这样一来，单位就成了任何计算都白送的一道检查：你算一个速度，最后单位却是"米乘秒"，那一定是哪里出了错，而且不用看任何一个数字就能知道。
 
-$$\text{物理量} = \text{数值} \times \text{单位}$$
+### 术语对照 (Terms)
 
-这个等式的精神是：数值 (number) 和单位 (unit) **缺一不可**。例如，"长度是 1.5"是没有意义的 — 1.5 米？1.5 英寸？1.5 公里？数值告诉你"多少"，单位告诉你"多少**什么**"。
+**物理量** (wùlǐliàng)：$\text{物理量} = \text{数值} \times \text{单位}$，数值 (number) 和单位 (unit) 缺一不可。
 
 | English | 中文 | 例子 / Example |
 |---|---|---|
@@ -257,35 +260,35 @@ A dimensionally homogeneous equation is **necessary** but **not sufficient** for
 
 ## Exam Notes
 
-### Cambridge 9702 (AS Level)
+### Cambridge 9702 — AS §§1.1–1.2
 
-**Syllabus ref:** 1.1 (physical quantities, magnitude × unit, reasonable estimates) and 1.2 (SI base/derived units, homogeneity check, prefixes p to T).
+A physical quantity is a numerical magnitude and unit; make reasonable estimates of quantities in the syllabus. The explicitly listed base quantities for recall are **mass, length, time, current and temperature**, with units kg, m, s, A and K. The full seven-base-unit system explained above is broader than this particular recall list.
 
-What 9702 actually tests:
-- Identify which of a list of units is a derived unit (e.g. "which of $\text{N}, \text{kg}, \text{m·s}^{-2}, \text{J}$ is a base unit?").
-- Convert a quantity given in a derived form ($\text{kJ·mol}^{-1}$) into base SI units.
-- Use prefixes — read $470~\text{nF}$ as $470 \times 10^{-9}~\text{F}$, $4.7~\text{GHz}$ as $4.7 \times 10^9~\text{Hz}$.
-- Check whether a proposed equation is dimensionally consistent. *Example exam-style question:* "A student suggests $v^2 = u^2 + 2as^2$. Use the homogeneity of units to show that this equation is incorrect." (Answer: $[v^2] = \text{m}^2\text{·s}^{-2}$, $[as^2] = \text{m·s}^{-2} \cdot \text{m}^2 = \text{m}^3\text{·s}^{-2}$. Different units, not homogeneous, equation wrong.)
-- Make a reasonable estimate (typically one mark) — e.g. "estimate the kinetic energy of a sprinter at full speed," "estimate the volume of air in this classroom."
+Express derived units as products or quotients of base units, and use those units to check homogeneity. For example, $v^2=u^2+2as^2$ fails because $v^2$ has units m² s⁻² while $as^2$ has units m³ s⁻². A homogeneous equation may still be physically wrong: numerical factors and dimensionless functions cannot be recovered from units alone.
 
-> [!tip] Paper 1 (multiple choice) traps
-> Half the §1.1/§1.2 multiple-choice questions are testing **prefix arithmetic** — $2~\text{ns} \times 3 \times 10^8~\text{m·s}^{-1} = ?$ in $\text{cm}$. Be ruthless about converting everything to SI base units *first*, then converting the answer to the requested unit at the end. Trying to keep prefixes mixed in mid-calculation is how you lose easy marks.
+Recall **p, n, μ, m, c, d, k, M, G, T**: pico, nano, micro, milli, centi, deci, kilo, mega, giga and tera. Convert to a common unit before combining quantities; for example, $2~\text{ns}\times3\times10^8~\text{m s}^{-1}=0.60~\text{m}=60~\text{cm}$. No fixed fraction of questions or marks is promised for prefix arithmetic.
 
-### Cambridge 0625 (IGCSE Physics)
+### Cambridge 0625 — supporting measurement and calculations
 
-§1.1 (length and time, including the volume of liquid via measuring cylinder, the period of a pendulum or pulse) and §1.3 (mass and weight). 0625 is less rigorous about derived units than 9702 but more rigorous about the practical reading of instruments (vernier callipers, micrometers, stopwatches). The dimensional-analysis machinery is generally not tested at 0625 level — that piece is 9702 only.
+**§1.1** explicitly names rulers, measuring cylinders, clocks/digital timers and measuring multiples to obtain a small distance or short time interval. Unit literacy supports this work, while [[Calibration of Instruments]] and [[Repeated Measurements]] supply the practical method. Do not add vernier callipers or micrometers to this section's named instrument list. **§1.3** distinguishes mass from weight, and consistent units apply throughout the course.
 
-### IB Physics
+Formal derivation of equations by dimensional analysis is not a named 0625 outcome. Showing unit conversions is still useful evidence of the calculation being performed.
 
-Theme A — measurements and uncertainty — opens with SI base units, prefixes, and order-of-magnitude estimation. The "reasonable estimates" content is taken further at HL: IB Practical 2 (PRAC.2) explicitly asks students to estimate, justify, and compare against measurement. Buckingham's $\pi$ theorem is not on the syllabus but appears in Extended Essays.
+### IB Physics — skills across SL and HL
 
-### AP Physics 1 and 2
+The current guide places this under **Skills in the study of physics: Using units, symbols and numerical values**, not a “Theme A measurements” topic. Both levels use SI units/prefixes, fundamental and derived units, appropriate non-SI units and significant figures. The guide explicitly requires checking an expression using dimensional analysis of units while stating that **the formal process of dimensional analysis will not be assessed**. Thus checking homogeneity is required; a Buckingham-pi derivation is enrichment.
 
-Science Practice 1 (Modeling) explicitly tests both unit literacy and dimensional analysis. The AP exam loves to ask: "Which of these expressions could possibly equal the period of a satellite orbit?" — and the wrong answers all fail dimensionally. **A few marks per paper are accessible via pure unit-checking.** Worth the time investment.
+There is no basis here for an HL-only “PRAC.2 estimation” claim. Estimates and numerical interpretation should be tied to the stated skills and the physical context.
 
-### A-Level (other boards)
+### AP Physics 1, 2, C: Mechanics and C: Electricity & Magnetism
 
-Edexcel, AQA, OCR all use SI base + derived structures matching the Cambridge syllabus. The only board-level variation is in the depth of "estimation" expected — AQA tends to ask more Fermi-style estimation questions; OCR tends to ask more dimensional-consistency questions.
+The current CEDs share **Practice 1: Creating Representations**, **Practice 2: Mathematical Routines**, and **Practice 3: Scientific Questioning and Argumentation**. Skill **1.B** includes quantitative graphs with appropriate scales and units; **2.B** includes calculating or estimating a quantity with units. Unit checks also support symbolic derivations and evaluating whether a result is plausible.
+
+These are embedded skills, not a separate chapter with a guaranteed allocation of marks. Calling Practice 1 “Modeling” misnames the current framework. The full Buckingham-pi machinery is not a named requirement of these practice descriptions.
+
+### Other boards and enrichment boundary
+
+Cambridge 0580 and OxfordAQA 9260 examine unit conversion directly; see [[Units of Measure (Vocab)]] for their precise arithmetic scope. Formal dimensional derivations are not introduced by those rows. The seven SI base units, dimensional homogeneity and the research-style examples above form a useful wider framework, but they do not establish a particular Edexcel, AQA or OCR question frequency. Check the relevant specification before making such board-specific claims.
 
 ## Connections
 

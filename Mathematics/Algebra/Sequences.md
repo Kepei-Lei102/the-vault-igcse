@@ -30,11 +30,11 @@ tags:
   - syllabus/IAL-P2-4-1
   - syllabus/IAL-P2-4-3
   - type/definition
-  - type/formula
   - notation/subscript
   - misconception/first-vs-second-difference
   - misconception/pattern-spotting
   - misconception/exponential-indexing
+  - type/deep
 ---
 
 # Sequences 数列
@@ -58,17 +58,11 @@ The 0580/9260 exam gives you a short list — say $3, 8, 15, 24, 35, \ldots$ —
 
 ### 中文锚点 (Chinese Anchor)
 
-数列 = 按顺序排列的一列数。
-项 = term; 第 $n$ 项 = $n$th term; 通项公式 = $n$th-term formula.
+第一周存 5 元，以后每周比上一周多存 3 元：5、8、11、14。想知道第 6 周存多少，掰手指数一数就行；想知道第 100 周呢？没有人会把"加 3"做九十九遍。于是你要找一条能"一步跳到"的规则：第 $n$ 周存的是 $3n + 2$ 元，第 100 周立刻就是 302 元。这就是数列通项公式的全部意义。"下一项等于上一项加 3"是一步一步地描述数列；"$3n + 2$"却能直接落到任何一个位置上。找出规律只是一半，把规律变成一条你信得过的公式，才是另一半。
 
-**两种给数列的方式：**
+### 术语对照
 
-| 方式 | 英文 | 例子 |
-|---|---|---|
-| 递推 | term-to-term | $u_{n+1} = u_n + 3$, $u_1 = 5$ |
-| 通项 | position-to-term | $u_n = 3n + 2$ |
-
-**Key Chinese idea:** 找规律 (zhǎo guīlǜ) = "find the pattern." The exam skill is converting 找规律 into a **formula**, not just continuing the pattern. "$u_6 = 20$" is guessing; "$u_n = 3n + 2$" is mathematics.
+数列：sequence；项：term；第 $n$ 项：$n$th term；通项公式：position-to-term rule / $n$th-term formula（如 $u_n = 3n + 2$）；递推公式：term-to-term rule（如 $u_{n+1} = u_n + 3$，$u_1 = 5$）；找规律：find the pattern。
 
 ---
 

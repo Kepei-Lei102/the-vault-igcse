@@ -12,7 +12,6 @@ tags:
   - curriculum/OxAQA-9260
   - curriculum/Cambridge-0580
   - curriculum/Cambridge-0606
-  - curriculum/A-Level
   - type/vocabulary
   - type/exam-technique
   - misconception/over-explaining

@@ -15,7 +15,6 @@ tags:
   - domain/probability
   - level/A-Level
   - curriculum/Cambridge-9231
-  - curriculum/A-Level
   - syllabus/9231-4-4
   - type/deep
   - type/technique

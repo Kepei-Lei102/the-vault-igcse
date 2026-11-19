@@ -32,7 +32,11 @@ A **bearing** (方位角) is a way of describing direction using a three-figure 
 
 ### 中文锚点
 
-方位角 = 从正北方向顺时针量到目标方向的角度，必须写成三位数。这个概念在中国数学课不常出现，但在英国考试中非常常见。关键：方位角是从**出发点**的北方量的，不是从目标点。
+登山的人拿着指南针，被告知"朝 045 方向走"。这一个数就是方位角：在你站的地方，从正北方向顺时针量到你要去的方向的角度。中文习惯把同一个方向分两部分说："北偏东 45°"；方位角把它压成一个数，而且总写成三位数，这样 045 就不会跟 45 或 450 听混。因为它是从你自己脚下的正北量起的，回程就不是同一个数：回去的方位角相差 180°，所以如果你是朝 045 走出去的，回家就要朝 225 走。
+
+#### 术语对照
+
+方位角 = 从正北方向顺时针量到目标方向的角度，必须写成三位数。中文更常说"北偏东 45°"这样的两段式方向。关键：方位角是从**出发点**的北方量的，不是从目标点。
 
 ---
 
@@ -113,7 +117,7 @@ Most bearing questions at Extension involve a triangle formed by two points and 
 
 ### OxAQA 9260 / Cambridge 0580
 
-**Syllabus ref:** G12 (9260) / E4.7 (0580). Bearings appear as standalone "find the bearing" questions (2 marks) and as part of trigonometry problems (4–6 marks). At Extension, expect: multi-leg journeys (A → B → C), combined with sine/cosine rules, and "find the bearing of the return journey." Always draw a North line at every point mentioned.
+**Syllabus ref:** G12 (9260) / E4.3 Scale drawings (0580) — *use and interpret three-figure bearings*, measured clockwise from north, 000° to 360°; the syllabus's own example is the back-bearing: find the bearing of A from B given that the bearing of B from A is 025°, and it includes the terms north, east, south and west ("D is due east of C"). (E4.7 is Circle theorems I; an earlier version of this note had the wrong row.) Bearings appear as standalone "find the bearing" questions (2 marks) and as part of trigonometry problems (4–6 marks). At Extension, expect: multi-leg journeys (A → B → C), combined with sine/cosine rules, and "find the bearing of the return journey." Always draw a North line at every point mentioned.
 
 ---
 

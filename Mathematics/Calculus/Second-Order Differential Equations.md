@@ -16,7 +16,6 @@ tags:
   - subject/mathematics
   - domain/calculus
   - level/A-Level
-  - curriculum/A-Level
   - syllabus/9231-2-6
   - type/technique
   - type/theorem
@@ -28,6 +27,8 @@ tags:
   - misconception/pi-clash-with-cf
   - misconception/ics-before-pi
   - misconception/half-trial-for-trig
+  - curriculum/Cambridge-9231
+  - type/deep
 ---
 
 # Second-Order Differential Equations 二阶微分方程
@@ -48,16 +49,20 @@ Read the equation as a sentence about a moving quantity: *its acceleration is di
 
 ### 中文锚点
 
-国内教材把这类方程叫 **二阶常系数线性微分方程**。术语对照是这张卡最大的翻译障碍：
+按住车头把车身往下压一把再松手。接下来发生什么，每一刻都只由两件事决定：车身离静止高度有多远，以及它现在动得多快。弹簧压得越深推回来的力越大，减震器动得越快阻力越大。把这句话写成符号，就是一个二阶方程：$a\times$加速度 $+\ b\times$速度 $+\ c\times$位移 $=$ 外力。解它的诀窍是猜一个指数函数，因为指数函数的各阶导数都只是它自己的倍数，微分方程于是就化成一个关于增长率的二次方程。实根意味着车身不再弹跳，慢慢回到原高度；复根意味着它一边晃一边越晃越小。最后剩下两个待定常数，是因为你还没说车身从哪儿出发、初速多大；如果外面一直有东西在推它，那份稳定的额外响应就叠在上面——这就是特解。
 
-| Cambridge 术语 | 国内术语 | 含义 |
+### 术语对照
+
+国内教材把这类方程叫**二阶常系数线性微分方程**。
+
+| 英文术语 | 国内术语 | 含义 |
 |---|---|---|
 | auxiliary equation | 特征方程 | 代入 $y = e^{\lambda x}$ 得到的二次方程 |
 | complementary function (CF) | 齐次方程的通解 | 右边为 $0$ 时的全部解 |
 | particular integral (PI) | (非齐次方程的) 一个特解 | 凑出来的任意一个解 |
 | general solution | 通解 | CF + PI，含两个任意常数 |
 
-注意"particular integral"和"particular solution"不同：**particular integral** 是叠加在 CF 上的那一个特解 (不含常数)；**particular solution** 是用初始条件定出 $A, B$ 之后的最终答案。中文都译作"特解"，考试中要靠上下文区分。
+注意"particular integral"和"particular solution"不同：**particular integral** 是叠加在 CF 上的那一个特解 (不含常数)；**particular solution** 是用初始条件定出 $A, B$ 之后的最终答案。中文都译作"特解"，要靠上下文区分。
 
 ## Notation
 
@@ -375,7 +380,7 @@ The student tries $\kappa e^{2x}$ against a CF containing $e^{2x}$, gets $0 = 8e
 - **Proof ingredients:** [[Quadratic Equations]] — the auxiliary equation *is* one, discriminant and all; [[Complex Numbers]] + [[Euler's Formula and De Moivre's Theorem]] — Case 3 runs on $e^{i\theta} = \cos\theta + i\sin\theta$; [[Exponential Function]] — the eigenfunction of the derivative, the engine of the whole method.
 - **Physics application:** [[Simple Harmonic Motion]] — $\frac{d^2x}{dt^2} = -\omega^2 x$ is Case 3 with $p = 0$: pure oscillation, no envelope. The SHM treatment (two solution routes, energy, phase) is the physical life of the equation's cleanest special case; its §"Damping — when energy leaks out" and §"Driven oscillations and resonance" carry the physics of the full equation.
 - **Physics bridges — reserved:** [[Damped Oscillations]], [[Resonance]] — 9702 §17's oscillation cards; the three-case dial and the forced-response peak are their mathematical skeletons.
-- **Quantum bridge — reserved:** [[Quantum Tunnelling]] — the beyond-syllabus cameo grown up: barrier penetration as Case 1 (real exponential decay) living where Case 3 (oscillation) can't.
+- **Quantum bridge:** [[Quantum Tunnelling]] — the beyond-syllabus cameo grown up: barrier penetration as Case 1 (real exponential decay) living where Case 3 (oscillation) can't.
 - **Electrical costume:** [[Capacitors]] — the RC circuit is the first-order cousin; adding an inductor makes the series RLC circuit, which obeys exactly $L\frac{d^2Q}{dt^2} + R\frac{dQ}{dt} + \frac{Q}{C} = V(t)$ — inductance as mass, resistance as friction, $1/C$ as stiffness. One equation, mechanical and electrical costumes.
 - **Story:** [[Stories/The Pendulum Story]] — Galileo's chandelier to the caesium clock, with Tacoma Narrows as the dark twin of isochronism (and the honest flutter-vs-resonance correction).
 - **Approximation link:** [[Maclaurin Series]] — why *linear* equations rule physics: near equilibrium, any restoring force is its tangent line ($F(x) \approx F'(0)\,x$), so small motions of almost anything obey the linear constant-coefficient equation. The pendulum's $\sin\theta \approx \theta$ is the canonical instance.
@@ -409,7 +414,7 @@ Variable coefficients kill the exponential guess (the equation of Example 4 is t
 
 ### The quantum cameo
 
-Recall that Case 1 gives real exponentials and Case 3 gives oscillations. The time-independent Schrödinger equation in a region of constant potential is exactly the constant-coefficient equation above: where a particle has enough energy, the roots are imaginary and the wavefunction *oscillates* (a travelling wave); where it doesn't — inside a barrier — the roots are real and the wavefunction becomes a *decaying exponential* rather than vanishing. That leaking tail is [[Quantum Tunnelling|quantum tunnelling]]: Case 1 and Case 3 of the same auxiliary equation, drawn one on each side of a wall.
+Recall that Case 1 gives real exponentials and Case 3 gives oscillations. The time-independent Schrödinger equation in a region of constant potential is exactly the constant-coefficient equation above: where a particle has enough energy, the roots are imaginary and the wavefunction *oscillates* (a travelling wave); where it doesn't — inside a barrier — the roots are real and the wavefunction has *real-exponential solutions* rather than automatically vanishing. A finite barrier needs both exponentials, matched to the travelling waves outside; nonzero transmitted current gives [[Quantum Tunnelling|quantum tunnelling]]. A tail alone need not carry current. Case 1 and Case 3 of the same auxiliary equation meet at the boundaries.
 
 ---
 

@@ -9,11 +9,13 @@ tags:
   - domain/calculus
   - level/A-Level
   - curriculum/Cambridge-9231
-  - curriculum/AP
   - syllabus/9231-2-4
   - type/technique
   - notation/integral
   - misconception/endpoint-direction
+  - curriculum/AP-Calculus-AB
+  - curriculum/AP-Calculus-BC
+  - type/deep
 ---
 
 # Bounding Sums with Integrals 积分夹逼
@@ -35,7 +37,11 @@ For $f$ **decreasing** the two sums swap roles. That single picture is used in b
 
 ### 中文锚点 (Chinese Anchor)
 
-台阶和坡道爬同一座山。**和式是台阶**，一格一格；**积分是坡道**，好算得多。把取点从左端换成右端，台阶就从贴着坡道下面变成骑在坡道上面——于是**和被两个积分夹住**（或者反过来，积分被两个和夹住）。这就是夹逼的思想，跟你熟悉的夹逼定理是一个精神，只是夹的东西换成了"求不出来的和"。用法两个方向：和式求不动、积分好算，就用积分夹和（比如调和级数 $\sum \frac1r$ 的部分和被 $\ln$ 夹住）；和式能用 $\sum r$、$\sum r^2$ 公式算出来，就反过来用和夹积分——考题常让矩形宽度取 $\frac1n$，先把两边的和式算出来，再让 $n \to \infty$，上下界收拢到同一个数，这其实就是**定积分的定义**现场表演。方向别记反：函数**递增**时左端点矩形在曲线下方、右端点在上方；**递减**时正好交换。判断方法不是背，是画一格看一眼。
+台阶和坡道爬的是同一座山。和式是台阶，一格一格地上；积分是坡道，坡道好量得多。现在要选：每一级台阶的高度按哪一头读。按左端读，台阶就贴在坡道下面；按右端读，台阶就骑在坡道上面。于是那个算不出来的和，被两个算得出的积分夹在中间；而当好算的换成和式时，同一幅图就反过来把积分夹在两个和式之间。把台阶切得越来越窄，两边就朝同一个数收拢——那正是定积分诞生的时刻。
+
+### 术语对照
+
+和式：sum；积分：integral；上界 / 下界：upper / lower bound；夹逼：squeeze；调和级数：harmonic series。
 
 ## Worked — a real Paper 2 question, both barrels
 

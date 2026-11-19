@@ -19,7 +19,6 @@ tags:
   - level/pre-AP
   - curriculum/OxAQA-9260
   - curriculum/Cambridge-0580
-  - curriculum/A-Level
   - curriculum/IB-AA
   - syllabus/9260-G8
   - syllabus/0580-C4-7
@@ -30,6 +29,7 @@ tags:
   - notation/tangent
   - misconception/tangent-not-perpendicular
   - misconception/alternate-segment-confusion
+  - type/deep
 ---
 
 # Circle Theorems II 圆定理（二）
@@ -46,14 +46,14 @@ The chord-bisection theorem (Theorem 3 below) is slightly different: it relies o
 
 ## 中文锚点
 
-本张卡片涉及圆的**切线**与**弦**相关的四个定理。中国中学课程对这些定理并不陌生，但英国考试特别强调**推理链**和**定理名称的英文陈述**。四个定理：
+把自行车轮立在平路上。它只在一点碰到路面，就在车轴正下方；连着这一点的辐条正好竖直，而路面是平的：半径和切线恰好成直角。有了这个直角，再加上对称，其余的就都出来了。站在圆形池塘外，看那两条刚好擦过池边的线：沿着从你到圆心的那条直线把图对折，一条切线正好落在另一条上，所以两条切线段一样长。把一条弦也这样对折——沿着从圆心引出的垂线——弦的两半重合，所以这条垂线把弦平分（垂径定理）。弦切角定理——切线与弦的夹角，等于这条弦在另一侧的弧上所对的圆周角——则要把"切线垂直半径"和"同弧上的圆周角相等"这两条合起来用。
+
+### 术语对照
 
 1. **切线垂直于过切点的半径**（tangent ⊥ radius at the point of tangency）
 2. **从外一点引出的两条切线长度相等**（tangents from an external point are equal）
 3. **圆心到弦的垂线平分弦**（perpendicular from centre bisects chord）
 4. **弦切角定理**：切线与弦所成的角等于另一段弧上的圆周角（alternate segment theorem）
-
-在英国考试中，最难的是第四条 **alternate segment theorem**，学生常常不知道哪个角等于哪个角。掌握这张卡的关键是**画图、标注、用字母明确说出两个相等的角**。
 
 ---
 
@@ -353,11 +353,7 @@ Syllabus reference: **G8** (Circle Theorems). The 9260 specification requires al
 
 ### Cambridge 0580 Extended
 
-Syllabus reference: **E4.7** (Circle Theorems). Required theorems at Extended:
-- Tangent perpendicular to radius (Theorem 1) ✓
-- Tangents from an external point are equal (Theorem 2) ✓
-- Perpendicular from centre to chord bisects the chord (Theorem 3) ✓
-- **Alternate segment theorem (Theorem 4) is NOT on 0580 Extended**
+Syllabus reference: **E4.8 Circle theorems II** — the syllabus's own title for this card's content: *use the following symmetry properties of circles*: equal chords are equidistant from the centre; the perpendicular bisector of a chord passes through the centre; tangents from an external point are equal in length. Tangent ⟂ radius is on **E4.7** (with the angle theorems of [[Circle Theorems I]]), and so is the **alternate segment theorem** — it *is* examined at Extended, under E4.7, not E4.8. The notes for both rows say candidates are expected to use the listed properties, by name, when giving reasons. (An earlier version of this note put the alternate segment theorem off-syllabus; checked against the 2025–27 PDF.)
 
 Paper 4 typically has one circle theorem problem worth 3–5 marks.
 

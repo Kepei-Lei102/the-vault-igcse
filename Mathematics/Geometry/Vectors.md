@@ -25,7 +25,6 @@ tags:
   - curriculum/Cambridge-0580
   - curriculum/Cambridge-0606
   - curriculum/Cambridge-9709
-  - curriculum/A-Level
   - curriculum/IB-AA
   - curriculum/IB-AI
   - syllabus/9260-G22
@@ -45,6 +44,11 @@ tags:
   - misconception/vector-equals-points
   - misconception/magnitude-is-signed
   - misconception/direction-of-minus-v
+  - curriculum/Cambridge-9702
+  - curriculum/OxAQA-9660
+  - curriculum/Edexcel-IAL
+  - type/deep
+
 ---
 
 # Vectors 向量
@@ -374,35 +378,33 @@ The four-board exam-strategy table for vectors at A-Level scope (basic vector ar
 
 ---
 
-### OxAQA 9260
+### OxfordAQA 9260 (IGCSE), Extension only
 
-Syllabus: **G22** (Core). The specification lists:
+**Syllabus ref:** G22. The Core column is empty; the Extension column reads "understand and use vector notation; calculate, and represent graphically the sum of two vectors, the difference of two vectors and a scalar multiple of a vector; understand and use the commutative and associative properties of vector addition; solve simple geometrical problems in 2D using vector methods". So column-vector arithmetic, drawing on a grid, and short geometric arguments ([[Vector Geometry]]); no $\mathbf{i}$, $\mathbf{j}$ notation, no dot product, no 3D.
 
-- Understand and use vector notation
-- Calculate and represent graphically: $\mathbf{a} + \mathbf{b}$, $\mathbf{a} - \mathbf{b}$, $k\mathbf{a}$
-- Understand and use commutative and associative properties of vector addition
-- Solve simple geometrical problems in 2D using vector methods
-- **Use of $\mathbf{i}$ and $\mathbf{j}$ notation is not required**
+### Cambridge 0580 (IGCSE), Extended only
 
-What's tested: column-vector arithmetic; representing vectors on a grid; short geometric arguments (covered in [[Vector Geometry]]). No dot product, no 3D.
+**Syllabus ref:** E7.2 "Vectors in two dimensions": describe a translation by a column vector, $\overrightarrow{AB}$ or $\mathbf{a}$; "Add and subtract vectors"; "Multiply a vector by a scalar". E7.3 "Magnitude of a vector": calculate $\sqrt{x^2 + y^2}$, with magnitudes denoted by modulus signs. The Core syllabus lists C7.2–C7.4 as "Extended content only"; Core meets vectors only as the translation vector of C7.1. The geometry is E7.4, in [[Vector Geometry]]. Marking: one mark per correct component in column arithmetic; magnitude typically two marks.
 
-### Cambridge 0580 Extended
+### Cambridge 0606 (Additional Mathematics)
 
-Syllabus: **E7.2** (add/subtract/scalar) and **E7.3** (magnitude $\sqrt{x^2+y^2}$). The geometric applications in E7.4 are covered in [[Vector Geometry]].
+**Syllabus ref:** 13.1 "Understand and use vector notation", with vectors "given in any form including $\begin{pmatrix} a \\ b \end{pmatrix}$, $\overrightarrow{AB}$, $\mathbf{p}$, $a\mathbf{i} - b\mathbf{j}$" and correct notation expected in answers; 13.3 "Find the magnitude of a vector; add and subtract vectors and multiply vectors by scalars", including "equating like vectors" and "solving problems using vector geometry, with a diagram given in more complex cases". Position and unit vectors (13.2) and velocity vectors (13.4) are in [[Vector Geometry]].
 
-Mark scheme pattern: column arithmetic gets 1 mark per correct component; magnitude gets 2 marks (1 for $\sqrt{x^2+y^2}$, 1 for the final number).
+### Cambridge 9709 (A Level), Paper 3 §3.7
 
-### Cambridge 0606
+"Calculate the magnitude of a vector, and use unit vectors, displacement vectors and position vectors", "In 2 or 3 dimensions"; the vector equation of a line $\mathbf{r} = \mathbf{a} + t\mathbf{b}$; whether two lines are parallel, intersect or are skew; the scalar product for angles between lines and the foot of a perpendicular, where "questions may involve 3D objects such as cuboids, tetrahedra (pyramids)". "Knowledge of the vector product is not required."
 
-Syllabus: **13.1** (all four notations including $\mathbf{i}$–$\mathbf{j}$) and **13.3** (magnitude). Topic 13.2 (position/unit vectors applied) and 13.4 (velocity vectors) are in [[Vector Geometry]].
+### Edexcel IAL (P4), §7
 
-### A-Level
+7.1 vectors in two and three dimensions; 7.2 magnitude and the unit vector in the direction of $\mathbf{a}$; 7.3 addition and scalar multiplication with their geometrical interpretations; 7.4 position vectors, $\overrightarrow{OB} - \overrightarrow{OA} = \overrightarrow{AB} = \mathbf{b} - \mathbf{a}$; 7.5 distance between two points in 3D; 7.6 vector equations of lines and the parallel, intersecting or skew conditions; 7.7 the scalar product for the angle between two lines.
 
-Vectors appear in **Mechanics** (kinematics, forces, equilibrium) and **Pure Mathematics** (coordinate geometry, scalar product, lines in 3D). The magnitude and unit-vector formulas carry over unchanged; 3D adds a $\mathbf{k}$ component. A-Level adds the **scalar (dot) product** — see the Beyond-syllabus callout above.
+### Cambridge 9702 (A Level Physics), §1.4
 
-### IB AA / AI
+The physics board examines vectors as scalars and vectors, addition by drawing and by calculation, and resolution into perpendicular components; the notation and arithmetic are this card's, the applications are [[Forces and Equilibrium]].
 
-**Topic 3 — Geometry and trigonometry** (both AA and AI). IB treats vectors more heavily than Cambridge: vector equations of lines, scalar product, angle between vectors. AA HL extends to 3D lines and planes.
+### Where this is *not* examined, and what is unverified
+
+Cambridge 0580 Core and OxfordAQA 9260 Core do not examine vectors beyond the translation vector. AP Calculus AB has no vectors; BC's vector-valued functions (parametric curves) use only the component arithmetic here. The IB Mathematics guides are not on file, so the IB AA and AI placements recorded in this card's tags are not verified against a PDF.
 
 ## Connections
 

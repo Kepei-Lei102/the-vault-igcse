@@ -2,7 +2,10 @@
 chinese: 思维链 (sīwéi liàn) / 解题思路 (jiětí sīlù)
 prerequisites:
   - "[[Set]]"
+  - "[[Compression Is Intelligence]]"
 leads_to:
+  - "[[Change the Representation]]"
+  - "[[You're the Architect, the AI is the Bricklayer]]"
   - "[[Logic]]"
   - "[[Algebraic Proof]]"
   - "[[Geometrical Proof]]"
@@ -11,6 +14,7 @@ leads_to:
   - "[[The Feynman Technique]]"
   - "[[Choosing Effective Equations]]"
   - "[[Forward Reading and Problem Discovery]]"
+  - "[[Learning as Verification]]"
 tags:
   - subject/mathematics
   - domain/problem-solving
@@ -358,6 +362,8 @@ Therefore $\sqrt{2}$ is irrational.
 > This isn't a coincidence. The AI technique works for the same reason exam technique works: breaking a complex problem into small, verifiable steps catches errors that would compound in a single leap. The stepping-stone metaphor applies to both biological and artificial brains.
 
 ## Connections
+
+- **Directing a build:** [[You're the Architect, the AI is the Bricklayer]] — invariants, selection triggers and verification become a method for supervising implementation.
 
 **Prerequisites:**
 - [[Set]] — Set notation and logic vocabulary appear in formal proofs

@@ -7,14 +7,14 @@ leads_to: []
 tags:
   - subject/mathematics
   - domain/number
-  - type/life-card
-  - topic/finance
-  - topic/financial-literacy
+  - type/life
+  - domain/finance
   - region/australia
   - misconception/super-is-not-optional
   - misconception/hecs-is-not-conventional-debt
   - misconception/lhc-loading-is-permanent
   - misconception/franking-credits-are-unique-to-au
+  - level/life
 ---
 
 # Additional Financial Literacy — Australia 澳大利亚金融常识

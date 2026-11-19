@@ -15,7 +15,6 @@ tags:
   - curriculum/Cambridge-0580
   - curriculum/IB-AA
   - curriculum/IB-AI
-  - curriculum/AP
   - syllabus/0580-E1-2
   - curriculum/OxAQA-9260
   - type/definition
@@ -42,6 +41,10 @@ Formally: there is no $x$ such that $x \in \emptyset$.
 The empty set is an empty bag. It's still a bag — it exists as a container — it just has nothing inside. Think of an empty box: the box is real, but if you open it, there's nothing there.
 
 ### 中文锚点 (Chinese Anchor)
+
+空笔袋也是笔袋：你可以拿着它，打开它，说一句"里面没笔"。空集就是这样：一个不含任何元素的集合，记作 $\emptyset$。它不是"什么都没有"，而是一个袋子，只不过恰好什么都没装，所以 $\{\emptyset\}$（一个装着空袋子的袋子）里有一个元素。而且空集只有一个，因为集合只认里面装了什么：两个都没装东西的袋子，装的东西一模一样，作为集合它们就是同一个。符号 $\emptyset$ 来自北欧字母 Ø，不是希腊字母 φ。
+
+#### 术语对照
 
 空集：不含任何元素的集合，记作 $\emptyset$ 或 $\{ \}$。
 
@@ -132,6 +135,12 @@ Common notation error. Remind students: if the answer is "no elements," write $\
 - The $\emptyset$ notation is **not** in the 9260 notation list and is **not formally assessed**
 - The concept still appears implicitly: "there are no elements in $A \cap B$" is common in Venn diagram problems (N9)
 - Students may write "no members" or "none" rather than $\emptyset$ on the 9260 paper
+
+### IB Mathematics AA / AI and AP
+
+- Neither IB route has a set-theory topic; $\emptyset$ appears only inside probability work (SL 4.5 — Venn diagrams, mutually exclusive events as $A \cap B = \emptyset$). AP Calculus does not examine set notation.
+
+**Not examined on** Cambridge 0606 (no set theory — the 0606 map says so explicitly), 9709 or 9231.
 
 ## Connections
 

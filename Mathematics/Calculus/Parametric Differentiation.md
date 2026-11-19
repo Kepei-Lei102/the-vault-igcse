@@ -18,17 +18,24 @@ tags:
   - level/IB-HL
   - level/AP
   - curriculum/Cambridge-9709
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
+  - curriculum/AP-Calculus-BC
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
   - syllabus/9709-3-4
   - syllabus/9231-2-3
+  - syllabus/IAL-P4-3-1
+  - syllabus/IAL-P4-5-1
+  - syllabus/AP-BC-9-1
+  - syllabus/AP-BC-9-2
   - type/theorem
   - type/technique
   - notation/derivative
   - notation/leibniz
   - misconception/parametric-second-derivative
   - misconception/parametric-as-fraction-of-second-derivatives
+  - curriculum/Cambridge-9231
+  - type/deep
 ---
 
 # Parametric Differentiation 参数方程求导
@@ -70,23 +77,11 @@ Or in dot notation (Newton, for time): $\dfrac{dy}{dx} = \dfrac{\dot{y}}{\dot{x}
 
 ## 中文锚点
 
-**参数方程求导**：当曲线由 $x = f(t)$ 和 $y = g(t)$ 同时给出（即 $x$ 和 $y$ 都是参数 $t$ 的函数）时，求 $\dfrac{dy}{dx}$ 的方法。
+无人机的飞行记录每秒记下它在哪里：向东多远 $x(t)$，向北多远 $y(t)$。没有人把 $y$ 写成 $x$ 的公式递给你，可飞行路径的方向一目了然：每向东一米向北几米，就是每秒向北几米除以每秒向东几米。整条规则就是这个：$\dfrac{dy}{dx} = \dfrac{dy/dt}{dx/dt}$。陷阱在二阶导数。方向怎么转弯，不是两个加速度之比；你得把斜率对 $t$ 求导——因为斜率是 $t$ 的函数——然后再除一次 $\dfrac{dx}{dt}$：$\dfrac{d^2y}{dx^2} = \dfrac{1}{dx/dt}\cdot\dfrac{d}{dt}\!\left(\dfrac{dy}{dx}\right)$。
 
-**核心公式**：
+### 术语对照
 
-$$\dfrac{dy}{dx} = \dfrac{dy/dt}{dx/dt}.$$
-
-**口诀**：**「参数求导，分子分母都对 $t$ 求一遍，再相除」。** 不需要把 $y$ 解出来当 $x$ 的函数。
-
-**核心警告 —— 二阶导数有陷阱**：
-
-$$\dfrac{d^2 y}{dx^2} \;\neq\; \dfrac{d^2 y/dt^2}{d^2 x/dt^2}.$$
-
-**这是错的。** 正确的做法是：把 $\dfrac{dy}{dx}$ 当作 $t$ 的函数，再用链式法则求一次导：
-
-$$\dfrac{d^2 y}{dx^2} = \dfrac{d}{dx}\!\left(\dfrac{dy}{dx}\right) = \dfrac{1}{dx/dt}\cdot\dfrac{d}{dt}\!\left(\dfrac{dy}{dx}\right).$$
-
-考试经常考这一点。**记住：参数化只在一阶导数上像分式相除；高阶导数要重新跑一遍链式法则。**
+参数：parameter；参数方程：parametric equations $x = f(t)$，$y = g(t)$；参数方程求导：parametric differentiation。
 
 ---
 
@@ -303,9 +298,17 @@ The §3.4 differentiation trio — Quotient, Implicit, Parametric — closes 970
 
 **Not on the 0606 syllabus.** Parametric is an A-Level topic.
 
-### A-Level (Edexcel / AQA / OCR)
+### Edexcel IAL — P4 §3.1 and §5.1
 
-**Standard A2 topic** in all three boards. Examined directly and often combined with [[Connected Rates of Change]] in physics-flavoured questions.
+*P4.3.1 parametric equations* asks for the cartesian ↔ parametric conversion (eliminate $t$, or parametrise a given curve) as well as the sketch; *P4.5.1* differentiates implicit and parametric forms and applies them to tangents and normals. The conversion questions are the half this card does not carry — a candidate should be able to eliminate the parameter by substitution or by a trig identity ($x = \cos t$, $y = \sin 2t$ → $y^2 = 4x^2(1 - x^2)$), and to recognise a circle, ellipse or parabola from its parametric form.
+
+### OxfordAQA 9660 — P2 §3 and §6
+
+*P2.3* is the same conversion material as IAL; *P2.6* the differentiation, with tangents and normals in the same LO. Question shape as for 9709 P3.
+
+### Cambridge 9231 — §2.3
+
+Parametric forms reappear on Further under the differentiation LO (implicit and parametric differentiation, with [[Maclaurin Series]] beside them) — the same first-derivative skill at a higher algebraic setting, plus the parametric integrals for arc length and surface area in [[Arc Length and Surfaces of Revolution]].
 
 ### IB AA HL
 

@@ -30,6 +30,10 @@ When a straight line (called a **transversal** 截线) crosses two **parallel** 
 
 ### 中文锚点
 
+一条公路横穿两条笔直的铁轨。公路和第一条铁轨的夹角，恰好等于它和第二条铁轨的夹角，因为两条铁轨朝着同一个方向——这正是"平行"的意思。这对角叫同位角，它们相等。其余的结论都从这里推出来。内错角（"Z"字形）相等，因为各自隔着一组对顶角，它们都等于同一个同位角。同旁内角（"C"字形，夹在两条铁轨之间、在截线同一侧）加起来是 180°，因为其中一个和另一个的"等角搭档"拼在同一条直线上。
+
+#### 术语对照
+
 平行线被一条截线所截，产生三种特殊角对：同位角（相等）、内错角（相等）、同旁内角（互补，和为 $180°$）。
 
 ---
@@ -77,7 +81,7 @@ One co-interior angle and the alternate angle on the other side are supplementar
 
 ## Exam Notes
 
-**9260 G3 / 0580 E4.2.** "Understand and use the angle properties of parallel lines." Questions often combine these with angles on a straight line or vertically opposite to find unknown angles in multi-step problems. Always state which property you use at each step.
+**Cambridge 0580 E4.6 *Angles*, point 2** — "calculate unknown angles and give geometric explanations for angles formed within parallel lines: corresponding angles are equal; alternate angles are equal; co-interior angles sum to 180° (supplementary)". The syllabus adds that candidates are **expected to use the correct geometrical terminology when giving reasons** and must know three-letter angle notation (angle $ABC$). **OxfordAQA 9260 G3** — "understand and use the angle properties of parallel and intersecting lines, triangles and quadrilaterals"; its note says students should know the meaning and properties of *alternate*, *corresponding* and *interior* angles. Questions on both boards combine these with angles on a straight line or vertically opposite angles (0580 E4.6 point 1) in multi-step problems: always state which property you use at each step, in the syllabus's words.
 
 ---
 

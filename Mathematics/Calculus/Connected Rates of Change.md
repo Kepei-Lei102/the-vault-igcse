@@ -20,9 +20,7 @@ tags:
   - level/IB
   - level/AP
   - curriculum/Cambridge-0606
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/0606-14-7
   - type/deep
   - type/technique
@@ -30,6 +28,11 @@ tags:
   - misconception/forgot-time-variable
   - misconception/wrong-direction-of-chain
   - misconception/dropped-similar-triangles
+  - curriculum/AP-Calculus-AB
+  - curriculum/AP-Calculus-BC
+  - curriculum/Cambridge-9709
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
 ---
 
 # Connected Rates of Change 相关变化率
@@ -48,18 +51,11 @@ This is the chain rule in its most physical disguise — applied to **time** as 
 
 ### 中文锚点
 
-**相关变化率 (xiāngguān biànhuàlǜ)** = 多个量同时随时间变化，已知一个量的变化速率，求另一个量的变化速率。
+匀速地吹一个气球，一秒吹一口。起初每吹一口，气球都肉眼可见地胀大；后来每一口几乎看不出变化，因为同样一升空气摊到了大得多的表面上。体积和半径之间的关系从头到尾没有变；变的是这个固定速率传到另一个量身上时呈现出的大小。把这条不变的关系对时间求导，两个速率就被链在了一起：$V$ 的变化率等于 $V$ 对 $r$ 的变化率乘以 $r$ 的变化率，$\dfrac{dV}{dt} = \dfrac{dV}{dr}\cdot\dfrac{dr}{dt}$。三个速率里知道两个，第三个就被定死了。
 
-核心公式（链式法则的时间版本）：
+### 术语对照
 
-$$\frac{dX}{dt} = \frac{dX}{dY} \cdot \frac{dY}{dt}.$$
-
-考试三步法：
-1. **写出几何关系** — 把两个量用一个等式连起来（体积公式、勾股、相似三角形）
-2. **两边同时对 $t$ 求导** — 用链式法则展开
-3. **代入数值**，解出未知的速率
-
-注意：**几何关系是不随时间变的**（球的体积永远是 $V = \tfrac{4}{3}\pi r^3$），但 $V$ 和 $r$ 都是 $t$ 的函数。求导时把 $V, r$ 都当作 $t$ 的函数来对待。
+相关变化率：connected rates of change / related rates；变化率：rate of change；链式法则：chain rule。
 
 ---
 

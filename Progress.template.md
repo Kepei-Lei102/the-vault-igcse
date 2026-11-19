@@ -8,14 +8,14 @@
 > checkpoint (quiz, game, timed question) proved you can use it.
 > **Stories are just `🔴` unread / `🟢` read.**
 
-> **Edition** `student-2026-09-02` · built 2026-09-04 from commit `47b4330` + uncommitted changes  
-> 319 cards · 348 diagrams · 50 explainers · 91 illustrations
+> **Edition** `student-2026-11-19` · built 2026-11-19 from commit `3ea237a`  
+> 413 cards · 594 diagrams · 111 explainers · 147 illustrations
 
 ---
 
 ## Mathematics
 
-*219 cards · ? · ?+light · 🔴 · 🟡 · 🟢*
+*231 cards · ? · ?+light · 🔴 · 🟡 · 🟢*
 
 | Card | Status | Evidence | Date |
 |---|---|---|---|
@@ -97,7 +97,10 @@
 | [[Factorising (Vocab)]] | ? |  |  |
 | [[Factors and Multiples (Vocab)]] | ? |  |  |
 | [[Financial Literacy (Life)]] | ? |  |  |
+| [[Four Colour Theorem]] | ? |  |  |
 | [[Four Operations (Vocab)]] | ? |  |  |
+| [[Fourier Series]] | ? |  |  |
+| [[Fourier Transform]] | ? |  |  |
 | [[Fractional Equations (Vocab)]] | ? |  |  |
 | [[Fractions (Vocab)]] | ? |  |  |
 | [[Function]] | ? |  |  |
@@ -117,6 +120,7 @@
 | [[Identity Matrix]] | ? |  |  |
 | [[Implicit Differentiation]] | ? |  |  |
 | [[Indices in Algebra (Vocab)]] | ? |  |  |
+| [[Integers]] | ? |  |  |
 | [[Integration]] | ? |  |  |
 | [[Integration by Parts]] | ? |  |  |
 | [[Integration by Substitution]] | ? |  |  |
@@ -127,6 +131,7 @@
 | [[Inverse Operations (Vocab)]] | ? |  |  |
 | [[Kinematics Calculus]] | ? |  |  |
 | [[L'Hôpital's Rule]] | ? |  |  |
+| [[Lagrange's Identity]] | ? |  |  |
 | [[Laws of Indices]] | ? |  |  |
 | [[Length and Midpoint (Vocab)]] | ? |  |  |
 | [[Limit]] | ? |  |  |
@@ -147,6 +152,8 @@
 | [[MF19 Reference (9231)]] | ? |  |  |
 | [[MF19 Reference (9709)]] | ? |  |  |
 | [[Modulus Function]] | ? |  |  |
+| [[Multiple Integrals]] | ? |  |  |
+| [[Natural Numbers]] | ? |  |  |
 | [[Nets (Vocab)]] | ? |  |  |
 | [[Non-Parametric Tests]] | ? |  |  |
 | [[Normal Distribution]] | ? |  |  |
@@ -158,12 +165,14 @@
 | [[OxAQA 9660 Reference]] | ? |  |  |
 | [[Parallel Lines (Vocab)]] | ? |  |  |
 | [[Parametric Differentiation]] | ? |  |  |
+| [[Partial Derivatives and the Gradient]] | ? |  |  |
 | [[Partial Fractions]] | ? |  |  |
 | [[Percentage Calculations (Vocab)]] | ? |  |  |
 | [[Percentages (Vocab)]] | ? |  |  |
 | [[Permutations and Combinations]] | ? |  |  |
 | [[Perpendicular Lines (Vocab)]] | ? |  |  |
 | [[Planes in 3D]] | ? |  |  |
+| [[Plans and Elevations]] | ? |  |  |
 | [[Poisson Distribution]] | ? |  |  |
 | [[Polar Coordinates]] | ? |  |  |
 | [[Polygon Angles (Vocab)]] | ? |  |  |
@@ -171,6 +180,7 @@
 | [[Power Rule]] | ? |  |  |
 | [[Powers and Roots (Vocab)]] | ? |  |  |
 | [[Prime Factorisation (Vocab)]] | ? |  |  |
+| [[Prime Numbers]] | ? |  |  |
 | [[Probability Basics]] | ? |  |  |
 | [[Probability Generating Functions]] | ? |  |  |
 | [[Product Rule]] | ? |  |  |
@@ -222,6 +232,7 @@
 | [[Tangents and Normals]] | ? |  |  |
 | [[TI-84 CE Reference]] | ? |  |  |
 | [[Time Calculations (Vocab)]] | ? |  |  |
+| [[Topology]] | ? |  |  |
 | [[Transformations (Vocab)]] | ? |  |  |
 | [[Travel Graphs (Vocab)]] | ? |  |  |
 | [[Triangles (Vocab)]] | ? |  |  |
@@ -234,6 +245,7 @@
 | [[Units of Measure (Vocab)]] | ? |  |  |
 | [[Universal Set]] | ? |  |  |
 | [[Upper and Lower Bounds]] | ? |  |  |
+| [[Vector Calculus]] | ? |  |  |
 | [[Vector Equations of Lines]] | ? |  |  |
 | [[Vector Geometry]] | ? |  |  |
 | [[Vectors]] | ? |  |  |
@@ -241,11 +253,12 @@
 
 ## Physics
 
-*44 cards · ? · ?+light · 🔴 · 🟡 · 🟢*
+*89 cards · ? · ?+light · 🔴 · 🟡 · 🟢*
 
 | Card | Status | Evidence | Date |
 |---|---|---|---|
 | [[Accuracy vs Precision]] | ? |  |  |
+| [[Alternating Current]] | ? |  |  |
 | [[Angular Momentum]] | ? |  |  |
 | [[Braking Systems]] | ? |  |  |
 | [[Calibration of Instruments]] | ? |  |  |
@@ -253,86 +266,173 @@
 | [[Centre of Mass]] | ? |  |  |
 | [[Centres of Mass by Integration]] | ? |  |  |
 | [[Circular Motion]] | ? |  |  |
+| [[Coupled Oscillators]] | ? |  |  |
 | [[Damped Oscillations]] | ? |  |  |
+| [[Density and Pressure]] | ? |  |  |
+| [[Diffraction]] | ? |  |  |
+| [[Doppler Effect]] | ? |  |  |
 | [[Elastic Strings and Springs]] | ? |  |  |
 | [[Electric Current]] | ? |  |  |
+| [[Electric Field]] | ? |  |  |
+| [[Electric Potential]] | ? |  |  |
 | [[Electromagnetic Induction]] | ? |  |  |
+| [[Electromagnetic Spectrum]] | ? |  |  |
+| [[Energy Levels and Line Spectra]] | ? |  |  |
 | [[Entropy and the Second Law]] | ? |  |  |
 | [[Error Propagation]] | ? |  |  |
 | [[First Law of Thermodynamics]] | ? |  |  |
 | [[Force (Vocab)]] | ? |  |  |
 | [[Forces and Equilibrium]] | ? |  |  |
 | [[Friction (Vocab)]] | ? |  |  |
+| [[General Relativity]] | ? |  |  |
 | [[Gravitational Fields]] | ? |  |  |
+| [[Heat Transfer]] | ? |  |  |
 | [[Hooke's Law for Springs]] | ? |  |  |
+| [[Hubble's Law and the Expanding Universe]] | ? |  |  |
 | [[Internal Energy]] | ? |  |  |
+| [[Internal Resistance]] | ? |  |  |
 | [[Kinetic Theory and the Ideal Gas]] | ? |  |  |
+| [[Kirchhoff's Laws]] | ? |  |  |
+| [[Lenses and Image Formation]] | ? |  |  |
 | [[Linear Momentum]] | ? |  |  |
 | [[Linear Motion under a Variable Force]] | ? |  |  |
 | [[Lorentz Force]] | ? |  |  |
+| [[Magnetism and Magnetic Materials]] | ? |  |  |
 | [[Maxwell's Equations]] | ? |  |  |
 | [[Moment of Inertia]] | ? |  |  |
 | [[Newton's Law of Restitution]] | ? |  |  |
 | [[Newton's Laws of Motion]] | ? |  |  |
 | [[Normal Force (Vocab)]] | ? |  |  |
+| [[Nuclear Physics]] | ? |  |  |
+| [[Particle Physics]] | ? |  |  |
+| [[Pauli Exclusion Principle]] | ? |  |  |
+| [[PET Scanning]] | ? |  |  |
 | [[Physical Quantities and Units]] | ? |  |  |
+| [[Planning an Experiment]] | ? |  |  |
+| [[Polarisation]] | ? |  |  |
+| [[Potential Dividers]] | ? |  |  |
+| [[Progressive Waves]] | ? |  |  |
 | [[Projectile Motion]] | ? |  |  |
+| [[Quantum States and the Schrödinger Equation]] | ? |  |  |
+| [[Quantum Tunnelling]] | ? |  |  |
+| [[Recording and Analysing Experimental Data]] | ? |  |  |
+| [[Reflection and Refraction]] | ? |  |  |
 | [[Repeated Measurements]] | ? |  |  |
 | [[Resistance]] | ? |  |  |
+| [[Resonance]] | ? |  |  |
 | [[Significant Figures]] | ? |  |  |
 | [[Simple Harmonic Motion]] | ? |  |  |
+| [[Sound]] | ? |  |  |
+| [[Special Relativity]] | ? |  |  |
 | [[Specific Heat Capacity]] | ? |  |  |
+| [[Stationary Waves]] | ? |  |  |
+| [[Stellar Evolution]] | ? |  |  |
+| [[Stellar Luminosity and Size]] | ? |  |  |
 | [[Stress, Strain and Young Modulus]] | ? |  |  |
+| [[Superposition and Interference]] | ? |  |  |
 | [[SUVAT]] | ? |  |  |
+| [[Temperature and Thermometry]] | ? |  |  |
+| [[Tendons as Springs]] | ? |  |  |
 | [[Tension (Vocab)]] | ? |  |  |
 | [[The Friction Limit]] | ? |  |  |
+| [[The Kinetic Chain]] | ? |  |  |
+| [[The Solar System]] | ? |  |  |
+| [[The Spine Under Load]] | ? |  |  |
+| [[The Transistor as a Switch — How Analog Becomes Digital]] | ? |  |  |
+| [[Thermal Expansion]] | ? |  |  |
 | [[Torque]] | ? |  |  |
+| [[Ultrasound]] | ? |  |  |
 | [[Vectors in Physics]] | ? |  |  |
+| [[Wave-Particle Duality]] | ? |  |  |
 | [[Work, Energy and Power]] | ? |  |  |
+| [[X-rays and CT]] | ? |  |  |
+
+## CS
+
+*8 cards · ? · ?+light · 🔴 · 🟡 · 🟢*
+
+| Card | Status | Evidence | Date |
+|---|---|---|---|
+| [[Bitwise Operations]] | ? |  |  |
+| [[Image Encoding]] | ? |  |  |
+| [[Logic Gates]] | ? |  |  |
+| [[Number Bases]] | ? |  |  |
+| [[Sound Encoding]] | ? |  |  |
+| [[Storage Units (Vocab)]] | ? |  |  |
+| [[Text Encoding]] | ? |  |  |
+| [[Two's Complement]] | ? |  |  |
 
 ## Meta
 
-*12 cards · ? · ?+light · 🔴 · 🟡 · 🟢*
+*23 cards · ? · ?+light · 🔴 · 🟡 · 🟢*
 
 | Card | Status | Evidence | Date |
 |---|---|---|---|
 | [[Chain of Thought]] | ? |  |  |
+| [[Change the Representation]] | ? |  |  |
 | [[Choosing Effective Equations]] | ? |  |  |
+| [[Compression Is Intelligence]] | ? |  |  |
 | [[Credit Is the Currency]] | ? |  |  |
 | [[Decouple and Recouple]] | ? |  |  |
 | [[Forward Reading and Problem Discovery]] | ? |  |  |
 | [[Fun Is the Brachistochrone]] | ? |  |  |
+| [[God Syndrome]] | ? |  |  |
+| [[Humans Are Story Animals]] | ? |  |  |
 | [[Inertia and Bootstrapping]] | ? |  |  |
 | [[Laws and Theorems]] | ? |  |  |
+| [[Learning as Verification]] | ? |  |  |
+| [[Learning with the Whole Body]] | ? |  |  |
 | [[The Feynman Technique]] | ? |  |  |
 | [[The Gift of the Gradient]] | ? |  |  |
 | [[The Love of Wisdom]] | ? |  |  |
+| [[The True IO Bound]] | ? |  |  |
+| [[When a Model Breaks]] | ? |  |  |
+| [[Where It Hurts Might Not Be Where It Broke]] | ? |  |  |
 | [[Why Probability and Statistics]] | ? |  |  |
+| [[You Are a Reinforcement Learner]] | ? |  |  |
+| [[You're the Architect, the AI is the Bricklayer]] | ? |  |  |
 
 ## Stories
 
-*39 cards · 🔴 unread · 🟢 read*
+*62 cards · 🔴 unread · 🟢 read*
 
 | Card | Status | Evidence | Date |
 |---|---|---|---|
 | [[A Fight With the Inevitable Errors]] | ? |  |  |
+| [[A Letter from the Kitchen]] | ? |  |  |
 | [[A Rich Neighbor Named Xerox]] | ? |  |  |
 | [[A, B, C]] | ? |  |  |
 | [[Abel the Other Boy Who Died Young]] | ? |  |  |
+| [[Archimedes and the Soldier]] | ? |  |  |
 | [[Aristotle to Apollo]] | ? |  |  |
 | [[Boltzmann's Tombstone]] | ? |  |  |
+| [[Cantor vs Kronecker]] | ? |  |  |
 | [[Courage]] | ? |  |  |
 | [[Dual-Core Craft]] | ? |  |  |
+| [[Emmy Noether]] | ? |  |  |
+| [[Erdős the Wandering Mathematician]] | ? |  |  |
+| [[Famous for the Wrong Thing]] | ? |  |  |
 | [[Franklin's Coin Flip]] | ? |  |  |
 | [[From the Grid to the Garage]] | ? |  |  |
 | [[Galois at Twenty]] | ? |  |  |
 | [[Gauss the Prodigy]] | ? |  |  |
+| [[Grace Hopper and the Nanosecond]] | ? |  |  |
+| [[Hedy Lamarr and the Frequency-Hopping Piano]] | ? |  |  |
+| [[Henrietta Leavitt and the Cosmic Yardstick]] | ? |  |  |
+| [[Hilbert vs Brouwer]] | ? |  |  |
+| [[Ibn al-Haytham and the Question of Seeing]] | ? |  |  |
 | [[Inventing Variance]] | ? |  |  |
+| [[Laplace and Napoleon]] | ? |  |  |
+| [[Layers]] | ? |  |  |
 | [[Lewis Carroll the Mathematician]] | ? |  |  |
 | [[Newton vs Hooke]] | ? |  |  |
 | [[One Take, Many Tracks]] | ? |  |  |
+| [[Ramanujan and Hardy]] | ? |  |  |
 | [[Russell's Paradox in the Post]] | ? |  |  |
+| [[Sophie Germain and the Borrowed Name]] | ? |  |  |
+| [[Sorry the Homework Is Late]] | ? |  |  |
 | [[Space Travel]] | ? |  |  |
+| [[Stats Lies Hall of Fame]] | ? |  |  |
 | [[Stigler's Law of Eponymy]] | ? |  |  |
 | [[The 1919 Eclipse]] | ? |  |  |
 | [[The Argument for i]] | ? |  |  |
@@ -342,12 +442,18 @@
 | [[The Bookbinder's Apprentice]] | ? |  |  |
 | [[The Boolean-to-Silicon Bridge]] | ? |  |  |
 | [[The Calculus Priority Dispute]] | ? |  |  |
+| [[The Corn Wouldn’t Behave]] | ? |  |  |
 | [[The Ghost of Drive A]] | ? |  |  |
 | [[The Hidden Number]] | ? |  |  |
 | [[The Lady Tasting Tea]] | ? |  |  |
 | [[The Loudness War]] | ? |  |  |
+| [[The Man Who Weighed a Muscle]] | ? |  |  |
 | [[The Naming of Normal]] | ? |  |  |
+| [[The Nobel Prizes in the Beaker]] | ? |  |  |
 | [[The Pendulum Story]] | ? |  |  |
+| [[The Perceptron and Move 78]] | ? |  |  |
+| [[The Pigeons and the Beginning of Everything]] | ? |  |  |
+| [[The Universe Has a Left Hand]] | ? |  |  |
 | [[The War of the Currents]] | ? |  |  |
 | [[Turing at Bletchley]] | ? |  |  |
 | [[Two Family Trees]] | ? |  |  |

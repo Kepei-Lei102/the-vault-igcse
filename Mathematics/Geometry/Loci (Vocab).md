@@ -26,6 +26,10 @@ The Latin word *locus* means "place." The plural is *loci* (pronounced "low-sigh
 
 ### 中文锚点
 
+一只山羊用 3 米长的绳子拴在一根木桩上。它能够到的草地边缘，是以木桩为圆心、半径 3 米的一个圆，圆里面就是它能吃到的那片区域。这个圆就是一个轨迹：所有满足同一个条件的点组成的集合，这里的条件是"离木桩恰好 3 米"。轨迹是点的集合，不是某个东西走过的路线；它可以是直线、曲线、一片区域，甚至只是一个点。条件一变，形状就跟着变："到两根木桩距离相等"得到一条直线，也就是垂直平分线；"离一道笔直的篱笆不超过 3 米"得到一条带状区域。要找一个轨迹，就对每一个点问一句：它符合条件吗？
+
+#### 术语对照
+
 轨迹 = 满足某个几何条件的所有点的集合。注意：是**集合**，不是路径。比如"到点 $A$ 距离为 $3$ 的所有点"是一个圆——这个圆就是这个条件的轨迹。轨迹可以是线、曲线、区域，甚至单点。
 
 ---
@@ -148,7 +152,7 @@ This means: shade the intersection of (a) the rectangle, (b) the side of the per
 
 ### OxAQA 9260
 
-**Syllabus ref:** G13. Loci appear as 4–6 mark questions, almost always combined with [[Geometrical Constructions (Vocab)]]. The standard exam pattern: a diagram is given (a rectangular field, a triangle, a map of a town), and the candidate must construct two or three loci, then shade the region satisfying all conditions. Marks are awarded for: visible construction arcs, correct loci drawn accurately, correct boundary type (dashed/solid), and the right region shaded.
+**Syllabus ref:** G13 — the ruler-and-compass constructions, "use these to construct given figures and **solve loci problems**", and "know that the perpendicular distance from a point to a line is the shortest distance to the line". Loci appear as 4–6 mark questions, almost always combined with [[Geometrical Constructions (Vocab)]]. The standard exam pattern: a diagram is given (a rectangular field, a triangle, a map of a town), and the candidate must construct two or three loci, then shade the region satisfying all conditions. Marks are awarded for: visible construction arcs, correct loci drawn accurately, correct boundary type (dashed/solid), and the right region shaded.
 
 > [!tip] 9260 specifically tests "perpendicular distance = shortest distance"
 > The G13 syllabus explicitly mentions this. Expect at least one phrase like "the locus of points whose shortest distance from line $AB$ is $3\,\text{cm}$" — translate immediately to "perpendicular distance $= 3\,\text{cm}$" and draw the two parallel lines.

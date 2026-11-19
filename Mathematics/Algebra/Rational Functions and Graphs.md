@@ -10,9 +10,7 @@ tags:
   - subject/mathematics
   - domain/algebra
   - level/A-Level
-  - curriculum/A-Level
   - curriculum/Cambridge-9231
-  - curriculum/AP
   - syllabus/9231-1-2
   - type/deep
   - type/definition
@@ -22,6 +20,7 @@ tags:
   - misconception/asymptote-means-unreachable-value
   - misconception/discriminant-leading-coefficient-zero
   - misconception/one-over-f-flips-everything
+  - curriculum/AP-Precalculus
 ---
 
 # Rational Functions and Graphs 有理函数及其图像
@@ -31,6 +30,10 @@ tags:
 > *Stranger still, you can find that band with no calculus at all — a quadratic discriminant does it — and the band's two edges turn out to be exactly the curve's turning values. One method, three questions answered at once. That economy is what this topic is really teaching, underneath the sketching.*
 
 ## 中文锚点
+
+班里要印文化衫，店家收 500 元制版费，再加每件 20 元。那么平均每件的价钱是 $(500 + 20n)/n$：印两件，每件 270 元；印五十件，每件 30 元；印一千件，每件 20.5 元。平均价一路往 20 元跌，却永远到不了 20——这条永远贴近却碰不到的底线，就是水平渐近线：一个多项式除以另一个多项式，走到很远处的比值会稳定下来。反过来，件数 $n$ 越接近零，每件的价钱就飙得没边，因为你是在拿一笔固定的费用去除以几乎为零的数——分母在哪里等于零，垂直渐近线就竖在哪里。画有理函数的图像，问的其实只是这两件事：分母在哪里消失，比值在远处安顿在哪里。
+
+### 术语对照
 
 | English | 中文 | one-line meaning |
 |---|---|---|

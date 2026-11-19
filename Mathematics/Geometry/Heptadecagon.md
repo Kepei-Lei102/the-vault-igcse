@@ -14,12 +14,11 @@ tags:
   - subject/mathematics
   - domain/geometry
   - domain/number
-  - level/Beyond-Syllabus
+  - level/enrichment
   - level/A-Level
   - type/deep
-  - type/historical
   - type/proof
-  - type/visualization
+  - type/visual-tool
   - notation/F_n
   - notation/cos
   - misconception/all-regular-polygons-are-constructible
@@ -39,13 +38,17 @@ The name is Greek: *hepta-* (seven) + *deca-* (ten) + *-gon* (angle). Seven-and-
 
 ### 中文锚点
 
-正十七边形 (zhèng shíqī biānxíng) 是边数为 17 的正多边形。"惊喜" 在哪里？数到 17 之前，我们已经会用尺规作出正三角形、正方形、正五边形、正六边形、正八边形、正十边形… 但 7、9、11、13 都不行。一直到 17，又是可以的——而且高斯（Gauss）在 1796 年才**首次证明**这件事。这个发现让 19 岁的高斯决定一辈子做数学家。
+为什么圆规和直尺能画出完美的正十七边形，却画不出正七边形？每次让圆和直线相交、或者让两个圆相交，你其实都是在解一个二次方程，所以你能造出来的新长度，只有平方根。画一个正多边形，就是要造出某一段特定的长度。对 17 来说，这个问题可以一分为二，再一分为二，一共分四次，因为 $17 - 1 = 16 = 2 \times 2 \times 2 \times 2$：四层套在一起的平方根，圆规做得到。对 7 来说，$7 - 1 = 6$ 里藏着一个 3，这需要开立方，而圆规开不了立方。高斯在 1796 年 3 月 30 日看出了这一点，离他 19 岁生日还差一个月；据说正是这个发现，让他决定一辈子做数学，而不是去研究语言。
+
+#### 术语对照
+
+正十七边形 (zhèng shíqī biānxíng) 是边数为 17 的正多边形；尺规可作的正多边形：3、4、5、6、8、10、12、15、16、17……；不可作：7、9、11、13、14……
 
 ---
 
 ## The Punchline (in one paragraph)
 
-Some regular $n$-gons are constructible (3, 4, 5, 6, 8, 10, 12, 15, 16, 17, …) and some are not (7, 9, 11, 13, 14, …). The exact rule was unknown for two thousand years. **Gauss settled it in 1796, age 19**: a regular $n$-gon is constructible if and only if $n$ is a power of 2 multiplied by distinct **Fermat primes**. The Fermat primes that anyone has ever found are $3,\;5,\;17,\;257,\;65537$ — only five of them — so 17 sits at the edge of what a human can reasonably draw, and Gauss showed it could be done.
+Some regular $n$-gons are constructible (3, 4, 5, 6, 8, 10, 12, 15, 16, 17, …) and some are not (7, 9, 11, 13, 14, …). The exact rule was unknown for two thousand years. **Gauss settled it in 1796, age 18**: a regular $n$-gon is constructible if and only if $n$ is a power of 2 multiplied by distinct **Fermat primes**. The Fermat primes that anyone has ever found are $3,\;5,\;17,\;257,\;65537$ — only five of them — so 17 sits at the edge of what a human can reasonably draw, and Gauss showed it could be done.
 
 The construction is real: an explicit ruler-and-compass procedure (the cleanest version is Richmond, 1893) builds every vertex exactly. The animation below shows it.
 
@@ -75,7 +78,7 @@ The number 17 lands on this list as $F_2 = 2^{4} + 1$. That single fact — the 
 
 ## The Algebraic Miracle
 
-The heart of the proof: $\cos(2\pi/17)$ can be written using **only square roots** — no cube roots, no fourth roots, no transcendental moves. Gauss's actual formula, which he derived at 19, is
+The heart of the proof: $\cos(2\pi/17)$ can be written using **only square roots** — no cube roots, no fourth roots, no transcendental moves. Gauss's actual formula, which he derived at 18, is
 
 $$
 \boxed{\;
@@ -130,7 +133,7 @@ The Gauss–Wantzel theorem says **every** Fermat prime gives a constructible $n
 If a sixth Fermat prime exists, no human has found it (and computer searches have ruled out existence up to extremely large bounds). So the list of "honest" Fermat-prime $n$-gons might be complete at five.
 
 > [!info] Beyond syllabus — 65537 in computer science (the second life of $F_4$)
-> The same prime $F_4 = 65537$ that makes the 65537-gon constructible is, by no coincidence at all, **the standard public exponent in RSA encryption** — the value of `e` you'll find in nearly every TLS certificate, SSH keypair, and PGP key on the internet today. Why this number? RSA needs an `e` that is (a) prime and (b) has a *sparse binary representation*, because the public encryption operation $m \mapsto m^{e} \pmod{n}$ is fast only if $e$ has few 1-bits. Fermat primes nail both: $F_4 = 2^{16} + 1 = $ `0b10000000000000001` — only two bits are set, so the modular exponentiation reduces to 16 squarings and a single multiplication. The very same "$2^{2^k} + 1$" structure that powered Gauss's 1796 constructibility theorem also powers 1977's RSA. One number-theoretic property, two applications a century and a half apart. (Bridge to a planned CS folder: `[[RSA]]`, `[[Modular Exponentiation]]`.)
+> The same prime $F_4 = 65537$ that makes the 65537-gon constructible is, by no coincidence at all, **the standard public exponent in RSA encryption** — the value of `e` you'll find in nearly every TLS certificate, SSH keypair, and PGP key on the internet today. Why this number? RSA needs an `e` that is (a) prime and (b) has a *sparse binary representation*, because the public encryption operation $m \mapsto m^{e} \pmod{n}$ is fast only if $e$ has few 1-bits. Fermat primes nail both: $F_4 = 2^{16} + 1 = $ `0b10000000000000001` — only two bits are set, so the modular exponentiation reduces to 16 squarings and a single multiplication. The very same "$2^{2^k} + 1$" structure that powered Gauss's 1796 constructibility theorem also powers 1977's RSA. One number-theoretic property, two applications a century and a half apart. RSA itself is worked by hand in **Encryption** *(not yet released)*.
 >
 > A further bonus for computer scientists: $65537 = 2^{16} + 1$ is the smallest positive integer that *doesn't* fit in an unsigned 16-bit field — it sits exactly one above $65535$, the maximum 2-byte word. So whenever you see the magic number $65537$ in a hex dump or a port range, you're probably looking at a Fermat prime in disguise.
 
@@ -150,15 +153,15 @@ If a sixth Fermat prime exists, no human has found it (and computer searches hav
 
 ## Exam Notes
 
-This topic is **beyond syllabus** for 0580, 0606, 9260, A-Level core, IB, and AP. It will not appear on a written exam.
+This topic is **beyond syllabus** on every board on file: Cambridge 0580, 0606, 9709 and 9231, OxfordAQA 9260 and 9660, Edexcel IAL, and the AP Calculus course description name no constructibility result. Cambridge 0580's E4.2 "Geometrical constructions" is the nearest neighbour and is only "Construct a triangle, given the lengths of all sides, using a ruler and pair of compasses only", with "Constructions of perpendicular bisectors and angle bisectors are not required". The IB Mathematics guides are not on file.
 
-It does, however, appear as enrichment material in:
-- **A-Level Further Mathematics** — sometimes referenced when introducing the unit circle and complex roots of unity.
-- **STEP / MAT** — occasionally as a starting point for a problem about constructible numbers.
-- **Olympiad training** — the Gauss–Wantzel theorem is a standard result for IMO-prep students working on number theory.
-- **University admissions interviews** — Cambridge and Oxford maths interviewers like to ask "which regular polygons are constructible, and why?" precisely because the answer has a beautiful algebraic core.
+It appears as enrichment in:
+- **Further Mathematics courses**, when the unit circle and complex roots of unity are introduced ([[Euler's Formula and De Moivre's Theorem]]).
+- **STEP and MAT**, occasionally as the start of a problem about constructible numbers.
+- **Olympiad training**, where the Gauss–Wantzel theorem is a standard result for students working on number theory.
+- **University admissions interviews**, where "which regular polygons are constructible, and why?" is asked precisely because the answer has a beautiful algebraic core.
 
-For day-to-day teaching, the heptadecagon is the **delight card**: the one you bring out when a student asks "what's the most surprising thing about geometry?" or "why did Gauss decide to be a mathematician?". The story has a complete arc — confused conjecture for 2000 years, sudden algebraic insight at age 19, exact ruler-and-compass procedure 100 years later — that lands well even with students who don't follow the Galois-theoretic punchline.
+For day-to-day teaching, the heptadecagon is the delight card: the one you bring out when a student asks "what's the most surprising thing about geometry?" or "why did Gauss decide to be a mathematician?". The story has a complete arc — a teenager, a morning, a result no one had seen for two thousand years — and its proof is exactly as hard as it looks.
 
 ---
 

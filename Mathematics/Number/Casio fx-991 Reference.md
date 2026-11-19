@@ -12,7 +12,6 @@ tags:
   - level/IB
   - curriculum/Cambridge-0580
   - curriculum/Cambridge-0606
-  - curriculum/A-Level
   - curriculum/IB-AA
   - type/reference
   - calculator/casio-fx991

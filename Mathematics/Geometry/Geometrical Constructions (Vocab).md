@@ -30,7 +30,11 @@ The phrase "**construct**" (作图) on an exam paper is a technical instruction.
 
 ### 中文锚点
 
-几何作图 = 仅用**直尺**和**圆规**画出几何图形。这里的"直尺"只是直边（不用刻度），"圆规"用来画圆和弧。这是从欧几里得开始的传统：图形的正确性由几何原理保证，而不是依赖于刻度的精度。考试中看到 "construct"（作图）就意味着：不要量，要画弧。
+尺子上的刻度只是近似的；圆规却能把一段距离原封不动地保持住。尺规作图就只用圆规这件精确的工具，再加一把没有刻度的直尺，所以图画得对，靠的是几何道理，而不是你读刻度读得多仔细。以作线段的垂直平分线为例：从线段两端各画一段半径相同的弧。两段弧的两个交点，到线段两端的距离都相等；而所有到两端距离相等的点，都在同一条直线上，也就是垂直平分线。所以过这两个交点的直线恰好就是垂直平分线，哪怕你的手有点抖。这就是为什么"作图"的意思是"画弧"，而不是"去量"。
+
+#### 术语对照
+
+几何作图 = 仅用**直尺**和**圆规**画出几何图形。这里的"直尺"只是直边（不用刻度），"圆规"用来画圆和弧。这是从欧几里得开始的传统：图形的正确性由几何原理保证，而不是依赖于刻度的精度。
 
 ---
 
@@ -140,7 +144,7 @@ Draw segment $AB$. With compass set to $AB$, draw an arc from $A$. With the same
 
 ### Cambridge 0580 Extended
 
-**Syllabus ref:** E4.2. Cambridge 0580 is *less* demanding than 9260 here — it requires construction of triangles given specific dimensions and scale drawings, but does **not** require compass bisector constructions. If a 0580 paper says "construct the triangle with sides $5\,\text{cm}$, $6\,\text{cm}$, $7\,\text{cm}$," it means: draw one side with a ruler, then use compasses to swing arcs of $6\,\text{cm}$ and $7\,\text{cm}$ from the two endpoints — the intersection is the third vertex. That much *is* required. (The technique is the same one used in [[Congruence]] for SSS.)
+**Syllabus ref:** E4.2 *Geometrical constructions*, three points: (1) measure and draw lines and angles — a ruler for every straight edge, and the syllabus states outright that **constructions of perpendicular bisectors and angle bisectors are not required**; (2) construct a triangle given the lengths of all three sides using a ruler and a pair of compasses only, with **construction arcs shown** (the syllabus's example: a rhombus as two triangles); (3) draw, use and interpret **nets** of cubes, cuboids, prisms and pyramids, including taking measurements from a net to find a volume or surface area. Scale drawings are the next row, **E4.3**, not this one. So 0580 is *less* demanding than 9260 on compass work: if a 0580 paper says "construct", it means the three-sides triangle with its arcs left visible.
 
 ---
 

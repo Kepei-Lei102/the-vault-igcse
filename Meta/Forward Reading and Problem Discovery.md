@@ -1,16 +1,22 @@
 ---
 chinese: 向前阅读与问题发现 (xiàng qián yuèdú yǔ wèntí fāxiàn) / 追因之术 (zhuī yīn zhī shù)
 prerequisites:
+  - "[[Stats Lies Hall of Fame]]"
   - "[[Choosing Effective Equations]]"
   - "[[Chain of Thought]]"
   - "[[Product Rule]]"
   - "[[Chain Rule]]"
 leads_to:
+  - "[[You're the Architect, the AI is the Bricklayer]]"
   - "[[Inertia and Bootstrapping]]"
   - "[[Fun Is the Brachistochrone]]"
   - "[[Why Probability and Statistics]]"
   - "[[Program Design]]"
   - "[[Decouple and Recouple]]"
+  - "[[The True IO Bound]]"
+  - "[[Compression Is Intelligence]]"
+  - "[[Humans Are Story Animals]]"
+  - "[[Where It Hurts Might Not Be Where It Broke]]"
 tags:
   - subject/methodology
   - subject/philosophy
@@ -20,8 +26,6 @@ tags:
   - level/university
   - level/life
   - type/methodology
-  - type/meta
-  - type/philosophical
   - type/cross-domain
 ---
 
@@ -44,17 +48,14 @@ There's a word for someone who does this professionally and obsessively, made vi
 
 ### 中文锚点
 
-**向前阅读 (xiàng qián yuèdú)** — 向前读，每读一句都问"这一句锁定了什么？"。
+侦探走进房间，不会先问“是谁干的”。他看的是：窗开着，所以有人开过；窗台上的泥还是湿的，所以不超过一个钟头；泥是红黏土，所以那人是从田那边过来的。他看到的每一样东西，都被锁在“这只能是什么造成的”上面，就这样一环一环往前推，直到只剩下一种说得通的说法。这就是**向前阅读**：拿到什么就读什么，一句一句地问，“这一句锁定了什么？因为它，什么必然成立？”多数人读难题时方向是反的：盯着要求的那个未知量，回头去翻哪条公式里有这个字母。向前读的人往往发现，等题目问到那一步，答案早就被前面的条件钉死了。所谓**猎人**，就是一个不停追问“是什么造成了什么”的人，不管他追的是程序里的一个错误、发动机的一处故障，还是朋友忽然不说话的原因。
 
-**追因之术 (zhuī yīn zhī shù)** — 不停地追溯因果。
+### 术语对照 (Terms)
 
-核心命题：
-
-- **猎人 (Hunter) 的定义** = 一个不停追溯因果的人。
-- **如何发现这个定义？** 也是通过追溯因果发现的。
-- **这就是它最强的证据**：定义本身只能由它所描述的人发现 —— 这是一个 *自指证明 (self-referencing proof)*。
-
-适用范围：科学家、医生、侦探、程序员、数学家、机修师、调音师、调试者、读人者…… 词汇不同，行为相同。
+- **向前阅读** (xiàng qián yuèdú, forward reading)：往前读，每读一句都问“这一句锁定了什么？”
+- **追因之术** (zhuī yīn zhī shù)：不停地追溯因果。
+- **猎人** (hunter)：一个不停追溯因果的人。这个定义本身也是靠追溯因果才找到的，所以它只能由它所描述的那种人发现，这是一个自指的论证 (self-referencing proof)。
+- 适用的人：科学家、医生、侦探、程序员、数学家、机修师、调音师、调试程序的人、善于读人的人。词汇不同，做的是同一件事。
 
 ---
 
@@ -253,6 +254,8 @@ A short field guide. None of this is original; all of it is the same skill rephr
 ---
 
 ## Connections
+
+- **Directing a build:** [[You're the Architect, the AI is the Bricklayer]] — invariants, selection triggers and verification become a method for supervising implementation.
 
 - **Sibling — also in Meta/:** [[Choosing Effective Equations]] (the M1-applied version of forward reading), [[Chain of Thought]] (the within-topic version of structured reasoning), [[Why Probability and Statistics]] (the same hunter framing applied to the specific question of when to trust statistical thinking — *stats lie, causality tends not to*), [[Inertia and Bootstrapping]] (the *execution* counterpart — *that* card asks how the hunter actually starts doing the thing every morning, treating Newton's First Law as a literal description of the human nervous system; pair them as "what kind of person solves problems" + "how that person initiates the act").
 - **Direct application:** every problem-solving card in the vault — particularly the worked examples in [[Newton's Laws of Motion]], [[Linear Momentum]], [[Forces and Equilibrium]], [[SUVAT]], [[Work, Energy and Power]] — is an instance of forward-reading in the small. This card is the explanation of *why* those worked-example narrations are written in the order they're written.

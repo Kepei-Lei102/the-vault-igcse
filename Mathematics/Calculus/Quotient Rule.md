@@ -19,19 +19,22 @@ tags:
   - level/A-Level
   - curriculum/Cambridge-0606
   - curriculum/Cambridge-9709
-  - curriculum/A-Level
   - curriculum/IB-AA
   - curriculum/IB-AI
-  - curriculum/AP
   - syllabus/0606-14-4
   - syllabus/9709-2-4
   - syllabus/9709-3-4
   - type/theorem
   - type/proof
-  - type/corollary
   - notation/derivative
   - misconception/quotient-sign-flip
   - misconception/quotient-rule-when-product-is-cleaner
+  - curriculum/AP-Calculus-AB
+  - curriculum/AP-Calculus-BC
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
+  - type/deep
+
 ---
 
 # Quotient Rule 商法则
@@ -56,20 +59,7 @@ Both fingerprints — the minus sign and the squared denominator — drop out of
 
 ## 中文锚点
 
-**商法则**：两个函数相除的导数。
-
-$$\left(\dfrac{u}{v}\right)' = \dfrac{u'v - uv'}{v^2}, \qquad v \neq 0$$
-
-读法：「**分子的导数 × 分母 减去 分子 × 分母的导数，全部除以分母的平方**」。
-
-为什么是这个形状？因为 $\dfrac{u}{v} = u \cdot v^{-1}$。这是一个乘积，可以直接套乘法法则；只是第二个因子 $v^{-1}$ 在求导时要再用一次链式法则，得到 $-v'/v^2$。所以：
-
-- 减号 —— 来自 $\dfrac{d}{dx}(v^{-1}) = -v^{-2} \cdot v' = -\dfrac{v'}{v^2}$；负指数求导自带的负号。
-- $v^2$ —— 同一个原因；$v^{-1}$ 的导数把分母升到了平方。
-
-**核心断言：商法则不是新公理，而是乘法法则 + 链式法则的推论。**
-
-> 万一记不住：$u/v = u \cdot v^{-1}$，套乘法法则 + 链式法则即可。这条退路永远成立。
+想想 AA 制分账：每人要付的钱 = 总账 ÷ 人数，也就是 $u/v$。有两件事会改变它。账单多了一点，每人多付的就是这一点除以人数——这就是第一项 $u'/v$。多来一个人，每人付的就少了，减号就是从这儿来的。少多少，要看桌上本来有多挤：100 元 4 个人分是每人 25，来第五个人每人少付 5 元；100 元 10 个人分是每人 10，来第十一个人每人只少付不到 1 元。这个降幅跟人数的平方成反比，这就是分母里的 $v^2$。两个效应合在一起就是商法则：$\dfrac{u'v - uv'}{v^2}$。减号和平方都不是装饰：一个说分的人越多、每份越小；另一个说人越多，再多一个人的影响越小。
 
 ---
 
@@ -245,21 +235,21 @@ The Quotient Rule is on the formula list. Examined directly in §14.4 (different
 
 ### Cambridge 9709 — A-Level Mathematics
 
-**Paper 3 (§3.4)** examines the Quotient Rule on rational functions, trig quotients, and combinations involving $e^x$ and $\ln x$. The Quotient Rule formula is **given on the MF19 reference sheet** (under Differentiation), so memorisation is for speed only — the formula is in the room with you.
+**Paper 2 §2.4 and Paper 3 §3.4** — *differentiate products and quotients* — examine the Quotient Rule on rational functions, trig quotients, and combinations involving $e^x$ and $\ln x$; the formula is **given on the MF19 list**, so memorisation buys speed, not marks. **Paper 1 §1.7 does not reach it:** P1 differentiates $x^n$, sums and composite functions (the Chain Rule only); products and quotients begin at P2.
 
-**Paper 1** (§1.7) covers the Chain and Product Rules; Quotient Rule typically appears at Paper 2 / Paper 3 level.
+### Edexcel IAL and OxfordAQA 9660
 
-### A-Level (Edexcel / AQA / OCR)
+Edexcel IAL **P3 §4.2** and OxfordAQA 9660 **P2.6** both name the chain, product and quotient rules together; the rule is on both formula booklets, and the usual question is a quotient of an exponential or a trig function followed by a stationary point or a tangent.
 
-Quotient Rule is on the standard A-Level formula booklets. Examined in pure-mathematics differentiation questions and in mechanics where $v(t)$ or $a(t)$ is a quotient.
+### IB Mathematics
 
-### IB AA SL / HL
-
-SL: Topic 5 (calculus). HL: Topic 5 with the additional implicit-differentiation and logarithmic-differentiation extensions. Quotient Rule is on the IB AA formula booklet. HL students should be comfortable deriving it from Product + Chain.
+**AA SL 5.6 and HL:** the product and quotient rules are named outcomes, on the formula booklet; HL adds implicit and logarithmic differentiation and expects the rule to be derivable from the Product and Chain Rules. **AI:** the quotient rule is **HL only** (AI HL 5.9, alongside the product and chain rules); AI SL differentiates polynomials and simple sums only.
 
 ### AP Calculus AB / BC
 
-Quotient Rule appears in Unit 2 (Differentiation: Definitions and Fundamental Properties). It is on the AP Calculus reference sheet. AP graders care about clean notation — $\dfrac{u'v - uv'}{v^2}$ written precisely, no missing parentheses, no skipped factorisations.
+Unit 2 (differentiation: definitions and basic rules) names the product and quotient rules; both courses examine them on non-calculator multiple choice and inside free-response derivatives. Graders care about clean notation — $\dfrac{u'v - uv'}{v^2}$ written precisely, no missing parentheses, no skipped factorisation of the numerator.
+
+**Not examined on:** Cambridge 0580 and OxfordAQA 9260 (no calculus); IB AI SL.
 
 ### Beyond high school — University
 

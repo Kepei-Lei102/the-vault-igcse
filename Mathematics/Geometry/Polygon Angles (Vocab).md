@@ -30,6 +30,10 @@ A **polygon** (多边形 duōbiānxíng) is a closed shape with straight sides. 
 
 ### 中文锚点
 
+绕着一个六边形的操场走一圈，每到一个角就转一次弯。回到起点时，你面朝的方向和出发时一模一样，所以所有的转弯加起来正好是转了一整圈：360°。每一次转弯就是一个外角，所以任何多边形的外角加起来都是 360°，不管它有多少个角。在每个角上，转过的角和内角拼成一条直线，也就是 180°。所以有 $n$ 个角时，内角加起来就是 $180n - 360 = (n-2) \times 180°$。正多边形的每个内角都相等，所以每个内角就是拿这个总和除以 $n$。
+
+#### 术语对照
+
 多边形的角 = 内角之和 $= (n-2) \times 180°$，外角之和永远 $= 360°$。正多边形的每个内角 $= \dfrac{(n-2) \times 180°}{n}$。
 
 ---
@@ -100,7 +104,7 @@ And at every vertex: interior $+$ exterior $= 180°$ (they're supplementary — 
 
 ## Exam Notes
 
-**9260 G4 / 0580 E4.3.** "Calculate unknown angles using properties of regular and irregular polygons." Common question types: "The interior angle of a regular polygon is $156°$. How many sides does it have?" Method: exterior $= 180° - 156° = 24°$, so $n = 360° / 24° = 15$ sides.
+**Cambridge 0580 E4.6 point 3** — "know and use angle properties of regular and irregular polygons", which the syllabus says includes exterior and interior angles and the angle sum (the polygon *names* are E4.1). **OxfordAQA 9260 G4** — "calculate and use the sums of the interior and exterior angles of polygons". Common question types: "The interior angle of a regular polygon is $156°$. How many sides does it have?" Method: exterior $= 180° - 156° = 24°$, so $n = 360° / 24° = 15$ sides.
 
 ---
 

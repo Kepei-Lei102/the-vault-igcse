@@ -18,9 +18,7 @@ tags:
   - level/A-Level
   - level/pre-IB
   - level/pre-AP
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/9709-3-8
   - syllabus/9231-2-6
   - syllabus/9231-3-5
@@ -32,6 +30,10 @@ tags:
   - misconception/missing-trivial-solution
   - misconception/integrating-factor-sign-error
   - misconception/general-vs-particular
+  - curriculum/Cambridge-9709
+  - curriculum/Cambridge-9231
+  - curriculum/AP-Calculus-BC
+  - type/deep
 ---
 
 # Differential Equations 微分方程
@@ -69,18 +71,11 @@ The 9709 P3 §3.8 scope is **first-order ODEs**, specifically separable equation
 
 ### 中文锚点
 
-**微分方程**（wēifēn fāngchéng）：未知量是**函数**，方程里既有这个未知函数，也有它的**导数**（一阶或更高阶）。
+一杯热咖啡，一开始凉得快，后来凉得慢。没有人会把温度随时间的公式递给你；你知道的是一条关于速率的规则：咖啡比室温高得越多，散热就越快。微分方程正是这样一句话——它说的是一样东西怎么变，而不是它是什么——解方程就是找出那整条服从这条规则的降温曲线。每一杯咖啡都服从同一条规则，所以解是一整族曲线；起始温度决定哪一条是你的。
 
-**阶**（order）：方程里最高阶导数的阶数。一阶 ODE 只含 $dy/dx$，二阶含 $d^2y/dx^2$。
+### 术语对照
 
-**解**（solution）：使方程成立的函数 $y(x)$。通常解不是唯一的，而是含**积分常数**的"通解"（general solution）。给定**初值条件**（如 $y(0)=5$）后可定唯一的"特解"（particular solution）。
-
-**9709 P3 §3.8 重点：**
-1. **可分离变量**（separable）：$\dfrac{dy}{dx} = f(x)g(y)$。重排为 $\dfrac{dy}{g(y)} = f(x)\,dx$，两边积分。
-2. **指数增长/衰减**：[[Exponential Growth and Decay|指数增长卡]]已经详尽覆盖 $\dot y = ky \to y = Ae^{kt}$ 这一特例。
-3. **一阶线性**（first-order linear，IB/A-Level extra）：$\dfrac{dy}{dx} + P(x)y = Q(x)$，用**积分因子**（integrating factor）$\mu = e^{\int P\,dx}$ 求解。
-
-中文教材里这一章通常和"物理建模"挂钩：弹簧振子、电路、化学反应速率、生物种群——全是 ODE。理解的关键是**把"变化率正比于现状"的语言翻译成方程**。
+微分方程：differential equation；阶：order（方程里最高阶导数的阶数）；通解：general solution（含积分常数的一族解）；特解：particular solution；初值条件：initial condition；可分离变量：separable；积分因子：integrating factor。
 
 ---
 

@@ -23,6 +23,10 @@ tags:
   - curriculum/Cambridge-0580
   - syllabus/9260-A16
   - syllabus/0580-E2-11
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
+  - syllabus/IAL-P1-1-3
+  - syllabus/IAL-P1-1-11
   - type/vocabulary
 ---
 
@@ -36,7 +40,11 @@ On an exam, "sketch" almost always means: draw the correct shape, label the inte
 
 ### 中文锚点
 
-**草图 (cǎotú)** = sketch, rough drawing. **精确绘制 (jīngquè huìzhì)** = accurate plot. On a Chinese-language exam you might see 作图 (draw) or 画出 (draw out); in English "sketch" and "plot" are *different* instructions — don't treat them as synonyms.
+地铁线路图不是卫星照片。它扔掉了真实的距离和弯道，只留下乘客真正需要的东西：有哪几条线、在哪里交汇、站点的先后顺序。曲线的草图也是这样一张地图。你不是在方格纸上一点一点地量，而是把形状、与坐标轴的交点、转弯的地方、还有那些无限靠近却碰不到的直线画出来。这些特征就是"站点"：只要每一个都放对了位置并且标上了坐标，中间的线再潦草，草图也是对的。精确绘图才是那张卫星照片：点要准，比例要对。
+
+### 术语对照
+
+草图：sketch（徒手画出关键特征）；精确绘制：plot（在方格纸上按比例描点）；交点：intercept；转折点：turning point；渐近线：asymptote。
 
 ## Key Vocabulary
 
@@ -89,13 +97,21 @@ On an exam, "sketch" almost always means: draw the correct shape, label the inte
 
 ## Exam Notes
 
-### OxAQA 9260
+### OxfordAQA 9260 — A16
 
-**A16** — Sketch quadratic curves; identify roots, $y$-intercept, and turning point from the equation. Expect a prompt like "Sketch $y = x^2 - 4x + 3$, showing the coordinates of the turning point and any points where the curve meets the axes."
+Sketch quadratic curves; identify roots, $y$-intercept and turning point from the equation. Expect a prompt like "Sketch $y = x^2 - 4x + 3$, showing the coordinates of the turning point and any points where the curve meets the axes."
 
-### Cambridge 0580 Extended
+### Cambridge 0580 Extended — E2.11
 
-**E2.11** — Sketch familiar functions: linear, quadratic, cubic, reciprocal $(k/x)$, exponential $(a^x)$. Usually a 2–3 mark question: one mark for correct shape, one for intercepts, one for asymptotes (if any).
+Sketch familiar functions: linear, quadratic, cubic, reciprocal ($k/x$), exponential ($a^x$). Usually a 2–3 mark question: one mark for correct shape, one for intercepts, one for asymptotes (if any).
+
+### Edexcel IAL — P1.1.3 and P1.1.11 · OxfordAQA 9660 — P1.1 and P1.2
+
+- The A-Level version adds three things to the IGCSE sketch. **Completed-square form** gives the vertex and line of symmetry directly (IAL P1.1.3; 9660 P1.1 names *vertex, line of symmetry* outright). **Cubics and reciprocals** are sketched from their factors and asymptotes (IAL P1.1.11). And the sketch is used *geometrically*: the intersection of a line and a curve is the simultaneous-equations question in a picture, and *tangent* means the discriminant is zero (9660 P1.1, P1.2). [[Cubic Graphs]] and [[Graphs of Functions]] carry the fuller treatments; this card is the sketching habit itself.
+
+### Not examined on…
+
+- **Cambridge 0606** files sketching under the individual function rows (quadratics, cubics, modulus, trig) rather than as a skill of its own; **AP Calculus** expects it as prerequisite and never sets it.
 
 ## Connections
 

@@ -3,8 +3,13 @@ chinese: 费曼学习法 (Fèimàn xuéxí fǎ)
 prerequisites:
   - "[[Von Neumann machine]]"
   - "[[Chain of Thought]]"
+  - "[[The True IO Bound]]"
+  - "[[Compression Is Intelligence]]"
 leads_to:
+  - "[[Learning with the Whole Body]]"
   - "[[The Love of Wisdom]]"
+  - "[[Famous for the Wrong Thing]]"
+  - "[[Learning as Verification]]"
 tags:
   - subject/methodology
   - subject/philosophy
@@ -15,7 +20,6 @@ tags:
   - level/university
   - level/life
   - type/methodology
-  - type/meta
   - type/cross-domain
 ---
 
@@ -33,6 +37,10 @@ There are two completely different things a mind can do with a piece of knowledg
 This card is the test that tells them apart. It is the same interpret-vs-copy distinction that sits at the heart of **self-reproduction** *(not yet released)* and **the universal machine** *(not yet released)* — turned into a learning method. The vault is built on it, which is why it lives in `Meta/`: the principle first, the famous trick second.
 
 **The bilingual hook.** Chinese already names both halves: **死记硬背** (sǐ jì yìng bèi — "dead-memorise, hard-recite") is the *copy* pass; **融会贯通** (róng huì guàn tōng — "melt-together, thread-through") is the *interpret* pass. Every culture that teaches knows the gap; the Feynman Technique is just a reliable way to find which side of it you are standing on.
+
+## 中文锚点
+
+你多半有过这种经历：一章书读下来，每一行都看得懂，合上书觉得自己会了；第二天同学请你讲一讲，说了两句就卡住了。这不是记性的问题。跟着别人的解释走，和自己把解释搭出来，是两种不同的本事，而读书只练到了前一种。跟着走的时候，每一环都是作者递给你的，你只要点头；轮到自己讲，每一环都得你自己拿出来，卡住的地方，正好就是你从来没有真正拿到过的那一环。所以合上书，用大白话讲给一个不懂的人听，是找出自己哪里没懂的最快办法：读的时候看不见的缺口，一开口就藏不住了。中文里这两头都有现成的说法：**死记硬背**是把话留住，**融会贯通**是能把它重新搭出来。
 
 ## The principle — understanding is the *interpret* pass
 

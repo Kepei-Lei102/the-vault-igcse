@@ -21,7 +21,6 @@ tags:
   - curriculum/Cambridge-9709
   - curriculum/Cambridge-9702
   - curriculum/Cambridge-0625
-  - curriculum/A-Level
   - curriculum/IB-AA
   - curriculum/IB-Physics
   - curriculum/AP-Physics-1
@@ -285,32 +284,32 @@ Only one component is constant-acceleration (vertical, with $a = -g$). The other
 
 ## Exam Notes
 
-### Cambridge 9709 Paper 4 (Mechanics, AS) — §4.2
+### Cambridge 9709 (AS Level), Paper 4 §4.2
 
-The five formulae are *listed but not given* on the formula sheet for Paper 4 — students must memorise them or derive them from the calculus.
+"Understand the concepts of distance and speed as scalar quantities, and of displacement, velocity and acceleration as vector quantities", "Restricted to motion in one dimension only"; "sketch and interpret displacement–time graphs and velocity–time graphs", appreciating that the area under a velocity–time graph is displacement and the gradients give velocity and acceleration; "use differentiation and integration with respect to time" for non-constant acceleration ([[Kinematics Calculus]]); and the constant-acceleration formulae. "The term 'deceleration' may sometimes be used in the context of decreasing speed." No projectiles, no 2D. Paper 4 has no formula sheet: the five equations are written from memory.
 
-**In scope:** 1D motion only; SUVAT for constant $a$; v-t and s-t graph reading; calculus kinematics for non-constant $a$.
+### Cambridge 9702 (A Level Physics), §2.1 Equations of motion
 
-**Not in scope:** projectile motion, 2D motion, vector forms.
+Define and use distance, displacement, speed, velocity and acceleration; represent them graphically; "determine displacement from the area under a velocity–time graph", velocity and acceleration from gradients; "derive, from the definitions of velocity and acceleration, equations that represent uniformly accelerated motion in a straight line" (the derivation in this card is examinable); solve problems with them "including the motion of bodies falling in a uniform gravitational field without air resistance"; "describe an experiment to determine the acceleration of free fall using a falling object"; and "describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction" ([[Projectile Motion]]).
 
-> [!info] On the data sheet
-> Paper 4 has no data sheet of its own. SUVAT formulae must be written from memory.
+> [!info] On the 9702 formulae page
+> The syllabus's formulae page lists the uniformly accelerated motion equations; the derivation is still examinable.
 
-### Cambridge 9702 (A-Level Physics) — §2.1
+### Cambridge 0625 (IGCSE Physics), §1.2 Motion
 
-Includes: SUVAT for 1D, projectile motion in 2D (as superposition), free-fall experiment to determine $g$, and the v-t graph relations explicitly tested.
+Core: speed as distance per unit time, $v = s/t$; velocity as speed in a given direction; average speed; sketch, plot and interpret distance–time and speed–time graphs; identify rest, constant speed, acceleration and deceleration from a graph's shape; speed from the gradient of a distance–time graph; "Calculate the area under a speed–time graph to determine the distance travelled for motion with constant speed or constant acceleration"; the acceleration of free fall $g$. Supplement: "Define acceleration as change in velocity per unit time; recall and use the equation $a = \dfrac{\Delta v}{\Delta t}$"; acceleration from the gradient of a speed–time graph; "Know that a deceleration is a negative acceleration"; and the motion of objects falling with and without air resistance. **0625 never lists the SUVAT equations**; the earlier note that Extended candidates use $v = u + at$ and $s = ut + \tfrac12 at^2$ is corrected to $a = \Delta v/\Delta t$ plus graph methods.
 
-> [!info] On the 9702 data sheet
-> The data sheet **gives** $s = ut + \tfrac{1}{2}at^2$ and $v^2 = u^2 + 2as$. The other three SUVAT formulae are not given — but they're easily derived from these two plus formula 1.
+### IB Physics, A.1 Kinematics (SL and HL)
 
-### Cambridge 0625 (IGCSE Physics) — §1.2
+"The equations of motion for solving problems with uniformly accelerated motion", with the graphs and projectile motion in the same 9-hour standard-level list; "There is no additional higher level content in A.1".
 
-**Core:** speed, distance, time; v-t graph reading; deceleration as a word.
-**Extended:** SUVAT formulae (often only $v = u + at$ and $s = ut + \tfrac{1}{2} a t^2$); free-fall acceleration; very simple problems.
+### AP Physics 1 and AP Physics C: Mechanics, Unit 1
 
-### A-Level Mathematics Mechanics, IB AA, AP Physics 1/C: Mechanics
+Topics 1.1 Scalars and Vectors, 1.2 Displacement, Velocity and Acceleration, 1.3 Representing Motion, 1.4 Reference Frames and Relative Motion, and 1.5 Vectors and Motion in Two Dimensions (AP 1) or Motion in Two or Three Dimensions (AP C). AP C adds the calculus form.
 
-A-Level Mechanics 1 covers 1D SUVAT and projectile motion in 2D as standard. IB AA Mechanics same. AP Physics 1 includes projectile motion; AP Physics C: Mechanics adds the calculus form (which is [[Kinematics Calculus]] territory).
+### Where this is *not* examined, and what is unverified
+
+Cambridge 0580, 0606 and 9260 have no kinematics. The IB Mathematics AA guide is not on file; its tag records the customary mechanics placement without verification.
 
 ---
 

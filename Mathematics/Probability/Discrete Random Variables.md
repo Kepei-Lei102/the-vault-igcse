@@ -24,17 +24,15 @@ tags:
   - level/IB
   - level/AP
   - curriculum/Cambridge-9709
-  - curriculum/A-Level
   - curriculum/IB-AA
-  - curriculum/AP
   - syllabus/9709-5-4
   - type/definition
   - type/methodology
-  - type/distribution
   - notation/random-variable
   - misconception/expected-value-as-likely-value
   - misconception/binomial-without-independence
   - misconception/geometric-counts-failures
+  - curriculum/AP-Statistics
 ---
 
 # Discrete Random Variables 离散随机变量

@@ -27,7 +27,6 @@ tags:
   - level/pre-AP
   - curriculum/OxAQA-9260
   - curriculum/Cambridge-0580
-  - curriculum/A-Level
   - curriculum/IB-AA
   - syllabus/9260-G7
   - syllabus/9260-G17
@@ -40,6 +39,7 @@ tags:
   - misconception/aaa-fails-for-congruence-but-works-for-similarity
   - misconception/scale-factor-for-area-volume
   - misconception/wrong-vertex-order
+  - type/deep
 ---
 
 # Similarity 相似
@@ -270,7 +270,7 @@ Common trap: the question gives an area or volume ratio and asks for a length; s
 
 ### Cambridge 0580 Extended
 
-**E4.4** (Similarity): use the relationship between lengths, areas and volumes of similar shapes. Core tier is "identify similar figures"; Extended tier adds the scaling laws. Frequently paired with mensuration (E5) — cones, spheres, composite solids.
+**E4.4** (Similarity), three numbered points in the 2025–27 syllabus: *calculate lengths of similar shapes*; *use the relationships between lengths and areas of similar shapes and lengths, surface areas and volumes of similar solids* (the notes give the cube-of-the-length-ratio for volumes explicitly); and *solve problems and give simple explanations involving similarity* — which *includes showing that two triangles are similar using geometric reasons*, so "prove these triangles are similar" (equal angles, with the reason for each) is on the Extended paper even though congruence proofs are not. Frequently paired with mensuration (E5) — cones, spheres, composite solids.
 
 ### Cambridge 0606
 

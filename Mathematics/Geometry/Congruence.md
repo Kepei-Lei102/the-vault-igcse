@@ -18,7 +18,6 @@ tags:
   - level/pre-AP
   - curriculum/OxAQA-9260
   - curriculum/Cambridge-0580
-  - curriculum/A-Level
   - curriculum/IB-AA
   - syllabus/9260-G7
   - syllabus/0580-E4-1
@@ -30,6 +29,7 @@ tags:
   - misconception/aaa-is-not-congruence
   - misconception/ssa-ambiguous
   - misconception/wrong-vertex-order
+  - type/deep
 ---
 # Congruence 全等
 
@@ -56,13 +56,13 @@ Contrast with [[Similarity]]: similar figures are the same *shape* but may be di
 
 ### 中文锚点
 
+拿三根木棍连成一个三角形，它不会晃。拿四根木棍连成四边形，推一下角，它就塌平了。三条边的长度就把一个三角形完全定死了，所以桥梁和置物架的托架都用三角形来搭，这也是为什么"边边边"能判定全等：三条边都一样的两个三角形，没有任何余地长得不一样。全等的意思是：把一个图形平移、旋转或翻折，它能和另一个完全重合。其余的判定条件（边角边、角边角、斜边直角边），各自都是另一组三个条件，同样让三角形没有晃动的余地。字母的顺序也有讲究：写 $\triangle ABC \cong \triangle DEF$，就是在说 $A$ 落在 $D$ 上，$B$ 落在 $E$ 上，$C$ 落在 $F$ 上。
+
+#### 术语对照
+
 **全等 = 完全相等**。形状相同，大小相同 — 一个图形经过平移、旋转、翻折（不缩放）可以与另一个完全重合。
 
-中文数学课早就熟悉 **SSS、SAS、ASA、RHS** 四个判定条件，通常叫做「边边边」「边角边」「角边角」「斜边直角边」。英文考试的新负担主要是三件事：
-
-1. 用符号 $\cong$ 表示全等（像等号上加了一个波浪号 $\sim$，意思是「形状相等 + 大小相等」）；
-2. 顶点对应顺序：$\triangle ABC \cong \triangle DEF$ 暗示 $A \leftrightarrow D$, $B \leftrightarrow E$, $C \leftrightarrow F$ — 写错顺序等于写错答案；
-3. 在证明题里必须**说出**用的是哪一个判定条件（"by SAS…"），这是 mark scheme 的 1 分。
+判定条件：SSS「边边边」、SAS「边角边」、ASA「角边角」、RHS「斜边直角边」。符号 $\cong$；$\triangle ABC \cong \triangle DEF$ 表示 $A \leftrightarrow D$, $B \leftrightarrow E$, $C \leftrightarrow F$。
 
 ---
 
@@ -331,7 +331,7 @@ Some students write "the triangles are congruent by SAS" but never explicitly li
 
 ### Cambridge 0580 Extended
 
-**Syllabus reference:** E4.1 (similar and congruent shapes). At 0580 Extended, formal congruence conditions (SSS/SAS/ASA/RHS) are **not examined** — students just need to identify when figures are congruent ("tick the congruent pair") and state that corresponding sides and angles are equal.
+**Syllabus reference:** E4.1 Geometrical terms, where *congruent* and *similar* are vocabulary items and the notes state outright that *candidates are not expected to show that two shapes are congruent* (checked against the 2025–27 PDF). So at 0580 Extended, formal congruence conditions (SSS/SAS/ASA/RHS) are **not examined** — students just need to identify when figures are congruent ("tick the congruent pair") and state that corresponding sides and angles are equal.
 
 **Contrast with 9260:** this is a real difference between the two boards. OxAQA pushes into proofs that Cambridge 0580 avoids. Students who moved from 0580 to 9260 mid-course need explicit teaching on SSS/SAS/ASA/RHS — they will not have seen it.
 

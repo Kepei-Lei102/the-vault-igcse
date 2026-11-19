@@ -23,7 +23,6 @@ tags:
   - level/pre-IB
   - level/pre-AP
   - curriculum/OxAQA-9260
-  - curriculum/A-Level
   - syllabus/9260-G9
   - type/proof
   - type/methodology
@@ -54,7 +53,9 @@ The skill is not in any single theorem — each individual theorem is small. The
 
 ### 中文锚点 (Chinese Anchor)
 
-几何证明在中国数学教育里从初中阶段就反复训练，学生对**已知 → 求证 → 证明**的结构极其熟悉。OxAQA 9260 G9 Ext 要的正是这种结构，只是用英文表达 — 这是学生最容易得满分的题型之一，**只要把理由用英文说对**。
+侦探不能说"管家是凶手，因为他看起来很心虚"。每一步都要有人人都能查证的依据：一枚指纹、一张时刻表、一位证人。几何证明也是这样。从"已知"出发，瞄准"求证"，中间的每一句话后面都要在括号里写上理由：一个定义、一条公理，或者一条已经证明过的定理。"看起来像直角"不算理由；"直径所对的圆周角是直角"才算。一条推理链的强度取决于它最弱的那一环，所以每一步都要写理由，而不是只在最后写。
+
+#### 术语对照
 
 | 中文 | English | Usage |
 |------|---------|-------|
@@ -66,8 +67,6 @@ The skill is not in any single theorem — each individual theorem is small. The
 | 公理 (gōnglǐ) | Axiom | Accepted without proof (e.g. "through any two points there is exactly one line") |
 | 定理 (dìnglǐ) | Theorem | Proved result you may cite (e.g. "angles on a straight line sum to $180°$") |
 | 推论 (tuīlùn) | Corollary | A direct consequence of a theorem (e.g. "angles in a semicircle = $90°$" is a corollary of the angle-at-centre theorem) |
-
-The template is the same in both languages. The vocabulary to learn is **English reason-phrasing**, not the proof skeleton.
 
 ## Anatomy of a Geometrical Proof
 
@@ -396,7 +395,7 @@ $$\angle 1 = 70°, \quad \angle 2 = 70°, \quad \angle 3 = 40°, \quad \angle 4 
 
 **Syllabus reference:** G9 Extension — *use standard theorems to justify results in geometric contexts*.
 
-This is a **9260-unique** topic — Cambridge 0580 does not examine formal geometrical proof. Typical G9 Ext question types:
+This is a **9260-unique** topic as *proof*: Cambridge 0580 never asks for a formal proof, though it does ask for **geometric reasons** — in angle work (E4.6, E4.7: "give geometric explanations", using the syllabus's own terminology) and in showing that two triangles are similar (E4.4) — so the reason-citing habit below pays on both boards. Typical G9 Ext question types:
 
 1. **Angle chase with reasons** (3–4 marks) — Find an angle via a chain of 2–4 angle facts; every step must cite its theorem.
 2. **Congruence proof** (4–5 marks) — Prove two triangles are congruent, then use CPCTC to deduce an equal length or angle (follows the [[Congruence]] four-line skeleton).

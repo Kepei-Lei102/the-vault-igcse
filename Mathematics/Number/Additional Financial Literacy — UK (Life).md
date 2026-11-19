@@ -7,13 +7,13 @@ leads_to: []
 tags:
   - subject/mathematics
   - domain/number
-  - type/life-card
-  - topic/finance
-  - topic/financial-literacy
-  - region/united-kingdom
+  - type/life
+  - domain/finance
+  - region/uk
   - misconception/uk-student-loan-is-not-us-debt
   - misconception/isa-tax-wrapper-not-investment
   - misconception/tax-code-is-allowance-not-rate
+  - level/life
 ---
 
 # Additional Financial Literacy — United Kingdom 英国金融常识

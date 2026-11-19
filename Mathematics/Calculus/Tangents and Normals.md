@@ -31,6 +31,10 @@ tags:
   - type/vocabulary
   - notation/derivative
   - misconception/normal-is-not-the-tangent
+  - curriculum/Cambridge-9709
+  - curriculum/Edexcel-IAL
+  - curriculum/OxAQA-9660
+
 ---
 
 # Tangents and Normals 切线与法线
@@ -64,7 +68,9 @@ The tangent tells you **where you're going**. The normal tells you **where the c
 
 ### 中文锚点 (Chinese Anchor)
 
-切线与法线：**切 = 刚好碰到，法 = 垂直**。
+用绳子甩一块石头，然后松手。石头不会沿着绳子的方向往外飞，而是沿着松手那一瞬间它正在运动的方向飞出去——这个方向就是切线。而绳子一直在垂直于运动方向拉它——那就是法线。所以曲线上任何一点都有两条天然的直线：你正朝哪儿去的方向，和你正被往哪儿拉的方向，两者互相垂直。切线的斜率就是这一点的导数，因为导数本来就是"此刻的方向"。法线的斜率是它的负倒数：把一条直线转过直角，纵向变化和横向变化互换位置，其中一个再变号——斜率 $2$ 变成 $-\tfrac12$。这张卡的全部内容就是过同一个点（切点）的这两条线，而导数提供了唯一需要的那个数。
+
+### 术语对照
 
 | 中文 | English | Key idea |
 |------|---------|----------|
@@ -295,12 +301,23 @@ Actual value: $\sqrt{102} = 10.0995...$ — the tangent approximation is off by 
 - "Find where the normal meets the curve again" is a classic 0606 question type.
 - Often combined with 14.6 (stationary points): "find the stationary point, then find the normal there."
 
-### AP / IB / A-Level
+### Cambridge 9709
 
-- Tangent and normal equations are prerequisite skills for: related rates, optimisation, curve sketching.
-- The linear approximation $f(x) \approx f(a) + f'(a)(x - a)$ appears formally in AP Calculus as "linearisation."
-- **IB Mathematics AA HL:** tangent lines used in Newton's method for finding roots (iterative approximation).
-- **A-Level Further Mathematics:** tangent and normal concepts extend to parametric curves and implicit differentiation.
+**Paper 1 §1.7** — the equation of the tangent and of the normal at a point on a curve, on the P1 differentiation scope (polynomials, rational powers, composites via the Chain Rule); the classic follow-ups are "find where the normal meets the curve again" and "find the point where the tangent is parallel to a given line". **Paper 3 §3.4** returns to it on curves given implicitly or parametrically — the same two-line method with a harder gradient.
+
+### Edexcel IAL and OxfordAQA 9660
+
+IAL **P1 §4.3** (tangents and normals at a point) and 9660 **P1.3** name the skill directly; 9660 **PP1.1** uses it for the tangent to a circle at a point, and 9660's P3 row for implicit and parametric curves.
+
+### IB Mathematics AA and AI
+
+**AA SL 5.4 and AI SL 5.4** both name *tangents and normals at a given point, and their equations*; AA HL adds them on implicit and parametric curves. The linear approximation $f(x) \approx f(a) + f'(a)(x-a)$ is the tangent used as a calculator, and AA HL's Newton–Raphson is the tangent used as a root-finder.
+
+### AP Calculus AB / BC
+
+Not named as an outcome; the tangent line appears as **linearisation** (Unit 4) and in the tangent-line approximation of a function value, and the normal does not appear at all.
+
+**Not examined on:** Cambridge 0580 (no tangent equations — gradients of curves are estimated from a drawn tangent only); OxfordAQA 9260 has the tangent (A14) but not the normal, as noted above.
 
 ## Connections
 

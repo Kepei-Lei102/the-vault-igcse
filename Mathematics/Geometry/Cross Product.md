@@ -6,6 +6,8 @@ prerequisites:
   - "[[Trigonometric Ratios]]"
   - "[[Magnitude of a Vector (Vocab)]]"
 leads_to:
+  - "[[Vector Calculus]]"
+  - "[[Lagrange's Identity]]"
   - "[[Planes in 3D]]"
   - "[[Torque]]"
   - "[[Angular Momentum]]"
@@ -18,7 +20,6 @@ tags:
   - domain/linear-algebra
   - level/A-Level
   - level/pre-IB
-  - curriculum/A-Level-Further
   - curriculum/IB-AA
   - syllabus/9231-1-6
   - type/definition
@@ -30,6 +31,9 @@ tags:
   - misconception/forgetting-anticommutativity
   - misconception/cross-is-associative
   - misconception/sin-vs-cos-mixup
+  - curriculum/Cambridge-9231
+  - curriculum/Edexcel-IAL
+  - type/deep
 ---
 
 # Cross Product 叉积
@@ -61,12 +65,11 @@ That is why it lives only in 3D: you need a third dimension for the result to po
 
 ### 中文锚点
 
-**叉积**（chā jī），又叫**向量积**（vector product）或**外积**（wài jī）。它和[[3D Vectors and the Scalar Product|数量积（点积）]]是三维空间里的一对"双胞胎"，但结果完全不同：
+推门时，同样的力，推在门轴附近费劲，推在门边就轻松多了。但手离门轴远还不够：如果顺着门轴到手的方向推，力再大也没法让门绕门轴转起来；朝着垂直于这个方向推，才最有效。叉积记下的，就是距离和力合在一起有多大的“转动本领”，还用一个垂直的方向标出这次转动朝哪边。它关心的不是你用了多大力，而是这股力有多少真正用来转门。
 
-- **点积** $\mathbf{a}\cdot\mathbf{b}$ 输出**一个数**（标量），衡量两向量的**对齐程度**，公式带 $\cos\theta$，在 $0°$ 时最大。
-- **叉积** $\mathbf{a}\times\mathbf{b}$ 输出**一个向量**，这个向量**垂直于**原来两个向量张成的平面，长度等于 $|\mathbf{a}||\mathbf{b}|\sin\theta$（即平行四边形的面积），公式带 $\sin\theta$，在 $90°$ 时最大。
+### 术语对照
 
-记忆口诀：**点积管"齐不齐"（对齐 → cos），叉积管"开不开"（张开成面 → sin）。** 方向靠**右手定则**（yòushǒu dìngzé）：右手四指从 $\mathbf{a}$ 弯向 $\mathbf{b}$，大拇指指向 $\mathbf{a}\times\mathbf{b}$。
+叉积／向量积：cross product / vector product；点积／数量积：dot product / scalar product；右手定则：right-hand rule。叉积的大小是平行四边形的面积，方向由右手定则确定。
 
 ## Bridge — the two products of $\mathbb{R}^3$, side by side
 
@@ -199,6 +202,8 @@ In 2D there is no room for a perpendicular vector, so the cross product collapse
 
 ### Example 1 (foundational): compute a cross product
 
+**Tool: the component formula. Trigger: both vectors are supplied in coordinates.**
+
 Let $\mathbf{a} = 2\mathbf{i} + 3\mathbf{j} - \mathbf{k}$ and $\mathbf{b} = \mathbf{i} - 2\mathbf{j} + 4\mathbf{k}$. Find $\mathbf{a}\times\mathbf{b}$.
 
 $$\mathbf{a}\times\mathbf{b} = \det\!\begin{pmatrix}\mathbf{i}&\mathbf{j}&\mathbf{k}\\ 2&3&-1\\ 1&-2&4\end{pmatrix}$$
@@ -215,7 +220,7 @@ $$\mathbf{a}\times\mathbf{b} = 10\,\mathbf{i} - 9\,\mathbf{j} - 7\,\mathbf{k}.$$
 
 Find the area of the triangle with vertices $A(1,0,1)$, $B(2,1,3)$, $C(0,2,2)$.
 
-Form two edge vectors from $A$:
+**Tool: cross-product area. Trigger: three vertices give two edges sharing a start point.** Form two edge vectors from $A$:
 
 $$\vec{AB} = (1,1,2),\qquad \vec{AC} = (-1,2,1).$$
 
@@ -227,13 +232,15 @@ The parallelogram area is $|(-3,-3,3)| = \sqrt{9+9+9} = 3\sqrt3$, so the **trian
 
 Find a vector normal to the plane through the three points of Example 2, then write the plane's equation.
 
-$\vec{AB}\times\vec{AC} = (-3,-3,3)$ is already perpendicular to both edges, hence normal to the plane. Scale it down to $\mathbf{n} = (1, 1, -1)$ (dividing by $-3$ — any nonzero multiple is still a valid normal). The plane has equation $\mathbf{n}\cdot\mathbf{r} = \mathbf{n}\cdot\mathbf{a}$ using point $A(1,0,1)$:
+**Tool: a cross product builds a normal. Trigger: two non-parallel directions lie in the plane.** $\vec{AB}\times\vec{AC} = (-3,-3,3)$ is already perpendicular to both edges, hence normal to the plane. Scale it down to $\mathbf{n} = (1, 1, -1)$ (dividing by $-3$ — any nonzero multiple is still a valid normal). The plane has equation $\mathbf{n}\cdot\mathbf{r} = \mathbf{n}\cdot\mathbf{a}$ using point $A(1,0,1)$:
 
 $$x + y - z = (1)(1)+(1)(0)+(-1)(1) = 0 \quad\Rightarrow\quad x + y - z = 0.$$
 
 (Check $B$: $2+1-3=0$ ✓; $C$: $0+2-2=0$ ✓.) The cross product is the standard tool for *building* a plane's normal from two vectors lying in it — the bridge into [[Planes in 3D]].
 
 ### Example 4 (physics application): torque
+
+**Tool: $\boldsymbol{\tau}=\mathbf r\times\mathbf F$. Trigger: a force acts at a specified displacement from the pivot.**
 
 A spanner applies force $\mathbf{F} = (0, 0, 40)\ \text{N}$ at the end of a lever arm $\mathbf{r} = (0.3, 0, 0)\ \text{m}$ from the bolt. The torque is
 
@@ -279,17 +286,17 @@ Trying to cross two 2D vectors and expecting a 2D vector back, or crossing two v
 
 ### A-Level Further (Cambridge 9231)
 
-**Syllabus ref:** Further Pure Mathematics 1 (Paper 1), Vectors. Examinable content: the vector product $\mathbf{a}\times\mathbf{b}$, its magnitude as area, the **scalar triple product** for volume and coplanarity, normals to planes, the line of intersection of two planes, and the **common perpendicular / shortest distance between two skew lines** (where the cross product does the heavy lifting). Typical question: "find the area of triangle $ABC$" (3–4 marks) or "find the shortest distance between the skew lines $\ell_1, \ell_2$" (5–6 marks, set up $\mathbf{d}_1\times\mathbf{d}_2$ then project the connecting vector onto it).
+**Syllabus ref:** Further Pure Mathematics 1 (Paper 1), **§1.6 Vectors**. The syllabus asks for the vector product in **both forms** — $\lvert\mathbf{a}\rvert\lvert\mathbf{b}\rvert\sin\theta\,\hat{\mathbf{n}}$ and the component form — and for its use with equations of lines and planes (in the forms $ax + by + cz = d$, $\mathbf{r}\cdot\mathbf{n} = p$ and $\mathbf{r} = \mathbf{a} + \lambda\mathbf{b} + \mu\mathbf{c}$) to solve problems of distances, angles and intersections: whether a line lies in, is parallel to or meets a plane; the foot of the perpendicular from a point to a plane; the angle between a line and a plane and between two planes; the line of intersection of two planes; the shortest distance between two skew lines and their common perpendicular. **The scalar triple product is not named on 9231**: volume and coplanarity by $\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})$ is enrichment here, though a normal found by a cross product and a distance found by a dot product do the same work in two steps.
 
 ### IB AA HL
 
-**Topic AHL 3.16 — Vector product.** Definition of $\mathbf{v}\times\mathbf{w}$, its properties, and the geometric interpretation $|\mathbf{v}\times\mathbf{w}|$ as area. Paired with **AHL 3.17** (equations of planes, intersections, angles between planes and lines). Vectors-and-planes is the single longest chapter in AA HL and appears on every Paper 1 and Paper 2. The formula booklet gives the component formula and the area-of-triangle result; the right-hand rule and the proofs are expected to be understood, not looked up.
+**Topic AHL 3.16 — Vector product.** Definition of $\mathbf{v}\times\mathbf{w}$, its properties, and the geometric interpretation $|\mathbf{v}\times\mathbf{w}|$ as area. Paired with **AHL 3.17** (equations of planes, intersections, angles between planes and lines). The formula booklet gives the component formula and the area-of-triangle result; the right-hand rule and the proofs are expected to be understood, not looked up.
 
 > **AA SL does not cover the cross product** — vectors are an HL-only topic in Analysis and Approaches.
 
-### A-Level Further (Edexcel / AQA / OCR)
+### Edexcel International A-Level Further Mathematics
 
-The vector product sits in **Further Pure** content across all UK boards (Edexcel places it in Further Pure 1 / Core Pure; the legacy FP3 module is the older home). Same content as 9231: vector product, scalar triple product, planes, skew-line distance.
+**FP3 §5.1** names both the vector product and scalar triple product, interpreted as area and volume. §§5.2–5.3 apply vectors to points, lines and planes. This is the current **International A-Level** specification; do not substitute the module labels of the separate UK qualification.
 
 ### AP
 
@@ -300,6 +307,8 @@ The vector product sits in **Further Pure** content across all UK boards (Edexce
 The cross product is a first-week tool in **multivariable calculus** (normals, surface area, the curl $\nabla\times\mathbf{F}$), **classical mechanics** (rotational dynamics, the entire angular-momentum story), **electromagnetism** (the Lorentz force, Poynting vector $\mathbf{E}\times\mathbf{B}$), and **computer graphics** (surface normals for lighting, exactly the dot-product lighting model's partner). It is also the entry point to **exterior algebra** and **Lie algebras** — see Beyond Syllabus.
 
 ## Connections
+
+- **Extension:** [[Lagrange's Identity]] — the same squared-area relation in any real dimension, with a proof of Cauchy–Schwarz.
 
 - **Parent / sibling:** [[3D Vectors and the Scalar Product]] — the dot product is the cosine half of vector multiplication; the cross product is the sine half. This card is the companion that completes the pair, and the dot card's "Beyond Syllabus" already previews it.
 - **Sibling:** [[Vector Equations of Lines]] — the third member of the 3D-geometry trilogy; the shortest distance between skew lines uses $\mathbf{d}_1\times\mathbf{d}_2$.

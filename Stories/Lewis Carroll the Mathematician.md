@@ -187,7 +187,7 @@ The vault's general practice on biographical-edges is to state the facts, name t
 
 - **Carroll's mathematics:**
    - [[Logic]] — propositional connectives that Carroll was teaching in *Symbolic Logic* (1896); the vault's logic card sits in the lineage that runs through Boole 1854, Carroll 1896, Russell-Whitehead 1910, modern propositional calculus.
-   - **Logic Gates** *(not yet released)* — the descendant: Carroll's diagrammatic propositional logic running on relays in Shannon's 1937 thesis (see [[Stories/The Boolean-to-Silicon Bridge]]).
+   - [[Logic Gates]] — the descendant: Carroll's diagrammatic propositional logic running on relays in Shannon's 1937 thesis (see [[Stories/The Boolean-to-Silicon Bridge]]).
    - [[Stories/The Argument for i]] — the four-century drama of complex-number acceptance that Carroll, mathematically conservative, was on the wrong side of.
 
 - **Cultural-inheritance fan-out:** Carroll's magical-world architecture is the structural ancestor of Peter Pan, Narnia, the Phantom Tollbooth, the Neverending Story, Bridge to Terabithia, Coraline, Pan's Labyrinth, Spirited Away, The Boy and the Heron, Tomb Raider's Shadow of the Tomb Raider, Inception, His Dark Materials, Stranger Things, and Alice in Borderland.

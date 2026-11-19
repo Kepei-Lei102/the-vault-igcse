@@ -16,12 +16,14 @@ tags:
   - domain/probability
   - level/A-Level
   - curriculum/Cambridge-9709
+  - curriculum/Cambridge-9231
   - syllabus/9709-6-1
   - type/deep
   - misconception/lambda-not-rescaled
   - misconception/poisson-vs-binomial
   - misconception/mean-equals-variance-proves-poisson
   - misconception/rare-means-small-lambda
+
 ---
 
 # Poisson Distribution 泊松分布

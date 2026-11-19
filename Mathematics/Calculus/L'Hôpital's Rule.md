@@ -16,11 +16,9 @@ tags:
   - domain/calculus
   - level/A-Level
   - level/IB-HL
-  - level/AP-BC
+  - level/AP
   - level/university
   - curriculum/IB-AA
-  - curriculum/AP
-  - curriculum/A-Level-Further
   - type/theorem
   - type/proof
   - type/technique
@@ -29,6 +27,8 @@ tags:
   - misconception/lhopital-circular-on-sinh-over-h
   - misconception/lhopital-when-not-indeterminate
   - misconception/lhopital-converse-failure
+  - curriculum/AP-Calculus-BC
+  - type/deep
 ---
 
 # L'Hôpital's Rule 洛必达法则
@@ -66,20 +66,11 @@ The rule also holds for one-sided limits and for $a = \pm\infty$ (with appropria
 
 ## 中文锚点
 
-**洛必达法则**：如果 $\lim_{x \to a}\dfrac{f(x)}{g(x)}$ 是 $\dfrac{0}{0}$ 或 $\dfrac{\infty}{\infty}$ 的不定式，并且 $f'/g'$ 的极限存在，那么
+两支蜡烛同时点燃，而且被设计成同时烧完。在两支都快烧到零的前一刻，它们剩余高度的比是多少？不是"零比零"：是两支蜡烛燃烧速度之比，因为临近末尾时，每支的剩余高度就是它的燃烧速度乘以剩下的时间。这就是洛必达法则：当分数的分子分母同时趋于零、或同时趋于无穷时，比值的极限等于它们变化率之比的极限——$\lim \dfrac{f}{g} = \lim \dfrac{f'}{g'}$，前提是后面这个极限存在。有一件事它永远不能做：证明 $\lim_{h \to 0}\dfrac{\sin h}{h} = 1$，因为 $\sin$ 的导数本身就是用这个极限推出来的。
 
-$$\lim_{x \to a}\dfrac{f(x)}{g(x)} = \lim_{x \to a}\dfrac{f'(x)}{g'(x)}.$$
+### 术语对照
 
-它是用 *导数比* 替换 *函数比*。条件很关键：**原极限必须真的是不定式**，不然不能套；并且替换后的极限要存在（或为 $\pm\infty$），否则也不能下结论。
-
-七种不定式：
-
-- $\dfrac{0}{0}$, $\dfrac{\infty}{\infty}$ —— 直接套用。
-- $0 \cdot \infty$ —— 改写成 $\dfrac{f}{1/g}$ 或 $\dfrac{g}{1/f}$。
-- $\infty - \infty$ —— 通分成单一分式。
-- $1^\infty$, $0^0$, $\infty^0$ —— 取对数 $y = f^g \Rightarrow \ln y = g \ln f$，把指数形式变成乘积，再处理 $0 \cdot \infty$。
-
-**核心警告**：**不能用洛必达去证明 $\lim_{h \to 0}\dfrac{\sin h}{h} = 1$。** 因为 $(\sin h)' = \cos h$ 的证明本身就需要这个极限 —— 这是循环论证。这条限制是这张卡片最重要的一课。
+洛必达法则：L'Hôpital's rule；不定式：indeterminate form（$\tfrac00$、$\tfrac{\infty}{\infty}$ 等）；循环论证：circular argument。
 
 ---
 
